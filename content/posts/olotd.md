@@ -1,10 +1,12 @@
 ---
-aliases: ["/archives/180"]
+aliases: ["/archives/336"]
 title: "OLOTD"
-date: "2009-02-04T05:46:35-06:00"
-tags: ["one-liner-of-the-day"]
-guid: "http://blog.afoolishmanifesto.com/?p=180"
+date: "2009-02-27T05:02:06-06:00"
+tags: ["olotd", "zsh"]
+guid: "http://blog.afoolishmanifesto.com/archives/336"
 ---
-    gvim \`grep 'strip_tags' * -Rl | xargs\`
+    noglob zmv -W **/^*.flac **/*.flac
 
-This will open all of the files that have the string 'strip\_tags' in them in a single gvim window. (Can I call this one-liner: too lazy to even copy paste?)
+I just ripped a bunch of music into flac and I forgot to add .flac to the end of the files until I was mostly done. If you are using zsh (and you load the zmv module) the above line will rename all files that do not end in .flac to whatever they used to be, but with .flac at the end.
+
+**excellent.**
