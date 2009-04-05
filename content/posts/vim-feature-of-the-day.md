@@ -1,10 +1,13 @@
 ---
-aliases: ["/archives/339"]
+aliases: ["/archives/518"]
 title: "Vim Feature of the Day"
-date: "2009-02-27T16:18:07-06:00"
-tags: ["vim"]
-guid: "http://blog.afoolishmanifesto.com/archives/339"
+date: "2009-04-05T02:45:48-05:00"
+guid: "http://blog.afoolishmanifesto.com/?p=518"
 ---
-A coworker called me and asked me what it meant that when vim opened a file there were a bunch of **^@**'s in it. I didn't know off hand, but I **did** know that vim had some feature to print out the ascii value of the character that the cursor is over. So without further ado: [:as](http://www.vim.org/htmldoc/various.html#ga) or [ga](http://www.vim.org/htmldoc/various.html#ga)
+We all know programmers who, when they need to copy/paste more than one thing, just use a temporary window to keep track of the copied data. Well vim has that feature **solved**.
 
-Enjoy!
+First off, we have multiple copy/paste buffers, known as registers. So I can copy and paste three different things into three different registers. To copy a line to register a, use **"ayy**. Then to paste that line you would use **"ap**. So we have plenty of registers. It gets better! What if you want to copy a bunch of stuff into one register? Well, first I would clear it with **:let @a = ''**, but that's not required. Anyway, you can add to a register by using **"Ayy**. This will copy the current line onto "a. So you can do this over and over to add to the "a register!
+
+But that requires too much work. Yesterday I wanted to add all lines with the word "name" into "a. Here is how I can do that with one line: **:g/name/y A**.
+
+Awesome!
