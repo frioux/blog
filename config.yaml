@@ -1,0 +1,7 @@
+title: "A Foolish Manifesto"
+indexes:
+  tag: 'tags'
+  group: 'groups'
+baseurl: 'https://blog.afoolishmanifesto.com'
+indexes:
+    tag: "tags"

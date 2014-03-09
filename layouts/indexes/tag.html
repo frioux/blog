@@ -1,0 +1,12 @@
+{{ template "chrome/header.html" . }}
+
+<section id="main">
+  <div>
+   <h1 id="title">{{ .Title }}</h1>
+    <ul>{{ range .Data.Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Date }}</li>
+    {{ end }}</ul>
+  </div>
+</section>
+
+{{ template "chrome/footer.html" }}

@@ -1,0 +1,5 @@
+{{ template "chrome/header.html" . }}
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+          Posted {{ .Date.Format "Mon, Jan 2, 2006" }}
+{{ template "chrome/footer.html" . }}

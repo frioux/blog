@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+  <head>
+    <title>{{ .Site.Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <base href="{{ .Site.BaseUrl }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+    {{ template "chrome/includes.html" . }}
+  </head>
+  <body>
+
+    {{ template "chrome/menu.html" . }}
+
+    <div class="container" id="main">
+       <div class="row">
+          <div class="col-md-12">
+             <section id="main">
+                <div>
+                   {{ range first 10 .Data.Pages }}
+                      <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+                      {{ .Content }}
+                      Posted {{ .Date.Format "Mon, Jan 2, 2006" }}
+                   {{ end }}
+                </div>
+             </section>
+          </div>
+       </div>
+    </div>
+
+{{ template "chrome/footer.html" }}
