@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(253, 253, 251);
+    background-color: black;
+    color: white;
     padding-top: 70px;
     letter-spacing: 0.3px;
     font-family: "Helvetica Neue", "Helvitica", "Serif";
@@ -23,7 +24,7 @@ h1, h2, h3 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(25,71,86);
+    color: #A40;
     font-family: 'Cabin', "Helvetica Neue", "Helvitica", "Serif";
 }
 
@@ -33,11 +34,11 @@ h1 {
 }
 
 h1, h2 {
-    border-bottom: 1px solid #CCC;
+    border-bottom: 1px solid #444;
 }
 
 pre {
-    background-color: #022b34;
+    background-color: #620;
     color: #e6e6e6;
     font-family: 'Source Code Pro', sans-serif;
     font-size: 17px;
@@ -48,11 +49,11 @@ pre {
 }
 
 a {
-    color: #2b91ae;
+    color: orange;
 }
 
 a:hover {
-    color: rgb(15, 166, 188);
+    color: #FF0;
 }
 
 #footer {
@@ -60,9 +61,10 @@ a:hover {
 }
 
 nav.navbar {
-    background: none repeat scroll 0% 0% rgb(96,210,211);
-    border-top: 4px solid rgb(15, 166, 188);
-    border-bottom: 1px solid rgb(15, 166, 188);
+    border-top: 4px solid rgb(70, 70, 70);
+    background: none repeat scroll 0% 0% rgb(30, 30, 30);
+    color: orange;
+    border-bottom: 1px solid grey;
     opacity: .97;
 }
 
@@ -73,7 +75,7 @@ nav.navbar {
 }
 
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
-    color: white !important;
+    color: orange !important;
 }
 .navbar-inverse .navbar-nav > .dropdown > a .caret {
     border-top-color: white;
@@ -135,6 +137,10 @@ nav.navbar {
 
 #TableOfContents > ul > li > a {
     padding-left: 1em;
+}
+
+.sigil {
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #main table{width:100%;margin-bottom:20px;}#main table thead>tr>th,#main table tbody>tr>th,#main table tfoot>tr>th,#main table thead>tr>td,#main table tbody>tr>td,#main table tfoot>tr>td{padding:8px;line-height:1.428571429;vertical-align:top;border-top:1px solid #dddddd;}
