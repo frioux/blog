@@ -140,7 +140,15 @@ nav.navbar {
 }
 
 .sigil {
+   transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   transform: translateY(0) scale(1, 1);
+}
+
+.sigil:hover {
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   transform: translateY(-2px) scale(1.2, 1.2);
+   text-shadow: 0 0 0.2em rgba(255,255,0,1);
 }
 
 #main table{width:100%;margin-bottom:20px;}#main table thead>tr>th,#main table tbody>tr>th,#main table tfoot>tr>th,#main table thead>tr>td,#main table tbody>tr>td,#main table tfoot>tr>td{padding:8px;line-height:1.428571429;vertical-align:top;border-top:1px solid #dddddd;}
