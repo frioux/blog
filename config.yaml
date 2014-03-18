@@ -1,8 +1,5 @@
 title: "A Foolish Manifesto"
 indexes:
   tag: 'tags'
-  group: 'groups'
-baseurl: 'https://frioux.github.io'
-indexes:
-    tag: "tags"
+baseurl: 'https://blog.afoolishmanifesto.com'
 canonifyurls: false
