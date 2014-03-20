@@ -114,6 +114,30 @@ you wanted to run the actual implemented method you can't actually use OO at
 all.  I'm really not sure why this is; I suspect it's a limitation of the .NET
 platform because a coworker tells me that in C# the same thing happens.
 
+**UPDATE (2014-03-19)**: Some
+[nice](https://twitter.com/t0yv0/status/445912680117706752)
+[people](https://twitter.com/lazydev/status/445913011413598208) on
+[twitter](https://twitter.com/frioux) informed me that I was missing something.
+Here is code that does what I actually want:
+
+    type Human(nombre: string) =
+       member x.Name = nombre
+       abstract member Title: unit -> string
+       default x.Title() = sprintf "human: %s" nombre
+
+    type CEO(name) =
+       inherit Human(name)
+       override x.Title() = sprintf "CEO: %s" name
+
+    let print_title (p : Human) = printfn "%s" (p.Title ())
+
+    print_title (Human("frew"))
+    print_title (CEO("frew"))
+
+The difference, if it is unclear, is that the base method is defined as
+`abstract` with a `default` implementation and the subclass is defined with
+`override`.
+
 On the other hand, here is a cool(ish) thing.
 
 F# lets you define interfaces on objects, which is like what Moo(se) users might
