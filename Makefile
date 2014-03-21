@@ -12,3 +12,6 @@ push: commit public
 
 public:
 	git init public && cd public && git remote add origin rss.afoolishmanifesto.com:/var/www/blog/repo
+
+watch-server:
+	hugo server --watch
