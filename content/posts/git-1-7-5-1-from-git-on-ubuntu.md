@@ -7,7 +7,7 @@ guid: "http://blog.afoolishmanifesto.com/?p=1518"
 ---
 I really like git. It has an excellent suite of tools bundled with it from the start and it gets lots of updates and active development. Today I was looking at the latest git version (1.7.4) because I was installing it on a new machine and, as usual with new versions of things, I perused the [release notes](http://www.kernel.org/pub/software/scm/git/docs/RelNotes/1.7.4.txt). What really caught my eye was this:
 
-<pre> \* "git log -G<pattern>" limits the output to commits whose change has
+<pre> * "git log -G<pattern>" limits the output to commits whose change has
    added or deleted lines that match the given pattern.</pattern></pre>
 
 I don't know about you guys, but I fake that feature 2 or 3 times a month by just doing git log -p | grep foo -C50. It's not nearly as nice as it catches other things, breaks color, etc. Anyway, I decided that instead of waiting for my already non-standard ubuntu repo to catch up, I'd just build it.
