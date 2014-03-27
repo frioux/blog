@@ -130,19 +130,16 @@ of block scoping.
     type DisposableHuman (name : string) =
       do printfn "Creating person: %s" name
       member x.Name = name
-      member x.Teardown() =
-        printfn "disposing: %s" name
       interface System.IDisposable with
-        member x.Dispose() = x.Teardown ()
+        member x.Dispose() =
+          printfn "disposing: %s" name
 
     let testDisposable() =
-      let root = new DisposableHuman("outer")
+      use root = new DisposableHuman("outer")
       for i in [1..2] do
-        let nested = new DisposableHuman(sprintf "inner %i" i)
-        printfn "completing iteration %i" i
-        nested.Teardown ()
+        let name = using (new DisposableHuman(sprintf "inner %i" i)) (fun disp -> disp.Name)
+        printfn "got name %s" name
       printfn "leaving function"
-      root.Teardown ()
 
     testDisposable ()
 
