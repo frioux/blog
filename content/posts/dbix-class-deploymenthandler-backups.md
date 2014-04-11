@@ -5,7 +5,7 @@ date: "2012-06-06T16:30:34-05:00"
 tags: ["cpan", "dbixclass", "dbixclassdeploymenthandler", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1727"
 ---
-Given that [DBIx::Class::DeploymentHandler](http://p3rl.org/DBIx::Class::DeploymentHandler) is a widely misunderstood and confusing module to the point that [a friend of mine](http://jjnapiorkowski.typepad.com) wrote [DBIx::Class::Migrations](http://p3rl.org/DBIx::Class::Migrations) a module to wrap it up more nicely, I've decided that some blog posts showcasing how I use DBICDH are in order. If you don't already know, DBICDH was written by me, and designed my [mst](http://shadow.cat/blog/matt-s-trout/), myself, [ribasushi](https://metacpan.org/author/RIBASUSHI), and [Rob Kinyon](https://metacpan.org/author/RKINYON). The latter two claim to barely remember our discussions early on, but I'll credit them as having helped me design what I made.
+Given that [DBIx::Class::DeploymentHandler](http://p3rl.org/DBIx::Class::DeploymentHandler) is a widely misunderstood and confusing module to the point that [a friend of mine](http://jjnapiorkowski.typepad.com) wrote [DBIx::Class::Migration](http://p3rl.org/DBIx::Class::Migration) a module to wrap it up more nicely, I've decided that some blog posts showcasing how I use DBICDH are in order. If you don't already know, DBICDH was written by me, and designed my [mst](http://shadow.cat/blog/matt-s-trout/), myself, [ribasushi](https://metacpan.org/author/RIBASUSHI), and [Rob Kinyon](https://metacpan.org/author/RKINYON). The latter two claim to barely remember our discussions early on, but I'll credit them as having helped me design what I made.
 
 # "Ancient" History
 
