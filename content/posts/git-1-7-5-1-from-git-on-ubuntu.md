@@ -29,8 +29,11 @@ Note that asciidoc tries to pull in a ton of TeX junk. Don't let it, you don't n
 Once that's done do something like the following:
 
     make configure
-    ./configure --prefix=/opt
-    make -j5 all doc
+    ./configure --prefix=/opt --with-libpcre
+    make -j5 all
+    make doc html
     sudo make install install-doc install-html
 
-I used the prefix because I'd rather not install on top of my existing stuff; you might want to install to home. Anyway, after doing that ensure that $prefix/bin is in your path and enjoy a brand new git!
+I used the prefix because I'd rather not install on top of my existing stuff; you might want to install to home.  `--with-libpcre` lets you use perl compatible regular expressions in `git grep`.  For some reason you can build the code in parallel (`-j5 all`) but not the docs (`doc html`).
+
+Anyway, after doing that ensure that $prefix/bin is in your path and enjoy a brand new git!
