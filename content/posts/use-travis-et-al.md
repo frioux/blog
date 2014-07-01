@@ -88,7 +88,7 @@ The first step is to modify the above `.travis.yml` to look like this:
          - perl -V
 
       install:
-         - export RELEASE_TESTING=1 AUTOMATED_TESTING=1 AUTHOR_TESTING=1 HARNESS_OPTIONS=j10:c HARNESS_TIMER=1
+         - export RELEASE_TESTING=1 AUTOMATED_TESTING=1 AUTHOR_TESTING=1 HARNESS_OPTIONS=c HARNESS_TIMER=1
          - cpanm --quiet --notest Devel::Cover::Report::Coveralls
          - cpanm --quiet --notest --installdeps .
 
@@ -130,7 +130,7 @@ though Dist::Zilla won't run on 5.8.  Pretty handy eh?  Just make your
          - cd $BUILD_DIR
 
       install:
-         - export RELEASE_TESTING=1 AUTOMATED_TESTING=1 AUTHOR_TESTING=1 HARNESS_OPTIONS=j10:c HARNESS_TIMER=1
+         - export RELEASE_TESTING=1 AUTOMATED_TESTING=1 AUTHOR_TESTING=1 HARNESS_OPTIONS=c HARNESS_TIMER=1
          - cpanm --quiet --notest Devel::Cover::Report::Coveralls
          - cpanm --quiet --notest --installdeps .
 
