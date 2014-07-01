@@ -5,7 +5,7 @@ build: clean
 	hugo
 
 commit: build
-	cd public && git add -A . && git ci -m 'derp'
+	cd public && git add -Af . && git ci -m 'derp'
 
 push: commit public
 	cd public && git push origin HEAD:up -f
