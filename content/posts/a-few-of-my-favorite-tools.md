@@ -6,11 +6,11 @@ guid: "https://blog.afoolishmanifesto.com/posts/a-few-of-my-favorite-tools"
 ---
 # `strace`
 
-Recently I've started branching out some in my debugging style.  In the past it
-was usually adding print statements, reading docs carefully, reading logs, etc.
-I still mostly add print statements when I'm debugging my own code, but when
-trying to figure out why some program isn't work instead of reading docs I go
-straight to `strace`.
+Recently I've started branching out some in my debugging style.  In the past
+it was usually adding print statements, reading docs carefully, reading
+logs, etc.  I still mostly add print statements when I'm debugging my own
+code, but when trying to figure out why some random program isn't working,
+instead of reading docs I go straight to `strace`.
 
 If you don't already know, `strace` traces system calls, so it effectively gets
 between the program and the kernel and lists all the system calls being made.
@@ -121,4 +121,4 @@ if they go down.  So if `offlineimap` hangs, as it is wont to do, I just
 
 I'd recommend anyone who is doing anything with daemons at all check out
 [silverdirk's lighting talk](http://youtu.be/YJrTaMUvjVA?t=1m26s). It really
-clarified how elegantly these things can work, at lesat for me.
+clarified how elegantly these things can work, at least for me.
