@@ -162,7 +162,7 @@ older](https://metacpan.org/pod/POE) but this will do fine.
        on_stream => sub ($stream) {
           $stream->configure(
              on_read => sub ($self, $buffref, $eof) {
-                $stream->write($$buffref);
+                $self->write($$buffref);
                 $$buffref = '';
                 0
              },
