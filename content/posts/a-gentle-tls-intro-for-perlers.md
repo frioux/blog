@@ -191,7 +191,7 @@ able to connect multiple times to a single server.
 And that's it!  You are now armed with the information you need to make secure,
 encryped tcp/ip services in Perl!
 
-## Bonus Crytpo Post Script
+## Bonus Crypto Post Script
 
 While I was mulling this stuff over while I was waking up this morning, I
 realized that these certificates can solve another one of our longstanding
