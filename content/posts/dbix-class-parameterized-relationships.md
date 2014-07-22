@@ -9,6 +9,9 @@ to pass arguments to a relationship.  There is an answer but it isn't pretty or
 for the faint of heart, so I finally have decided that I should write up a post
 detailing how to do it and nicely hide it from the user.
 
+For what it's worth there *are* plans to make a first class API for this, and
+the following code is a workaround.  We just aren't there yet as of July 2014.
+
 ## Extended Relationship Refresher
 
 The first tool to use when defining
