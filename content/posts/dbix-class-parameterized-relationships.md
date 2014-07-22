@@ -70,7 +70,7 @@ That's a little gross, so lets wrap it in a resultset method:
     sub by_output_devices_share_type {
        my ($self, $share_type) = @_;
 
-       local $My::Schema::Result::Foo::SHARE_TYPE = [1, 2];
+       local $My::Schema::Result::Foo::SHARE_TYPE = $share_type;
        $self->search(undef, { join => 'output_devices' })->all
     }
 
