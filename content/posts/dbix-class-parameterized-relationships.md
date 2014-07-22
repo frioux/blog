@@ -19,9 +19,7 @@ a parameterized relationship is an [extended
 relationship](https://blog.afoolishmanifesto.com/posts/dbix-class-extended-relationships/).
 The fundamental trick here is that we're leveraging the fact that a coderef is
 able to have access to some variable.  Note that I've never even felt the need
-for this, and I'm still not totally sure why it needs to be part of the
-relationship instead of a simple resultset method, but we'll leave that aside
-for now.
+for this, there are real reasons, but in my experience they are rare.
 
 (See
 [::RelationshipDWIM](https://blog.afoolishmanifesto.com/posts/dbix-class-helper-row-relationshipdwim-awesome/)
@@ -110,5 +108,28 @@ The user interface is the same:
 
     $rs->by_output_devices_share_type([1, 2])->all
 
-The whole thing is much simpler.  There *might* be an argument that filtering in
-the `JOIN` expression can produce a better optimized query.  But that's it.
+The whole thing is much simpler.
+
+## Perché!
+
+The reason, as some have mentioned in the comments, and some on IRC, for putting
+the expression in the `JOIN` instead of the `WHERE` is that in the case of a
+`LEFT JOIN` the values can (obviously) be different.  A good example that
+[moritz](http://perlgeek.de/blog-en/) gave me is basically as follows:
+
+You have two tables, call them `CD` and `Artist`.  For the sake of the example
+we are going to say that the title of the CD is not nullable.  In that case, the
+following two queries are obviously different:
+
+    -- finds no CDs
+    SELECT "a".*, "c".* FROM "Artist" "a"
+    LEFT JOIN "CD" "c" ON "c"."artist_id" = "a"."id" AND
+                          "c"."title" IS NULL
+
+    -- finds all artists with no CDs
+    SELECT "a".*, "c".* FROM "Artist" "a"
+    LEFT JOIN "CD" "c" ON "c"."artist_id" = "a"."id"
+    WHERE "c"."title" IS NULL
+
+Thanks mortiz and Greg for pointing this out!
+
