@@ -171,7 +171,28 @@ machine.
     
     POE::Kernel->run;
 
+For what it's worth, there is a much shorter way to do the above in POE, but the
+abstractions obscured the way that this is working.  So while AnyEvent has
+objects that are instantiated and when they somehow go out of scope the stop
+running, POE has states that are triggered in various ways.  In the above code
+when a client first connects (`on_client_accept`) a `ping` event is triggered
+for 5 seconds in the future with our current `$wheel_id` included in the call.
+As can be seen in the `ping` state the `$wheel_id` is used to send ping, and
+then another `ping` is enqueued.
+
+It's interesting to me how vastly different this methodology is from AnyEvent's
+way.  AnyEvent feels much more "Perly", but the POE way feels a lot more
+predictable and structured.  More on that in a bit.
+
 ## IO::Async
+
+IO::Async is my new favorite async framework.  It's the newest of the three
+here, though it's hardly young (five years old.)  One of the distinguishing
+features of IO::Async is that it has pervasive support for Futures.  I won't
+really discuss that here but I think it's pretty cool when you get to use them.
+
+So while POE is fundamentally one or more state machines, and AnyEvent is a
+natural directed graph due to Perl's references, IO::Async is more of a tree:
 
     #!/usr/bin/env perl
     
@@ -219,3 +240,28 @@ machine.
     
     $loop->run;
 
+So note that unlike AnyEvent, we use a special method `add_child` to add the
+timer to the stream.
+
+## Value Judgements
+
+I think all of POE, IO::Async, and AnyEvent have things to offer the Perl world.
+I would say that it's almost uncontestable that AnyEvent is the easiest to get
+started with and even be productive.  The venerable POE has a lot of interesting
+components that you can use to avoid rewriting code from scratch, though really
+all of the async frameworks have something like that.
+
+I do have to say that I personally find the anonymous-callback style both
+IO::Async and AnyEvent promote to be a little problematic.  It's easy to
+accidentally create a loop in your references, which means that the loop will
+never be garbage collected and now you at least have a leak, if not more bugs.
+
+POE sidesteps this problem by being a little strict about how it is defined;
+anonymous subs are used but it's almost as if perl is not.  The callers of the
+subs that define POE states use their own memory store and calling conventions.
+
+Finally, I think IO::Async gives the user just enough structure to be much safer
+than AnyEvent.  Note that in my IO::Async example the only way the timer can
+access the stream is with `$self->parent`.  These are references maintained by
+the IO::Async framework, which tears them down for us at the end of the
+notifiers life.
