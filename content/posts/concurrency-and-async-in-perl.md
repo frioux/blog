@@ -275,3 +275,43 @@ notifiers life.
 So if I were to advise someone on how to learn to code async Perl I'd say start
 with AnyEvent, but if someone were to write something for *work* I'd recommend
 IO::Async or POE if you're willing to put in the work.
+
+## POE Appendix
+
+    #!/usr/bin/env perl
+    
+    use warnings;
+    use strict;
+    
+    use POE qw( Component::Server::TCP );
+    
+    POE::Component::Server::TCP->new(
+	    Port => 9935,
+	    Started => sub {
+		    warn "listening on 0.0.0.0:9935\n";
+	    },
+	    ClientConnected => sub {
+		    warn "client connected\n";
+		    POE::Kernel->delay( ping => 5 );
+	    },
+	    ClientInput => sub {
+		    my $input = $_[ARG0];
+		    $_[HEAP]{client}->put( $input );
+	    },
+	    ClientDisconnected => sub {
+		    warn "client disconnected\n";
+		    POE::Kernel->delay( ping => undef );
+	    },
+    
+	    # Custom event handlers.
+	    # Encapsulated in /(Inline|Object|Package)States/ to avoid potential
+	    # conflict with reserved constructor parameters.
+	    InlineStates => {
+		    ping => sub {
+			    $_[HEAP]{client}->put('ping!');
+			    POE::Kernel->delay( ping => 5 );
+		    },
+	    },
+    );
+    
+    POE::Kernel->run();
