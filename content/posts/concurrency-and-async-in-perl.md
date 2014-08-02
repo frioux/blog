@@ -7,12 +7,14 @@ guid: "https://blog.afoolishmanifesto.com/posts/concurrency-and-async-in-perl"
 Lately I've been in situations where I need to write some event driven, parallel
 code.  Most people call that "async" and I'll stick to that for now.
 
-What I've been doing is writing a little TCP service that can accept any number
-of clients at the same time (though typically only one) and interact with the
-clients in a single process and with no multithreading.  As surely many have
-remakred before, this is to some extent the future of computing.  I vaguely
-mentioned [Node.JS] in [one of my previous posts] as it has become [super
-popular] for doing this kind of stuff "from the start."
+What I've been doing is writing a little TCP service that can accept any
+number of clients at the same time (though typically only one) and interact
+with the clients in a single process and with no multithreading.  As surely
+many have remarked before, this is to some extent the future of computing.
+I vaguely mentioned [Node.JS](http://nodejs.org/) in [one of my previous
+posts](https://blog.afoolishmanifesto.com/posts/a-gentle-tls-intro-for-perlers/)
+as it has become [super popular](http://www.modulecounts.com/) for doing
+this kind of stuff "from the start."
 
 That's another post though.  For now, I'd like to discuss the various ways the
 major async frameworks in perl do concurrency.  For communication purposes, I'm
@@ -36,7 +38,8 @@ this post with Rocco Caputo, Paul Evans, Marc Lehmann, Peter Rabbitson, and
 Sawyer X.  They all gave feedback that ended up with the code included here.  I
 did write it myself and there is some advice that I did not take because I felt
 that it would diminish what I'm trying to communicate here, so I take fault for
-any mistakes included within.
+any mistakes included within.  Also thanks to Tom Molesworth for reviewing the
+post.
 
 The basic goal of the code in this post is to create an echo server that
 also periodically prints ping to the connected client.  While this may be
@@ -49,8 +52,8 @@ The framework I first did async work in perl with was AnyEvent.  (Well actually
 I did a tiny bit of POE in the distant past of 2006, but I didn't understand
 what I was doing so we'll ignore that.)  AnyEvent is really easy to jump into
 and tends to work fairly well.  The fundamental way that AnyEvent works is just
-with normal perl variables and what are called `condvars` which are basically a
-weirdly named Future/Promise.
+with normal perl variables and what are called `condvars` which are sorta like
+semaphores.
 
 So here's the example I came up with for AnyEvent:
 
@@ -171,14 +174,14 @@ machine.
     
     POE::Kernel->run;
 
-For what it's worth, there is a much shorter way to do the above in POE, but the
-abstractions obscured the way that this is working.  So while AnyEvent has
-objects that are instantiated and when they somehow go out of scope the stop
-running, POE has states that are triggered in various ways.  In the above code
-when a client first connects (`on_client_accept`) a `ping` event is triggered
-for 5 seconds in the future with our current `$wheel_id` included in the call.
-As can be seen in the `ping` state the `$wheel_id` is used to send ping, and
-then another `ping` is enqueued.
+For what it's worth, there is a much shorter way to do the above in POE,
+but the abstractions obscured the way that this is working.  (See appendix.)
+So while AnyEvent has objects that are instantiated and when they go out of
+scope the stop running, POE has states that are triggered in various ways.
+In the above code when a client first connects (`on_client_accept`) a `ping`
+event is triggered for 5 seconds in the future with our current `$wheel_id`
+included in the call.  As can be seen in the `ping` state the `$wheel_id`
+is used to send ping, and then another `ping` is enqueued.
 
 It's interesting to me how vastly different this methodology is from AnyEvent's
 way.  AnyEvent feels much more "Perly", but the POE way feels a lot more
@@ -253,15 +256,22 @@ all of the async frameworks have something like that.
 
 I do have to say that I personally find the anonymous-callback style both
 IO::Async and AnyEvent promote to be a little problematic.  It's easy to
-accidentally create a loop in your references, which means that the loop will
-never be garbage collected and now you at least have a leak, if not more bugs.
+accidentally create a loop in your references, which means that the loop
+will never be garbage collected and now you at least have a leak, if not
+more bugs.  Additionally, both IO::Async and AnyEvent have parts of the
+code that are related to garbage collection so you can accidentally forget
+to keep a reference to something and then just lose the event/notifier.
 
 POE sidesteps this problem by being a little strict about how it is defined;
-anonymous subs are used but it's almost as if perl is not.  The callers of the
+anonymous subs are used but it's almost as if Perl is not.  The callers of the
 subs that define POE states use their own memory store and calling conventions.
 
-Finally, I think IO::Async gives the user just enough structure to be much safer
+I think IO::Async gives the user just enough structure to be much safer
 than AnyEvent.  Note that in my IO::Async example the only way the timer can
 access the stream is with `$self->parent`.  These are references maintained by
 the IO::Async framework, which tears them down for us at the end of the
 notifiers life.
+
+So if I were to advise someone on how to learn to code async Perl I'd say start
+with AnyEvent, but if someone were to write something for *work* I'd recommend
+IO::Async or POE if you're willing to put in the work.
