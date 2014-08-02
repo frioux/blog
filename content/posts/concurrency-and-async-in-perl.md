@@ -33,13 +33,13 @@ used two of the three major Perl async frameworks professionally.  I'd not
 consider myself any kind of expert, but I think that I can make some reasonable
 comparisons.
 
-An aside about the code snippets; I've shown and discussed the code included in
+About the code snippets; I've shown and discussed the code included in
 this post with Rocco Caputo, Paul Evans, Marc Lehmann, Peter Rabbitson, and
-Sawyer X.  They all gave feedback that ended up with the code included here.  I
-did write it myself and there is some advice that I did not take because I felt
-that it would diminish what I'm trying to communicate here, so I take fault for
-any mistakes included within.  Also thanks to Tom Molesworth for reviewing the
-post.
+Sawyer X.  They all gave feedback that ended up with the code included here.
+I did write it myself and there is some advice that I did not take because I
+felt that it would diminish what I'm trying to communicate here, so I take
+fault for any mistakes included within.  Also thanks to Tom Molesworth for
+reviewing the post.
 
 The basic goal of the code in this post is to create an echo server that
 also periodically prints ping to the connected client.  While this may be
