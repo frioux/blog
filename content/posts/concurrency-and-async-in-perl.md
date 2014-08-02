@@ -1,5 +1,5 @@
 ---
-title: Concurrency and Asyncrony in Perl
+title: Concurrency and Asynchrony in Perl
 date: 2014-07-29T10:34:10
 tags: ["perl", "async", "io-async", "IO::Async", "POE", "AnyEvent", "AE"]
 guid: "https://blog.afoolishmanifesto.com/posts/concurrency-and-async-in-perl"
