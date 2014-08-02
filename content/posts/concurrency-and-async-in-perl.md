@@ -25,7 +25,7 @@ Parallelism is multiple things happening at once.
 
 Concurrency is things communicating to each other.
 
-As an aside, these two things are actually orthogonal and treating them as such
+Side note: these two things are actually orthogonal and treating them as such
 can yield a much better understanding of a given system.
 
 With that aside, what this post is about is *concurrency*.  At this point I've
