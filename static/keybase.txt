@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/frew
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.afoolishmanifesto.com
+  * I am frew (https://keybase.io/frew) on keybase.
+  * I have a public key with fingerprint 2896 7E7B F03D B43E 5A43  3430 6EB3 302F 737A 7582
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "28967e7bf03db43e5a4334306eb3302f737a7582",
+            "host": "keybase.io",
+            "key_id": "6eb3302f737a7582",
+            "uid": "8bf2ed2e54f5cc480a9ba86e345b9e00",
+            "username": "frew"
+        },
+        "service": {
+            "hostname": "blog.afoolishmanifesto.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1408069342,
+    "expire_in": 157680000,
+    "prev": "0f9c922ca748673010ab81f58cb82edef92ab3f63325581a79b320db55e651ef",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owNCWmg2MUFZJlNZvzSrTQABg3/////73//v////+///v//////9fXza/+9L///9
+2+W////AApOCTpuoOjQADRoANAAAAAAAepoAAAADQaAAANAAAaAA0AaGgAAAANAD
+Q0yeoFVPUMmp7VNoajHqCY1MGo9CaaaZNhBNPQTTGmpkxom1GmajEYZNDUwAjaJ6
+ANJkwEMT0EwjJoxpMjJieiaepmQ9U0abUwyCaNAAD0mgAHqAAAAAAAABoAAAAAAA
+GgAAAAAAA0D1A0AAAABFPKJjRqmGU09J6mU8o0aZqaAGhoAADQ0AANA0AyAA2oAe
+oABoAANGhoA0NAaDTQAaNAGgF0eMUYHYdYk635AY+4pS6MjtsbOlJiK4YgrNo2Sj
+hxGOeqmwMG55O56FGelVDncw5p/ffGyk9vy1zef0yaIYhJIVMPHsG44jp3i4sjm4
+glP44zu1iTyrjLU8kALGxDA4bNFNENoB5dETT+RASIiEiEAEUAFLckvSe/U2/b32
+gKbvDz2KfCi+lxf5UJMQRz4kh86qBAbfVcPz3ydaUu4AqDEnkJMiiFEesdnwvu8v
+JAa6iWaIDxmoE8wi5aeKnDQzawL5QhCEiulHNKBDWUNoI8wcBIuCZqjf7B47jljq
+mB6m6JKZzD9JN80Z7xEifvacGFgaQdC4A7j8CZ4oyICSsadxZZ9tyu7YWSPU404I
+BQCAF/YqKHjRod3I/vqOPF6p2V+VzUddtTW5I/xP71ZpLdNNPctQjmcMzvZYkuVK
+6jqQQ+3KwjyJ2cTucsQNh7DqMZPYNW70k9ydVaW/QKSczd9k+E0pgzZqHAcGxRcL
+CQzIJ0aUXB/FIMIIt5AEMYWIYmyxhKTABEWUe1Sh5oJxpb0YFwFTzWLdKTMFKQjL
+Zv4QeAWqWaj7k25fQFVUwlFArciuGelyDHmCrUqHufVwF8my5BxIQloY1pVmngpw
+SVMysgeNAIiNKU0oNRwIIRUgUSK8LcQaCJyqOQDGbnRYY8AfGkBQyaHHCOMEDYcU
+HdQT8AlCWBhuvuhTgsg7tc62iK9G+ruuprJFhupJ2KoiAWaoRgOlRlTE8jgW7QUM
+YtISpmyAzTaicsKQ0wTjmoSdgjdEe65SoviUsIHZYCLzJizoTQ5SLnURGACASuzG
+LNnZGY53KCLChkh3NLYOql0nEMm5h1ZmVjFMRMdCA4bR8siquoXhUidcoSJD0xjy
+atmjxa5Li71RWsgkPrmkJ6bZMi/4I6Q7nAn9dCSPF8gPVJqueLkolixwLMz2efgW
+e9acFWgrDm1Lq0SFiNES43Q4VVATF1z7tr+5A/vX3R2R5KCxA7ma3McQAKBor4kR
+VholPXhGeAbx3gp5QDRP7ck9MRqks8Up0JTKIh4lGHwLq57xpszISpGAPFbZhVPJ
+rivt0+IKu5PhQD33ASAgSAEBEcZ5TxgI267Az89NuZWTJ2KQxWbfxHo7MbbzsrgC
+5Z0cAQwcrZnZ01FkFz92/7jD/4u5IpwoSF+aVaaA
+=DElZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/frew
+
+==================================================================
