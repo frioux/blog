@@ -1,7 +1,7 @@
 ---
 title: How to replace your CyanogenMod Kernel for Fun and Profit
-date: 2014-08-24T15:37:55
-tags: 
+date: 2014-08-28T15:37:55
+tags: ["CyanogenMod", "t0lte", "ftrace", "perf"]
 guid: "https://blog.afoolishmanifesto.com/posts/replace-cyanogenmod-kernel-fun-profit"
 ---
 I've recently been on a journey of discovery with respect to
