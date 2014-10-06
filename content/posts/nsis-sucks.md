@@ -400,4 +400,4 @@ by hand, though partially generated (filenames, metadata.)
     !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
 Do not post comments asking for help with NSIS, I will just delete them.  I am
-not going to support it's use.
+not going to support its use.
