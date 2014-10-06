@@ -166,10 +166,10 @@ by hand, though partially generated (filenames, metadata.)
     LicenseBkColor /windows
     RequestExecutionLevel admin
     VIAddVersionKey ProductName "Foo"
-    VIAddVersionKey CompanyName "Micro Technology Solutions, Inc."
+    VIAddVersionKey CompanyName "Micro Technology Services, Inc."
     VIAddVersionKey FileVersion "1.0.0.0"
     VIAddVersionKey ProductVersion "1.0.0.0"
-    VIAddVersionKey LegalCopyright "Micro Technology Solutions, Inc."
+    VIAddVersionKey LegalCopyright "Micro Technology Services, Inc."
     VIAddVersionKey FileDescription "Install Foo"
     InstallDir "C:/Program Files (x86)/foo/bar"
     InstallDirRegKey HKLM "${ARB}" "InstallLocation"
