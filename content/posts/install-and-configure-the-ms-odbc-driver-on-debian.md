@@ -51,6 +51,9 @@ like to remove this step, please bug them
 _It looks like 2.3.1 is finally in sid, so Lord willing it will trickle down
 into stable/ubuntu in a year or so. --frew_
 
+_Indeed, starting with Utopic Unicorn you can skip the build/install of unixODBC
+below! --frew_
+
 Unpack unixodbc:
 
     $ tar xf unixODBC-2.3.2.tar.gz
