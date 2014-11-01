@@ -58,25 +58,6 @@ Unpack unixodbc:
 
     $ tar xf unixODBC-2.3.2.tar.gz
 
-We need the threading fixes in 2.3.1 or higher, but the Microsoft driver is
-built against the libraries provided in 2.3.0. We'll have to change the
-configure script to use the old lib version.
-
-_The version bump from 1 to 2 is an incredibly minimal change that's actually
-included in 2.3.0 as well. We haven't seen any breakage due to the modification.
---frew_
-
-    $ cd unixodbc-2.3.2
-    $ vim configure
-
-Replace this string
-
-    LIB_VERSION="2:0:0"
-
-with this one
-
-    LIB_VERSION="1:0:0"
-
 Now we can build and install unixODBC.
 
     $ ./configure --disable-gui --disable-drivers --enable-stats=no --enable-iconv --with-iconv-char-enc=UTF8 --with-iconv-ucode-enc=UTF16LE
@@ -113,6 +94,16 @@ differences between RHEL and Debian.
             libodbcinst.so.1 => /usr/lib/x86_64-linux-gnu/libodbcinst.so.1 (0x00007f3bc5a43000)
             ...
 
+_The version bump from 1 to 2 is an incredibly minimal change that's actually
+included in 2.3.0 as well. We haven't seen any breakage due to the modification.
+This is the reason we add the symlinks related to libodbc below.
+--frew_
+
+We need to add ODBC symlinks because unixODBC bumped their major version, but
+the native client doesn't build against version 2.  The next commands should do
+that:
+
+
 Add a couple of symlinks in /usr/lib and the driver can find what it needs.
 
     $ cd /usr/lib
@@ -124,6 +115,9 @@ Ubuntu is slightly different because the libs are in /usr/lib/$arch
     $ cd /usr/lib
     $ sudo ln -s x86_64-linux-gnu/libssl.so.0.9.8 libssl.so.10
     $ sudo ln -s x86_64-linux-gnu/libcrypto.so.0.9.8 libcrypto.so.10
+    $ sudo ln -s x86_64-linux-gnu/libodbc.so.2 libodbc.so.1
+    $ sudo ln -s x86_64-linux-gnu/libodbccr.so.2 libodbccr.so.1
+    $ sudo ln -s x86_64-linux-gnu/libodbcinst.so.2 libodbcinst.so.1
 
 You can check again with ldd that all the libraries are found.
 
