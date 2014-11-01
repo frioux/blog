@@ -5,15 +5,31 @@ date: "2013-07-05T03:27:40-05:00"
 tags: ["dbdodbc", "mssql", "odbc", "perl", "sql-server", "sqlnci"]
 guid: "http://blog.afoolishmanifesto.com/?p=1855"
 ---
-This was originally written by my coworker [Wes Malone](https://github.com/wesq3) and adpated to Ubuntu by my other coworker [Geoff Darling](https://metacpan.org/author/MAESTRO). Basically it should get you up and running with Microsoft's official ODBC driver in Debian based Linuxes. Enjoy!
+This was originally written by my coworker [Wes
+Malone](https://github.com/wesq3) and adpated to Ubuntu by my other coworker
+[Geoff Darling](https://metacpan.org/author/MAESTRO). Basically it should get
+you up and running with Microsoft's official ODBC driver in Debian based
+Linuxes. Enjoy!
 
-The Microsoft ODBC Driver (AKA the SQL Server Native Client) is Microsoft's official ODBC driver for SQL Server. Since 2011 Microsoft has provided binary builds officially supported on Redhat Enterprise Linux. The Linux sqlncli [supports all server features of SQL Server](http://msdn.microsoft.com/library/hh568451%28SQL.110%29.aspx), including Unicode and Multiple Active Result-sets (MARS). We ran into Unicode troubles porting our Perl ODBC applications to the FreeTDS ODBC driver, not to mention that some of our apps rely on MARS, which is unsupported by FreeTDS.
+The Microsoft ODBC Driver (AKA the SQL Server Native Client) is Microsoft's
+official ODBC driver for SQL Server. Since 2011 Microsoft has provided binary
+builds officially supported on Redhat Enterprise Linux. The Linux sqlncli
+[supports all server features of SQL
+Server](http://msdn.microsoft.com/library/hh568451%28SQL.110%29.aspx), including
+Unicode and Multiple Active Result-sets (MARS). We ran into Unicode troubles
+porting our Perl ODBC applications to the FreeTDS ODBC driver, not to mention
+that some of our apps rely on MARS, which is unsupported by FreeTDS.
 
-This guide is meant to be a more newbie friendly version combining the [official Microsoft install directions](http://www.microsoft.com/en-us/download/details.aspx?id=28160) and [this guide for adapting the driver install for Debian](http://codesynthesis.com/~boris/blog/2011/12/02/microsoft-sql-server-odbc-driver-linux/).
+This guide is meant to be a more newbie friendly version combining the [official
+Microsoft install
+directions](http://www.microsoft.com/en-us/download/details.aspx?id=28160) and
+[this guide for adapting the driver install for
+Debian](http://codesynthesis.com/~boris/blog/2011/12/02/microsoft-sql-server-odbc-driver-linux/).
 
 # Get Ready
 
-Stop your apps first. I don't know if it would interfere with the process, but let's just be safe.
+Stop your apps first. I don't know if it would interfere with the process, but
+let's just be safe.
 
 Grab the sqlncli11 package from MS and the unixODBC 2.3.2 package.
 
@@ -26,17 +42,26 @@ Get rid of any previous ODBC packages.
 
 # Install unixODBC 2.3.2
 
-<strike>_This is a stupidly manual process because the Debian packagers have woefully dragged their feet for many years on updating this package. If you'd like to remove this step, please bug them [here](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=650267). --frew_</strike>
+<strike>_This is a stupidly manual process because the Debian packagers have
+woefully dragged their feet for many years on updating this package. If you'd
+like to remove this step, please bug them
+[here](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=650267).
+--frew_</strike>
 
-_It looks like 2.3.1 is finally in sid, so Lord willing it will trickle down into stable/ubuntu in a year or so. --frew_
+_It looks like 2.3.1 is finally in sid, so Lord willing it will trickle down
+into stable/ubuntu in a year or so. --frew_
 
 Unpack unixodbc:
 
     $ tar xf unixODBC-2.3.2.tar.gz
 
-We need the threading fixes in 2.3.1 or higher, but the Microsoft driver is built against the libraries provided in 2.3.0. We'll have to change the configure script to use the old lib version.
+We need the threading fixes in 2.3.1 or higher, but the Microsoft driver is
+built against the libraries provided in 2.3.0. We'll have to change the
+configure script to use the old lib version.
 
-_The version bump from 1 to 2 is an incredibly minimal change that's actually included in 2.3.0 as well. We haven't seen any breakage due to the modification. --frew_
+_The version bump from 1 to 2 is an incredibly minimal change that's actually
+included in 2.3.0 as well. We haven't seen any breakage due to the modification.
+--frew_
 
     $ cd unixodbc-2.3.2
     $ vim configure
@@ -55,20 +80,25 @@ Now we can build and install unixODBC.
     $ make
     $ sudo make install
 
-unixODBC installs to /usr/local/lib by default but the Microsoft driver expects it in /usr/lib. We have to let the system know we're using /usr/local/lib, so if necessary on your system, add the appropriate path to /etc/ld.so.conf and run ldconfig to update the linker path.
+unixODBC installs to /usr/local/lib by default but the Microsoft driver expects
+it in /usr/lib. We have to let the system know we're using /usr/local/lib, so if
+necessary on your system, add the appropriate path to /etc/ld.so.conf and run
+ldconfig to update the linker path.
 
     $ sudo vim /etc/ld.so.conf # add /usr/local/lib to the end
     $ sudo ldconfig
 
 # Driver Compatibility
 
-Let's paper over some of the differences between the RHEL environment that the driver expects and Debian. Unpack it and check for dependencies of the library.
+Let's paper over some of the differences between the RHEL environment that the
+driver expects and Debian. Unpack it and check for dependencies of the library.
 
     $ tar xf sqlncli*
     $ cd sqlncli*
     $ ldd lib64/libsqlncli*
 
-On my system it can't find libcrypto and libssl because of the versioning differences between RHEL and Debian.
+On my system it can't find libcrypto and libssl because of the versioning
+differences between RHEL and Debian.
 
     mitsi@silver:~/sqlncli-11.0.1790.0$ ldd lib64/libsqlncli-11.0.so.1790.0
             linux-vdso.so.1 =>  (0x00007fffc971b000)
@@ -96,7 +126,10 @@ You can check again with ldd that all the libraries are found.
 
 # Install the Microsoft Driver
 
-Now we can install the Microsoft driver. Run the installer with bash because the install script references /bin/sh in its shebang but expects it to be bash anyway. The force option will continue with the install even though we're missing rpm etc.
+Now we can install the Microsoft driver. Run the installer with bash because the
+install script references /bin/sh in its shebang but expects it to be bash
+anyway. The force option will continue with the install even though we're
+missing rpm etc.
 
     $ sudo bash ./install.sh install --force
     # type q to exit the terms
@@ -114,7 +147,9 @@ The install output looks like this for me, note the last line confirming the ins
     Symbolic links for bcp and sqlcmd created ................................... OK
     Microsoft SQL Server ODBC Driver V1.0 for Linux registered ........... INSTALLED
 
-Now test the install with sqlcmd. Connecting to an imaginary SQL Server should time out. Any other errors about missing libraries mean you should double-check your symlinks and ld.so.conf. On one install I'd forgotten to run ldconfig.
+Now test the install with sqlcmd. Connecting to an imaginary SQL Server should
+time out. Any other errors about missing libraries mean you should double-check
+your symlinks and ld.so.conf. On one install I'd forgotten to run ldconfig.
 
     $ sqlcmd -S localhost
     SqlState HYT00, Login timeout expired
@@ -125,7 +160,10 @@ Now test the install with sqlcmd. Connecting to an imaginary SQL Server should t
 
 # Installing Perl DBD::ODBC with Unicode support
 
-Everything is installed now, but we Perl-ers need to install DBD::ODBC with the Unicode option enabled. It's disabled by default on Linux for now because of poor driver support. Once the default switches to Unicode on for sqlncli then this step can be skipped.
+Everything is installed now, but we Perl-ers need to install DBD::ODBC with the
+Unicode option enabled. It's disabled by default on Linux for now because of
+poor driver support. Once the default switches to Unicode on for sqlncli then
+this step can be skipped.
 
     $ cpanm --look DBD::ODBC
     $ perl Makefile.PL -u # enable unicode support
@@ -135,8 +173,13 @@ Everything is installed now, but we Perl-ers need to install DBD::ODBC with the 
 
 # Pro Tips
 
-- ODBC driver config is in /usr/local/etc/odbcinst.ini. The odbcinst.ini in /etc is a clever ruse devised by your previous ODBC install.
-- Your connect strings should look something like dbi:ODBC:driver=SQL Server Native Client 11.0;server=tcp:10.1.2.3;database=DB\_TOWNE;MARS\_Connection=yes;>
-- See that "MARS\_Connection=yes" up there? That's right, MARS is supported :D
+- ODBC driver config is in /usr/local/etc/odbcinst.ini. The odbcinst.ini in /etc
+  is a clever ruse devised by your previous ODBC install.
+- Your connect strings should look something like
+  `dbi:ODBC:driver=SQL Server Native Client 11.0;server=tcp:10.1.2.3;database=DB_TOWNE;MARS_Connection=yes;`
+- See that `MARS_Connection=yes` up there? That's right, MARS is supported :D
 
-**2013-10-24 UPDATE**: unixODBC 2.3.2 was released and has been incorporated into the howto. Additionally [mje](http://www.martin-evans.me.uk) recommended setting --enable-stats=no for speed, especially since with the gui disabled they aren't used anyway.
+**2013-10-24 UPDATE**: unixODBC 2.3.2 was released and has been incorporated
+into the howto. Additionally [mje](http://www.martin-evans.me.uk) recommended
+setting `--enable-stats=no` for speed, especially since with the gui disabled
+they aren't used anyway.
