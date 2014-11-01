@@ -31,16 +31,20 @@ Debian](http://codesynthesis.com/~boris/blog/2011/12/02/microsoft-sql-server-odb
 Stop your apps first. I don't know if it would interfere with the process, but
 let's just be safe.
 
-Grab the sqlncli11 package from MS and the unixODBC 2.3.2 package.
+Grab the sqlncli11 package from MS.
 
     $ wget http://download.microsoft.com/download/6/A/B/6AB27E13-46AE-4CE9-AFFD-406367CADC1D/Linux6/sqlncli-11.0.1790.0.tar.gz
+
+# Install unixODBC
+
+_Starting with Utopic Unicorn you can just `apt-get install unixodbc unixodbc-dev`
+then go straight to Driver Compatibility! --frew_
+
     $ wget ftp://ftp.unixodbc.org/pub/unixODBC/unixODBC-2.3.2.tar.gz
 
 Get rid of any previous ODBC packages.
 
     $ sudo apt-get remove libodbc1 unixodbc unixodbc-dev
-
-# Install unixODBC 2.3.2
 
 <strike>_This is a stupidly manual process because the Debian packagers have
 woefully dragged their feet for many years on updating this package. If you'd
@@ -50,9 +54,6 @@ like to remove this step, please bug them
 
 _It looks like 2.3.1 is finally in sid, so Lord willing it will trickle down
 into stable/ubuntu in a year or so. --frew_
-
-_Indeed, starting with Utopic Unicorn you can skip the build/install of unixODBC
-below! --frew_
 
 Unpack unixodbc:
 
@@ -103,6 +104,10 @@ We need to add ODBC symlinks because unixODBC bumped their major version, but
 the native client doesn't build against version 2.  The next commands should do
 that:
 
+    $ cd /usr/lib
+    $ sudo ln -s x86_64-linux-gnu/libodbc.so.2 libodbc.so.1
+    $ sudo ln -s x86_64-linux-gnu/libodbccr.so.2 libodbccr.so.1
+    $ sudo ln -s x86_64-linux-gnu/libodbcinst.so.2 libodbcinst.so.1
 
 Add a couple of symlinks in /usr/lib and the driver can find what it needs.
 
@@ -115,9 +120,6 @@ Ubuntu is slightly different because the libs are in /usr/lib/$arch
     $ cd /usr/lib
     $ sudo ln -s x86_64-linux-gnu/libssl.so.0.9.8 libssl.so.10
     $ sudo ln -s x86_64-linux-gnu/libcrypto.so.0.9.8 libcrypto.so.10
-    $ sudo ln -s x86_64-linux-gnu/libodbc.so.2 libodbc.so.1
-    $ sudo ln -s x86_64-linux-gnu/libodbccr.so.2 libodbccr.so.1
-    $ sudo ln -s x86_64-linux-gnu/libodbcinst.so.2 libodbcinst.so.1
 
 You can check again with ldd that all the libraries are found.
 
