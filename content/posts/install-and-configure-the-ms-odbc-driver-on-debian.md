@@ -33,7 +33,12 @@ let's just be safe.
 
 Grab the sqlncli11 package from MS.
 
-    $ wget http://download.microsoft.com/download/6/A/B/6AB27E13-46AE-4CE9-AFFD-406367CADC1D/Linux6/sqlncli-11.0.1790.0.tar.gz
+    $ wget http://download.microsoft.com/download/B/C/D/BCDD264C-7517-4B7D-8159-C99FC5535680/RedHat6/msodbcsql-11.0.2270.0.tar.gz
+
+_Note: If this link doesn't work, [download the latest version of the driver for
+RedHat 6 from
+Microsoft](http://msdn.microsoft.com/library/hh568451%28SQL.110%29.aspx).  It
+may also be worth checking just in case they release a newer version_
 
 # Install unixODBC
 
