@@ -42,7 +42,7 @@ may also be worth checking just in case they release a newer version_
 
 # Install unixODBC
 
-_Starting with Utopic Unicorn you can just `apt-get install unixodbc unixodbc-dev`
+_Starting with Utopic Unicorn (14.10) you can just `apt-get install unixodbc unixodbc-dev`
 then go straight to Driver Compatibility! --frew_
 
     $ wget ftp://ftp.unixodbc.org/pub/unixODBC/unixODBC-2.3.2.tar.gz
