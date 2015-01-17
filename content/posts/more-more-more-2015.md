@@ -9,10 +9,10 @@ This is a three part post, but it's supposed to be short, so lets get to it!
 # Part I: Shorter Blog Posts
 
 I like to blog, but my posts tend to get really long and involved, because I
-sorta like to thing from first principles and build up and tend to teach that
+sorta like to think from first principles and build up and tend to teach that
 way also.  It's generally not great; my documentation usually has something to
 be desired after I'm done.  I think I'm a pretty good communicator, but I need
-to be better at succintly and *also* clearly documenting.
+to be better at succinctly and *also* clearly documenting.
 
 Here I go again.  I also need to **just write**!  So I'm making a rule that most
 posts need to be pretty short.  We're talking like, 80 lines × 80 chars.  So at
@@ -60,7 +60,7 @@ out we were having a kid.  I am really excited to do more async, crypto, and
 non-win32 (hence Pg) work at $work.
 
 One of our new products which I started last year but will likely finish in the
-first half of this year is a peice of hardware based on the Raspberry Pi.  It's
+first half of this year is a piece of hardware based on the Raspberry Pi.  It's
 a single async perl process all running on (of course) Linux.  It's a lot of fun
 to work on too!
 
