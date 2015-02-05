@@ -6,7 +6,7 @@ guid: "http://blog.afoolishmanifesto.com/?p=1582"
 ---
 Since the dawn of time [DBIx::Class](https://metacpan.org/module/DBIx::Class) relationships were simply a set of columns related to each other via equality. For the most part this is good enough, but DBIx::Class aims at 100% power for all databases (unlike some other ORMs... :-) .)
 
-In May what we internally called "extended relationships" was added to DBIx::Class. [(docs here)](https://metacpan.org/module/DBIx::Class::Relationship::Base) Basically this allows you to use the full power of [SQL::Abstract](https://metacpan.org/module/SQL::Abstract) to define your join conditions. Just today I finally had a chance to use it. My join condition is simply "tableA.user = tableB.user OR tableA.shared = 1". Here is how I defined it:
+In May what we internally called "extended relationships" was added to DBIx::Class. [(docs here)](https://metacpan.org/pod/DBIx::Class::Relationship::Base#Custom-join-conditions) Basically this allows you to use the full power of [SQL::Abstract](https://metacpan.org/module/SQL::Abstract) to define your join conditions. Just today I finally had a chance to use it. My join condition is simply "tableA.user = tableB.user OR tableA.shared = 1". Here is how I defined it:
 
     has_many output_devices => '::OutputDevice', sub {
        my $args = shift;
