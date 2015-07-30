@@ -35,7 +35,7 @@ sub _gen_from_blocks {
 
   my @blocks = $self->next::method(@_);
 
-  $blocks[0] .= join q(,), map " IGNORE INDEX ($_)", @indices_to_ignore;
+  $blocks[0] .= " IGNORE INDEX (" . join(',',@indices_to_ignore) . ")";
 
   return @blocks
 }
