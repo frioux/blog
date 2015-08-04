@@ -22,16 +22,16 @@ First off, have you ever tried to teach a programmer perl? I have. Note this:
 
 The following is more palatable to most coders (also I like it better:)
 
-<pre>
-use <a href="http://search.cpan.org/search%3fmodule=Method::Signatures::Simple">Method::Signatures::Simple</a>;
-method foo($bar, $baz) \{
+```
+use Method::Signatures::Simple;
+method foo($bar, $baz) {
    #...
-\}
+}
 
-method station \{
+method station {
    #...
-\}
-</pre>
+}
+```
 
 That's right, no fiddling with @\_ at all. Sweet! Also note: this is not implemented with sketchy source filters. It's quite robust. There is also [MooseX::Method::Signatures](http://search.cpan.org/search%3fmodule=MooseX::Method::Signatures) (and [MooseX::Declare](http://search.cpan.org/search%3fmodule=MooseX::Declare) which uses that) which can do even more, like defining named and optional params and type constraints.
 

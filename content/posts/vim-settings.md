@@ -9,7 +9,7 @@ Today I am just going to talk about my favorite vim "stuff." A lot of this I hav
 
 **Basic settings:**
 
-<pre>
+```
 " Enable Line Numbers
 set number
 
@@ -42,7 +42,7 @@ nnoremap : ;
 vnoremap ; :
 vnoremap : ;
 
-</nop></esc></pre>
+```
 
 I also highly recommend the InkPot color scheme for gui mode and metacosm for console mode. Here's some code to pull that off:
 

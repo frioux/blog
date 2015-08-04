@@ -26,20 +26,20 @@ Before I get into the details of this I need to point out that we are **not** us
 
 First off, here is the Apache configuration we ended up with:
 
-<pre>
+```
 ServerRoot "C:/Program Files (x86)/Apache Software Foundation/Apache2.2"
 ServerName "ourapp.foo.com"
 Listen 80
-LoadModule alias\_module modules/mod\_alias.so
-LoadModule deflate\_module modules/mod\_deflate.so
-LoadModule expires\_module modules/mod\_expires.so
-LoadModule env\_module modules/mod\_env.so
-LoadModule log\_config\_module modules/mod\_log\_config.so
-LoadModule mime\_module modules/mod\_mime.so
-LoadModule setenvif\_module modules/mod\_setenvif.so
-LoadModule proxy\_module modules/mod\_proxy.so
-LoadModule proxy\_http\_module modules/mod\_proxy\_http.so
-LoadModule proxy\_balancer\_module modules/mod\_proxy\_balancer.so
+LoadModule alias_module modules/mod_alias.so
+LoadModule deflate_module modules/mod_deflate.so
+LoadModule expires_module modules/mod_expires.so
+LoadModule env_module modules/mod_env.so
+LoadModule log_config_module modules/mod_log_config.so
+LoadModule mime_module modules/mod_mime.so
+LoadModule setenvif_module modules/mod_setenvif.so
+LoadModule proxy_module modules/mod_proxy.so
+LoadModule proxy_http_module modules/mod_proxy_http.so
+LoadModule proxy_balancer_module modules/mod_proxy_balancer.so
 
 ExpiresActive On
 ProxyRequests Off
@@ -48,28 +48,28 @@ ProxyRequests Off
    BalancerMember http://127.0.0.1:39564
    BalancerMember http://127.0.0.1:39565
 </proxy>
-ProxyPass / balancer://my\_cluster/
+ProxyPass / balancer://my_cluster/
 # we don't use this because our app is a single page
 # javascript application
-# ProxyPassReverse / balancer://my\_cluster/
+# ProxyPassReverse / balancer://my_cluster/
 
 DocumentRoot "C:/myapp/root/"
 <location /static="/static">
    SetOutputFilter DEFLATE
-   SetEnvIfNoCase Request\_URI \\.(?:gif|jpe?g|png)$ no-gzip dont-vary
+   SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
    SetHandler default-handler
 </location>
 
 LogLevel warn
 
-LogFormat "%h %l %u %t \\"%r\\" %&gt;s %b \\"%\{Referer\}i\\" \\"%\{User-Agent\}i\\"" combined
-LogFormat "%h %l %u %t \\"%r\\" %&gt;s %b" common
+LogFormat "%h %l %u %t \"%r\" %&gt;s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
+LogFormat "%h %l %u %t \"%r\" %&gt;s %b" common
 CustomLog "logs/access.log" common
 DefaultType text/plain
 TypesConfig conf/mime.types
 AddType application/x-compress .Z
 AddType application/x-gzip .gz .tgz
-</pre>
+```
 
 So basically all we do in this configuration is have Apache serve the static files and then proxy the requests to a couple of catalyst dev servers. I used [Srvany.exe](http://support.microsoft.com/kb/137890) and a couple of .bat files to start the catalyst dev servers. It works **much** better than using mod\_perl, and each server sits at about 90M a piece. If we ended up getting a huge site and for some strange reason needed to keep our outfacing server windows, we could actually serve the catalyst parts on a linux server and have apache proxy to those, so it scales very nicely.
 

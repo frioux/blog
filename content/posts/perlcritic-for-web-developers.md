@@ -25,7 +25,7 @@ I've been using Apache for the whole thing, so it's been fairly simple getting i
 
 You also need to start my mini server. I haven't set up any script to autostart it as I prefer to start it as a user. Basically all you need to do is cd into the repo dir and run
 
-<pre>perl bin/server.pl <directory-to-monitor></directory-to-monitor></pre>
+`perl bin/server.pl <directory-to-monitor>`
 
 The first time that it checks through the code it will take a while (mine takes 15 seconds,) but after that it should be pretty quick.
 

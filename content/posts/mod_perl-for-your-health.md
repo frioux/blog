@@ -17,7 +17,7 @@ After installing Apache (see previous post) and ActivePerl 5.10 (plus lots of mo
 
 After that I had to add to the configuration for Apache:
 
-<pre>
+```
 LoadModule perl\_module modules/mod\_perl.so
 LoadFile "C:/Perl/bin/perl510.dll"
 
@@ -26,7 +26,7 @@ LoadFile "C:/Perl/bin/perl510.dll"
    PerlResponseHandler ModPerl::Registry
    Options +ExecCGI
 </location>
-</pre>
+```
 
 Since we were only converting that one script we limited mod\_perl to that single directory.
 

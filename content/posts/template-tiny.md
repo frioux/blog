@@ -40,8 +40,8 @@ Cons:
 
 Example 1:
 
-<pre>
-var data = \{ age: 21 \};
+```
+var data = { age: 21 };
 
 // XTPL
 var tpl = new Ext.XTemplate( "<tpl if="age > 18">Can Vote!</tpl>");
@@ -50,26 +50,26 @@ var str = tpl.apply(data);
 // TT
 var tmp = new Template.Tiny();
 var str = tmp.process(
-   "[% IF old\_enough %]Can Vote\![% END %]",
-   \{ old\_enough: (age &gt; 18 )\}
+   "[% IF old_enough %]Can Vote![% END %]",
+   { old_enough: (age > 18 )}
 );
-</pre>
+```
 
 Example 2:
 
-<pre>
-var data = \{ person: \{first\_name: 'fREW', last\_name: 'Schmidt', title: 'Mr.' \}\};
+```
+var data = { person: {first_name: 'fREW', last_name: 'Schmidt', title: 'Mr.' }};
 // XTPL
-var id = new Ext.XTemplate( "<tpl for="person">\{title\} \{first\_name\} \{last\_name\}</tpl>");
+var id = new Ext.XTemplate( "<tpl for="person">{title} {first_name} {last_name}</tpl>");
 var str = tpl.apply(data);
 
 // TT
 var tmp = new Template.Tiny();
 var str = tmp.process(
-   "[% person.title %] [% person.first\_name %] [% person.last\_name %]",
+   "[% person.title %] [% person.first_name %] [% person.last_name %]",
    data
 );
-</pre>
+```
 
 Example 3:
 
@@ -103,21 +103,21 @@ Example 4:
 
 Example 5:
 
-<pre>
-var data = \{ arr: ['foo','bar','baz']\};
+```
+var data = { arr: ['foo','bar','baz']};
 
 // XTPL
-var tpl = new Ext.XTemplate('<tpl for="arr">(\{#\}. \{.\})</tpl>');
+var tpl = new Ext.XTemplate('<tpl for="arr">({#}. {.})</tpl>');
 var str = tpl.apply(data); // "(1. foo)(2. bar)(3. baz)";
 
 // TT
 var tmp = new Template.Tiny();
 var idx = 0;
 var str = tmp.process(
-   "[% FOREACH x IN arr %]([% x.i %]. [% x.var %]\[% END %]",
-   \{ arr: data.arr.map(function(x) \{ return \{ i: idx++, var: x \} \} \}
+   "[% FOREACH x IN arr %]([% x.i %]. [% x.var %][% END %]",
+   { arr: data.arr.map(function(x) { return { i: idx++, var: x } } }
 );
-</pre>
+```
 
 Example 6:
 
@@ -151,21 +151,21 @@ Cons:
 
 Example 7:
 
-<pre>
-   var data = \{ jack\_slocum: 1 \};
+```
+var data = { jack_slocum: 1 };
 
-   // TT
-   var tmp = new Template.Tiny();
-   var str = tmp.process(
-      "[% IF jack_slocum %]We don't appreciate else-ifs[% ELSE %] Woot\![% END %]",
-      data
+// TT
+var tmp = new Template.Tiny();
+var str = tmp.process(
+   "[% IF jack_slocum %]We don't appreciate else-ifs[% ELSE %] Woot![% END %]",
+   data
+);
+
+// XTPL
+var tpl = new Ext.XTemplate(
+   '<tpl if="jack_slocum">We don't appreciate else-ifs</tpl><tpl if="!jack_slocum">Woot!</tpl>'
    );
-
-   // XTPL
-   var tpl = new Ext.XTemplate(
-      '<tpl if="jack_slocum">We don\'t appreciate else-ifs</tpl><tpl if="!jack_slocum">Woot!</tpl>'
-      );
-   var str = tpl.apply(data);
-</pre>
+var str = tpl.apply(data);
+```
 
 I am planning on making a wrapper for TT for our stuff that will allow an anonymous function that will do data transformation like above. But as you can see above XTemplate really has more to offer, it just annoys the heck out of me on a regular basis :-)

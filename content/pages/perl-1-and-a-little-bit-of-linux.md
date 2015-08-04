@@ -26,12 +26,12 @@ Ok, so you guys who are new to Linux are thinking, "Well Gnarly! But how do I ru
 
 pico hello.pl
 
-<pre>
-<type in="in" text="text" the="the">
+```
+<type in the text>
 Ctrl-X
 Yes
 <enter>
-</enter></type></pre>
+```
 
 So now you have the file with hello world in it. Now you need to make it executable. To do this, you type, at the command prompt:
 
@@ -103,9 +103,9 @@ or you would maybe also write:
 
 or for even less syntax:
 
-<pre>
-my @name = qw<gundog frew="frew" mumtaz="mumtaz">;
-</gundog></pre>
+```
+my @name = qw<gundog frew mumtaz>;
+```
 
 Did you notice the bonus comma in there? Yeah, you don't HAVE to do that, it is just nice if you want to add stuff later. Also note the use of the qw function; it let's is automatically **q**uote **w**ords. Convenient! Station?
 
@@ -254,9 +254,9 @@ You want to get input from the user so that you can make a program that will do 
 
 First off, how does one get input? Like this!
 
-<pre>
-   my $frew = <stdin>;
-</stdin></pre>
+```
+my $frew = <stdin>;
+```
 
 is a special filehandle that comes from the standard input, which is usually the keyboard, but if you are cool cat, it isn't! (or is it?) (Did you advanced readers get the joke? Didja?)
 
@@ -264,7 +264,7 @@ You will probably notice though, if you are playing around, that when you do thi
 
 input\_example.pl
 
-<pre>
+```
 #!/usr/bin/perl
 
 use strict;
@@ -278,11 +278,13 @@ print "Who is dis is? ";
 $name = <stdin>;
 chomp $name;
 say "Why hello, $name, I thought you were out of town!";
-</stdin></pre>
+```
 
 The above is pretty straightforward. There two things to point out though. One is that in general, parenthesis in perl are not required, as you can see with the chomp. But they can't hurt, and sometimes they really are needed. Also, whenever I do input, I do:
 
-<pre>chomp($name = <stdin>)</stdin></pre>
+```
+chomp($name = <stdin>)
+```
 
 That kinda takes out the middle man...or something.
 
@@ -290,7 +292,7 @@ Fun!
 
 madlib.pl
 
-<pre>
+```
 #!/usr/bin/perl
 
 use warnings;
@@ -321,7 +323,7 @@ say "away!";
 say "Then my dad got home and his $adjectives[1] suit was all";
 say "$adjectives[2]!";
 say "We all had a good laugh after that and went out for pizza.";
-</stdin></stdin></stdin></pre>
+```
 
 You'll notice the split command. Basically it takes a string, splits it on the character that you give it, and returns an array. Also I am sure qq is sticking out at you. It is basically double-quotes (note the two **q**'s) that lets you keep your quotes in without escaping them.
 
@@ -331,23 +333,23 @@ First off, if-then statements.
 
 the general format is
 
-<pre>
-if (<expression>) \{
+```
+if (<expression>) {
  stuff;
-\}
-</expression></pre>
+}
+```
 
 or:
 
-<pre>
-if (<expression>) \{
+```
+if (<expression>) {
  stuff;
-\} elsif (<expression>) \{
+} elsif (<expression>) {
  more stuff;
-\} else \{
+} else {
  even more stuff;
-\}
-</expression></expression></pre>
+}
+```
 
 Now, the first thing I have to tell you is that, unlike C or Java, the braces are absolutely required. They said it was to reduce ambiguity, which is a little paradoxical since this like...perl. Oh well.
 
@@ -359,7 +361,7 @@ I don't have a clue why you would use any of the ones other than eq and ne, but 
 
 password.pl
 
-<pre>
+```
 #!/usr/bin/perl
 
 use warnings;
@@ -370,27 +372,27 @@ my $password;
 
 print "Input the password now: ";
 chomp($password = <stdin>);
-if ($password eq "Station") \{
+if ($password eq "Station") {
  print "Ok, now you have access to the secret.  The secret is:
-SR-71's are hiding at my casa!\\n";
-\} else \{
- print "The world is on fire.  Run.\\n";
-\}
-</stdin></pre>
+SR-71's are hiding at my casa!\n";
+} else {
+ print "The world is on fire.  Run.\n";
+}
+```
 
 Ok, so check it now. There are a couple types of loops in perl that I can think of off hand. First, the while loop.
 
-<pre>
-while (<expression>) \{
+```
+while (<expression>) {
  stuff;
-\}
-</expression></pre>
+}
+```
 
 Pretty standard. Example:
 
 tellme.pl
 
-<pre>
+```
 #!/usr/bin/perl
 
 use strict;
@@ -400,19 +402,19 @@ use feature ':5.10';
 
 my $location = "I don't know!";
 
-while ($location ne "at the house") \{
+while ($location ne "at the house") {
  print "Where's the money punk! ";
  chomp($location = <stdin>);
-\}
+}
 
 say "Alright, we won't have to break your fingers. Get outta here!";
-</stdin></pre>
+```
 
 Ok, now this is one of the gnarly things about perl. Let's say you want someone to type out something really huge, and then you want the first word of each line they type. Well, this should do the trick: (Note: In linux you have to press Ctrl-D to tell it you are done. Ctrl-D means end of file.)
 
 wordsmith.pl
 
-<pre>
+```
 #!/usr/bin/perl
 
 use warnings;
@@ -421,16 +423,16 @@ use diagnostics;
 
 my @words;
 
-while (<stdin>) \{
- my @tmp\_words = split(' ', $\_);
- $words[$#words + 1] = $tmp\_words[0];
-\}
+while (<stdin>) {
+ my @tmp\_words = split(' ', $_);
+ $words[$#words + 1] = $tmp_words[0];
+}
 
-for (@words) \{
- print $\_.' ';
-\}
-print "\\n";
-</stdin></pre>
+for (@words) {
+ print $_.' ';
+}
+print "\n";
+```
 
 This demonstrates a couple concepts. First off, a while() will iterate through each line. The $\_ is the magical variable that means the current value in the loop. It's neat! Also note the for. It basically iterates through each item in @words and prints it out with a space afterwards.
 

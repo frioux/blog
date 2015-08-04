@@ -68,10 +68,11 @@ That's pretty common in Ext. People run into this kind of thing all the time bec
 
 But that's chump change to what I had to do below. Read (17-19):
 
-<pre>Ext.ns('ACDRI.ui');
+```
+Ext.ns('ACDRI.ui');
 
 ACDRI.ui.CustomerContacts = Ext.extend(
-  ACDRI.ui.Grid, \{
+  ACDRI.ui.Grid, {
     addFunction: function() {
        var win;
        win = new ACDRI.ui.FormWindow({
@@ -83,7 +84,7 @@ ACDRI.ui.CustomerContacts = Ext.extend(
                  customer_id: this.customer_id
               },
               xtype: 'customer_contact_form',
-              //  \/  Look here  \/
+              //  /  Look here  /
               successFunction: function() {
                  this.getStore().load();
               }.createDelegate(this),
@@ -150,11 +151,11 @@ ACDRI.ui.CustomerContacts = Ext.extend(
       ACDRI.ui.CustomerContacts.superclass.
         initComponent.apply(this, arguments);
     }
- \});
+ });
 
-Ext.reg('customer\_contacts',
+Ext.reg('customer_contacts',
     ACDRI.ui.CustomerContacts);
-</pre>
+```
 
 See, the scope option is Ext specific. When you start doing your own stuff (like I am) you have to deal with scope yourself. createDelegate (bind in Prototype) helps us set the scope in a function. It gives us a new anonymous function with the scope set to whatever we passed it.
 

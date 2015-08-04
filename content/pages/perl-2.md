@@ -116,7 +116,7 @@ die is a good one to know. You could do this:
 
 i\_could\_just\_die.pl
 
-<pre>
+```
 #!/usr/bin/perl
 
 use warnings;
@@ -124,9 +124,9 @@ use strict;
 use diagnostics;
 
 chomp(my $enemy = <stdin>);
-die "CATHERINE IS NOT MY ENEMY!\\n" if $enemy eq 'Catherine';
-print "You're dumb $enemy.\\n";
-</stdin></pre>
+die "CATHERINE IS NOT MY ENEMY!\n" if $enemy eq 'Catherine';
+print "You're dumb $enemy.\n";
+```
 
 basically die is an error message. It's throwing an exception. Fjord tell's me that perl's exception handling is not exactly exceptional.... Get it?
 
@@ -328,7 +328,7 @@ Anyway, here is a simplified version of my parser for your knowledge. We will bu
 
 parser.pl
 
-<pre>
+```
 #!/usr/bin/perl
 
 use warnings;
@@ -336,17 +336,17 @@ use strict;
 use diagnostics;
 use feature ':5.10';
 
-while (<stdin>) \{
-   given($\_) \{
+while (<stdin>) {
+   given($_) {
       when (/^tell '([a-zA-Z_]+)' i said '(.*)'$/) {
          say "Screenname: $1\nMessage: $2\n";
       }
       default {
-         say "&lt;$_&gt; doesn't match!";
+         say "<$_> doesn't match!";
       }
-   \}
-\}
-</stdin></pre>
+   }
+}
+```
 
 Play with that. It is pretty cool right? A couple things. First off, that weird [a-zA-Z\_] is a character class. Basically what it does is match any lowercase, uppercase, or underscore character. You could do: [abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\_], but the - does what you would guess. Character classes basically allow you to match any of a certain type of characters. [aeiouAEIOU] could be a vowel character class. Now, there is a simpler, more perly way to do what I did above. In perl, \\w is the same as [a-zA-Z\_]. It means word character. Similarly, . is one of those shortcuts. It means match (almost) ANY character. I am pretty sure that it will not match newlines, unless you do something funny.
 
@@ -358,7 +358,7 @@ Well, the regex above is a little picky. So how about we modify it so that peopl
 
 parse\_one\_more.pl
 
-<pre>
+```
 #!/usr/bin/perl
 
 use warnings;
@@ -366,17 +366,17 @@ use strict;
 use diagnostics;
 use feature ':5.10';
 
-while (<stdin>) \{
-   given($\_) \{
+while (<stdin>) {
+   given($_) {
       when (/^tell\s+'(\w+)'\s+i\s+said\s+'(.*)'$/i) {
          say "Screenname: $1\nMessage: $2\n";
       }
       default {
          say "&lt;$_&gt; doesn't match!";
       }
-   \}
-\}
-</stdin></pre>
+   }
+}
+```
 
 New stuff: \\s is a whitespace character class. So we now accept any number of spaces, tabs, or other space things I don't know about. the i after the terminating slash means case-insensitive. Good! Try it!
 

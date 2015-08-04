@@ -9,35 +9,35 @@ It's Friday, so a long post is **not** in order. With that in mind, a simple ref
 
 before:
 
-<pre>
-   my @files = File::Find::Rule-&gt;file()-&gt;name('\*.t')
-      -&gt;maxdepth( 1 )-&gt;in(
-         File::Spec-&gt;catdir(
-            $self-&gt;get_directory, 't'
-      ) );
+```
+my @files = File::Find::Rule->file()->name('*.t')
+   ->maxdepth( 1 )->in(
+      File::Spec->catdir(
+         $self->get_directory, 't'
+   ) );
 
-   my @total\_results;
+my @total_results;
 
-   foreach my $file (@files) \{
-      push @total_results,
-         "<span class="file">$file</span>";
-      push @total_results,
-         @{ $self-&gt;test( $file ) };
-   \}
-   return join "\\n", @total\_results;
-</pre>
+foreach my $file (@files) {
+   push @total_results,
+      "<span class="file">$file</span>";
+   push @total_results,
+      @{ $self->test( $file ) };
+}
+return join "\n", @total_results;
+```
 
 Do you see what I see? We're iterating over a list and generating a new list... And then we are just doing a join on that. Enjoy the nice and functional rewrite.
 
 after:
 
-<pre>
-   return join "\\n", map \{
-      ( "<span class="file">$_</span>",
-         @{ $self-&gt;test( $_ ) } );
-   \} File::Find::Rule-&gt;file()-&gt;name('\*.t')
-      -&gt;maxdepth( 1 )-&gt;in(
-         File::Spec-&gt;catdir(
-            $self-&gt;get_directory, 't'
-      ) )
-</pre>
+```
+return join "\n", map {
+   ( "<span class="file">$_</span>",
+      @{ $self->test( $_ ) } );
+} File::Find::Rule->file()->name('*.t')
+   ->maxdepth( 1 )->in(
+      File::Spec->catdir(
+         $self->get_directory, 't'
+   ) )
+```
