@@ -57,3 +57,6 @@ Note that the above doesn't work as well for non-github repos.
 `Git::CPAN::Patch` knows how to send patches with `git cpan send-email`, but I
 haven't figured out how to make it work.  If you know how to configure it to
 send via gmail let me know in the comments!
+
+**UPDATE**: [See details that resolve the above issues
+here](/posts/cpan-patch-workflow-ii/).
