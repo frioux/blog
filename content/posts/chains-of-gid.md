@@ -25,7 +25,7 @@ years.  I certainly have a sense of pride from that and I do think that momentum
 of releases is worth something.
 
 So here I am, looking at [my list of outstanding
-issues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+author%3Afrioux).
+issues](https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+author%3Afrioux&type=Issues&ref=searchresults).
 I actually got started on a couple that would qualify but ran into technical
 issues for both.
 
