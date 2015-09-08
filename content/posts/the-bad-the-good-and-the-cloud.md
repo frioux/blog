@@ -7,7 +7,7 @@ guid: "https://blog.afoolishmanifesto.com/posts/the-bad-the-good-and-the-cloud"
 
 # The Bad
 
-This weekend I was worning on a little project that involved manipulating a
+This weekend I was working on a little project that involved manipulating a
 fairly large (1.8 gB compressed, 17 gB uncompressed) 7zip archive.  I don't have
 17 gB to uncompress to on my laptop and a *significant* amount of the archive
 was uninteresting to me.  I thought it would be sortav fun and worthwhile to
