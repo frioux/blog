@@ -68,7 +68,7 @@ files I don't care about I can do:
   grep 'yawn' | \
   cut -b60-   | \
   xargs -d '\n' -n1 -I{} \
-  7zr d Games.7z -r {}
+  7zr d foo.7z -r {}
 ```
 
 This writes a temp file in the current directory (instead of `$TMPDIR`, wah
@@ -82,7 +82,7 @@ megs() perl -E'printf "%0.02f mB\n", (((stat "old.7z")[7] - (stat "new.7z")[7])/
 ```
 
 ```
-newcount() { 7zr l $HOME/tmp/Games.7z | grep 'yawn' | wc -l }
+newcount() { 7zr l $HOME/tmp/new.7z | grep 'yawn' | wc -l }
 new() { local old=5365; local new=$(newcount); echo $(( $old - $new )) }
 ```
 
