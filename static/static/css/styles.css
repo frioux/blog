@@ -162,3 +162,8 @@ nav.navbar {
 #main table>thead>tr>td.danger,#main table>tbody>tr>td.danger,#main table>tfoot>tr>td.danger,#main table>thead>tr>th.danger,#main table>tbody>tr>th.danger,#main table>tfoot>tr>th.danger,#main table>thead>tr.danger>td,#main table>tbody>tr.danger>td,#main table>tfoot>tr.danger>td,#main table>thead>tr.danger>th,#main table>tbody>tr.danger>th,#main table>tfoot>tr.danger>th{background-color:#f2dede;border-color:#eed3d7;}
 #main table>thead>tr>td.warning,#main table>tbody>tr>td.warning,#main table>tfoot>tr>td.warning,#main table>thead>tr>th.warning,#main table>tbody>tr>th.warning,#main table>tfoot>tr>th.warning,#main table>thead>tr.warning>td,#main table>tbody>tr.warning>td,#main table>tfoot>tr.warning>td,#main table>thead>tr.warning>th,#main table>tbody>tr.warning>th,#main table>tfoot>tr.warning>th{background-color:#fcf8e3;border-color:#fbeed5;}
 @media (max-width:768px){#main table{width:100%;margin-bottom:15px;overflow-y:hidden;overflow-x:scroll;border:1px solid #dddddd;}#main table>#main table{margin-bottom:0;background-color:#fff;}#main table>#main table>thead>tr>th,#main table>#main table>tbody>tr>th,#main table>#main table>tfoot>tr>th,#main table>#main table>thead>tr>td,#main table>#main table>tbody>tr>td,#main table>#main table>tfoot>tr>td{white-space:nowrap;} }fieldset{padding:0;margin:0;border:0;}
+.pagination > li:first-child > a, .pagination > li:first-child > span{
+   background-color: #222;
+}
+
+.pagination > li > a, .pagination > li > span { background-color: #222; }

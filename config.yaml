@@ -3,3 +3,4 @@ indexes:
   tag: 'tags'
 baseurl: 'https://blog.afoolishmanifesto.com'
 canonifyurls: false
+paginate: 20
