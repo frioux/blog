@@ -5,8 +5,6 @@ date: "2013-10-19T15:41:48-05:00"
 tags: ["cpan", "dbi", "dbixclass", "dbixintrospector", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1847"
 ---
-# DBIx::Introspector
-
 DBIx::Introspector is a refactorization of some [DBIx::Class](https://metacpan.org/module/RIBASUSHI/DBIx-Class-0.08250/lib/DBIx/Class.pm) code that detects what database a $dbh is connected to, as well as getting various facts from the $dbh. It is currently very much unborn, but given some feedback and battle testing on my own modules I hope to get it released before Christmas of 2013. (Famous last words?)
 
 The gist is that you can do something like the following:
