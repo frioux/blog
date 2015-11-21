@@ -85,16 +85,27 @@ One thing that is annoying about these little daemons is that unless you have re
 
 A really basic implementation of that looks like this:
 
-    my $httpserver = Net::Async::HTTP::Server->new(
-       on_request => sub {
-          my $self = shift;
-          my ( $req ) = @_;
+```
+my $httpserver = Net::Async::HTTP::Server->new(
+   on_request => sub {
+      my $self = shift;
+      my ( $req ) = @_;
 
-          my $response = HTTP::Response->new( 200 );
-          $response->add_content(
-             "     iterations: $ITERATIONS
-
-" ); $response->content\_type( 'text/html' ); $response->content\_length( length $response->content ); $req->respond( $response ); \}, ); $loop->add($httpserver); $httpserver->listen( addr => \{ family => 'inet6', socktype => 'stream', port => 8080, \}, on\_listen\_error => sub \{ die "Cannot listen - $\_[-1]\\n" \}, );
+      my $response = HTTP::Response->new( 200 );
+      $response->add_content(
+         "     iterations: $ITERATIONS"
+      );
+      $response->content_type( 'text/html' );
+      $response->content_length( length $response->content );
+      $req->respond( $response );
+   },
+);
+$loop->add($httpserver);
+$httpserver->listen(
+   addr => { family => ‘inet6’, socktype => ‘stream’, port => 8080 },
+   on_listen_error => sub { die “Cannot listen - $_[-1]\n” },
+);
+```
 
 Obviously you'd have to increment $ITERATIONS in the mq method. Of course this has the same problems as before, you have to make sure to store all the information in variables, so my next experiment is to capture STDOUT and STDERR and keep the last thousand lines of each in memory, and then show that on the status page. I'll also probably add the stuff that got explicitely logged and maybe add some other interesting status info. I'll blog about that too when I get it working.
 
