@@ -77,7 +77,7 @@ So next up is a basic inflection function that gives us all the different forms 
 
 So that uses [String::CamelCase](http://search.cpan.org/perldoc?String::CamelCase) and [Lingua::EN::Inflect](http://search.cpan.org/perldoc?Lingua::EN::Inflect) combined with join and split mostly.
 
-We're \*almost\* ready to generate a record. But first we need to define a mapping from the data type in the database to the data type that Ext uses:
+We're *almost* ready to generate a record. But first we need to define a mapping from the data type in the database to the data type that Ext uses:
 
     my $types_xform = {
        int => 'int',
