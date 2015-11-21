@@ -11,16 +11,12 @@ One thing I found interesting is that mst didn't document the tags stuff anywher
 
 For those unwilling to click the link, LOOK:
 
-      sub quux {
-        use HTML::Tags;
-
-,
-
-, "YAY",
-
-,
-
-; \}
+```
+sub quux {
+  use HTML::Tags;
+  <html>, <body id="spoon">, "YAY", </body>, </html>;
+}
+```
 
 Also not included is Zoom, which I can't seem to get to since shadowcat servers are DOWN. Zoom seems like something that should at least be referenced by Web::Simple. Zoom seems like the future of HTML templating to me; basically it uses xpath or css selectors to fill in values, instead of just putting text in text. This is good because it doesn't just encourage the production of good HTML, but it also understands the actual structure of HTML, so it allows you to do cool things like OO generation of templates, which you can't to with plaintext nicely.
 
