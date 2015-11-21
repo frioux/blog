@@ -7,31 +7,15 @@ guid: "http://blog.afoolishmanifesto.com/?p=1093"
 ---
 Last night (Thursday) I saw [Bat for Lashes](http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fentity%2FBat-for-Lashes%2FB00197K9W2%3Fie%3DUTF8%26ref%255F%3Dntt%255Fmus%255Fgen%255Fpel&tag=afooman-20&linkCode=ur2&camp=1789&creative=390957)![](https://www.assoc-amazon.com/e/ir?t=afooman-20&l=ur2&o=1) live. It was a really good concert!
 
-You may have heard about Bat for Lashes from their awesome, creepy music video from 2007.
+You may have heard about Bat for Lashes from their [awesome, creepy music video from 2007](https://vimeo.com/14454515).
 
-<object height="344" width="425">
-</object>
-
-<param name="movie" value="http://www.youtube.com/v/n1wnOUH2jk8&hl=en&fs=1&color1=0x006699&color2=0x54abd6" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" />
-
-<embed></embed>
-
-I got the album ([Fur and Gold](http://www.amazon.com/gp/product/B000RHRFUO?ie=UTF8&tag=afooman-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000RHRFUO)![](http://www.assoc-amazon.com/e/ir?t=afooman-20&l=as2&o=1&a=B000RHRFUO)) after hearing that song and was mostly disappointed. The other songs just didn't seem to have the depth and feel as that song. So then recently this year I heard Daniel on Last.fm.
-
-<object height="340" width="560">
-</object>
-
-<param name="movie" value="http://www.youtube.com/v/00ZHah-c0hQ&hl=en&fs=1&color1=0x006699&color2=0x54abd6" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" />
-
-<embed></embed>
+I got the album ([Fur and Gold](http://www.amazon.com/gp/product/B000RHRFUO?ie=UTF8&tag=afooman-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000RHRFUO)![](http://www.assoc-amazon.com/e/ir?t=afooman-20&l=as2&o=1&a=B000RHRFUO)) after hearing that song and was mostly disappointed. The other songs just didn't seem to have the depth and feel as that song. So then recently this year I heard [Daniel](https://www.youtube.com/watch?v=00ZHah-c0hQ) on Last.fm.
 
 Very cool song! Especially when you realize what it's about!
 
 > **Wes**
 >
 > : Khan said in an interview with The Sun newspaper that Daniel was based on a fictional character that she fell in love with as a teenager.
->
-> <br />
 >
 > she fell in love with daniel-san?
 
