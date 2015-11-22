@@ -6,7 +6,7 @@ guid: "http://blog.afoolishmanifesto.com/?p=1086"
 ---
 So yesterday I spent a few hours trying to find a cool domain for the project I am working on in my free time. (By the way, raptorprey.com is open.) After looking at lots of various options, I decided that it would be really cool to get a domain of a latin work with the .US TLD. Too bad I don't know latin right?
 
-[caption id="attachment\_1089" align="aligncenter" width="252" caption="(I can\\'t read this)"][![(I can't read this)](/wp-content/uploads/2009/08/2152967984_08d00d8d2f-252x300.jpg "Latin")](http://www.flickr.com/photos/dandiffendale/2152967984/)[/caption]
+[![(I can't read this)](/wp-content/uploads/2009/08/2152967984_08d00d8d2f-252x300.jpg "I can't read this!")](http://www.flickr.com/photos/dandiffendale/2152967984/)
 
 So I went online and found some cheesy one page latin dictionary that had a few thousand words. I used vim to clean up the data (after saving as plain text) and turn it into a standard format (JSON.) Next I used vim to filter out all the words that didn't end in us. To do that I used a command something like the following:
 
