@@ -36,48 +36,51 @@ That would be great! But how on earth would you do something like that? I starte
 
 That way if I use the Attribute::Handlers system I write a single function that gets a list of roles (amongst other things.) Then came the hard part. How can you change a function in Perl? Well, it turns out that changing a method is Kinda Hard, but
 
-<del>Dave Rolsky</del>
-
-Stevan Little made [Moose](http://search.cpan.org/~drolsky/Moose-0.69/lib/Moose.pm), which makes it totally easy!
+<del>Dave Rolsky</del> Stevan Little made
+[Moose](http://search.cpan.org/~drolsky/Moose-0.69/lib/Moose.pm), which makes it
+totally easy!
 
 So this is the final mockup of how I plan on doing it:
 
-        package MyClass;
-        use feature ':5.10';
-        use Attribute::Handlers;
-        use Moose;
+```
+package MyClass;
+use feature ':5.10';
+use Attribute::Handlers;
+use Moose;
 
-        sub Authorize : ATTR(CODE) {
-           my ($class, $globref, $referent, $attr, $data, $phase, $filename, $linenum) = @_;
+sub Authorize : ATTR(CODE) {
+   my ($class, $globref, $referent, $attr, $data, $phase, $filename, $linenum) = @_;
 
-           # deep magic that gets the name of the function
-           my ($function) = ${$globref} =~ /::([^:]+)$/;
+   # deep magic that gets the name of the function
+   my ($function) = ${$globref} =~ /::([^:]+)$/;
 
-           $class->meta->add_before_method_modifier ($function => sub {
-                 foreach (@{$data}) {
-                    $class->validate($_);
-                 }
-              });
+   $class->meta->add_before_method_modifier ($function => sub {
+         foreach (@{$data}) {
+            $class->validate($_);
+         }
+      });
 
-           return;
+   return;
 
-        }
+}
 
-        sub read_user : Authorize(qw/user_read user_write/) {
-           my $self = shift;
-           say "reading personal files!";
-        }
+sub read_user : Authorize(qw/user_read user_write/) {
+   my $self = shift;
+   say "reading personal files!";
+}
 
-        sub validate {
-           my $self = shift;
-           my $role = shift;
-           say "validating $role for ".$self->user;
-        }
+sub validate {
+   my $self = shift;
+   my $role = shift;
+   say "validating $role for ".$self->user;
+}
 
-        sub user {
-           my $self = shift;
-           return 'frew';
-        }
+sub user {
+   my $self = shift;
+   return 'frew';
+}
+```
+
 
 Debolaz from #perl helped out a lot with this one. The only major thing left is some way to check all functions with the attribute 'Runmode' and ensure that they also have the Authorize attribute with at least one thing in there. That way we can't accidentally forget to authorize people. I don't think that will be very hard, but even if we can't do it, this is still great.
 
