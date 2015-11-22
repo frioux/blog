@@ -7,9 +7,8 @@ guid: "http://blog.afoolishmanifesto.com/?p=562"
 ---
 So I am working on a new way to use perlcritic, and one of the things I'd like perlcritic to check for is a correctly formatted file. Unfortunately the integration between perlcritic and perltidy goes something like this:
 
-Tidy the file with perltidy
-
-Give vague error if tidy file != original file
+ * Tidy the file with perltidy
+ * Give vague error if tidy file != original file
 
 That's fine until you discover that = signs get aligned and apparently you cannot turn that feature off. That means that my code gets marked sketch if I don't align my = signs. That is terrible. So I figured I'd make it easy to tidy up source files.
 
