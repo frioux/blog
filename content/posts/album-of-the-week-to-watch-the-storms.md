@@ -4,7 +4,7 @@ title: "Album of the Week: To Watch the Storms"
 date: "2009-02-24T04:00:49-06:00"
 guid: "http://blog.afoolishmanifesto.com/?p=156"
 ---
-This week's AOTW is [amazonify]B000095IWI::text::::To Watch the Storms[/amazonify] by Steve Hackett. I first heard of Steve Hackett (and also this album) in a sampler from InsideOut. I remember listening to the sampler and being blown away by both the Hackett song and the Flower Kings song. I later ordered this album and have consistently been impressed by the quality of the album.
+This week's AOTW is [To Watch the Storms](http://amazon.com/dp/B000095IWI/) by Steve Hackett. I first heard of Steve Hackett (and also this album) in a sampler from InsideOut. I remember listening to the sampler and being blown away by both the Hackett song and the Flower Kings song. I later ordered this album and have consistently been impressed by the quality of the album.
 
 But quality is not all that it takes to make a great album. This album has an amazing variety of music. For example, The Devil is an Englishman is an unusual techno-rock song, Frozen Statues is an extremely sparse song (I count 2 instruments,) and The Silk Road is a powerful, almost acoustic drum based song. I consider this album prog in the purest sense in that it does very unusual things with music and pulls them off quite nicely.
 

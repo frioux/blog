@@ -4,7 +4,7 @@ title: "Perl 5 to Perl 6: a Reverse Polish Notation Calculator"
 date: "2009-02-28T03:35:31-06:00"
 guid: "http://blog.afoolishmanifesto.com/?p=341"
 ---
-I did this because of the excellent [amazonify]1558607013::text::::Higher-Order Perl[/amazonify].
+I did this because of the excellent [Higher-Order Perl](http://amazon.com/dp/1558607013/).
 
 Here is the Perl 5 code:
 

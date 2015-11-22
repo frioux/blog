@@ -5,7 +5,7 @@ date: "2009-03-07T03:03:13-06:00"
 tags: ["album-of-the-week", "music"]
 guid: "http://blog.afoolishmanifesto.com/?p=123"
 ---
-[amazonify]B00006YXH6::text::::Tallahassee[/amazonify] is the album of the week. This was the first of the higher quality albums put out by [The Mountain Goats](http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fentity%2FMountain-Goats%2FB000AQ792G%3Fie%3DUTF8%26ref%255F%3Dntt%255Fmus%255Fdp%255Fpel&tag=afooman-20&linkCode=ur2&camp=1789&creative=390957). If I were to describe The Mountain Goats concisely I would probably say they are depressing, prolific, and well-read.
+[Tallahassee](http://amazon.com/dp/B00006YXH6/) is the album of the week. This was the first of the higher quality albums put out by [The Mountain Goats](http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fentity%2FMountain-Goats%2FB000AQ792G%3Fie%3DUTF8%26ref%255F%3Dntt%255Fmus%255Fdp%255Fpel&tag=afooman-20&linkCode=ur2&camp=1789&creative=390957). If I were to describe The Mountain Goats concisely I would probably say they are depressing, prolific, and well-read.
 
 I think the lyrics of this band really need to be put at the front stage, so check out these samples:
 

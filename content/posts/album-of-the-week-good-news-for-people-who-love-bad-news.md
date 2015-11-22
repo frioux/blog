@@ -5,7 +5,7 @@ date: "2009-02-03T03:06:55-06:00"
 tags: ["album-of-the-week", "music"]
 guid: "http://blog.afoolishmanifesto.com/?p=160"
 ---
-This Saturday someone broke into my car. They stole my [amazonify]B000BKJZ9Q::text::::GPS unit[/amazonify], my awesome [amazonify]B000982UY2::text::::Treo 650[/amazonify] + [amazonify]B0019K261G::text::::32 Gig SD Card[/amazonify] mp3 player, and the faceplate to my stereo. I am not telling you this so that you'll feel bad for me; I am telling you so that you will understand why I have chosen [amazonify]B0001M7P78::text::::Good News For People Who Love Bad News[/amazonify] by Modest Mouse as the album of the week.
+This Saturday someone broke into my car. They stole my [GPS unit](http://amazon.com/dp/B000BKJZ9Q/), my awesome [Treo 650](http://amazon.com/dp/B000982UY2/) + [32 Gig SD Card](http://amazon.com/dp/B0019K261G/) mp3 player, and the faceplate to my stereo. I am not telling you this so that you'll feel bad for me; I am telling you so that you will understand why I have chosen [Good News For People Who Love Bad News](http://amazon.com/dp/B0001M7P78/) by Modest Mouse as the album of the week.
 
 Out of all of the bands that I know and love, Modest Mouse is probably the second most depressing. Their worldview is almost entirely pessimistic. The music is great in that it's easy to listen to and great to jam out to, but it is also unusual in the strange singing style. Modest Mouse is good to listen to when you are depressed (assuming you don't have suicidal tendencies) and also when you just wanna rock out with the windows down.
 

@@ -4,7 +4,7 @@ title: "Least Favorite Features"
 date: "2009-02-23T04:59:09-06:00"
 guid: "http://blog.afoolishmanifesto.com/?p=288"
 ---
-brian d foy (author of [amazonify]0596527241::text::::numerous[/amazonify] [amazonify]0596102062::text::::perl[/amazonify] [amazonify]0596520107::text::::books[/amazonify]) asked this question on Stack Overflow: ["What are five things you hate about your favorite language?"](http://stackoverflow.com/questions/282329/what-are-five-things-you-hate-about-your-favorite-language)
+brian d foy (author of [numerous](http://amazon.com/dp/0596527241/) [perl](http://amazon.com/dp/0596102062/) [books](http://amazon.com/dp/0596520107/)) asked this question on Stack Overflow: ["What are five things you hate about your favorite language?"](http://stackoverflow.com/questions/282329/what-are-five-things-you-hate-about-your-favorite-language)
 
 I figured that since I am trying to bring perl 6 to fruition (note: I've only written tests, so I am not very good at helping so far) I would pick perl 6 as my favorite programming language. Here was my answer:
 
