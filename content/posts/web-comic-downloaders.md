@@ -11,7 +11,7 @@ Since the beginning of my serious webcomic journey with xkcd, I think that was f
 
     Fromat = "http://foobar.com/comics/%08d.gif"
     1.upto(986) do |i|
-      \`wget #{sprintf(Fromat, i)}\`
+      `wget #{sprintf(Fromat, i)}`
       sleep 1
     end
 
@@ -29,7 +29,7 @@ The next harder are the ones that are based on the date of publication. Usually 
 
     until t == Time.local(2007, 7, 9)
       if MWF.include? t.wday
-        \`wget #{t.strftime(Fromat)}\`
+        `wget #{t.strftime(Fromat)}`
         sleep 3
       end
 
