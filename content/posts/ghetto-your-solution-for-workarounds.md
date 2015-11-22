@@ -11,7 +11,40 @@ Well, I decided that I would update the script so that I wouldn't have those iss
 
 m3u2fru.pl6:
 
+```
+#!/home/frew/personal/rakudo/perl6
+
+use Ghetto;
+
+for =$*IN -> $line {
+   unless $line ~~ /^\#/ {
+      my $file = $line.split('/').pop;
+
+      my $cmd = qq{dcop amarok collection query "SELECT title,artist.name,album.name FROM tags JOIN artist ON artist.id = artist  JOIN album ON album.id = album WHERE url LIKE \\"%/$file\\""};
+      my ( $track,$artist,$album ) = Ghetto::run($cmd).split("\n");
+      say $track;
+      say $artist;
+      say $album;
+      say '--';
+   }
+}
+```
+
 fru2m3u.pl6:
+
+```
+#!/home/frew/personal/rakudo/perl6
+
+use Ghetto;
+
+for =$*IN -> $track,$artist,$album,$sep {
+   my $cmd = qq{dcop amarok collection query "SELECT url FROM tags JOIN artist ON artist.id = artist  JOIN album ON album.id = album WHERE artist.name = \\"$artist\\" and album.name = \\"$album\\" and title = \\"$track\\""};
+   # this insanity is to take the first character off because amaroK adds a
+   # . to the front of all the file names.  There's probably a better way
+   # to do this.
+   say Ghetto::run($cmd).split("\n")[0].reverse.chop.reverse;
+}
+```
 
 But the more important part, is the Ghetto module. Currently rakudo does not have any way to get the output of a command, but it can read from files, so we can fake it:
 
