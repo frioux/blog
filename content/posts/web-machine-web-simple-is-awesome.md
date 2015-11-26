@@ -5,7 +5,10 @@ date: "2012-06-27T15:30:30-05:00"
 tags: ["catalyst", "cpan", "perl", "webmachine", "websimple"]
 guid: "http://blog.afoolishmanifesto.com/?p=1750"
 ---
-I really like "REST," which the pedantic of you will realize is really just using more than just basic HTTP. I've gotten used to a handy REST-y pattern with [Catalyst](https://metacpan.org/module/Catalyst), which, though verbose, is pretty neat:
+I really like "REST," which the pedantic of you will realize is really just
+using more than just basic HTTP. I've gotten used to a handy REST-y pattern with
+[Catalyst](https://metacpan.org/module/Catalyst), which, though verbose, is
+pretty neat:
 
     use Catalyst::Controller::Accessors;
 
@@ -80,11 +83,26 @@ I really like "REST," which the pedantic of you will realize is really just usin
        $c->stash->{rest} = { success => 1 };
     }
 
-That's cool. I'm pretty happy with it, except it's frustratingly un-reusable. If I wanted to make this reusable I'd have to make a parameterized role or something to make the method names dynamic and then if I want to wrap one of the methods to change how it works to add validation or something it's all weird and blah blah blah. It's feasible for sure, but I just decided that would have to wait for some better tech.
+That's cool. I'm pretty happy with it, except it's frustratingly un-reusable. If
+I wanted to make this reusable I'd have to make a parameterized role or
+something to make the method names dynamic and then if I want to wrap one of the
+methods to change how it works to add validation or something it's all weird and
+blah blah blah. It's feasible for sure, but I just decided that would have to
+wait for some better tech.
 
-Well, at YAPC this year Stevan Little did a talk about [Web::Machine](https://metacpan.org/module/Web::Machine). Web::Machine is a nice ... pattern? that was originally implemented in Erlang, then ported to ruby, etc etc. The cool thing about Web::Machine is that it makes using more of HTTP extremely easy. For example, if you use it right you get more than just 200 and 500 status codes, and you get lots of nice HTTP headers that have actual meaning.
+Well, at YAPC this year Stevan Little did a talk about
+[Web::Machine](https://metacpan.org/module/Web::Machine). Web::Machine is a nice
+... pattern? that was originally implemented in Erlang, then ported to ruby, etc
+etc. The cool thing about Web::Machine is that it makes using more of HTTP
+extremely easy. For example, if you use it right you get more than just 200 and
+500 status codes, and you get lots of nice HTTP headers that have actual
+meaning.
 
-Add [Web::Simple](https://metacpan.org/module/Web::Simple)'s super neat dispatching that allows more comprehensible chaining and I can reimplement the above, reusably, easily. Note that my example is a little different since I haven't actually ported anything, just written new stuff. First off, I implemented two roles, that do the above generically:
+Add [Web::Simple](https://metacpan.org/module/Web::Simple)'s super neat
+dispatching that allows more comprehensible chaining and I can reimplement the
+above, reusably, easily. Note that my example is a little different since I
+haven't actually ported anything, just written new stuff. First off, I
+implemented two roles, that do the above generically:
 
     package DU::WebApp::Resource::Role::Set;
 
@@ -273,4 +291,6 @@ And then lastly I wrap it all together with a Web::Simple dispatcher:
 
     DU::WebApp->run_if_script;
 
-There's more to it of course. Just by reading the above you can see that there are some missing pieces. To see the full thing checkout my little drinkup program [at github](http://github.com/frioux/drinkup).
+There's more to it of course. Just by reading the above you can see that there
+are some missing pieces. To see the full thing checkout my little drinkup
+program [at github](http://github.com/frioux/drinkup).

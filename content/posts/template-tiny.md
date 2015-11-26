@@ -5,17 +5,42 @@ date: "2010-01-26T06:53:34-06:00"
 tags: ["cpan", "extjs", "javascript", "template-tiny", "template-toolkit", "templatetiny"]
 guid: "http://blog.afoolishmanifesto.com/?p=1277"
 ---
-(Sorry if you [heard this already](http://use.perl.org/~Alias/journal/40126?from=rss) :-) )
+(Sorry if you [heard this
+already](http://use.perl.org/~Alias/journal/40126?from=rss) :-) )
 
-At $work we do as much "view" type code as we can in JavaScript with the ExtJS framework. I have personally found it to be a great framework to work with, although often it is lacking in the non-UI department. One thing that at first I really liked about Ext was their [Template](http://www.extjs.com/deploy/dev/docs/?class=Ext.Template) and [XTemplate](http://www.extjs.com/deploy/dev/docs/?class=Ext.XTemplate) classes. But as time went on I got more and more annoyed with those modules.
+At $work we do as much "view" type code as we can in JavaScript with the ExtJS
+framework. I have personally found it to be a great framework to work with,
+although often it is lacking in the non-UI department. One thing that at first I
+really liked about Ext was their
+[Template](http://www.extjs.com/deploy/dev/docs/?class=Ext.Template) and
+[XTemplate](http://www.extjs.com/deploy/dev/docs/?class=Ext.XTemplate) classes.
+But as time went on I got more and more annoyed with those modules.
 
-I've always thought that [Template-Toolkit](http://search.cpan.org/perldoc?Template) was a really nice templating library to work with. I hate templating html because of all the weird little gotchas having to do with CSS and whatnot, but doing almost all that kind of work in JavaScript I have started missing Template-Toolkit. At some point I heard about [Template::Tiny](http://search.cpan.org/perldoc?Template::Tiny) and this past Saturday I thought, "that's like, 160 LOC...I could probably port that to javascript!"
+I've always thought that
+[Template-Toolkit](http://search.cpan.org/perldoc?Template) was a really nice
+templating library to work with. I hate templating html because of all the weird
+little gotchas having to do with CSS and whatnot, but doing almost all that kind
+of work in JavaScript I have started missing Template-Toolkit. At some point I
+heard about [Template::Tiny](http://search.cpan.org/perldoc?Template::Tiny) and
+this past Saturday I thought, "that's like, 160 LOC...I could probably port that
+to javascript!"
 
-So I did! It's not really done yet, but the current code is [at github](http://github.com/frioux/Template-Tiny-js/blob/master/lib/Template.Tiny.js). I need to finish porting the test suite from Perl 5 to JavaScript so that I can ensure correctness (I am certain I screwed up some stuff.)
+So I did! It's not really done yet, but the current code is [at
+github](http://github.com/frioux/Template-Tiny-js/blob/master/lib/Template.Tiny.js).
+I need to finish porting the test suite from Perl 5 to JavaScript so that I can
+ensure correctness (I am certain I screwed up some stuff.)
 
-Alias mentioned in his post that I use XRegExp (600 LOC) to help out with the Regular Expression support in JavaScript for this module. I actually wasn't going to, since the only thing I needed it for was the /x flag, or to be more clear telling the parser to ignore whitespace, but I want to keep Template.Tiny in sync with the Perl version, and I really don't want to strip out all the whitespace by hand. If someone takes issue with the dep they can fork away :-)
+Alias mentioned in his post that I use XRegExp (600 LOC) to help out with the
+Regular Expression support in JavaScript for this module. I actually wasn't
+going to, since the only thing I needed it for was the /x flag, or to be more
+clear telling the parser to ignore whitespace, but I want to keep Template.Tiny
+in sync with the Perl version, and I really don't want to strip out all the
+whitespace by hand. If someone takes issue with the dep they can fork away :-)
 
-So once it is fully ported I fully intend to use it entirely from now on instead of the Ext templating. But take note, Ext templates and Template.Tinies (what?) really solve different problems and have different goals. The following is a list of Pros and Cons of each:
+So once it is fully ported I fully intend to use it entirely from now on instead
+of the Ext templating. But take note, Ext templates and Template.Tinies (what?)
+really solve different problems and have different goals. The following is a
+list of Pros and Cons of each:
 
 ### Ext.(X)Template
 
@@ -168,4 +193,7 @@ var tpl = new Ext.XTemplate(
 var str = tpl.apply(data);
 ```
 
-I am planning on making a wrapper for TT for our stuff that will allow an anonymous function that will do data transformation like above. But as you can see above XTemplate really has more to offer, it just annoys the heck out of me on a regular basis :-)
+I am planning on making a wrapper for TT for our stuff that will allow an
+anonymous function that will do data transformation like above. But as you can
+see above XTemplate really has more to offer, it just annoys the heck out of me
+on a regular basis :-)

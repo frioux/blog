@@ -11,7 +11,8 @@ This week I finished the following three git conversions:
 - Catalyst-Authentication-Credential-FBConnect
 - Catalyst-Authentication-Credential-OAuth
 
-And I started on the following four git conversions (I think they are ready but I want t0m to sign off on them) :
+And I started on the following four git conversions (I think they are ready but
+I want t0m to sign off on them) :
 
 - Task-Catalyst
 - Catalyst-Plugin-Authentication

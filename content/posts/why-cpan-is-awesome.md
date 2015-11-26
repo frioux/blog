@@ -5,7 +5,9 @@ date: "2009-04-23T03:58:54-05:00"
 tags: ["cpan", "perl", "sockets"]
 guid: "http://blog.afoolishmanifesto.com/?p=570"
 ---
-Have you ever written a server? It's kinda fun! Yes, I'm a nerd. Anyway, I learned the easy way and the hard way to make a server in Perl yesterday. Here's the easy way:
+Have you ever written a server? It's kinda fun! Yes, I'm a nerd. Anyway, I
+learned the easy way and the hard way to make a server in Perl yesterday. Here's
+the easy way:
 
     #!/usr/bin/perl
 
@@ -63,7 +65,11 @@ Have you ever written a server? It's kinda fun! Yes, I'm a nerd. Anyway, I learn
            croak "couldn't close connection! $@";
     }
 
-So that's the Perl code to make a simple server! Unfortunately it is a little incomprehensible, at least to me. A lot of that has to do with the fact that Socket is just a translation of socket.h. Why are all those functions weirdly named? What do they do? I don't know. I don't even care to know. Why? I'm not a C programmer.
+So that's the Perl code to make a simple server! Unfortunately it is a little
+incomprehensible, at least to me. A lot of that has to do with the fact that
+Socket is just a translation of socket.h. Why are all those functions weirdly
+named? What do they do? I don't know. I don't even care to know. Why? I'm not a
+C programmer.
 
 So I found IO::All. Check out the rewrite.
 
@@ -94,4 +100,6 @@ So I found IO::All. Check out the rewrite.
        $s->print($critic->criticisms);
     }
 
-It's like, half the length and so much simpler! Anyway... next up: Web Based, AJAX-y, "threaded" version of PerlCritic coming up soon! (I am using it at work :-) )
+It's like, half the length and so much simpler! Anyway... next up: Web Based,
+AJAX-y, "threaded" version of PerlCritic coming up soon! (I am using it at work
+:-) )

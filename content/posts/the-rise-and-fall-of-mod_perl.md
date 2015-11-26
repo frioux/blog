@@ -62,8 +62,8 @@ DocumentRoot "C:/myapp/root/"
 
 LogLevel warn
 
-LogFormat "%h %l %u %t \"%r\" %&gt;s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
-LogFormat "%h %l %u %t \"%r\" %&gt;s %b" common
+LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
+LogFormat "%h %l %u %t \"%r\" %>s %b" common
 CustomLog "logs/access.log" common
 DefaultType text/plain
 TypesConfig conf/mime.types
@@ -71,6 +71,13 @@ AddType application/x-compress .Z
 AddType application/x-gzip .gz .tgz
 ```
 
-So basically all we do in this configuration is have Apache serve the static files and then proxy the requests to a couple of catalyst dev servers. I used [Srvany.exe](http://support.microsoft.com/kb/137890) and a couple of .bat files to start the catalyst dev servers. It works **much** better than using mod\_perl, and each server sits at about 90M a piece. If we ended up getting a huge site and for some strange reason needed to keep our outfacing server windows, we could actually serve the catalyst parts on a linux server and have apache proxy to those, so it scales very nicely.
+So basically all we do in this configuration is have Apache serve the static
+files and then proxy the requests to a couple of catalyst dev servers. I used
+[Srvany.exe](http://support.microsoft.com/kb/137890) and a couple of .bat files
+to start the catalyst dev servers. It works **much** better than using
+mod\_perl, and each server sits at about 90M a piece. If we ended up getting a
+huge site and for some strange reason needed to keep our outfacing server
+windows, we could actually serve the catalyst parts on a linux server and have
+apache proxy to those, so it scales very nicely.
 
 Anyway, here's to the next 6 months of serving! :-)

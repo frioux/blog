@@ -5,7 +5,10 @@ date: "2009-01-30T16:16:27-06:00"
 tags: ["user-interface", "vim"]
 guid: "http://blog.afoolishmanifesto.com/?p=105"
 ---
-Today I am just going to talk about my favorite vim "stuff." A lot of this I have gathered over the past 3-5 years of serious vim usage. I used vim before that, but not with this heavy of customization. I'll start with the simple stuff and move up from there.
+Today I am just going to talk about my favorite vim "stuff." A lot of this I
+have gathered over the past 3-5 years of serious vim usage. I used vim before
+that, but not with this heavy of customization. I'll start with the simple stuff
+and move up from there.
 
 **Basic settings:**
 
@@ -44,7 +47,8 @@ vnoremap : ;
 
 ```
 
-I also highly recommend the InkPot color scheme for gui mode and metacosm for console mode. Here's some code to pull that off:
+I also highly recommend the InkPot color scheme for gui mode and metacosm for
+console mode. Here's some code to pull that off:
 
     " Favorite Color Scheme
     if has("gui_running")
