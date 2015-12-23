@@ -261,3 +261,7 @@ function _draw()
   print(r.score, r.x - 5, 5)
 end
 ```
+
+Here is the actual catridge; the code is embedded in the image:
+
+![pong](/static/img/pong.p8.png)
