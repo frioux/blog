@@ -10,7 +10,9 @@ commit: build
 push: commit public
 	cd public && git push origin HEAD:up -f
 
-public:
+public: public/.git
+
+public/.git:
 	git init public && cd public && git remote add origin rss.afoolishmanifesto.com:/var/www/blog/repo
 
 watch-server:
