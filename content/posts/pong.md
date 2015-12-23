@@ -6,7 +6,7 @@ guid: "https://blog.afoolishmanifesto.com/posts/pong-for-pico-8"
 ---
 I originally wrote this for the [Pico-8
 Fanzine](http://pico8fanzine.bigcartel.com/) but it was sadly not accepted.  I
-still had a lot of fun writing in in a totally different style than usual.
+still had a lot of fun writing in a totally different style than usual.
 Imagine the following has been printed out, scanned, and reprinted maybe five
 times.
 
