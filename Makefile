@@ -9,12 +9,12 @@ commit: build
 	git add -Af .
 	git ci -m 'derp'
 
-push: commit public
+push: commit | public
 	git push
 	cd public
 	git push origin HEAD:up -f
 
-public: public/.git
+public: | public/.git
 
 public/.git:
 	git init public
