@@ -1,3 +1,5 @@
+.PHONY: clean build commit push watch-server
+
 clean:
 	rm public/* -rf
 
