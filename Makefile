@@ -8,6 +8,7 @@ commit: build
 	cd public && git add -Af . && git ci -m 'derp'
 
 push: commit public
+	git push
 	cd public && git push origin HEAD:up -f
 
 public: public/.git
