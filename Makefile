@@ -1,5 +1,8 @@
 .PHONY: clean build commit push watch-server
 
+watch-server:
+	hugo server --bind=0.0.0.0 --watch
+
 clean:
 	rm public/* -rf
 
@@ -22,6 +25,3 @@ public/.git:
 	git init public
 	cd public
 	git remote add origin rss.afoolishmanifesto.com:/var/www/blog/repo
-
-watch-server:
-	hugo server --bind=0.0.0.0 --watch
