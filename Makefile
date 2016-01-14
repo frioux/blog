@@ -16,12 +16,10 @@ commit: build
 
 push: commit | public
 	git push
-	cd public
-	git push origin HEAD:up -f
+	cd public && git push origin HEAD:up -f
 
 public: | public/.git
 
 public/.git:
 	git init public
-	cd public
-	git remote add origin rss.afoolishmanifesto.com:/var/www/blog/repo
+	cd public && git remote add origin rss.afoolishmanifesto.com:/var/www/blog/repo
