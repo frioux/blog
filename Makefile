@@ -10,8 +10,7 @@ build: clean
 	hugo
 
 commit: build
-	cd public
-	git add -Af .
+	cd public && git add -Af .
 	git ci -m 'derp'
 
 push: commit | public
