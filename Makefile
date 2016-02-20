@@ -1,4 +1,4 @@
-.PHONY: clean build commit push watch-server
+.PHONY: clean build push watch-server
 
 watch-server:
 	hugo server --bind=0.0.0.0 --watch
@@ -9,15 +9,6 @@ clean:
 build: clean
 	hugo
 
-commit: build
-	cd public && git add -Af . && git ci -m 'derp'
-
-push: commit | public
+push: build
 	git push
-	cd public && git push origin HEAD:up -f
-
-public: | public/.git
-
-public/.git:
-	git init public
-	cd public && git remote add origin rss.afoolishmanifesto.com:/var/www/blog/repo
+	cd public && aws s3 sync --delete /pwd/ s3://blog.afoolishmanifesto.com
