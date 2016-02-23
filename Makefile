@@ -11,4 +11,4 @@ build: clean
 
 push: build
 	git push
-	cd public && aws s3 sync --delete /pwd/ s3://blog.afoolishmanifesto.com
+	cd public && ../bin/aws s3 sync --delete /pwd/ s3://blog.afoolishmanifesto.com

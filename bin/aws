@@ -1,0 +1,10 @@
+#!/bin/dash
+
+exec docker run -it --rm \
+  --volume ~/.blog-aws:/.aws  \
+  --volume $(pwd):/pwd   \
+  --user $(id -u)        \
+  frew/aws-cli           \
+  "$@"
+
+# vim: ft=sh
