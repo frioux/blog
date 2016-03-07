@@ -1,0 +1,10 @@
+#!/bin/dash
+
+exec docker run -it --rm          \
+  --volume ~/.blog-s3cmd:/.s3cfg  \
+  --volume $(pwd):/pwd            \
+  --user $(id -u)                 \
+  frew/s3cmd                      \
+  "$@"
+
+# vim: ft=sh
