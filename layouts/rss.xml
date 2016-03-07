@@ -4,7 +4,7 @@
     <link>{{ .Permalink }}</link>
     <language>en-us</language>
     <author>Arthur Axel fREW Schmidt</author>
-    <rights>Copyright (c) 2014, Arthur Axel fREW Schmidt; all rights reserved.</rights>
+    <rights>Copyright (c) 2016, Arthur Axel fREW Schmidt; all rights reserved.</rights>
     <updated>{{ .Date }}</updated>
     {{ range first 10 .Data.Pages }}
     <item>
