@@ -55,7 +55,7 @@ includes at the top right of the article: more than a thousand people died
 because of Katrina.  You can't even imagine that many human beings.  That's a
 lot.
 
-After a week or two I finally was able to verify the livelihood of my family.
+After a week or two I finally was able to determine that my family survived.
 Many people look down on Facebook, Twitter, and other social media because it
 didn't exist when they were kids or some stupid thing like that.  If it had not
 been for LiveJournal I would not have found out that my family was still alive.
