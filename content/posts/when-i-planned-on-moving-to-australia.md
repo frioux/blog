@@ -78,7 +78,7 @@ some post that she knew my family had survived.
 
 ---
 
-If there are lessons to learn from this story, I think they are three:
+If there are lessons to learn from this story, I think they are:
 
  1. You could lose it all pretty quickly; enjoy your loved ones while you can.
  2. [Stop looking at a finger when someone is pointing at the
