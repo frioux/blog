@@ -11,4 +11,4 @@ build: clean
 
 push: build
 	git push
-	cd public && ../bin/s3cmd sync /pwd/ s3://blog.afoolishmanifesto.com
+	cd public && ../bin/s3cmd sync --delete-removed --disable-multipart /pwd/ s3://blog.afoolishmanifesto.com
