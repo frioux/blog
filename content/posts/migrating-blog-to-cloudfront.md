@@ -122,7 +122,7 @@ falsehood) that would add whopping $1.10 to the monthly bill.  That adds up to
 $1.61 per month for CloudFront.
 
 So, worst case scenario, my monthly bill is $2.44 a month.  I suspect it will likely be
-much less than that.  I'll try to remmeber at the end of March to update this
+much less than that.  I'll try to remember at the end of March to update this
 post with what the real price ends up being.
 
 ### Global
@@ -153,7 +153,7 @@ long, especially because I have other plans for Lambda anyway.
 
 ### Slow to Update
 
-Unsurprisngly, because CloudFront is a CDN, there is a TTL on the cached data,
+Unsurprisingly, because CloudFront is a CDN, there is a TTL on the cached data,
 so sometimes it can take a few minutes for a modification to the blog to go
 live.  Not a huge deal, but good to know anyway.
 
