@@ -11,4 +11,4 @@ build: clean
 
 push: build
 	git push
-	cd public && ../bin/s3cmd sync --delete-removed --disable-multipart /pwd/ s3://blog.afoolishmanifesto.com
+	cd public && ../bin/s3cmd sync --delete-removed --disable-multipart /pwd/ s3://blog.afoolishmanifesto.com && ../bin/s3cmd sync --add-header=x-amz-website-redirect-location:/index.xml /pwd/feed/index.html s3://blog.afoolishmanifesto.com/feed/index.html
