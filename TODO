@@ -1,0 +1,3 @@
+ * Set caching headers on everything except feeds to not update for 24h
+ * Set redirects headers on /archive/* pages
+ * Add JS/CSS to invert colors
