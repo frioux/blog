@@ -1,6 +1,6 @@
 #!/bin/dash
 
-redirect() bin/aws s3api copy-object            \
+redirect() aws s3api copy-object                \
    --copy-source blog.afoolishmanifesto.com/$1  \
    --bucket blog.afoolishmanifesto.com --key $1 \
    --website-redirect-location $2               \
