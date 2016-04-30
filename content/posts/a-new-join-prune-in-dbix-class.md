@@ -64,6 +64,6 @@ you will always get the same row.
 ---
 
 [I've pushed the
-change](https://github.com/frioux/dbix-class/commit/f325aba77d916968576cbb82fb9a3bba4eb567cc)
+change](https://github.com/dbsrgits/dbix-class/compare/master...frioux:join-pruner)
 that adds the new join prune to GitHub, and notified the current maintainer of
 `DBIx::Class` in the hopes that it can get merged in for everyone to enjoy.
