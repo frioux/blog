@@ -23,7 +23,7 @@ message of the original branch.  Enjoy!
 
 ---
 
-Recently Craig Glendennig found a query in the ZR codebase that was using
+Recently Craig Glendenning found a query in the ZR codebase that was using
 significant resources; the main problem was that it included a relationship but
 didn't need to.  We fixed the query, but I was confused because `DBIx::Class`
 has a built in [join
