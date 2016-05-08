@@ -1,7 +1,7 @@
 ---
 title: "Putting MySQL in Timeout"
-date: 2016-05-06T15:07:34
-tags: ["mysql", "perl", "percona"]
+date: 2016-05-08T01:04:34
+tags: ["mysql", "perl"]
 guid: "https://blog.afoolishmanifesto.com/posts/put-mysql-in-timeout"
 ---
 At [work](https://www.ziprecruiter.com) we are working hard to scale our service to serve more users and have
@@ -123,11 +123,11 @@ extremely long running DDL takes place and the other (system user) is doing
 replication, basically constantly.
 
 We iterate over the returned queries, immediately killing those that took longer
-than the maximum timeout.  Any queries that our ORM (DBIx::Class) have a little
-bit of logging appended as a comment with JSON in it.  We can use that to tweak
-the timeout further; initially by choking down web requests to a shorter
-timeout, and later we'll likely allow users to set a custom timeout directly in
-that comment.
+than the maximum timeout.  Any queries that our ORM (DBIx::Class) generated have
+a little bit of logging appended as a comment with JSON in it.  We can use that
+to tweak the timeout further; initially by choking down web requests to a
+shorter timeout, and later we'll likely allow users to set a custom timeout
+directly in that comment.
 
 Finally, we kill queries whose client has given up the ghost.  I did a test a
 while ago where I started a query and then killed the script doing the query,
