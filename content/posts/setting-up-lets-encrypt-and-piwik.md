@@ -2,7 +2,7 @@
 title: Setting up Let's Encrypt and Piwik
 date: 2016-05-14T22:49:05
 tags: ["Let's Encrypt", "Piwik", "Apache"]
-guid: "https://blog.afoolishmanifesto.com/posts/Setting up Let's Encrypt and Piwik"
+guid: "https://blog.afoolishmanifesto.com/posts/setting-up-lets-encrypt-and-piwik"
 ---
 Late last week I decided that I wanted to set up [Piwik](https://piwik.org/) on
 my blog.  I'll go into how to do that later in the post, but first I ran into a
