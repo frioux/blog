@@ -41,7 +41,7 @@ use warnings;
 use Devel::Dwarn;
 use DBI;
 use DBI::Profile;
-$DBI::Profile::ON_DESTROY_DUMP = sub{};
+$DBI::Profile::ON_DESTROY_DUMP = undef;
 
 my $dbi_profile = DBI::Profile->new(
   Path => [sub { $_[1] eq 'execute' ? ('query') : (\undef) }]
@@ -138,3 +138,7 @@ where you can end up with invalid SQL, you could use this with post-processing
 to show a formatted query if and only if it round trips.
 
 Now go forth; record some performance information and ensure your app is fast!
+
+**UPDATE:** I modified the `ON_DESTROY_DUMP` to set it to undef instead of an
+empty code reference.  This correctly avoids a lot of work at object destriction
+time.  [Read this for more information](/posts/faster-dbi-profiling).
