@@ -52,6 +52,10 @@ a {
     color: blue;
 }
 
+a:hover {
+    color: red;
+}
+
 #footer {
     margin-bottom: 2em;
 }
