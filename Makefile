@@ -5,6 +5,7 @@ watch-server:
 	hugo server --bind=0.0.0.0 --watch
 
 clean:
+	test -z "$(shell git status --porcelain)" || ( echo 'uncommited changes!'; exit 1)
 	rm public/* -rf
 
 build: clean
