@@ -22,6 +22,6 @@ function applyTheme(style, label) {
 
 window.onload = function() {
     if (localStorage.getItem('b+w')) {
-        applyTheme('styles-inverted')
+        applyTheme('styles-inverted', '🎃')
     }
 };
