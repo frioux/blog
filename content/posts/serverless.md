@@ -1,6 +1,6 @@
 ---
 title: Serverless
-date: 2016-05-28T23:58:25
+date: 2016-06-01T10:58:25
 tags: ["heroku", "lambda", "sandstorm"]
 guid: "https://blog.afoolishmanifesto.com/posts/Serverless"
 ---
