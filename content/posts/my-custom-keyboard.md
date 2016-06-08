@@ -141,7 +141,7 @@ Also, if you didn't already, I recommend reading that short thread.  The folks
 on GeekHack are super friendly, positive, and supportive.  If only the rest of
 the internet could be *half* as awesome.
 
-## Miscelanny
+## Miscellany
 
 The one other little thing I've done to the keyboard is to add small rubber
 O-rings underneath each key.  I have cherry blues (which are supposed to click
