@@ -87,7 +87,7 @@ while (1) {
     }
 
     $connections ||= live_connections();
-    kill_query($row, 'zombie') if $connections->{$row->{host}}
+    kill_query($row, 'zombie') unless $connections->{$row->{host}}
   }
 
   sleep 1;
@@ -106,7 +106,9 @@ sub live_connections {
   my $table = Linux::Proc::Net::TCP->read;
 
   return +{
-    map { $_->rem_address . ':' . $_->local_port => 1 } $table->listeners
+    map { $_->rem_address . ':' . $_->local_port => 1 }
+    grep $_->st eq 'ESTABLISHED',
+    @$table
   }
 }
 ```
