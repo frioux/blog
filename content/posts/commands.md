@@ -9,30 +9,35 @@ guid: "http://blog.afoolishmanifesto.com/?p=1318"
 
 I had to modify it a little for my zsh settings:
 
-    valium [4030] ~acd % history -n 1 | awk {'print $1'} | sort | uniq -c | sort -k1 -rn | head
-       1336 svn
-        419 perl
-        301 git
-        245 rm
-        233 cd
-        179 vi
-        151 ack
-         67 sudo
-         62 cpan
-         61 mv
+```
+valium [4030] ~acd % history -n 1 | awk {'print $1'} | sort | uniq -c | sort -k1 -rn | head
+   1336 svn
+    419 perl
+    301 git
+    245 rm
+    233 cd
+    179 vi
+    151 ack
+     67 sudo
+     62 cpan
+     61 mv
+
+```
 
 I'm sure that my home computer would have the git and svn switched. I'll update this post with that computer's history if I remember.
 
 **update** Here's my home computer:
 
-    FrewSchmidt2 [10021] ~ % history -n 1 | awk {'print $1'} | sort | uniq -c | sort -k1 -rn | head
-       1917 git
-        981 rm
-        831 perl
-        801 vi
-        795 cd
-        344 ls
-        327 svn
-        289 sudo
-        233 mv
-        201 cp
+```
+FrewSchmidt2 [10021] ~ % history -n 1 | awk {'print $1'} | sort | uniq -c | sort -k1 -rn | head
+   1917 git
+    981 rm
+    831 perl
+    801 vi
+    795 cd
+    344 ls
+    327 svn
+    289 sudo
+    233 mv
+    201 cp
+```
