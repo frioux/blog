@@ -21,6 +21,7 @@
                       <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
                       {{ .Content }}
                       Posted {{ .Date.Format "Mon, Jan 2, 2006" }}
+                      {{if ne .Lastmod .Date }}Updated {{ .Lastmod.Format "Mon, Jan 2, 2006" }} {{end}}
                    {{ end }}
                 </div>
              </section>

@@ -1,7 +1,8 @@
 {{ template "chrome/header.html" . }}
           <h1>{{ .Title }}</h1>
           {{ .Content }}
-          Posted {{ .Date.Format "Mon, Jan 2, 2006" }}
+          Posted {{ .Date.Format "Mon, Jan 2, 2006" }}<br />
+          {{if ne .Lastmod .Date }}Updated {{ .Lastmod.Format "Mon, Jan 2, 2006" }} {{end}}
 
           <div id="disqus_thread"></div>
           <div id="disqus_loader" style="text-align: center">
