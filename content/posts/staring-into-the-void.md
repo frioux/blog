@@ -3,6 +3,7 @@ title: Staring into the Void
 date: 2016-06-16T00:06:39
 tags: ["programming", "productivity", "perl", "email"]
 guid: "https://blog.afoolishmanifesto.com/posts/staring-into-the-void"
+aliases: ["/posts/starting-into-the-void/"]
 ---
 Monday of this week either Gmail or [OfflineIMAP](http://www.offlineimap.org/)
 had a super rare transient bug and duplicated all of the emails in my inbox,
