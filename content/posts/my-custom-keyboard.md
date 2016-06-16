@@ -8,6 +8,8 @@ A few years ago [I made my own keyboard](/posts/i-made-my-own-keyboard/),
 specifically an ErgoDox.  I've been very pleased with it in general and I have
 finally decided to write about it.
 
+<!--more-->
+
 # ErgoDox
 
 [The ErgoDox](http://ergodox.org/) is sortav an open-source cross between the

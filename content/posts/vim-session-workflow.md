@@ -8,6 +8,8 @@ guid: "https://blog.afoolishmanifesto.com/posts/vim-session-workflow"
 sessions.](https://github.com/frioux/dotfiles/commit/93d7d433)  I'm very pleased
 with it and would love to share it with anyone who is interested.
 
+<!--more-->
+
 # Session Creation
 
 This is what really made sessions work for me.  Normally in vim when you store a

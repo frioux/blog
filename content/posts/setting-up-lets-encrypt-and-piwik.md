@@ -12,6 +12,8 @@ actually started to attempt to go down the path of getting another certificate
 through them this time, but I ran into technical difficulties that aren't
 interesting enough to go into.
 
+<!--more-->
+
 ## Let's Encrypt
 
 I decided to finally bite the bullet and switch to [Let's

@@ -9,6 +9,8 @@ but these bugs, especially taken together, have caused me quite a bit of rage.
 Writing is an outlet for me and at the very least you can all enjoy the show, so
 here goes!
 
+<!--more-->
+
 # X11 Text Thing
 
 [I tweeted about this one](https://twitter.com/frioux/status/727955721036369920)

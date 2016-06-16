@@ -12,6 +12,8 @@ MySQL](https://blog.afoolishmanifesto.com/posts/put-mysql-in-timeout/) and in
 the referenced code I mentioned parsing said metadata.  We are depending on that
 metadata more and more to set accurate timeouts on certain page types.
 
+<!--more-->
+
 # Adding Metadata to DBI Queries
 
 Because of our increased dependence on query metadata, I decided today that I'd

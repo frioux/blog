@@ -12,6 +12,8 @@ replacing all those print statements with warns (which, for those who don't
 know, are easier to intercept and log) we should just log to the right log
 level.
 
+<!--more-->
+
 ## Enter Quickfix
 
 Quickfix sounds like some kind of bad guy from a slasher movie to me, but it's

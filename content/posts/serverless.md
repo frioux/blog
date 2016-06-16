@@ -10,6 +10,8 @@ around avoiding a virtual machine (or a real machine I guess.)  I have a server
 on Linode that I've been slowly removing services from in an effort to get more
 "serverless."
 
+<!--more-->
+
 It's not about chasing fads.  I am a professional software engineer and I mostly
 use Perl; I sorta resist change for the sake of it.
 

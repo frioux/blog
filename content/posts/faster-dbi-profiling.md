@@ -8,6 +8,8 @@ Nearly two months ago [I blogged about how to do profiling with
 DBI](/posts/dbi-logging-and-profiling), which of course was about the same time
 we did this [at work](https://www.ziprecruiter.com/).
 
+<!--more-->
+
 At the same time there was a non-trivial slowdown in some pages on the
 application.  I spent some time trying to figure out why, but never made any
 real progress.  On Monday of this week Aaron Hopkins pointed out that we had set

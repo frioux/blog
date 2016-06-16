@@ -11,6 +11,8 @@ every year since 2009 and would not skip it, except my wife is pregnant with our
 second child and will be due much too close to this year's YAPC (or should I say
 instead: The Perl Conference?) for me to go.
 
+<!--more-->
+
 There were a lot of conferences that I wanted to check out; PyCon, Monitorama,
 etc etc, but OSCON was the only one that I could seem to make work out with my
 schedule.  I can only really compare OSCON to YAPC and to a lesser extent

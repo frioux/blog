@@ -10,6 +10,8 @@ twice.  I had three copies of every email!  It was annoying, but I figured it
 would be pretty easy to fix with a simple Perl script.  I was right; here's how
 I did it:
 
+<!--more-->
+
 ```
 #!/usr/bin/env perl
 
