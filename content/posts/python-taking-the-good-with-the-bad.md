@@ -32,7 +32,7 @@ summarize it easily now:
 What if you wanted to have a function with an infinite loop in the middle?
 
 In Perl, the typical answer might be to [build an
-interator](http://hop.perl.plover.com/book/pdf/04Iterators.pdf).  This is fine,
+iterator](http://hop.perl.plover.com/book/pdf/04Iterators.pdf).  This is fine,
 but it can be a lot of work.  In Python, you just use normal code, and a special
 keyword, `yield`.  For simple stuff, the closures you have available to you in
 Perl will likely seem less magic.  But for complicated things, like iterating
