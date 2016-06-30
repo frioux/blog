@@ -11,6 +11,8 @@ Here are a couple ways we are trying to ensure we maintain good performance:
  1. Add timeouts to everything
  2. Have as many workers as possible
 
+<!--more-->
+
 ## Timeouts
 
 Timeouts are always important.  A timeout that is too high will allow an
