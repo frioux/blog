@@ -1,0 +1,3 @@
+#!/bin/dash
+
+git grep '\]\([^/]' -- *.md | perl -e 'while (<STDIN>) { while (m/\]\(([^\/].*?)\)/gc) { print "$1\n" } }'

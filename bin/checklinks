@@ -1,0 +1,13 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+use HTTP::Tiny;
+
+my $ua = HTTP::Tiny->new;
+
+while (<STDIN>) {
+   chomp;
+   print "$_ is dead\n" unless $ua->get($_)->{success}
+}
