@@ -9,7 +9,17 @@ guid: "http://blog.afoolishmanifesto.com/?p=1315"
 
 ### Roles
 
-If you don't already know what roles are you probably don't read very many perl blogs etc. [chromatic](http://use.perl.org/~chromatic/journal/) has written a [series](http://www.modernperlbooks.com/mt/2009/04/the-why-of-perl-roles.html) [of](http://www.modernperlbooks.com/mt/2009/05/perl-roles-versus-inheritance.html) [blog](http://www.modernperlbooks.com/mt/2009/05/perl-roles-versus-duck-typing.html) [posts](http://www.modernperlbooks.com/mt/2009/05/perl-roles-versus-interfaces-and-abcs.html) [where](http://www.modernperlbooks.com/mt/2009/05/more-roles-versus-duck-typing.html) he discusses the various merits of roles vs whatever your poison is. Maybe read that. This isn't really about that. What this _is_ about though is that [roles aren't always the answer](http://blog.woobling.org/2009/10/roles-and-delegates-and-refactoring.html).
+If you don't already know what roles are you probably don't read very many perl
+blogs etc. [chromatic](http://www.wgz.org/chromatic/) has written a
+[series](http://www.modernperlbooks.com/mt/2009/04/the-why-of-perl-roles.html)
+[of](http://www.modernperlbooks.com/mt/2009/05/perl-roles-versus-inheritance.html)
+[blog](http://www.modernperlbooks.com/mt/2009/05/perl-roles-versus-duck-typing.html)
+[posts](http://www.modernperlbooks.com/mt/2009/05/perl-roles-versus-interfaces-and-abcs.html)
+[where](http://www.modernperlbooks.com/mt/2009/05/more-roles-versus-duck-typing.html)
+he discusses the various merits of roles vs whatever your poison is. Maybe read
+that. This isn't really about that. What this _is_ about though is that [roles
+aren't always the
+answer](http://blog.woobling.org/2009/10/roles-and-delegates-and-refactoring.html).
 
 ### Delegation
 
