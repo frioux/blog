@@ -16,7 +16,7 @@ with DTrace, though both are pretty great.
 
 Some time last week I was reading [Julia Evans'](http://jvns.ca) [Blog post
 about `perf`](http://jvns.ca/blog/2014/05/13/profiling-with-perf/).
-I followed her bread crumbs to [Brendan Gregg's](www.brendangregg.com) [Perf
+I followed her bread crumbs to [Brendan Gregg's](http://www.brendangregg.com) [Perf
 Page](http://www.brendangregg.com/perf.html).  I went on to read myriad
 posts and slides by Gregg that made me hungry to learn more about `perf`
 and eventaully `ftrace`.  See more links in the bibliography.

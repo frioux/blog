@@ -14,7 +14,7 @@ This all pales in comparison to the *really* big news this week:
 
 Saturday morning I noticd that Freenode was blocking my IRC client because I was
 on some blocklist (DroneBL, to be specific.)  I looked into it briefly with
-[mst](shadow.cat/blog/matt-s-trout/)'s help.  I verified that I wasn't an open
+[mst](http://shadow.cat/blog/matt-s-trout/)'s help.  I verified that I wasn't an open
 email relay with [an automated tool](http://www.mailradar.com/openrelay/) and
 then manually checked that I wasn't accidentally proxying any http without
 realizing it.  Matt's idea was that maybe their was an automated check for an

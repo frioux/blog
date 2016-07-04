@@ -9,7 +9,10 @@ At work we have a certain customer who has a database with something like 250 re
 
 The first step was to use [DBIx::Class::Schema::Loader](http://search.cpan.org/perldoc?DBIx::Class::Schema::Loader,), which looks at the table structure and generates a bunch of perl files. Then we just use DBIC as normal. Unfortunately this is in a CGI environment, without mod\_perl, or FastCGI or any of that stuff. That means not only is this loading all 250 files (each 25~ K in size,) but also parsing them etc. Just to be clear, we have a 15 second startup time. Have fun telling your customer that that's better in an AJAX context.
 
-So that was just **Not Okay**. I asked in #dbix-class and robkinyon suggested that I make a YAML file that would represent all of the tables. He couldn't give me code and it was Friday, but I did get my code to add columns on the fly, so it couldn't be much harder to go from there, could it?
+So that was just **Not Okay**. I asked in #dbix-class and Rob Kinyon suggested
+that I make a YAML file that would represent all of the tables. He couldn't give
+me code and it was Friday, but I did get my code to add columns on the fly, so
+it couldn't be much harder to go from there, could it?
 
 Of course it could! It always will in such a context. So I asked again, what would be the best way to generate in memory classes of a single data structure, in #dbix-class. castaway recommended subclassing DBIx::Class::Schema::Loader to do what I wanted. So that took a few hours to get to work, including figuring out how everything worked. That was really pretty exciting because it was a Good Way to do what I wanted. Too bad there are some Schema::Loader implementation issues.
 

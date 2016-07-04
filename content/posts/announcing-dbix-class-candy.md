@@ -5,7 +5,16 @@ date: "2010-07-21T05:17:28-05:00"
 tags: ["cpan", "dbixclass", "dbixclasscandy", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1390"
 ---
-Over a year ago I read [this blog post](http://www.dmclaughlin.com/2009/04/19/ugly-perl-a-lesson-in-the-importance-of-api-design/). To be honest at the time I thought it was mostly silly and I still feel that way. The things that are important to me in an ORM are capabilities, not subjective prettiness of code. But, I also get tired of typing repetitive things, **especially** \_\_PACKAGE\_\_->. That's just too many shift keys! So after working on a few different modules and accruing various bits of knowledge here and there I learned what I needed to to create a sugar layer for [DBIx::Class](http://search.cpan.org/perldoc?DBIx::Class) that doesn't throw the baby out with the bath-water.
+Over a year ago I read [this blog
+post](https://web.archive.org/web/20160308032016/http://dmclaughlin.com/2009/04/19/ugly-perl-a-lesson-in-the-importance-of-api-design).
+To be honest at the time I thought it was mostly silly and I still feel that
+way. The things that are important to me in an ORM are capabilities, not
+subjective prettiness of code. But, I also get tired of typing repetitive
+things, **especially** \_\_PACKAGE\_\_->. That's just too many shift keys! So
+after working on a few different modules and accruing various bits of knowledge
+here and there I learned what I needed to to create a sugar layer for
+[DBIx::Class](http://search.cpan.org/perldoc?DBIx::Class) that doesn't throw the
+baby out with the bath-water.
 
 ----
 
