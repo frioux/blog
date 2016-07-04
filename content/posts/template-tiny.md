@@ -6,7 +6,8 @@ tags: ["cpan", "extjs", "javascript", "template-tiny", "template-toolkit", "temp
 guid: "http://blog.afoolishmanifesto.com/?p=1277"
 ---
 (Sorry if you [heard this
-already](http://use.perl.org/~Alias/journal/40126?from=rss) :-) )
+already](https://web.archive.org/web/20111029132249/http://use.perl.org/~Alias/journal/40126?from=rss)
+:-) )
 
 At $work we do as much "view" type code as we can in JavaScript with the ExtJS
 framework. I have personally found it to be a great framework to work with,

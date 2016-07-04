@@ -4,7 +4,15 @@ title: "JAP(5|6)H"
 date: "2009-11-19T06:00:13-06:00"
 guid: "http://blog.afoolishmanifesto.com/?p=1207"
 ---
-Surely you, dear reader, already know what [this](http://www.dagolden.com/index.php/554/perl-6-is-perl-5/) [post](http://blog.perlassociation.org/2009/11/perl5-and-perl6.html) [is](http://sungo.us/archives/2009/11/17/on_perl5_and_perl6/index.html) [about](http://s1n.dyndns.org/index.php/2009/11/18/unmonger/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+zero-blog+%28zero-blog%29). But on the off-chance that you don't, make sure you read [these](http://use.perl.org/~masak/journal/39912?from=rss) [posts](http://www.shadowcat.co.uk/blog/matt-s-trout/f_ck-perl-6/) from people smarter, more connected, and more balanced than I.
+Surely you, dear reader, already know what
+[this](http://www.dagolden.com/index.php/554/perl-6-is-perl-5/)
+[post](http://blog.perlassociation.org/2009/11/perl5-and-perl6.html)
+[is](http://sungo.us/archives/2009/11/17/on_perl5_and_perl6/index.html)
+[about](http://s1n.dyndns.org/index.php/2009/11/18/unmonger/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+zero-blog+%28zero-blog%29).
+But on the off-chance that you don't, make sure you read
+[these](https://web.archive.org/web/20091125001505/http://use.perl.org/~masak/journal/39912?from=rss)
+[posts](http://www.shadowcat.co.uk/blog/matt-s-trout/f_ck-perl-6/) from people
+smarter, more connected, and more balanced than I.
 
 You may remember the beginnings of the technical posts on this blog. They were mostly sub-par because I had not begun read my articles before posting. I also had the bad habit of [posting more than once a day](/archives/date/2009/01). A lot of those posts were about perl6 and those posts were what got me more involved in blogging. I now have high hopes that I can use perl6 at work one day because of that time for me. perl6 has so many cool features that perl5 just didn't seem to have and will certainly never have in the core...
 

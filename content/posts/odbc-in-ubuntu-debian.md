@@ -5,7 +5,9 @@ date: "2010-04-14T04:16:37-05:00"
 tags: ["dbdodbc", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1231"
 ---
-Ok, so I just had to refer to this unposted post since I [upgraded to perl 5.12](http://use.perl.org/article.pl?sid=10/04/13/1953252) and I figured I'd finally post it.
+Ok, so I just had to refer to this unposted post since I [upgraded to perl
+5.12](https://web.archive.org/web/20100418035017/http://use.perl.org/article.pl?sid=10/04/13/1953252)
+and I figured I'd finally post it.
 
 Here's everything I did to get ODBC working and connected to our MSSQL server at work:
 

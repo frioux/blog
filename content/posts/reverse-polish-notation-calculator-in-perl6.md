@@ -5,7 +5,10 @@ date: "2009-03-03T15:17:31-06:00"
 tags: ["perl6"]
 guid: "http://blog.afoolishmanifesto.com/?p=359"
 ---
-Apparently Patrick Michaud, pumpking of rakudo, read my [post](http://use.perl.org/~pmichaud/journal/38580) yesterday and he came up with an [even better solition](http://use.perl.org/~pmichaud/journal/38580)!
+Apparently Patrick Michaud, pumpking of rakudo, read my
+[post](/posts/perl-5-to-perl-6-a-reverse-polish-notation-calculator/) yesterday
+and he came up with an [even better
+solition](https://web.archive.org/web/20100113121021/http://use.perl.org/~pmichaud/journal/38580)!
 
 I'd read his post if I were you, but here was the code he got it down to (after adding the R meta op :-) ):
 

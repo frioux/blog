@@ -13,10 +13,11 @@ So a couple perl giants I have already heard of responded to my [previous post](
 
 --[mst](http://www.shadowcat.co.uk/blog/matt-s-trout/)
 
-> I’ve a [blog entry](http://use.perl.org/~Ovid/journal/27927)
-> about this. Basically, NULLs can lead to queries which are logically impossible
-> to get correct answers for. They’re rare, but I’ve hit them on larger queries
-> and they’re a nightmare to debug.
+> I’ve a [blog
+> entry](https://web.archive.org/web/20110907042506/http://use.perl.org/~Ovid/journal/27927)
+> about this. Basically, NULLs can lead to queries which are logically
+> impossible to get correct answers for. They’re rare, but I’ve hit them on
+> larger queries and they’re a nightmare to debug.
 >
 > There’s also the problem of what a NULL is supposed to represent. Is the data
 > unknown? Is it not applicable? Is it something else entirely? I often see NULL
@@ -26,7 +27,7 @@ So a couple perl giants I have already heard of responded to my [previous post](
 > you simply not know it? Are they hourly and therefore not salaried? A NULL
 > value could potenitally have four different meanings.
 
---[Ovid](http://use.perl.org/~Ovid/journal/)
+--Ovid
 
 I personally think that they both make good points. I lean the direction of mst, which is that NULL's are ok, but all they mean is that you don't know that piece of information. Treating them as more information than that is probably a bad idea. Normally I'd just make a bit field to represent other information about the field, like why it's NULL or something like that. In general fields should only be NULL when they are optional, which should probably be rare.
 
