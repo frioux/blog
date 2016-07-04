@@ -7,7 +7,13 @@ guid: "http://blog.afoolishmanifesto.com/?p=1557"
 ---
 Ever since I heard about [SD (Simple Defects)](http://syncwith.us/sd/) I've been enamored with the idea of distributed issue tracking. Unfortunately SD is mostly unmaintained, undocumented, slow, and has lots of deps. I could probably get over the latter two, but the first two are deal breakers.
 
-Fast forward eighteen months and I saw [genehack's](http://www.genehack.org/) [App::GitGot](http://beta.metacpan.org/module/App::GitGot). It's a little sluggish (1.35s to merely list repos on my SSD) but it's exciting because it can easily list my repos that are dirty or ahead by X commits. genehack is very receptive to changes, so this gave me an idea. First, what if we also listed how many unmerged brances there were? Next, what about unclosed issues? Obviously both of these ideas require some basic configuration, but it's totally worth it.
+Fast forward eighteen months and I saw [genehack's](http://www.genehack.org/)
+[App::GitGot](https://metacpan.org/module/App::GitGot). It's a little sluggish
+(1.35s to merely list repos on my SSD) but it's exciting because it can easily
+list my repos that are dirty or ahead by X commits. genehack is very receptive
+to changes, so this gave me an idea. First, what if we also listed how many
+unmerged brances there were? Next, what about unclosed issues? Obviously both of
+these ideas require some basic configuration, but it's totally worth it.
 
 I figured that step one would be to make a minimalist bug tracker, storing the information in the current git repo. The idea being that if I have a git tracker I can easily keep track of what I have to do next, so I won't forget what else to do. I've been working on it every day a little bit since YAPC and it's been pretty fun! The only thing is that there are already a few other implementations of what I am doing. I might as well list and evaluate them now.
 

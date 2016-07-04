@@ -23,7 +23,15 @@ Fast-forward a year or two and I'm working at [Micro Technology Services, Inc.](
 
 At some point a year or two after I started I decided to make a new computer for home use. My friend [fjord](https://plus.google.com/u/0/105088029783860927078/posts) convinced me to try out XMonad. I really liked it on my laptop once I learned the key combinations. On the desktop I initially thought that the multihead workspace support was bizarrely buggy, but it turned out to just be sufficiently advanced to appear to be nonsense. I eventually learned that the multihead support was a huge step forward and something I'd be loathe to give up. I [tweaked](https://github.com/frioux/dotfiles/commits/f5b69af69333ff9ea7ba0577ec7f5f34714bafff/xmonad/xmonad.hs) xmonad, but I never really learned haskell. Maybe that's because I'm dumb, maybe it's because haskell has a compiler with bad error messages and pointlessly complex syntax. I used XMonad in anger faithfully until a few weeks ago.
 
-About 6 days before [this year's yapc](http://act.yapcna.org/2012/schedule) I spilled a drink (mellonballer) on my laptop. I couldn't get it fixed at work so I gave up and ordered a new laptop the next day. Said laptop arrived an hour before I left for yapc, which means I left with windows 7 still on it. While at yapc I figured (well, a friend figured out) out how to boot a usb drive and install ubuntu, but I wasn't going to try to get XMonad working with gnome 3 or (or LXDE as I had on one machine, but failed to on another) until I was back home.
+About 6 days before [this year's
+yapc](https://web.archive.org/web/20120322024109/http://act.yapcna.org/2012/schedule)
+I spilled a drink (mellonballer) on my laptop. I couldn't get it fixed at work
+so I gave up and ordered a new laptop the next day. Said laptop arrived an hour
+before I left for yapc, which means I left with windows 7 still on it. While at
+yapc I figured (well, a friend figured out) out how to boot a usb drive and
+install ubuntu, but I wasn't going to try to get XMonad working with gnome 3 or
+(or LXDE as I had on one machine, but failed to on another) until I was back
+home.
 
 So finally, last friday, the 29th, I decided to try to get XMonad to work with LXDE. I should probably elaborate on why that's important to me. XMonad, as far as I could ever find out, doesn't ship with any kind of system tray. I needed a system tray so I could at least run NetworkManager for wifi. I tried wicd and had no luck and really, how much work should a person do on something as boring as making wifi work? So what I did for a long time was have XMonad with a Gnome 2 toolbar. I really liked that configuration, but gnome 2 went the way of the dinosaurs when gnome 3 came out and ruined everything. I could never get Gnome 3 to work so I switched to LXDE and that actually worked really well. The first time. On one machine. I couldn't get it to work again. I even tried getting XMonad to work with [mate](http://mate-desktop.org/) since it's what I wanted, but I was mocked by the xmonad people for not being hardcore enough to reimplement my desktop and the mate people were mostly clueless.
 

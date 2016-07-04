@@ -35,7 +35,12 @@ guid: "http://blog.afoolishmanifesto.com/?p=1561"
 
 # **super status**
 
-**super status** builds upon the ideas explored with [genehack's](http://genehack.org/) [App::GitGot](http://beta.metacpan.org/module/App::GitGot). Specifically, the status command. It lists some of the information above, and is still totally awesome, just not enough. Without colors, I think I'd format the output something like this:
+**super status** builds upon the ideas explored with
+[genehack's](http://genehack.org/)
+[App::GitGot](https://metacpan.org/module/App::GitGot). Specifically, the status
+command. It lists some of the information above, and is still totally awesome,
+just not enough. Without colors, I think I'd format the output something like
+this:
 
 Optional the following would be prepended to the list:
 

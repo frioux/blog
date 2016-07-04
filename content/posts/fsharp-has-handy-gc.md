@@ -14,8 +14,8 @@ destructors were impossible and that the user is instead required to close
 their filehandles, database handles, or whatever other cleanup they need to
 do, within a `finally` block.
 
-When reading the [Book of F#](http://www.nostarch.com/fsharp) I realized
-that C# and other .NET langauges can probably do this as well, since the
+When reading the [Book of F#](https://www.nostarch.com/fsharp) I realized that
+C# and other .NET langauges can probably do this as well, since the
 [IDisposable](http://msdn.microsoft.com/en-us/library/system.idisposable%28v=vs.110%29.aspx)
 interface is how it's referenced.
 

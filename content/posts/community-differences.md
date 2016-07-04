@@ -7,7 +7,7 @@ guid: "http://blog.afoolishmanifesto.com/?p=190"
 ---
 I watched [this keynote](http://www.slideshare.net/petdance/frozen-perl-2009-keynote) from frozen perl this weekend and it was pretty great. There are plenty things to take from this presentation, but the thing I want to mention comes from slides 66-77. Consider that mandatory reading to understand this blog post.
 
-Now read [this](http://www.flickr.com/photos/doesrails/128015501/), [this](http://gilesbowkett.blogspot.com/2009/01/arrington-you-should-have-seen-that.html), and almost any of [these](http://www.zedshaw.com/blog/index.html).
+Now read [this](http://www.flickr.com/photos/doesrails/128015501/), [this](http://gilesbowkett.blogspot.com/2009/01/arrington-you-should-have-seen-that.html), and almost any of [these](https://web.archive.org/web/20090213183116/http://zedshaw.com/blog/index.html).
 
 _Caveat Lector_: All of those links may be outliers. I am certainly not reading a statistically valid sample of The Webternet; so maybe just consider this some random observations from this random dude.
 

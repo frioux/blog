@@ -29,11 +29,30 @@ After arriving in San Salvador we took a smaller bus to the Metro Central, which
 
 We assumed that Raul would grudgingly take us somewhere for dinner and then just drop us off at the hotel and then we would probably spend a lot of the time in the hotel hanging out. It would be a nice trip where two friends would get to visit but that would be all. Fortunately, that was about as far from the truth as dayglo orange is from pink sparkling lipstick. Don't think about that too much...
 
-Raul showed up maybe an hour and a half later with his girlfriend Veronica and said we would go to her house so that she could drop off her car and then use his car for whatever. He asked if we were hungry or if we could wait. We really were not that hungry because our lunch had been so large, so he drove us around for a while. Then he and Veronica decided that it would be good if they took us to the Puerto de Diablo (or, Devil's Door, for the linguistically impaired.) It is basically where two volcanoes grew up right next to each other and made a really thin valley in between, which is the said door. The view was amazing. It was a reasonable hike - Veronica broke one of her favorite sandals - but not such that it was tiring. You can enjoy a small number of pictures at [my flickr](http://flickr.com/photos/frew/tags/puertodediablo/ Puerto de Diablo). Sadly both Lee and I assumed that since we were only going to dinner we would not need to bring a camera.
+Raul showed up maybe an hour and a half later with his girlfriend Veronica and
+said we would go to her house so that she could drop off her car and then use
+his car for whatever. He asked if we were hungry or if we could wait. We really
+were not that hungry because our lunch had been so large, so he drove us around
+for a while. Then he and Veronica decided that it would be good if they took us
+to the Puerto de Diablo (or, Devil's Door, for the linguistically impaired.) It
+is basically where two volcanoes grew up right next to each other and made a
+really thin valley in between, which is the said door. The view was amazing. It
+was a reasonable hike - Veronica broke one of her favorite sandals - but not
+such that it was tiring. You can enjoy a small number of pictures at [my
+flickr](https://flickr.com/photos/frew/tags/puertodediablo/). Sadly both Lee and
+I assumed that since we were only going to dinner we would not need to bring a
+camera.
 
 Now, you all may be wondering who this Raul character is anyway, right? He graduated from LeTourneau Lee's freshman year and was the Student Body President, often abridged to Student Bod. He lived on 2A, the floor beneath my floor, the Flooders. Lee was actually worried that he might be from AO or KZX the on campus societies, see Lee's Flooder shirt, and ditch us completely. Fortunately, being a 2Aer, we had a refreshing camaraderie and lots of stories to tell each other.
 
-After seeing our fill of the Devil's Door, we went to get some Salvadorian cuisine: pupusas. Some say that the Hondurans invented it, but I have not had any in Honduras, so I think of them as Salvadorian and welcome you to do so as well. The pupusas were extremely good. They are basically a bunch of beans, rice, and cheese fried inside of something like a tortilla. It reminded me of potato pancakes, with delicious goo inside. They also had a few with other things, like pumpkin, inside. See a picture [here](http://flickr.com/photos/frew/886999517/ Delicious!).
+After seeing our fill of the Devil's Door, we went to get some Salvadorian
+cuisine: pupusas. Some say that the Hondurans invented it, but I have not had
+any in Honduras, so I think of them as Salvadorian and welcome you to do so as
+well. The pupusas were extremely good. They are basically a bunch of beans,
+rice, and cheese fried inside of something like a tortilla. It reminded me of
+potato pancakes, with delicious goo inside. They also had a few with other
+things, like pumpkin, inside. See a picture
+[here](http://flickr.com/photos/frew/886999517/).
 
 Raul and Veronica drove the two of us around San Salvador for at least an hour, maybe two, more. He showed us where he worked, things he worked on, and other cool sites. It was a great night, but like a wise man once said, "every night has it's dawn." And before that dawn we had to get to bed for church!
 
@@ -49,7 +68,16 @@ After we finished lunch Raul's aunt invited us to go to her house and have desse
 
 While we were at the house she told us stories about hosting events and whatnot there and I could totally understand how someone would host an event at her house. It was very well furnished and beautiful. Sadly I have no pictures of it, but I would like to go back and visit some day, so if anyone wants to come and is willing to fund such a trip, YOU ARE INVITED.
 
-After we had had our fill Raul and Veronica took us to the crater of a volcano. It was really cool. See pictures [here](http://flickr.com/photos/frew/tags/crater/ PICTURES!!!). One cool thing about the crater, which you may or may not be able to see in the pictures, is that people go down in it and there are a bunch of white rocks that they rearrange into their initials or whatever when they get there. It's pretty gnarly! As we left the volcano we got some empanadas. They were basically plantains (like bananas) fried with sugar on the outside and milk or beans on the inside. Delish is the only word I would use to describe them (except for maybe also sweet and affordable.)
+After we had had our fill Raul and Veronica took us to the crater of a volcano.
+It was really cool. See pictures
+[here](http://flickr.com/photos/frew/tags/crater/). One cool thing about the
+crater, which you may or may not be able to see in the pictures, is that people
+go down in it and there are a bunch of white rocks that they rearrange into
+their initials or whatever when they get there. It's pretty gnarly! As we left
+the volcano we got some empanadas. They were basically plantains (like bananas)
+fried with sugar on the outside and milk or beans on the inside. Delish is the
+only word I would use to describe them (except for maybe also sweet and
+affordable.)
 
 After that Raul looked at his watch and realized that it was already 5:00 pm and that we needed to drop Lee off soon and get back so that Raul could play in his weekly soccer game. We began the drive that for the first time seemed far to short to the hotel to get Lee's bag. We then drove him to his house in Verapaz where Raul and Veronica met Lee's host mom. We all got introduced and talked for a few minutes and then we had to go so Raul said, "Bueeeno."
 
