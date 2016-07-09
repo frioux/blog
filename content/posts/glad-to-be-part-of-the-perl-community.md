@@ -20,7 +20,9 @@ First off, here's some context for the varied information I am about to throw ou
   <p>That's an interesting thought. I can understand loyalty. In the past year I've developed a lot of loyalty to the Perl world, and even specific people. I would say that I have a similar amount of loyalty to Larry Wall. But I would also say that I always have reservations to my loyalty to people. People are never perfect and I will never blindly listen to what they say. Especially when it comes to non-technical issues like ethics.</p>
 </del>
 
-Here are a couple points of view that certain women have come to (I found these on [\_why's blog](http://hackety.org/2009/04/29/aSelectionOfThoughtsFromActualWomen.html)).
+Here are a couple points of view that certain women have come to (I found these
+on [\_why's
+blog](http://hackety.org/2009/04/29/aSelectionOfThoughtsFromActualWomen.html)).
 
 [Audrey Eschright](http://dyepot-teapot.com/2009/04/25/dear-fellow-rubyists/): Ruby (and Rails in particular) loves the rock star image. You see it in job posts, how people talk about their work, and the way Rubyists rant on their blogs. It’s macho, it can be offputting to both genders, and it makes it easy in this kind of situation to say, “what’s your problem? I’m just busy being awesome”. It’s also a significant barrier to adoption for people who aren’t already a part of this culture, and don’t find it appealing.
 
