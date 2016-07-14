@@ -8,6 +8,9 @@
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
       (function() {
+        if (window.location.hostname == "localhost")
+           return;
+
         _paq.push(['setTrackerUrl',  'https://api-f70f78b53f2b4d103775e207c8cb3dfc.oasis.sandstorm.io']);
         _paq.push(['setSiteId', 1]);
         _paq.push(['setApiToken', 'YAFD-Rghm4RvlbhzwBwIC4G1o_lSI0c7kZQXCjE0_w4']);
