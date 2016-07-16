@@ -249,9 +249,9 @@ resultset method in that case:
 sub with_friend_count {
    my $self = shift;
 
-   $person_rs->search(undef, {
+   $self->search(undef, {
       '+columns' => {
-         friend_count => $person_rs->correlate('friend')->count_rs->as_query
+         friend_count => $self->correlate('friend')->count_rs->as_query
       }
    }
 }
