@@ -2,7 +2,7 @@
 aliases: ["/archives/1501"]
 title: "New stuff in DBIx::Class::Helpers"
 date: "2011-02-01T01:13:23-06:00"
-tags: ["dbic", "dbixclass", "dbixclasshelpers", "perl"]
+tags: ["dbix-class", "dbix-class-helpers", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1501"
 ---
 I just released a new version of [DBIx::Class::Helpers](http://search.cpan.org/perldoc?DBIx::Class::Helpers) and it has two new components: [DBIx::Class::Helper::ResultSet::ResultClassDWIM](http://search.cpan.org/perldoc?DBIx::Class::Helper::ResultSet::ResultClassDWIM) and [DBIx::Class::Helper::Schema::GenerateSource](http://search.cpan.org/perldoc?DBIx::Class::Helper::Schema::GenerateSource).

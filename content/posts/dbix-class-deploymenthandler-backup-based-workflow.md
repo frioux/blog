@@ -2,7 +2,7 @@
 aliases: ["/archives/1737"]
 title: "DBIx::Class::DeploymentHandler Backup based workflow"
 date: "2012-06-08T16:00:33-05:00"
-tags: ["cpan", "dbixclass", "dbixclassdeploymenthandler", "perl"]
+tags: ["cpan", "dbix-class", "dbixclassdeploymenthandler", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1737"
 ---
 In my last post I wrote about how to make a backup for each migration you run. That's a great trick that opens the door for this next tip.

@@ -2,7 +2,7 @@
 aliases: ["/archives/913"]
 title: "OpenID with Catalyst and more"
 date: "2009-07-29T01:49:12-05:00"
-tags: ["catalyst", "dbic", "dbixclass", "openid", "perl"]
+tags: ["catalyst", "dbix-class", "openid", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=913"
 ---
 Blah blah blah perl marketing navel gazing wasting time blah blah blah perl is alive blah blah blah.

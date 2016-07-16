@@ -2,7 +2,7 @@
 aliases: ["/archives/1717"]
 title: "Introducing DBIx::Class::Helper::Schema::LintContents"
 date: "2012-06-04T14:12:25-05:00"
-tags: ["cpan", "dbixclass", "dbixclasshelperschemalintcontents", "perl"]
+tags: ["cpan", "dbix-class", "dbix-class-helpers", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1717"
 ---
 Surprisingly recently we decided to actually clean up our database in my current project at work and add primary, unique, and foreign key constraints. For most projects that's really not that hard, but because our project is a turn key server and it's deployed on hundreds of customers' sites we can't just fire up a database shell and fix any broken constraints before we deploy them. So I made a tool that would quickly and correctly delete all but one of the duplicates of primary and unique constraints, and would delete the dangling children of broken foreign keys. In the process I also had to make a lot of things non-nullable, which should explain what that's part of this module.

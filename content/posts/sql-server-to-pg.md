@@ -1,7 +1,7 @@
 ---
 title: Converting from SQL Server to Postgres
 date: 2015-05-05T21:16:36
-tags: ["sqlserver", "mssql", "postgresql", "postgres", "pg", "dbic"]
+tags: ["sqlserver", "mssql", "postgresql", "postgres", "pg", "dbix-class"]
 guid: "https://blog.afoolishmanifesto.com/posts/sql-server-to-pg"
 ---
 One of the things that I've been working towards for a long time at my current

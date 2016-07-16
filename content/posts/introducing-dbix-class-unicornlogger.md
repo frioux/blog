@@ -2,7 +2,7 @@
 aliases: ["/archives/1702"]
 title: "Introducing DBIx::Class::UnicornLogger"
 date: "2012-05-25T14:51:44-05:00"
-tags: ["cpan", "dbic", "dbixclass", "dbixclassunicornlogger", "perl"]
+tags: ["cpan", "dbix-class", "dbixclassunicornlogger", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1702"
 ---
 More than a 1.5 years ago we added [color coded, formatted SQL output](/archives/1428) to DBIx::Class. Since then I've tried adding various configurable logging facilities to the core, but I haven't had much luck getting the API for that whipped into shape. So I'm giving up on getting it into the core for now and releasing it separately. It's pretty rough around the edges, but it's a logger, so it's not like you could depend on it working a certain way and get into any kind of trouble with it (yet.)

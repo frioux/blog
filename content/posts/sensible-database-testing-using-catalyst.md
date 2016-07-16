@@ -2,7 +2,7 @@
 aliases: ["/archives/1448"]
 title: "Sensible database testing using Catalyst"
 date: "2010-11-11T02:36:13-06:00"
-tags: ["catalyst", "dbixclass", "perl", "testing"]
+tags: ["catalyst", "dbix-class", "perl", "testing"]
 guid: "http://blog.afoolishmanifesto.com/?p=1448"
 ---
 I've kinda [fallen off the blogging horse](http://www.tmz.com/2010/09/13/big-bang-theory-kaley-cuoco-horse-accident-broken-leg-cbs-maxim/), but most of that is because I've been writing Open Source code in my freetime. I think generally that's a worthwhile tradeoff, but I like blogging in general, when I have stuff to blog about, so I'm gonna try to mix in more blog posts; at least about what I'm doing.

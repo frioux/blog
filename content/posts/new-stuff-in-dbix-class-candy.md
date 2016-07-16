@@ -2,7 +2,7 @@
 aliases: ["/archives/1527"]
 title: "New Stuff in DBIx::Class::Candy"
 date: "2011-03-09T18:05:31-06:00"
-tags: ["cpan", "dbixclass", "dbixclasscandy", "perl"]
+tags: ["cpan", "dbix-class", "dbixclasscandy", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1527"
 ---
 I'm extremely proud to announce a fairly major release of DBIx::Class::Candy, 0.002000. Not only are the tests much more complete as well as the underlying code much more comprehensible, but the usage of the Candy can now be **even** sweeter.

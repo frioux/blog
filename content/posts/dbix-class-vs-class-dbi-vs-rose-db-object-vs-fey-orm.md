@@ -2,7 +2,7 @@
 aliases: ["/archives/822"]
 title: "DBIx::Class vs Class::DBI vs Rose::DB::Object vs Fey::ORM"
 date: "2009-06-19T03:24:22-05:00"
-tags: ["cdbi", "classdbi", "dbic", "dbixclass", "feyorm", "orm", "perl", "rosedbobject"]
+tags: ["cdbi", "classdbi", "dbix-class", "feyorm", "orm", "perl", "rosedbobject"]
 guid: "http://blog.afoolishmanifesto.com/?p=822"
 ---
 Recently (6 monthsish ago) I decided on an ORM to use at $work. It was pretty hard to make a decision because I'd never really used an ORM for a significant amount of time. Now that I am pretty confident with my chosen ORM I feel like I can make a more informed comparison.

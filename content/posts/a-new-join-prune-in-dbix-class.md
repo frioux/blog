@@ -1,7 +1,7 @@
 ---
 title: A new Join Prune in DBIx::Class
 date: 2016-04-29T23:03:27
-tags: ['dbix-class', 'dbic', 'join']
+tags: ['dbix-class', 'join']
 guid: "https://blog.afoolishmanifesto.com/posts/a-new-join-prune-in-dbix-class"
 ---
 At [work](https://www.ziprecruiter.com) a coworker and I recently went on a

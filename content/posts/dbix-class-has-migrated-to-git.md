@@ -2,7 +2,7 @@
 aliases: ["/archives/1349"]
 title: "DBIx::Class has migrated to git!"
 date: "2010-06-04T00:10:12-05:00"
-tags: ["cpan", "dbixclass", "git", "perl"]
+tags: ["cpan", "dbix-class", "git", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1349"
 ---
 # Woohoo! git!

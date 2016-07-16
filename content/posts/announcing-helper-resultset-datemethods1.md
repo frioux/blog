@@ -2,7 +2,7 @@
 aliases: ["/archives/1926"]
 title: "Announcing ::Helper::ResultSet::DateMethods1"
 date: "2014-03-04T14:26:38-06:00"
-tags: ["cpan", "dbixclass", "dbixclasshelpers", "perl"]
+tags: ["cpan", "dbix-class", "dbix-class-helpers", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1926"
 ---
 I have had this ready to go for a few days now, but I figured I might as well wait for Mardi Gras; so feel free to celebrate, put on a masque, and enjoy a nice Hurricane Cocktail while you read this.

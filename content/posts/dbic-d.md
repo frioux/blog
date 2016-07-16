@@ -2,7 +2,7 @@
 aliases: ["/archives/709"]
 title: "DBIC'd"
 date: "2009-05-22T02:41:50-05:00"
-tags: ["dbic", "dbixclass", "orm", "perl"]
+tags: ["dbix-class", "orm", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=709"
 ---
 This is a blogish version of a message I posted to the DBIC Mailing list recently.

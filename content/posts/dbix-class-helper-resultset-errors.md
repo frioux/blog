@@ -1,7 +1,7 @@
 ---
 title: DBIx::Class::Helper::ResultSet::Errors
 date: 2015-02-20T23:04:16
-tags: ["perl", "cpan", "dbic", "dbix-class", "dbix-clas-helpers"]
+tags: ["perl", "cpan", "dbix-class", "dbix-class-helpers"]
 guid: "https://blog.afoolishmanifesto.com/posts/dbix-class-helper-resultset-errors"
 ---
 This is just a quick post to update you all on a nice new helper.

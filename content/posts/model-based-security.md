@@ -2,7 +2,7 @@
 aliases: ["/archives/899"]
 title: "Model Based Security"
 date: "2009-07-08T02:47:02-05:00"
-tags: ["dbic", "dbixclass", "model", "orm", "perl", "programming"]
+tags: ["dbix-class", "model", "orm", "perl", "programming"]
 guid: "http://blog.afoolishmanifesto.com/?p=899"
 ---
 So this is probably old hat to those people who are already big on architecture or know a lot about design patterns, but I thought it was a pretty clever implementation of data security. Anyway, first I'll start off with how I actually did it, and then maybe talk about it in the abstract.

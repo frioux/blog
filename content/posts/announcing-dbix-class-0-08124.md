@@ -2,7 +2,7 @@
 aliases: ["/archives/1444"]
 title: "Announcing DBIx::Class 0.08124"
 date: "2010-10-28T14:54:16-05:00"
-tags: ["anouncement", "cpan", "dbixclass"]
+tags: ["anouncement", "cpan", "dbix-class"]
 guid: "http://blog.afoolishmanifesto.com/?p=1444"
 ---
 Hello all,

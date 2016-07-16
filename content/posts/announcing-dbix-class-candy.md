@@ -2,7 +2,7 @@
 aliases: ["/archives/1390"]
 title: "Announcing DBIx::Class::Candy"
 date: "2010-07-21T05:17:28-05:00"
-tags: ["cpan", "dbixclass", "dbixclasscandy", "perl"]
+tags: ["cpan", "dbix-class", "dbixclasscandy", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1390"
 ---
 Over a year ago I read [this blog

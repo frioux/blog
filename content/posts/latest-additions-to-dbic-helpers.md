@@ -2,7 +2,7 @@
 aliases: ["/archives/1261"]
 title: "Latest additions to DBIC::Helpers"
 date: "2010-01-14T19:30:00-06:00"
-tags: ["dbixclass", "dbixclasshelpers", "perl"]
+tags: ["dbix-class", "dbix-class-helpers", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1261"
 ---
 Yesterday I added a basic but really nice helper to [DBIx::Class::Helpers](http://search.cpan.org/perldoc?DBIx::Class::Helpers). Say hello to [DBIx::Class::Helper::Row::NumifyGet](http://search.cpan.org/perldoc?DBIx::Class::Helper::Row::NumifyGet). The reasoning is that often we have bit fields in our database and when we serialize them with JSON we get something like the following:

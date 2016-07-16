@@ -2,7 +2,7 @@
 aliases: ["/archives/1289"]
 title: "New stuff in DBIx::Class::Helpers 2.00200"
 date: "2010-02-07T07:32:24-06:00"
-tags: ["cpan", "dbixclass", "dbixclasshelpers", "perl"]
+tags: ["cpan", "dbix-class", "dbix-class-helpers", "perl"]
 guid: "http://blog.afoolishmanifesto.com/?p=1289"
 ---
 A new release of the resplendent [Perl ORM](http://search.cpan.org/perldoc?DBIx::Class) [DBIx::Class](http://search.cpan.org/perldoc?DBIx::Class) means new release of [DBIx::Class::Helpers](http://search.cpan.org/perldoc?DBIx::Class::Helpers)
