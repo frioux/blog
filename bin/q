@@ -1,0 +1,72 @@
+#!/usr/bin/env perl
+
+use 5.22.0;
+use warnings;
+use autodie;
+use experimental 'postderef';
+
+use DBI;
+use File::Find::Rule;
+use Getopt::Long;
+my $sql;
+my $formatter;
+GetOptions (
+   'sql=s' => \$sql,
+   'formatter=s' => \$formatter,
+) or die("Error in command line arguments\n");
+
+use YAML 'Load';
+
+
+
+my $dbh = DBI->connect('dbi:SQLite::memory:', {
+      RaiseError => 1,
+});
+
+$dbh->do(<<'SQL');
+   CREATE TABLE articles (
+      title,
+      date,
+      guid,
+      filename
+   )
+SQL
+
+$dbh->do(<<'SQL');
+   CREATE TABLE article_tag ( guid, tag )
+SQL
+
+$dbh->do(<<'SQL');
+   CREATE VIEW _ ( guid, title, date, filename, tag ) AS
+   SELECT a.guid, title, date, filename, tag
+   FROM articles a
+   JOIN article_tag at ON a.guid = at.guid
+SQL
+
+for my $file (File::Find::Rule->file->name('*.md')->in('content')) {
+  open my $fh, '<', $file;
+  my $cnt = 0;
+  my $yaml = "";
+  while (<$fh>) {
+    $cnt ++ if $_ eq "---\n";
+    $yaml .= $_ if $cnt < 2
+  }
+  my $data = Load($yaml);
+  $data->{tags} ||= [];
+
+  $dbh->do(<<'SQL', undef, $data->{guid}, $data->{title}, $data->{date}, $file);
+      INSERT INTO articles (guid, title, date, filename) VALUES (?, ?, ?, ?)
+SQL
+
+  $dbh->do(<<'SQL', undef, $data->{guid}, $_) for $data->{tags}->@*;
+      INSERT INTO article_tag (guid, tag) VALUES (?, ?)
+SQL
+}
+
+my $sth = $dbh->prepare($sql || die "pass some SQL yo\n");
+$sth->execute(@ARGV);
+
+for my $row ($sth->fetchall_arrayref({})->@*) {
+   my $code = $formatter || 'join "\t", map $_[0]{$_}, sort keys $_[0]->%*';
+   say((sub { my %r = $_[0]->%*; eval $code })->($row))
+}

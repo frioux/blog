@@ -1,0 +1,3 @@
+#!/bin/dash
+
+exec perl -pl -e'$_ = "$_:1:-"'

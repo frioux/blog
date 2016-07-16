@@ -1,0 +1,5 @@
+#!/bin/dash
+
+exec bin/q --sql "SELECT filename FROM _ WHERE tag = ?" -- "$1"
+
+# vim: ft=sh

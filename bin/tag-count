@@ -1,22 +1,7 @@
-#!/usr/bin/env perl
+#!/bin/dash
 
-use 5.22.0;
-use warnings;
+exec bin/q \
+   --sql 'SELECT COUNT(*), tag FROM _ GROUP BY tag ORDER BY COUNT(*), tag' \
+   --formatter 'sprintf "%3d  %s", $r{q(COUNT(*))}, $r{tag}'
 
-use sort 'stable';
-
-use experimental 'postderef';
-
-use YAML;
-
-my $yaml = `bin/metadata content/posts/*`;
-my @all_data = Load($yaml);
-
-my @tags = map(($_->{tags}||[])->@*, @all_data);
-my %tags;
-
-$tags{$_}++ for @tags;
-
-for (sort { $tags{$b} <=> $tags{$a} } sort keys %tags) {
-   printf "%3d $_\n", $tags{$_}
-}
+# vim: ft=sh
