@@ -1,0 +1,14 @@
+#!/usr/bin/env perl
+
+use 5.22.0;
+use warnings;
+use autodie;
+
+for my $file (@ARGV) {
+  open my $fh, '<', $file;
+  my $cnt = 0;
+  while (<$fh>) {
+    $cnt ++ if $_ eq "---\n";
+    print $_ if $cnt < 2
+  }
+}
