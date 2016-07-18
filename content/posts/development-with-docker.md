@@ -1,12 +1,12 @@
 ---
 title: Development with Docker
 date: 2016-07-18T07:40:11
-tags: [docker]
+tags: [docker, perl]
 guid: 60A9D0D4-4942-11E6-9F4E-4F8755BD8D92
 ---
 I have not seen a lot of great examples of how to use Docker as a developer.
 There are tons of examples of how to build images; how to use existing images;
-etc. Writing code that will end up running inside of a container and moreso
+etc. Writing code that will end up running inside of a container and more so
 writing code that gets compiled, debugged, and developed in a container is a bit
 tricker.  This post dives into my personal usage of containers for development.
 I don't know if this is normal or even good, but I can definitely vouch that it
@@ -14,7 +14,7 @@ works.
 
 <!--more-->
 
-First off, I am developing with an interpreted langauge most of the time.  I
+First off, I am developing with an interpreted language most of the time.  I
 still think these issues apply with compiled languages but they are easier to
 ignore and sweep under the rug.  In this post I'll show I create layered images
 for developing a simple web service in Perl.  It could be Ruby or Python of
