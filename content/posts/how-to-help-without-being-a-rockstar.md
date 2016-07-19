@@ -2,7 +2,7 @@
 aliases: ["/archives/1100"]
 title: "How to Help without being a Rockstar"
 date: "2009-08-26T01:08:23-05:00"
-tags: ["cpan", "perl", "rt"]
+tags: [cpan, perl, rt]
 guid: "http://blog.afoolishmanifesto.com/?p=1100"
 ---
 I think a lot of people who use perl have the idea that to help the perl ecosystem be they must be rockstars who churn out exorbitant amounts of code that is well tested and well factored. That is just not true!

@@ -2,7 +2,7 @@
 aliases: ["/archives/496"]
 title: "AWOL"
 date: "2009-03-28T23:32:31-05:00"
-tags: ["design", "scrum"]
+tags: [mitsi, design, scrum]
 guid: "http://blog.afoolishmanifesto.com/?p=496"
 ---
 I'm sorry that I've neglected this blog so much the past couple of weeks. I will give excuses promptly, and then I will immediately follow that with another post that you will hopefully find of value :-)

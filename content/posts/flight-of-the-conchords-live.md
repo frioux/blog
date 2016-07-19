@@ -2,7 +2,7 @@
 aliases: ["/archives/638"]
 title: "Flight of the Conchords live"
 date: "2009-05-07T00:43:59-05:00"
-tags: ["concert", "music"]
+tags: [concert, music]
 guid: "http://blog.afoolishmanifesto.com/?p=638"
 ---
 I've decided that seeing a concert warrants a blog post, and that a concert blog post can fill in for an Album of the Week post. If I pay the money to see a concert (typically more than the cost of a CD) I probably like the band that much :-) With that in mind I present to you my most recent concert: **The Flight of the Conchords**.

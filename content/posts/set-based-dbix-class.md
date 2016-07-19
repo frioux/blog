@@ -1,7 +1,7 @@
 ---
 title: Set-based DBIx::Class
 date: 2016-07-16T07:41:34
-tags: ["perl", "dbix-class", "dbix-class-helpers"]
+tags: ["advent", "perl", "dbix-class", "dbix-class-helpers"]
 guid: 64A5161C-4B63-11E6-8918-27C04DBD8D92
 ---
 [This was originally posted to the 2012 Perl Advent

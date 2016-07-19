@@ -1,7 +1,7 @@
 ---
 title: Vim Session Workflow
 date: 2016-06-09T23:58:43
-tags: ["vim", "session"]
+tags: [frew-warez, vim, session]
 guid: "https://blog.afoolishmanifesto.com/posts/vim-session-workflow"
 ---
 [Nearly a year ago I started using a new vim workflow leveraging

@@ -1,7 +1,7 @@
 ---
 title: OfflineIMAP Docker
 date: 2015-02-06T09:44:56
-tags: ["offlineimap", "perl", "docker", "lxc"]
+tags: [frew-warez, "offlineimap", "perl", "docker", "lxc"]
 guid: "https://blog.afoolishmanifesto.com/posts/offlineimap-docker"
 ---
 This needs to be a short one as I don't have a lot of time to write this, but I

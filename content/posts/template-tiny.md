@@ -2,7 +2,7 @@
 aliases: ["/archives/1277"]
 title: "Template.Tiny"
 date: "2010-01-26T06:53:34-06:00"
-tags: ["cpan", "extjs", "javascript", "template-tiny", "template-toolkit", "templatetiny"]
+tags: [mitsi, cpan, extjs, javascript, template-tiny, template-toolkit]
 guid: "http://blog.afoolishmanifesto.com/?p=1277"
 ---
 (Sorry if you [heard this

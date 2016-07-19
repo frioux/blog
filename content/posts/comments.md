@@ -1,7 +1,7 @@
 ---
 title: "Static Site Comments?"
 date: "2014-03-25T08:01:58-05:00"
-tags: ["meta", "blog"]
+tags: [frew-warez, "meta", "blog", "hugo"]
 guid: "https://blog.afoolishmanifesto.com/posts/comments/"
 ---
 [A week ago](/posts/hugo) I blogged about how I ditched WordPress for Hugo.  One

@@ -1,7 +1,7 @@
 ---
 title: "F# has Handy GC"
 date: "2014-03-20T18:28:53-05:00"
-tags: ["fsharp", "gc", "garbage-collection"]
+tags: ["mitsi", "fsharp", "gc", "garbage-collection"]
 guid: "http://blog.afoolishmanifesto.com/posts/fsharp-has-handy-gc/"
 ---
 As mentioned [previously](/posts/fsharp-has-weird-oo) I was recently learning

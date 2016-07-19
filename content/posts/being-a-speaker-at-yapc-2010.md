@@ -2,7 +2,7 @@
 aliases: ["/archives/1365"]
 title: "Being a Speaker at YAPC 2010"
 date: "2010-06-26T17:15:41-05:00"
-tags: ["cpan", "dbix-class", "dbixclassdeploymenthandler", "dbixexceptions", "perl", "yapc", "yapc2010", "yapcna"]
+tags: [frew-warez, cpan, dbix-class, dbix-class-deploymenthandler, dbix-exceptions, perl, yapc]
 guid: "http://blog.afoolishmanifesto.com/?p=1365"
 ---
 This year Rob Kinyon and mst convinced me to do some speaking at YAPC. I ended up doing three forty minute talks. The [DBIx::Class](http://afoolishmanifesto.com/dbic-intro/slideshow.html) one was certainly the easiest, but also the one I was least invested in. I didn't write DBIx::Class and it's a big enough project that the slides nearly wrote themselves.

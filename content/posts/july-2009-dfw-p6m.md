@@ -2,7 +2,7 @@
 aliases: ["/archives/940"]
 title: "July 2009, DFW.p6m"
 date: "2009-07-15T03:54:56-05:00"
-tags: ["dfw-p6m", "p6m", "perl-6-mongers", "perl6"]
+tags: [perl, perl-6, dallas]
 guid: "http://blog.afoolishmanifesto.com/?p=940"
 ---
 Today we had another P6M meeting. There were seven of us despite the fact that three of the regulars were gone at a birthday party, so that was fairly heartening.

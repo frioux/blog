@@ -2,7 +2,7 @@
 aliases: ["/archives/1241"]
 title: "Goals for the New Year"
 date: "2010-01-09T18:35:27-06:00"
-tags: ["2010", "perl", "resolutions"]
+tags: [perl, resolutions, new-year]
 guid: "http://blog.afoolishmanifesto.com/?p=1241"
 ---
 It's been 2010 for almost 10 days now. I have had this list of goals for the new year but I wanted to give them time to gestate before I posted them. I'm pretty happy with the goals and I have high hopes to be able to pull them all off. Not all of them are technical, but a good chunk are.

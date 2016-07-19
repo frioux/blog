@@ -2,7 +2,7 @@
 aliases: ["/archives/562"]
 title: "More Tools Monday"
 date: "2009-04-21T14:48:55-05:00"
-tags: ["perl", "perltidy", "tool"]
+tags: [mitsi, perl-critic, webcritic, perl, perltidy, tool]
 guid: "http://blog.afoolishmanifesto.com/?p=562"
 ---
 So I am working on a new way to use perlcritic, and one of the things I'd like perlcritic to check for is a correctly formatted file. Unfortunately the integration between perlcritic and perltidy goes something like this:

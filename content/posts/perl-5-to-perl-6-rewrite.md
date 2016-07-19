@@ -2,7 +2,7 @@
 aliases: ["/archives/718"]
 title: "Perl 5 to Perl 6 Rewrite"
 date: "2009-05-15T19:13:20-05:00"
-tags: ["perl", "perl6"]
+tags: [mitsi, perl, perl-5, perl-6]
 guid: "http://blog.afoolishmanifesto.com/?p=718"
 ---
 My coworker Wes asked me if there could be a nice refactor for the following function which checks CAS Numbers to ensure their validity. After struggling for 30 minutes I gave up trying to make it a little bit nicer with reduce.

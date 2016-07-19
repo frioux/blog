@@ -2,7 +2,7 @@
 aliases: ["/archives/1828"]
 title: "Some Kickstarters I Have My Eye On"
 date: "2013-01-27T16:24:38-06:00"
-tags: ["life"]
+tags: [life]
 guid: "http://blog.afoolishmanifesto.com/?p=1828"
 ---
 Some fun kickstarters I've got my eye on:

@@ -1,7 +1,7 @@
 ---
 title: Faster DBI Profiling
 date: 2016-05-18T10:07:07
-tags: ["perl", "dbi", "dbix-class"]
+tags: [ziprecruiter, perl, dbi, dbix-class]
 guid: "https://blog.afoolishmanifesto.com/posts/faster-dbi-profiling"
 ---
 Nearly two months ago [I blogged about how to do profiling with

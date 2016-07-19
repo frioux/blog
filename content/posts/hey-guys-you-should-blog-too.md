@@ -2,7 +2,7 @@
 aliases: ["/archives/590"]
 title: "Hey guys!  You should blog too!"
 date: "2009-04-24T03:58:54-05:00"
-tags: ["perl"]
+tags: [perl, meta, blog]
 guid: "http://blog.afoolishmanifesto.com/?p=590"
 ---
 [Check it!](http://www.shadowcat.co.uk/blog/matt-s-trout/iron-man/)

@@ -1,7 +1,7 @@
 ---
 title: Reap slow and bloated plack workers
 date: 2016-06-29T00:46:52
-tags: ["perl", "psgi", "plack", "smaps", "shared-memory", "private-memory"]
+tags: [ziprecruiter, perl, psgi, plack, smaps, shared-memory, private-memory]
 guid: "https://blog.afoolishmanifesto.com/posts/plack-reaper"
 ---
 As [mentioned before](/posts/put-mysql-in-timeout/) at

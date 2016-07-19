@@ -2,7 +2,7 @@
 aliases: ["/archives/886"]
 title: "Chapter 7: Open Source"
 date: "2009-07-04T04:56:06-05:00"
-tags: ["amarok", "cpan", "dbix-class", "firefox", "linux", "mc", "open-source", "perl", "rails", "ruby", "ruby-on-rails", "sqla", "tla", "vim", "zsh"]
+tags: [frew-warez, cpan, dbix-class, linux, open-source, perl, rails, ruby]
 guid: "http://blog.afoolishmanifesto.com/?p=886"
 ---
 Some of you probably know that I have some opinions, thoughts, and ideas. I actually started this blog because I wanted to write my own (can you guess what?) Manifesto. I chose to write it as a blog because I tend to change my mind. Ask some of my friends and family. They have all observed that I was going to be a math teacher, a psychologist, a biological engineer, a doctor, and a writer. (Take note: I am none of those things.)

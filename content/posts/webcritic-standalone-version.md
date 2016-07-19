@@ -2,7 +2,7 @@
 aliases: ["/archives/629"]
 title: "WebCritic: standalone version"
 date: "2009-05-05T02:21:34-05:00"
-tags: ["perl", "perlcritic", "webcritic"]
+tags: [frew-warez, mitsi, perl, perl-critic, webcritic]
 guid: "http://blog.afoolishmanifesto.com/?p=629"
 ---
 Ok, you guys asked for it. I have updated [WebCritic](/archives/596) to be a lot

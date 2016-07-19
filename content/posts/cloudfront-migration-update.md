@@ -1,7 +1,7 @@
 ---
 title: CloudFront Migration Update
 date: 2016-03-26T14:32:22
-tags: ["cloudfront", "aws", "hugo", "meta"]
+tags: [frew-warez, cloudfront, aws, hugo, meta, blog]
 guid: "https://blog.afoolishmanifesto.com/posts/cloudfront-migration-update"
 ---
 [When I migrated my blog to

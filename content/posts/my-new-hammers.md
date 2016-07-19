@@ -2,6 +2,7 @@
 aliases: ["/archives/1032"]
 title: "My New Hammers"
 date: "2009-09-11T05:25:47-05:00"
+tags: [mitsi, extjs, catalyst, moose, perl, cpan]
 guid: "http://blog.afoolishmanifesto.com/?p=1032"
 ---
 For the past 6 months or so I've been doing a lot more design and a lot less coding (due to design and a few other things) and it's interesting to me what the results have been.

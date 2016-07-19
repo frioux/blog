@@ -2,6 +2,7 @@
 aliases: ["/archives/1207"]
 title: "JAP(5|6)H"
 date: "2009-11-19T06:00:13-06:00"
+tags: [perl, perl-5, perl-6]
 guid: "http://blog.afoolishmanifesto.com/?p=1207"
 ---
 Surely you, dear reader, already know what

@@ -2,7 +2,7 @@
 aliases: ["/archives/805"]
 title: "Compare and Contrast CGIApp and Catalyst"
 date: "2009-06-12T04:03:15-05:00"
-tags: ["catalyst", "cgiapp", "cgiapplication", "perl"]
+tags: [catalyst, cgi-application, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=805"
 ---
 You may remember my post [from before](/archives/762) asking about the differences between these two frameworks. I only got a couple of responses, but they certainly helped me to see what is up.

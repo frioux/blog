@@ -1,7 +1,7 @@
 ---
 title: AWS Retirement Notification Bot
 date: 2016-06-22T20:56:46
-tags: ["aws", "perl", "automation", "bot"]
+tags: [ziprecruiter, aws, perl, automation, bot]
 guid: "https://blog.afoolishmanifesto.com/posts/aws_retirement_notification_bot"
 ---
 If you use AWS a lot you will be familiar with the "AWS Retirement Notification"

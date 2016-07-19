@@ -2,7 +2,7 @@
 aliases: ["/archives/770"]
 title: "Web Comic Downloaders"
 date: "2009-06-02T05:08:31-05:00"
-tags: ["automation", "perl", "ruby", "webcomics"]
+tags: [automation, perl, ruby, webcomics]
 guid: "http://blog.afoolishmanifesto.com/?p=770"
 ---
 Since the beginning of my serious webcomic journey with xkcd, I think that was

@@ -2,7 +2,7 @@
 aliases: ["/archives/1323"]
 title: "\"state\""
 date: "2010-04-25T15:38:18-05:00"
-tags: ["5-10", "perl"]
+tags: [frew-warez, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1323"
 ---
 Yesterday I was reading [this post](http://www.modernperlbooks.com/mt/2010/04/state-and-the-syntax-of-encapsulation.html) by chromatic and I **finally** understood what state does. If you look at the [perldoc for state](http://perldoc.perl.org/functions/state.html) you will see why. There is quite a dearth of examples there.

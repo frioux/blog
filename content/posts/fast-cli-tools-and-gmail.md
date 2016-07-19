@@ -1,7 +1,7 @@
 ---
 title: "Fast CLI Tools: gmail"
 date: 2015-11-01T20:22:13
-tags: ["mutt", "gmail", "goobook", "offlineimap", "notmuch"]
+tags: [frew-warez, mutt, gmail, goobook, offlineimap, notmuch]
 guid: "https://blog.afoolishmanifesto.com/posts/fast-cli-tools-and-gmail"
 ---
 I have been using commandline tools to interact email for quite a while now.

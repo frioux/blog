@@ -2,7 +2,7 @@
 aliases: ["/archives/1411"]
 title: "Using Plack for Hardware emulation"
 date: "2010-08-10T14:49:09-05:00"
-tags: ["cpan", "perl", "plack"]
+tags: [mitsi, cpan, perl, plack]
 guid: "http://blog.afoolishmanifesto.com/?p=1411"
 ---
 One of the first projects I did at work was to make a web/javascript based

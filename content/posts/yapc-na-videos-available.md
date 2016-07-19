@@ -2,7 +2,7 @@
 aliases: ["/archives/1418"]
 title: "YAPC NA videos available!"
 date: "2010-08-12T21:20:00-05:00"
-tags: ["perl", "slides", "video", "yapc", "yapcna"]
+tags: [perl, slides, video, yapc]
 guid: "http://blog.afoolishmanifesto.com/?p=1418"
 ---
 This year at YAPC::NA nearly all the talks were filmed, including mine. I

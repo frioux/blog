@@ -2,7 +2,7 @@
 aliases: ["/archives/1541"]
 title: "Converting repos from Subversion to Git"
 date: "2011-05-18T03:00:18-05:00"
-tags: ["cpan", "git", "git-svn", "perl"]
+tags: [frew-warez, cpan, git, git-svn, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1541"
 ---
 I have now converted something like 25 repositories from svn to git. I can fix undetected merges, correctly import tags, and clean up ugly (svk) commit messages.

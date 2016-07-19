@@ -1,7 +1,7 @@
 ---
 title: "New Blog Engine: Hugo"
 date: "2014-03-15T01:30:01-05:00"
-tags: ["meta", "blog"]
+tags: [frew-warez, "meta", "blog", "hugo"]
 ---
 Nearly a year ago I started to sour on WordPress, the blog engine I've been
 using since 2007.  I have thought for a long time that a plaintext based system

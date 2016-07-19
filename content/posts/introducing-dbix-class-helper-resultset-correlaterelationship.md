@@ -2,7 +2,7 @@
 aliases: ["/archives/1709"]
 title: "Introducing DBIx::Class::Helper::ResultSet::CorrelateRelationship"
 date: "2012-05-30T14:54:27-05:00"
-tags: ["cpan", "dbix-class", "dbix-class-helpers", "perl"]
+tags: [mitsi, announcement, cpan, dbix-class, dbix-class-helpers, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1709"
 ---
 Recently at work we ran into an issue where a report was timing out. At first I

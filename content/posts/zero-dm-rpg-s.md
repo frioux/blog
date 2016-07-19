@@ -2,7 +2,7 @@
 aliases: ["/archives/1769"]
 title: "Zero DM RPG's"
 date: "2012-07-28T06:00:19-05:00"
-tags: ["changeling", "geasa", "microscope", "rpg", "world-of-darkness"]
+tags: [life]
 guid: "http://blog.afoolishmanifesto.com/?p=1769"
 ---
 My weekly table top rpg is Changeling, which is one of the World of Darkness

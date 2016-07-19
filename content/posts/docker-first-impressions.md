@@ -1,7 +1,7 @@
 ---
 title: "Docker: First Impressions"
 date: 2015-01-28T21:19:10
-tags: ["docker", "lxc", "perl", "carton"]
+tags: [mitsi, "docker", "lxc", "perl", "carton"]
 guid: "https://blog.afoolishmanifesto.com/posts/docker-first-impressions"
 ---
 Today I deployed my first Docker based application.  I just wanted to get down

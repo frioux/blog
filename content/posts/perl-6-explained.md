@@ -2,6 +2,7 @@
 aliases: ["/archives/452"]
 title: "Perl 6: Explained!"
 date: "2009-03-13T05:14:26-05:00"
+tags: [perl, perl-6]
 guid: "http://blog.afoolishmanifesto.com/?p=452"
 ---
 I was hoping to work on the setting for Rakudo some today, but it just wasn't happening due to my own inferiorities. I decided instead to try to read some of the setting code so that I can be less inferior in the future. I hope you enjoy learning some Perl 6!

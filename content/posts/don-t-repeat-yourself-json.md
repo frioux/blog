@@ -2,7 +2,7 @@
 aliases: ["/archives/739"]
 title: "Don't Repeat Yourself: JSON"
 date: "2009-05-19T00:58:43-05:00"
-tags: ["perl"]
+tags: [perl]
 guid: "http://blog.afoolishmanifesto.com/?p=739"
 ---
 With DBIx::Class we typically have a TO\_JSON method which returns a hashref of the data you want in your json. Here's an example:

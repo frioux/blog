@@ -1,7 +1,7 @@
 ---
 title: Use Travis (and more)
 date: 2014-06-29T19:54:36
-tags: ["travis-ci", "ci", "perl"]
+tags: ["frew-warez", "travis-ci", "ci", "perl"]
 guid: "https://blog.afoolishmanifesto.com/posts/use-travis-et-al"
 ---
 At [YAPC last

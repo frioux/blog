@@ -2,7 +2,7 @@
 aliases: ["/archives/586"]
 title: "Perl::Tidy: annoying facts"
 date: "2009-04-24T03:22:03-05:00"
-tags: ["perl", "perltidy"]
+tags: [perl, perltidy]
 guid: "http://blog.afoolishmanifesto.com/?p=586"
 ---
 So I was trying to use perltidy programmatically, that means using Perl::Tidy. Basically I wanted to use an existing .perltidyrc along with the backup option. That is, instead of making a new file with .tdy at the end, replace the original and back it up to .bak. So after reading the docs I figured that this should work:

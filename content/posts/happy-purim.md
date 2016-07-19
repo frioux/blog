@@ -2,6 +2,7 @@
 aliases: ["/archives/430"]
 title: "Happy Purim!"
 date: "2009-03-10T04:53:49-05:00"
+tags: [holiday]
 guid: "http://blog.afoolishmanifesto.com/?p=430"
 ---
 Hello everyone!

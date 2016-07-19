@@ -2,7 +2,7 @@
 aliases: ["/archives/643"]
 title: "Testing with Perl: awesome"
 date: "2009-05-07T01:53:06-05:00"
-tags: ["perl", "testing", "tests"]
+tags: [mitsi, perl, testing]
 guid: "http://blog.afoolishmanifesto.com/?p=643"
 ---
 Sometimes when I get close to the end of the day and it isn't feasible for me to

@@ -2,6 +2,7 @@
 aliases: ["/archives/1063"]
 title: "Dallas.p6m: August 2009"
 date: "2009-08-12T03:34:21-05:00"
+tags: [perl, perl-6, dallas]
 guid: "http://blog.afoolishmanifesto.com/?p=1063"
 ---
 So we had another Dallas.p6m tonight. It was fairly laid back compared to some other ones, but it was still a lot of fun.

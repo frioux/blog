@@ -2,7 +2,7 @@
 aliases: ["/archives/1761"]
 title: "awesomewm"
 date: "2012-07-04T08:00:33-05:00"
-tags: ["awesome", "tiling-window-manager", "window-manager", "xmonad"]
+tags: [awesome, tiling-window-manager, window-manager, xmonad]
 guid: "http://blog.afoolishmanifesto.com/?p=1761"
 ---
 I've had a long, sordid relationship with window managers. When I really started with my first computer it was Windows 98 and I somehow decided to put [Litestep](http://en.wikipedia.org/wiki/Litestep) on it. I remember switching workspaces was often crashy and I pined for something less hacky. Eventually I installed some form of linux.
@@ -19,7 +19,7 @@ But in my sophomore year of college I also got a laptop! I kept windows on it fo
 
 The RAM on my laptop was important, but so was screen realestate. I was used to gigantic 64x64 widgets and that just wasn't going to work on lappy. So what I used for a year or two was [Wmii](http://en.wikipedia.org/wiki/Wmii). Wmii does tiling, but I basically used it for exclusively single full screen stuff. I also used it with an awesome delicious integration thing which [I partially reimplemented](http://rubyforge.org/projects/delish/) more generically later.
 
-Fast-forward a year or two and I'm working at [Micro Technology Services, Inc.](http://mitsi.com/) (where I still work) and I'm stuck on windows. I found that with two large monitors I needed some form of tiling or I couldn't effectively get work done. I started with [GridMove](http://jgpaiva.dcmembers.com/gridmove.html), which is awesome and super configurable, but eventually ended up with [WinSplit Revolution](http://www.winsplit-revolution.com/).
+Fast-forward a year or two and I'm working at [Micro Technology Services, Inc.](http://mitsi.com/) (where I still work) and I'm stuck on windows. I found that with two large monitors I needed some form of tiling or I couldn't effectively get work done. [I started](/posts/splits-panes-and-tiles) with [GridMove](http://jgpaiva.dcmembers.com/gridmove.html), which is awesome and super configurable, but eventually ended up with [WinSplit Revolution](http://www.winsplit-revolution.com/).
 
 At some point a year or two after I started I decided to make a new computer for home use. My friend [fjord](https://plus.google.com/u/0/105088029783860927078/posts) convinced me to try out XMonad. I really liked it on my laptop once I learned the key combinations. On the desktop I initially thought that the multihead workspace support was bizarrely buggy, but it turned out to just be sufficiently advanced to appear to be nonsense. I eventually learned that the multihead support was a huge step forward and something I'd be loathe to give up. I [tweaked](https://github.com/frioux/dotfiles/commits/f5b69af69333ff9ea7ba0577ec7f5f34714bafff/xmonad/xmonad.hs) xmonad, but I never really learned haskell. Maybe that's because I'm dumb, maybe it's because haskell has a compiler with bad error messages and pointlessly complex syntax. I used XMonad in anger faithfully until a few weeks ago.
 

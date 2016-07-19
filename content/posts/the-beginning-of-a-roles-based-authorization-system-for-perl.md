@@ -2,7 +2,7 @@
 aliases: ["/archives/259"]
 title: "The Beginning of a Roles Based Authorization System for Perl"
 date: "2009-02-13T07:08:16-06:00"
-tags: ["authorization", "cgiapp", "cgiapplication", "moose", "perl"]
+tags: [mitsi, authorization, cgi-application, moose, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=259"
 ---
 Today I was talking with a friend about the stuff we are doing at work and I

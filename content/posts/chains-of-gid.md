@@ -1,7 +1,7 @@
 ---
 title: The Chains of Get-It-Done
 date: 2015-08-22T02:06:01
-tags: ["gid", "perl", "cpan", "jfdi"]
+tags: [frew-warez, gid, perl, cpan, jfdi]
 guid: "https://blog.afoolishmanifesto.com/posts/the-chains-of-get-it-done"
 ---
 It's 2AM.  My wife and infant son are in bed.  He's teething so most of the

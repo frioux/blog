@@ -1,7 +1,7 @@
 ---
 title: Index Hints in MySQL with DBIx::Class
 date: 2015-06-24T19:39:50
-tags: ["mysql", "dbix-class", "ziprecruiter"]
+tags: [mysql, dbix-class, ziprecruiter]
 guid: "https://blog.afoolishmanifesto.com/posts/index-hints-in-mysql-with-dbix-class"
 ---
 I started at [ZipRecruiter](https://www.ziprecruiter.com) nearly two weeks ago

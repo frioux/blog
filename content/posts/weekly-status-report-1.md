@@ -2,7 +2,7 @@
 aliases: ["/archives/1595"]
 title: "Weekly Status Report 1"
 date: "2011-08-08T22:47:43-05:00"
-tags: ["cpan", "perl", "status-report"]
+tags: [cpan, perl, status-report, log-contextual]
 guid: "http://blog.afoolishmanifesto.com/?p=1595"
 ---
 This week I

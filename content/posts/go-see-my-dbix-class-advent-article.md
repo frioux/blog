@@ -2,7 +2,7 @@
 aliases: ["/archives/1804"]
 title: "Go See My DBIx::Class Advent Article!"
 date: "2012-12-21T14:13:46-06:00"
-tags: ["dbix-class", "perl"]
+tags: [frew-warez, advent, dbix-class, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1804"
 ---
 [woohoo!](http://www.perladvent.org/2012/2012-12-21.html)

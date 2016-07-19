@@ -2,7 +2,7 @@
 aliases: ["/archives/600"]
 title: "Testing: Way Cool!"
 date: "2009-04-30T02:58:59-05:00"
-tags: ["perl", "tests"]
+tags: [frew-warez, mitsi, perl, testing, perl-critic, webcritic]
 guid: "http://blog.afoolishmanifesto.com/?p=600"
 ---
 When I was writing WebCritic I decided that the code was small and simple enough

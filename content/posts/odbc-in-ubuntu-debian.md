@@ -2,7 +2,7 @@
 aliases: ["/archives/1231"]
 title: "ODBC in Ubuntu/Debian"
 date: "2010-04-14T04:16:37-05:00"
-tags: ["dbdodbc", "perl"]
+tags: [frew-warez, cpan, dbd-odbc, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1231"
 ---
 Ok, so I just had to refer to this unposted post since I [upgraded to perl

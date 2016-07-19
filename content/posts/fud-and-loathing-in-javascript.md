@@ -2,7 +2,7 @@
 aliases: ["/archives/1551"]
 title: "FUD and Loathing in JavaScript"
 date: "2011-06-24T15:10:58-05:00"
-tags: ["fud", "javascript"]
+tags: [mitsi, fud, javascript]
 guid: "http://blog.afoolishmanifesto.com/?p=1551"
 ---
 A coworker sent [this](http://arstechnica.com/microsoft/news/2011/06/nodejs-coming-to-windows-azure-with-official-microsoft-support.ars?comments=1#comments-bar) to our internal mailing list, partially to goad me into responding to the stupid comments. I don't have an ars account, so I'll just hope that trackbacks work.

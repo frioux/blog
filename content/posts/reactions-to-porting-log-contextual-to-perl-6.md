@@ -2,7 +2,7 @@
 aliases: ["/archives/1415"]
 title: "Reactions to porting Log::Contextual to Perl 6"
 date: "2010-08-11T04:24:34-05:00"
-tags: ["logcontextual", "perl", "perl-5", "perl-6", "rakudo"]
+tags: [log-contextual, perl, perl-5, perl-6, rakudo]
 guid: "http://blog.afoolishmanifesto.com/?p=1415"
 ---
 Today we had our Dallas.p6m meeting, which was a lot of fun as usual. This meeting was especially interesting because Rakudo \* was released since we last met. In the meeting I discussed my little project to port [Log::Contextual](http://search.cpan.org/perldoc?Log::Contextual) to Perl 6. First off, [here's the code](http://github.com/frioux/LCP6).

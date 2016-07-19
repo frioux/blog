@@ -1,7 +1,7 @@
 ---
 title: When I Planned on Moving to Australia
 date: 2016-03-12T00:39:20
-tags: ["hurricane", "katrina", "Austrailia", "death"]
+tags: [self, egocentric, hurricane, katrina, austrailia, death]
 guid: "https://blog.afoolishmanifesto.com/posts/when-i-planned-on-moving-to-australia"
 ---
 Many of you do not know that I was born on the Gulf Coast of Mississippi.  I

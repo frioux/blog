@@ -2,7 +2,7 @@
 aliases: ["/archives/932"]
 title: "NULL Conclusion"
 date: "2009-07-14T04:32:48-05:00"
-tags: ["database-design"]
+tags: [mitsi, perl, database-design]
 guid: "http://blog.afoolishmanifesto.com/?p=932"
 ---
 So a couple perl giants I have already heard of responded to my [previous post](/archives/909) regarding NULL's in the database.

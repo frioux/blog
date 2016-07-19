@@ -2,6 +2,7 @@
 aliases: ["/archives/341"]
 title: "Perl 5 to Perl 6: a Reverse Polish Notation Calculator"
 date: "2009-02-28T03:35:31-06:00"
+tags: [perl, perl-5, perl-6, higher-order-perl]
 guid: "http://blog.afoolishmanifesto.com/?p=341"
 ---
 I did this because of the excellent [Higher-Order Perl](http://amazon.com/dp/1558607013/).

@@ -2,7 +2,7 @@
 aliases: ["/archives/63"]
 title: "Ruby style functional programming in Perl!"
 date: "2009-01-09T08:10:49-06:00"
-tags: ["autoboxcore", "functional-programming", "perl", "ruby"]
+tags: [autobox-core, functional-programming, perl, ruby]
 guid: "http://blog.afoolishmanifesto.com/archives/63"
 ---
 So recently I was asking if andand exists in perl ([here](http://perlmonks.org/?node_id=734774) and [here](http://stackoverflow.com/questions/422837/is-there-an-andand-for-perl)) and someone implemented it! How awesome is that? See it [here](http://search.cpan.org/perldoc?Scalar::Andand).
@@ -23,4 +23,4 @@ Example:
 
 To be perfectly clear, you would probably think of the first one as: we are joining the results of the map that multiplies each item by two and the second one as: multiply each item by two and then join them with a comma.
 
-Anyway, I am \*so\* stoked to use this at work.
+Anyway, I am *so* stoked to use this at work.

@@ -2,7 +2,7 @@
 aliases: ["/archives/1670"]
 title: "Smalltalk Best Practice Patterns - Constructor Parameter Method"
 date: "2011-09-03T23:10:06-05:00"
-tags: ["best-practice", "constructor-parameter-method", "javascript", "patterns", "perl", "smalltalk"]
+tags: [frew-warez, best-practice, javascript, patterns, perl, smalltalk]
 guid: "http://blog.afoolishmanifesto.com/?p=1670"
 ---
 How do you set instance variables from a constructor method?

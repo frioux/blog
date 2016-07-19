@@ -2,7 +2,7 @@
 aliases: ["/archives/669"]
 title: "Making MSDOS a little bit nicer"
 date: "2009-05-08T01:01:10-05:00"
-tags: ["perl", "testing", "windows"]
+tags: [mitsi, perl, testing, windows]
 guid: "http://blog.afoolishmanifesto.com/?p=669"
 ---
 I work at a [Microsoft Company](http://www.mitsi.com/) more or less. We use SQL Server, IIS (moving to Apache...), and various flavors of Windows for all of our machines. I haven't had the cojones to install Ubunutu on my desktop yet, so I am stuck with cygwin and friends. But the perl that runs my server is **not** in cygwin. That means that if I want to do valid testing I have to do it with the regular perl. I've tried running **prove** from the cygwin commandline, (ie, /cygdrive/c/usr/bin/perl/prove,) but it just hangs. So I just have to suck it up and run prove from cmd.

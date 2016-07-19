@@ -2,7 +2,7 @@
 aliases: ["/archives/1286"]
 title: "Do Passwords Right"
 date: "2010-02-04T05:20:47-06:00"
-tags: ["catalyst", "dbix-class", "dbixclassencodedcolumn", "eksblowfish", "perl"]
+tags: [mitsi, passwords, catalyst, dbix-class, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1286"
 ---
 You all know not to put your passwords into the database in plaintext. [Catalyst](http://search.cpan.org/perldoc?Catalyst::Runtime) and [DBIx::Class::EncodedColumn](http://search.cpan.org/perldoc?DBIx::Class::EncodedColumn) make doing this super easy and completely secure.

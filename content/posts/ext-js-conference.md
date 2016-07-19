@@ -2,7 +2,7 @@
 aliases: ["/archives/168"]
 title: "Ext JS Conference"
 date: "2009-02-04T04:28:25-06:00"
-tags: ["conference", "javascript", "school"]
+tags: [conference, javascript, school, extjs]
 guid: "http://blog.afoolishmanifesto.com/?p=168"
 ---
 So today the Ext JS guys posted about their conference in April. We use Ext JS at work and I have become pretty competent in using the framework for UI design. A lot of the things that they are adding in Ext JS 3.0 will make the toolkit more compelling. The most significant of all will be the accessibility changes and the addition of Ext Core as a standalone library.

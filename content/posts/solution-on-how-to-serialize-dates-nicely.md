@@ -2,7 +2,7 @@
 aliases: ["/archives/1273"]
 title: "Solution on how to serialize dates nicely"
 date: "2010-01-21T16:27:00-06:00"
-tags: ["datetime", "dbix-class", "perl", "prototypical-oo", "serialization"]
+tags: [mitsi, datetime, dbix-class, perl, serialization]
 guid: "http://blog.afoolishmanifesto.com/?p=1273"
 ---
 So after discussing [this problem](/archives/1269) with the inimitable ribasushi we came up with a good solution. It's not quite generic, but it solves the current problem very nicely. First, we subclass DateTime:

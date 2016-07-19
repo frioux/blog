@@ -2,7 +2,7 @@
 aliases: ["/archives/503"]
 title: "DBIx::Class: A Love Story"
 date: "2009-04-01T01:57:50-05:00"
-tags: ["dbix-class", "perl"]
+tags: [dbix-class, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=503"
 ---
 Until recently most of the work I have done with DBIC has been very basic. I made a lot of simple classes, done some basic searches, paginated, and that was more or less it. The only thing in there that is really a major change from vanilla DBI was the pagination. Oh the glory of automatic pagination!

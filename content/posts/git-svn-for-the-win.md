@@ -2,7 +2,7 @@
 aliases: ["/archives/1386"]
 title: "git-svn for the win"
 date: "2010-07-27T02:39:21-05:00"
-tags: ["git", "power-tools"]
+tags: [mitsi, git, power-tools]
 guid: "http://blog.afoolishmanifesto.com/?p=1386"
 ---
 I have been using git more and more. I use it in all of my CPAN modules. I'm using git to the point where I expect everything else (that is, svn) to be just as powerful and fast. Unfortunately that just is not the case, and I'm still stuck with it for all but one project at work.. For example, the other day I wanted to find the last commit that my coworker made. With git it would just be git log --author wes -1. I couldn't seem to figure out a way to do it with svn. Maybe I'm just dumb? Add on to that the fact that git log is mega fast but if you do svn log You Have Made a Mistake. Also the colors! Who doesn't like the fact that git has colors out of the box?

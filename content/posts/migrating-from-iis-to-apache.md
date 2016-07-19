@@ -2,7 +2,7 @@
 aliases: ["/archives/59"]
 title: "Migrating from IIS to Apache"
 date: "2008-12-17T23:00:13-06:00"
-tags: ["apache", "iis", "perl", "ruby"]
+tags: [mitsi, apache, iis, perl]
 guid: "http://blog.afoolishmanifesto.com/archives/59"
 ---
 At my job we use a combination of IIS, SQL Server, and Perl. In general it works pretty well. But there is one major problem: if we ever do a warn in perl, instead of printing the message to the log, it crashes the server. That's a big deal since multiple people are using the server and fixing the issue means VNCing in and recycling the app pool. This doesn't always happen, but it happens a lot; enough to make me consider setting up Apache on my personal computer so that I can get some serious logging. Anyway, I don't know if we have a typical setup or not, but this is what I had to do to get it all going.

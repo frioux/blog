@@ -2,7 +2,7 @@
 aliases: ["/archives/69"]
 title: "Music"
 date: "2009-01-20T19:37:21-06:00"
-tags: ["music"]
+tags: [music]
 guid: "http://blog.afoolishmanifesto.com/archives/69"
 ---
 And now on a totally different subject:

@@ -2,7 +2,7 @@
 aliases: ["/archives/1687"]
 title: "The Rise and Fall of Event Loops (in one very small place of my code)"
 date: "2012-03-07T01:22:18-06:00"
-tags: ["anyevent", "perl", "poe", "while1"]
+tags: [mitsi, anyevent, perl, poe, cpan, event-loops]
 guid: "http://blog.afoolishmanifesto.com/?p=1687"
 ---
 [In the spirit of one of my other posts](/archives/1303) I've decided to

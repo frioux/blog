@@ -2,7 +2,7 @@
 aliases: ["/archives/1028"]
 title: "PerlMonks Getting Hacked and My Solution"
 date: "2009-07-30T02:24:39-05:00"
-tags: ["keepass", "perl", "perlmonks"]
+tags: [keepass, perl, perlmonks, passwords]
 guid: "http://blog.afoolishmanifesto.com/?p=1028"
 ---
 So some of you may heard that [PerlMonks](http://perlmonks.org) got hacked recently.

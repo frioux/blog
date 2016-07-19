@@ -2,6 +2,7 @@
 aliases: ["/archives/156"]
 title: "Album of the Week: To Watch the Storms"
 date: "2009-02-24T04:00:49-06:00"
+tags: [music, album-of-the-week]
 guid: "http://blog.afoolishmanifesto.com/?p=156"
 ---
 This week's AOTW is [To Watch the Storms](http://amazon.com/dp/B000095IWI/) by Steve Hackett. I first heard of Steve Hackett (and also this album) in a sampler from InsideOut. I remember listening to the sampler and being blown away by both the Hackett song and the Flower Kings song. I later ordered this album and have consistently been impressed by the quality of the album.

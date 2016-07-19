@@ -2,7 +2,7 @@
 aliases: ["/archives/704"]
 title: "Windows Agony: Con"
 date: "2009-06-03T01:22:09-05:00"
-tags: ["con", "subversion", "virtual-machine", "windows"]
+tags: [mitsi, con, subversion, virtual-machine, windows, computer-h8, war-stories]
 guid: "http://blog.afoolishmanifesto.com/?p=704"
 ---
 At $work I manage the subversion repositories for all of the software that we

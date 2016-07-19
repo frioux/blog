@@ -2,7 +2,7 @@
 aliases: ["/archives/1675"]
 title: "Cloning Objects in Perl"
 date: "2011-09-20T06:59:37-05:00"
-tags: ["clone", "clonehooker", "moose", "moosexclone", "perl", "storable"]
+tags: [mitsi, perl, cpan]
 guid: "http://blog.afoolishmanifesto.com/?p=1675"
 ---
 Recently I needed to do some deep cloning of some objects at work. I think I ended up looking at all of the major ways to do it, and I figure I might as well discuss them here.

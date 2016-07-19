@@ -2,6 +2,7 @@
 aliases: ["/archives/1303"]
 title: "The Rise and Fall of mod_perl"
 date: "2010-03-09T01:28:40-06:00"
+tags: [mitsi, apache, mod_perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1303"
 ---
 In February of 2008 I figured out how to [switch our servers from IIS to Apache](/archives/59). The main reason I did that was because if you print to STDERR in Perl while running under IIS the server would crash hard. In general it just took some research and motivation. All was well with the world.... For six months.

@@ -2,6 +2,7 @@
 aliases: ["/archives/518"]
 title: "Vim Feature of the Day"
 date: "2009-04-05T02:45:48-05:00"
+tags: [vim]
 guid: "http://blog.afoolishmanifesto.com/?p=518"
 ---
 We all know programmers who, when they need to copy/paste more than one thing,

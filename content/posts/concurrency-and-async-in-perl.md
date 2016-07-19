@@ -1,7 +1,7 @@
 ---
 title: Concurrency and Asynchrony in Perl
 date: 2014-07-29T10:34:10
-tags: ["perl", "async", "io-async", "IO::Async", "POE", "AnyEvent", "AE"]
+tags: [frew-warez, mitsi, "perl", "async", "io-async", "poe", "anyevent"]
 guid: "https://blog.afoolishmanifesto.com/posts/concurrency-and-async-in-perl"
 ---
 Lately I've been in situations where I need to write some event driven, parallel

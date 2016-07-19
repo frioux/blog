@@ -2,7 +2,7 @@
 aliases: ["/archives/402"]
 title: "mod_perl: For Your Health!"
 date: "2009-03-07T05:08:19-06:00"
-tags: ["apache", "mod_perl"]
+tags: [mitsi, apache, mod_perl]
 guid: "http://blog.afoolishmanifesto.com/?p=402"
 ---
 You may have wondered why I had the slight delay in posts this week. I had a good reason: we switched one of our major products from IIS to Apache! In general it was a fairly painless process. The details are documented in my previous post, [Migrating from IIS to Apache](/archives/59). There was one hitch though...

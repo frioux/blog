@@ -2,7 +2,7 @@
 aliases: ["/archives/1665"]
 title: "Smalltalk Best Practice Patterns: Constructor Method"
 date: "2011-09-01T23:28:43-05:00"
-tags: ["best-practice", "constructor-method", "patterns", "smalltalk"]
+tags: [frew-warez, best-practice, patterns, smalltalk]
 guid: "http://blog.afoolishmanifesto.com/?p=1665"
 ---
 Sadly reading is going slower than expected due to being so busy with various things in life. Oh well, just a single pattern today.

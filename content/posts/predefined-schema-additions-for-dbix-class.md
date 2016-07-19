@@ -2,7 +2,7 @@
 aliases: ["/archives/1490"]
 title: "Predefined Schema Additions for DBIx::Class"
 date: "2010-12-28T21:02:23-06:00"
-tags: ["dbix-class", "perl"]
+tags: [mitsi, dbix-class, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1490"
 ---
 At [work](http://mitsi.com) we have a tiny set of classes and relationships that we've reused for a few projects now. The idea is that it's a package deal of users, roles, permissions, and a way to map permissions to parts of the application. I'm actually pretty fond of it, but its usage is a **little** awkward and not very flexible. If I could I'd put it on CPAN as that would mean tests, docs, and more importantly, a way to make it more useful for disparate projects.

@@ -2,6 +2,7 @@
 aliases: ["/archives/1098"]
 title: "reCAPTCHA"
 date: "2009-08-25T03:19:59-05:00"
+tags: [meta, blog, captcha, recaptcha]
 guid: "http://blog.afoolishmanifesto.com/?p=1098"
 ---
 Normally I opt to eschew metablog post (how meta is that?!) but I figured this deserves a brief explanation.

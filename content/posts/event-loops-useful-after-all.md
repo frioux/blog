@@ -2,7 +2,7 @@
 aliases: ["/archives/1873"]
 title: "Event Loops: Useful After All"
 date: "2013-07-27T14:57:26-05:00"
-tags: ["anyevent", "event-loops", "http", "ioasync", "perl", "udp"]
+tags: [mitsi, anyevent, event-loops, http, io-async, perl, udp]
 guid: "http://blog.afoolishmanifesto.com/?p=1873"
 ---
 I've had a [series](/archives/1525) of [blog](/archives/1682) [posts](/archives/1687) referring to event loops; the final message ended up being something like YAGNI. Well, I am eating my hat in this blog post; I have seen the light, I am drinking the kool-aide, I am stockpiling weapons... er, how about I just give some details!

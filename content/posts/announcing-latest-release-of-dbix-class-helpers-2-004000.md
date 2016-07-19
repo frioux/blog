@@ -2,7 +2,7 @@
 aliases: ["/archives/1404"]
 title: "Announcing latest release of DBIx::Class::Helpers (2.004000)"
 date: "2010-07-30T02:57:07-05:00"
-tags: ["cpan", "dbix-class", "dbix-class-helpers", "perl"]
+tags: [announcement, cpan, dbix-class, dbix-class-helpers, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1404"
 ---
 I am proud to announce a new release of [DBIx::Class::Helpers](http://search.cpan.org/perldoc?DBIx::Class::Helpers). There are five major changes in this release.

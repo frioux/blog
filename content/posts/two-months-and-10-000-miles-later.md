@@ -2,7 +2,7 @@
 aliases: ["/archives/54"]
 title: "Two Months and 10 000 Miles Later..."
 date: "2008-07-27T06:26:48-05:00"
-tags: ["egocentric", "travel"]
+tags: [self, egocentric, travel]
 guid: "http://blog.afoolishmanifesto.com/archives/54"
 ---
 As some of you may know, I just went on a long Road Trip for my last free

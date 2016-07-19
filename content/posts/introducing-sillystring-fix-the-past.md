@@ -2,6 +2,7 @@
 aliases: ["/archives/502"]
 title: "Introducing SillyString: fix the past!"
 date: "2009-04-02T05:02:45-05:00"
+tags: [mitsi, perl, dbix-class, sillystring]
 guid: "http://blog.afoolishmanifesto.com/?p=502"
 ---
 So in the project we are doing at work right now the customer has a fairly old dataset. Old enough that it originally was impossible to properly capitalize all of your words. I do a search and get a list of customers:

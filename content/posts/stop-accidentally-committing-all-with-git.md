@@ -2,7 +2,7 @@
 aliases: ["/archives/1653"]
 title: "Stop accidentally committing all with git"
 date: "2011-08-29T06:59:49-05:00"
-tags: ["git", "perl"]
+tags: [mitsi, frew-warez, toolsmith, git, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1653"
 ---
 One of the things that annoys me a lot when using git is if I go through a lot

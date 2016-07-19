@@ -2,7 +2,7 @@
 aliases: ["/archives/536"]
 title: "Ext Day 2, Part 2"
 date: "2009-04-17T03:53:39-05:00"
-tags: ["extjs", "javascript"]
+tags: [extjs, javascript, conference]
 guid: "http://blog.afoolishmanifesto.com/?p=536"
 ---
 Ok, the next session I went to on Day 2 was the session on Refactoring. Refactoring is one of the few high quality buzzwords that I hear regularly, so I was excited to hear what the talk would go over. It was very much Ext specific, but the final changes to the component that we "Extified" were amazing.

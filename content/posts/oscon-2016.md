@@ -1,7 +1,7 @@
 ---
 title: OSCON 2016
 date: 2016-05-20T19:08:32
-tags: ["oscon", "foss", "oss", "open-source", "conference"]
+tags: [ziprecruiter, open-source, conference, oscon]
 guid: "https://blog.afoolishmanifesto.com/posts/oscon-2016"
 ---
 [ZipRecruiter, where I work,](https://www.ziprecruiter.com/) generously pays for

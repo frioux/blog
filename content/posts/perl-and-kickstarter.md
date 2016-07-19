@@ -1,7 +1,7 @@
 ---
 title: Perl ❤ Kickstarter
 date: 2015-08-03T20:43:25
-tags: [perl, kickstarter, "imperial-spherificator"]
+tags: [frew-warez, ziprecruiter, perl]
 guid: "https://blog.afoolishmanifesto.com/posts/perl-kickstarter"
 ---
 Today my boss, knowing that I am interested in weird modern cooking, sent me a

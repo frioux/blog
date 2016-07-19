@@ -2,7 +2,7 @@
 aliases: ["/archives/596"]
 title: "PerlCritic for Web Developers"
 date: "2009-04-29T04:12:11-05:00"
-tags: ["perl", "perlcritic"]
+tags: [frew-warez, mitsi, webcritic, perl, perl-critic]
 guid: "http://blog.afoolishmanifesto.com/?p=596"
 ---
 I like to continually move towards perfection in my code. perlcritic is a tool based on the book [Perl Best Practices](http://www.amazon.com/gp/product/0596001738?ie=UTF8&tag=afooman-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596001738)![](http://www.assoc-amazon.com/e/ir?t=afooman-20&l=as2&o=1&a=0596001738) by Damian Conway. It's basically lint for perl.

@@ -2,7 +2,7 @@
 aliases: ["/archives/1663"]
 title: "Smalltalk Best Practice Patterns - Chapter 3 - Behavior - Methods"
 date: "2011-09-01T00:05:58-05:00"
-tags: ["behavior", "best-practice", "methods", "patterns", "smalltalk"]
+tags: [frew-warez, perl, best-practice, patterns, smalltalk]
 guid: "http://blog.afoolishmanifesto.com/?p=1663"
 ---
 Today I had to spend time taking care of passport stuff for my upcoming honeymoon, so I only got to read a handful of pages. I'll post my notes nonetheless.

@@ -2,7 +2,7 @@
 aliases: ["/archives/1255"]
 title: "Getting portable"
 date: "2010-01-13T05:54:08-06:00"
-tags: ["perl", "portable"]
+tags: [mitsi, perl, svk, dbix-class, portable]
 guid: "http://blog.afoolishmanifesto.com/?p=1255"
 ---
 One of my [Goals for the New Year](/archives/1241) was to finish my current project at work. One thing that keeps me from working more on my project is that working from home is pretty painful. So I decided that I'd do all that I could to do as much work as possible from home without needing to be VPN'd in to work.

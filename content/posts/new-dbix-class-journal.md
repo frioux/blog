@@ -2,7 +2,7 @@
 aliases: ["/archives/1329"]
 title: "New DBIx::Class::Journal!"
 date: "2010-05-12T04:01:35-05:00"
-tags: ["cpan", "dbix-class", "dbixclassjournal", "perl"]
+tags: [frew-warez, cpan, dbix-class, dbix-class-journal, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1329"
 ---
 I'm proud to announce a new version of DBIx::Class::Journal after almost three years of different people working on different parts!

@@ -2,7 +2,7 @@
 aliases: ["/archives/1538"]
 title: "New Stuff in DBIx::Class::DeploymentHandler"
 date: "2011-04-13T20:21:49-05:00"
-tags: ["cpan", "dbix-class", "dbixclassdeploymenthandler", "perl"]
+tags: [frew-warez, cpan, dbix-class, dbix-class-deploymenthandler, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1538"
 ---
 I'm just releasing my first new release of [DBIx::Class::DeploymentHandler](http://search.cpan.org/perldoc?DBIx::Class::DeploymentHandler) in six months! For the most part the release is just a few doc tweaks, but it **does** have one important new feature, the "\_any" version.

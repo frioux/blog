@@ -2,7 +2,7 @@
 aliases: ["/archives/1033"]
 title: "For Arcanez"
 date: "2009-07-30T23:52:54-05:00"
-tags: ["first", "givenwhen", "listutil", "perl", "perl-5-10", "switch"]
+tags: [frew-warez, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1033"
 ---
 So I have some cool posts enqueue but they are not done and longish, so I figured I'd post about this bug in the interaction between Perl 5.10's switch statement and [List::Util](http://search.cpan.org/perldoc?List::Util)'s first method. Here is a test script:

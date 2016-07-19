@@ -2,7 +2,7 @@
 aliases: ["/archives/1679"]
 title: "Using Catalyst::Plugin::Authentication with an old setup"
 date: "2012-01-18T01:04:37-06:00"
-tags: ["authentication", "catalyst"]
+tags: [mitsi, authentication, catalyst, perl, cpan]
 guid: "http://blog.afoolishmanifesto.com/?p=1679"
 ---
 Recently I took it upon myself to make Catalyst::Plugin::Authentication know

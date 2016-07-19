@@ -2,7 +2,7 @@
 aliases: ["/archives/809"]
 title: "Dallas.p6m: June"
 date: "2009-06-16T01:33:09-05:00"
-tags: ["perl", "perl-6-mongers", "perl-mongers", "perl6"]
+tags: [perl, dallas, perl-6]
 guid: "http://blog.afoolishmanifesto.com/?p=809"
 ---
 This month's Dallas.p6m was bigger than before! We had my coworkers Geoff, Neil, and Wes, myself, Graham Barr, Jason Switzer (s1n,) Patrick Michaud, and John Dlugosz. We got a domain hooked up (dallas.p6m.org, which doesn't point at anything yet,) discussed interesting stories about rakudo optimization (and often lack thereof,) and sometimes delved into perl5 stuff.

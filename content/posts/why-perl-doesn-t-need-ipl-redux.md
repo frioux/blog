@@ -2,7 +2,7 @@
 aliases: ["/archives/355"]
 title: "Why Perl Doesn't Need IPL: redux"
 date: "2009-03-03T15:11:52-06:00"
-tags: ["develrepl", "ipl", "irb", "perl"]
+tags: [devel-repl, ipl, irb, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=355"
 ---
 Jeff Atwood claims that comments are a [required

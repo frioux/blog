@@ -2,7 +2,7 @@
 aliases: ["/archives/70"]
 title: "Perl6 vs Ruby: reduce"
 date: "2009-01-21T06:54:56-06:00"
-tags: ["functional-programming", "perl6", "ruby"]
+tags: [functional-programming, perl-6, perl, ruby]
 guid: "http://blog.afoolishmanifesto.com/archives/70"
 ---
 Ruby:

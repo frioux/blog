@@ -2,7 +2,7 @@
 aliases: ["/archives/699"]
 title: "Concert of the Month: Astronautalis"
 date: "2009-05-12T00:35:15-05:00"
-tags: ["concert", "music"]
+tags: [concert, music]
 guid: "http://blog.afoolishmanifesto.com/?p=699"
 ---
 Saturday night my roommate and another friend went to see [Astronautalis](http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fentity%2FAstronautalis%2FB001LHS93Q%3Fie%3DUTF8%26ref%255F%3Dntt%255Fmus%255Fgen%255Fpel&tag=afooman-20&linkCode=ur2&camp=1789&creative=390957)![](https://www.assoc-amazon.com/e/ir?t=afooman-20&l=ur2&o=1). He was actually sandwiched between [Valina](http://www.myspace.com/valinamusic) and [The Paper Chase](http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fentity%2FPaper-Chase%2FB000APN0OS%3Fie%3DUTF8%26ref%255F%3Dntt%255Fmus%255Fgen%255Fpel&tag=afooman-20&linkCode=ur2&camp=1789&creative=390957)![](https://www.assoc-amazon.com/e/ir?t=afooman-20&l=ur2&o=1). Valina was a generic rock band that I can't imagine ever going to see just for them. They just didn't seem to bring anything special to the table. The Paper Chase were Dissonant Rock and most of their songs sounded the same. We left after their fourth song I think.

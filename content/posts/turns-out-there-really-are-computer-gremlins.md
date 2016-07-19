@@ -2,7 +2,7 @@
 aliases: ["/archives/1113"]
 title: "Turns out there really are Computer Gremlins!"
 date: "2009-08-27T21:29:15-05:00"
-tags: ["catalyst", "perl", "win32"]
+tags: [mitsi, catalyst, perl, win32]
 guid: "http://blog.afoolishmanifesto.com/?p=1113"
 ---
 Ok, this is just too crazy to not record and relate. By now anyone who has read

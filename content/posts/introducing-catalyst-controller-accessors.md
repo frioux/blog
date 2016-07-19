@@ -2,7 +2,7 @@
 aliases: ["/archives/1696"]
 title: "Introducing Catalyst::Controller::Accessors"
 date: "2012-05-21T15:48:57-05:00"
-tags: ["announcement", "catalyst", "catalystcontrolleraccessors", "cpan", "introducing", "perl"]
+tags: [mitsi, announcement, catalyst, cpan, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1696"
 ---
 Ugh, I first released this eight months ago, but I fell off the blogging wagon pretty badly. It's so hard to write when I could be writing code, docs, and tests! So anyway, I'm trying to get caught up on the eight announcements that need to be made as well as a few [DBIx::Class::DeploymentHandler](http://p3rl.org/DBIx::Class::DeploymentHandler) related PSA's. I'll schedule them to get auto posted with at least a few days between so I don't melt your feed reader or bore you too much.

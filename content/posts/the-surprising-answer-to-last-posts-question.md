@@ -2,7 +2,7 @@
 aliases: ["/archives/969"]
 title: "The Surprising Answer to Last Posts Question"
 date: "2009-07-18T03:18:42-05:00"
-tags: ["eumm", "extutilsmakemaker", "modulebuild", "moduleinstall", "perl"]
+tags: [mitsi, extutils-makemaker, module-build, module-install, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=969"
 ---
 Yesterday I asked "[Module::Build? EU::MM?](/archives/862)". Turns out that was

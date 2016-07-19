@@ -2,7 +2,7 @@
 aliases: ["/archives/1151"]
 title: "Crash your roommate's windows computer WOOO!!!"
 date: "2009-09-09T02:33:14-05:00"
-tags: ["ioall", "perl", "security", "windows"]
+tags: [frew-warez, io-all, cpan, perl, security, windows]
 guid: "http://blog.afoolishmanifesto.com/?p=1151"
 ---
 Have you heard? You can crash Vista and Windows 7 really easily with the following super basic code! (Tested 3x on roomies computer)

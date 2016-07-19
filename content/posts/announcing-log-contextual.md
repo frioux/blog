@@ -2,7 +2,7 @@
 aliases: ["/archives/1300"]
 title: "Announcing Log::Contextual"
 date: "2010-02-23T04:45:11-06:00"
-tags: ["cpan", "logcontextual", "perl"]
+tags: [frew-warez, announcement, cpan, log-contextual, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1300"
 ---
 I really should have posted this sooner. Certainly before I began my [next project](http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=dbsrgits/DBIx-Class-DeploymentHandler.git). Oh well.

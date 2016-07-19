@@ -2,7 +2,7 @@
 aliases: ["/archives/1129"]
 title: "Exceptions with Perl, what a joy!"
 date: "2009-09-03T03:34:51-05:00"
-tags: ["catalyst", "exception", "exceptions", "perl", "trycatch"]
+tags: [mitsi, catalyst, exceptions, perl, try-catch]
 guid: "http://blog.afoolishmanifesto.com/?p=1129"
 ---
 Today at work I had to do some validation that we haven't yet had to do for my project at work. I've always thought that for validations exceptions are the way to go. I'll explain everything I did so you guys can benefit/critique.

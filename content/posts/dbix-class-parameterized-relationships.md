@@ -1,7 +1,7 @@
 ---
 title: "DBIx::Class: Parameterized Relationships"
 date: "2014-07-22T08:07:12"
-tags: ["perl", "DBIx::Class", "DBIC", "extrels", "relationships"]
+tags: [frew-warez, "cpan", "perl", "dbix-class"]
 guid: "https://blog.afoolishmanifesto.com/posts/dbix-class-parameterized-relationships"
 ---
 Probably once a week in the DBIx::Class channel someone asks if there is a way

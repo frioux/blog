@@ -2,7 +2,7 @@
 aliases: ["/archives/1806"]
 title: "Announcing Apache::BalancerManager"
 date: "2013-01-11T02:12:08-06:00"
-tags: ["apachebalancermanager", "cpan", "perl"]
+tags: [mitsi, apache, cpan, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1806"
 ---
 At work I use [Apache](/archives/tag/apache) as it's the best thing out there for perl on windows. One of the features of Apache when you are using it as a load balancer is it's UI for controlling the Balancer Manager. One of my coworkers remarked that it would be nice to have an API for that so that when we restart workers we could tell the balancer manager first so that the worker would not get dispatched to until it finished restarting. Well OK!

@@ -2,7 +2,7 @@
 aliases: ["/archives/1807"]
 title: "Abstraction Levels"
 date: "2013-01-05T20:53:43-06:00"
-tags: ["abstraction", "perl", "programming"]
+tags: [frew-warez, abstraction, perl, programming]
 guid: "http://blog.afoolishmanifesto.com/?p=1807"
 ---
 One of the decisions we developers must make when writing our modules is at what level to abstract our code. I, for instance, write a lot of [DBIx::Class](http://metacpan.org/module/GETTY/DBIx-Class-0.08204/lib/DBIx/Class.pm) components, which is, for the purposes of this discussion, about the same as a role (and I will just use the term role for the rest of the article.) For a long time that was my standard _modus operandi_, but I've started to think that that is a bad default and that I need to consider more carefully what to use.

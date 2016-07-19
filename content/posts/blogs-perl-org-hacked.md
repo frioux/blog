@@ -2,7 +2,7 @@
 aliases: ["/archives/1915"]
 title: "blogs.perl.org hacked"
 date: "2014-01-23T16:32:24-06:00"
-tags: ["blogs-perl-org", "crypt", "passwords", "perl"]
+tags: [passwords, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1915"
 ---
 Things never change. Well actually they do, just not much.

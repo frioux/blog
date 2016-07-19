@@ -2,7 +2,7 @@
 aliases: ["/archives/1497"]
 title: "New Stuff in Data::Dumper::Concise (Devel::Dwarn)"
 date: "2011-01-21T01:15:52-06:00"
-tags: ["cpan", "datadumperconcise", "develdwarn", "perl"]
+tags: [frew-warez, cpan, data-dumper-concise, devel-dwarn, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1497"
 ---
 I just released a new [Data::Dumper::Concise](http://search.cpan.org/~frew/Data-Dumper-Concise-2.020/lib/Data/Dumper/Concise.pm). There are new features!

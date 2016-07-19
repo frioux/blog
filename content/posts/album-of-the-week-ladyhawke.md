@@ -2,7 +2,7 @@
 aliases: ["/archives/883"]
 title: "Album of the Week: Ladyhawke"
 date: "2009-07-02T03:20:16-05:00"
-tags: ["album-of-the-week", "music"]
+tags: [album-of-the-week, music]
 guid: "http://blog.afoolishmanifesto.com/?p=883"
 ---
 Sorry I've neglected the Album of the Week. It's really hard to write about music. I think I am going to make my requirements for AOTW postage less strict.

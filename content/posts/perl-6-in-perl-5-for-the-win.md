@@ -2,7 +2,7 @@
 aliases: ["/archives/1072"]
 title: "Perl 6 in Perl 5 FOR THE WIN"
 date: "2009-08-18T01:20:01-05:00"
-tags: ["cpan", "gather", "perl", "perl-5", "perl-6"]
+tags: [cpan, perl, perl-5, perl-6]
 guid: "http://blog.afoolishmanifesto.com/?p=1072"
 ---
 Today I wanted to generate a list from another list. Typically I would use map for this, but I wanted to iterate over **two** elements at a time, instead of one at a time. (A lot of people said to use **natatime** from [List::MoreUtils](http://search.cpan.org/perldoc?List::MoreUtils), over and over. They didn't read my question very carefully, especially since I specifically said I wanted natatime but with map.)

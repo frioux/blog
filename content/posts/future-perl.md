@@ -2,7 +2,7 @@
 aliases: ["/archives/633"]
 title: "Future Perl"
 date: "2009-05-07T01:10:36-05:00"
-tags: ["perl"]
+tags: [perl]
 guid: "http://blog.afoolishmanifesto.com/?p=633"
 ---
 This is mostly stuff I've gathered from [this talk](http://www.shadowcat.co.uk/catalyst/talks/postgresql-WEST-2008/-files/perl5s-alive.xul) and updated slightly.

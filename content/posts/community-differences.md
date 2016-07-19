@@ -2,7 +2,7 @@
 aliases: ["/archives/190"]
 title: "Community Differences"
 date: "2009-02-09T16:33:45-06:00"
-tags: ["community", "perl", "rails", "ruby"]
+tags: [community, perl, rails, ruby]
 guid: "http://blog.afoolishmanifesto.com/?p=190"
 ---
 I watched [this keynote](http://www.slideshare.net/petdance/frozen-perl-2009-keynote) from frozen perl this weekend and it was pretty great. There are plenty things to take from this presentation, but the thing I want to mention comes from slides 66-77. Consider that mandatory reading to understand this blog post.

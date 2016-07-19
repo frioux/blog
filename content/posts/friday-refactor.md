@@ -2,7 +2,7 @@
 aliases: ["/archives/693"]
 title: "Friday Refactor"
 date: "2009-05-09T06:42:19-05:00"
-tags: ["functional-programming", "perl"]
+tags: [mitsi, functional-programming, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=693"
 ---
 It's Friday, so a long post is **not** in order. With that in mind, a simple refactor for your pattern matching skulls and skills:

@@ -2,7 +2,7 @@
 aliases: ["/archives/1282"]
 title: "An Exposition on Specific Time Saving Code"
 date: "2010-01-29T08:19:18-06:00"
-tags: ["cpan", "dbix-class", "extjs", "javascript", "perl"]
+tags: [mitsi, cpan, dbix-class, extjs, javascript, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1282"
 ---
 I write a lot of ExtJS grids at work. I have written JavaScript classes for our Ext grids that generate as much as possible automatically, but the actual column definitions of the grids are almost always unique. The project I am on now is nearing our first real deploy, and we're late, so things have been really, really busy.

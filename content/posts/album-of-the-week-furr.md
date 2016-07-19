@@ -2,7 +2,7 @@
 aliases: ["/archives/491"]
 title: "Album of the Week: Furr"
 date: "2009-03-21T22:07:19-05:00"
-tags: ["album-of-the-week", "music"]
+tags: [album-of-the-week, music]
 guid: "http://blog.afoolishmanifesto.com/?p=491"
 ---
 [Furr](http://www.amazon.com/gp/product/B001CVCBBW) by [Blitzen Trapper](http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fentity%2FBlitzen-Trapper%2FB00197CYR0%3Fie%3DUTF8%26ref%255F%3Dntt%255Fmus%255Fdp%255Fpel&tag=afooman-20&linkCode=ur2&camp=1789&creative=390957)![](https://www.assoc-amazon.com/e/ir?t=afooman-20&l=ur2&o=1) is the Album of the Week. This post (as well as 2-3 others) should have been done earlier in the week, but I was a little swamped. Sorry if you were on the edge of your seat :-P

@@ -1,7 +1,7 @@
 ---
 title: Serverless
 date: 2016-06-01T10:58:25
-tags: ["heroku", "lambda", "sandstorm"]
+tags: [frew-warez, heroku, lambda, sandstorm]
 guid: "https://blog.afoolishmanifesto.com/posts/Serverless"
 ---
 A big trend lately has been the rise of "serverless" software.  I'm not sure I'm

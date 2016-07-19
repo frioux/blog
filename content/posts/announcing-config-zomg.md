@@ -2,7 +2,7 @@
 aliases: ["/archives/1494"]
 title: "Announcing Config::ZOMG"
 date: "2011-01-12T06:44:24-06:00"
-tags: ["configjfdi", "configzomg", "cpan", "perl"]
+tags: [announcement, frew-warez, config-jfdi, config-zomg, cpan, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1494"
 ---
 For a while now I've wanted to tear [Config::JFDI](http://search.cpan.org/perldoc?Config::JFDI) up. Since I first used it it's always been too heavy and had too many little weird things. Well, I did that last night and it ended up getting three times faster! I've released the fork as [Config::ZOMG](http://search.cpan.org/perldoc?Config::ZOMG) (I considered GTFO and STFU, but thought better of it.)

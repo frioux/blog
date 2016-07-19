@@ -2,7 +2,7 @@
 aliases: ["/archives/1515"]
 title: "Screen Scrape for Love with Web::Scraper"
 date: "2011-02-18T01:22:45-06:00"
-tags: ["cpan", "perl", "webscraper"]
+tags: [frew-warez, toolsmith, cpan, perl, web-scraper]
 guid: "http://blog.afoolishmanifesto.com/?p=1515"
 ---
 My fiancée and I have not yet picked out a date for our wedding, but we do know that we want it outdoors. We have scoped out a number of locations that can handle indoor and outdoor weddings just in case there is bad weather, but we'd prefer to have perfect weather.

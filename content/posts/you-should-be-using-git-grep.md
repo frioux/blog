@@ -2,7 +2,7 @@
 aliases: ["/archives/1616"]
 title: "You should be using git grep"
 date: "2011-08-14T06:59:05-05:00"
-tags: ["ack", "git", "grep"]
+tags: [ack, git, grep]
 guid: "http://blog.afoolishmanifesto.com/?p=1616"
 ---
 Usually when searching through files I use [ack](http://betterthangrep.com/)

@@ -2,7 +2,7 @@
 aliases: ["/archives/1620"]
 title: "Git aliases for your life"
 date: "2011-08-17T06:59:18-05:00"
-tags: ["aliases", "git"]
+tags: [frew-warez, aliases, git]
 guid: "http://blog.afoolishmanifesto.com/?p=1620"
 ---
 I only use a handful of git aliases, but the ones I do I really like. First off, the basic ones:

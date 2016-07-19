@@ -1,7 +1,7 @@
 ---
 title: UCSPI
 date: 2016-02-10T09:42:34
-tags: [ucspi, cgi, psgi, unix, pipes]
+tags: [frew-warez, ucspi, cgi, psgi, unix, pipes]
 guid: "https://blog.afoolishmanifesto.com/posts/ucspi"
 ---
 While [CGI](https://www.ietf.org/rfc/rfc3875) is a fairly well established, if

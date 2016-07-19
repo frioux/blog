@@ -2,7 +2,7 @@
 aliases: ["/archives/1162"]
 title: "Perl, PostScript, PDF, Printing, and Money"
 date: "2009-09-18T00:15:18-05:00"
-tags: ["perl", "printing"]
+tags: [perl, printing, cpan]
 guid: "http://blog.afoolishmanifesto.com/?p=1162"
 ---
 I've been pretty busy/distracted lately. Normally I try to post 3 times a week about the cool things that I'm doing, but I haven't this week because what I am doing isn't that cool!

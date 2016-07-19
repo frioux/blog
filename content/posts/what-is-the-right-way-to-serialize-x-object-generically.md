@@ -2,7 +2,7 @@
 aliases: ["/archives/1269"]
 title: "What is the right way to serialize X object generically?"
 date: "2010-01-21T03:03:01-06:00"
-tags: ["perl", "serialization"]
+tags: [mitsi, perl, serialization]
 guid: "http://blog.afoolishmanifesto.com/?p=1269"
 ---
 Background: dates in our database automatically get "inflated" to

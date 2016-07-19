@@ -1,7 +1,7 @@
 ---
 title: CPAN Patch Workflow II
 date: 2015-08-11T17:37:18
-tags: [cpan perl git github git-hub git-cpan]
+tags: [cpan, perl, git, github, git-hub, git-cpan]
 guid: "https://blog.afoolishmanifesto.com/posts/cpan-patch-workflow-ii"
 ---
 [A couple of weeks ago I wrote an article about my CPAN Patch

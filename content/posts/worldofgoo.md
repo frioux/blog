@@ -2,7 +2,7 @@
 aliases: ["/archives/787"]
 title: "WorldOfGoo"
 date: "2009-06-06T05:38:07-05:00"
-tags: ["indie-games", "video-games"]
+tags: [indie-games, video-games]
 guid: "http://blog.afoolishmanifesto.com/?p=787"
 ---
 I just completed [World of

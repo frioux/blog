@@ -1,7 +1,7 @@
 ---
 title: A Few of My Favorite Tools
 date: 2014-07-07T08:23:08
-tags: ["strace", "sysdig", "daemonproxy", "yapcna"]
+tags: [frew-warez, strace, sysdig, yapc]
 guid: "https://blog.afoolishmanifesto.com/posts/a-few-of-my-favorite-tools"
 ---
 # `strace`

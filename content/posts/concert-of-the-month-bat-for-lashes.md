@@ -2,7 +2,7 @@
 aliases: ["/archives/1093"]
 title: "Concert of the Month: Bat for Lashes"
 date: "2009-08-22T16:30:39-05:00"
-tags: ["concert", "concert-of-the-month", "music"]
+tags: [life, concert, concert-of-the-month, music]
 guid: "http://blog.afoolishmanifesto.com/?p=1093"
 ---
 Last night (Thursday) I saw [Bat for Lashes](http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fentity%2FBat-for-Lashes%2FB00197K9W2%3Fie%3DUTF8%26ref%255F%3Dntt%255Fmus%255Fgen%255Fpel&tag=afooman-20&linkCode=ur2&camp=1789&creative=390957)![](https://www.assoc-amazon.com/e/ir?t=afooman-20&l=ur2&o=1) live. It was a really good concert!

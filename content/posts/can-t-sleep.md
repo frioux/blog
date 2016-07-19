@@ -2,7 +2,7 @@
 aliases: ["/archives/72"]
 title: "Can't Sleep"
 date: "2009-01-23T06:35:16-06:00"
-tags: ["egocentric"]
+tags: [meta, blog, perl-6, egocentric]
 guid: "http://blog.afoolishmanifesto.com/archives/72"
 ---
 Dreamhost told me to update WordPress. The newer version is awesomes!

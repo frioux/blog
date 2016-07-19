@@ -2,7 +2,7 @@
 aliases: ["/archives/1547"]
 title: "Nicer git remote URLs"
 date: "2011-05-25T01:17:41-05:00"
-tags: ["git"]
+tags: [frew-warez, git]
 guid: "http://blog.afoolishmanifesto.com/?p=1547"
 ---
 Most open source git repositories that I interact with are hosted at [git.shadowcat.co.uk](http://git.shadowcat.co.uk). A few typical repo urls (read/write) hosted here looks like:

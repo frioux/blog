@@ -2,7 +2,7 @@
 aliases: ["/archives/94"]
 title: "Javascript with Prototype: Hexstring to boolean array"
 date: "2009-01-28T21:16:49-06:00"
-tags: ["functional-programming", "javascript"]
+tags: [functional-programming, javascript]
 guid: "http://blog.afoolishmanifesto.com/?p=94"
 ---
 Here's some sexy code:

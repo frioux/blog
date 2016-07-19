@@ -2,7 +2,7 @@
 aliases: ["/archives/1750"]
 title: "Web::Machine + Web::Simple is awesome"
 date: "2012-06-27T15:30:30-05:00"
-tags: ["catalyst", "cpan", "perl", "webmachine", "websimple"]
+tags: [mitsi, catalyst, cpan, perl, web-machine, web-simple]
 guid: "http://blog.afoolishmanifesto.com/?p=1750"
 ---
 I really like "REST," which the pedantic of you will realize is really just

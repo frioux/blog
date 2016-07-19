@@ -1,7 +1,7 @@
 ---
 title: Dream On Dreamer
 date: 2015-11-21T02:29:32
-tags: ["inspired", "late", "buckethead", "flower kings"]
+tags: [frew-warez, inspired, late, buckethead, flower kings]
 guid: "https://blog.afoolishmanifesto.com/posts/dream-on-dreamer"
 ---
 I can't speak for others, but I was pretty inspired as a teenager.  What I'd do

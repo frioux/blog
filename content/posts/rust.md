@@ -1,7 +1,7 @@
 ---
 title: Rust
 date: 2016-02-09T09:34:13
-tags: [rust, community, documentation, "error messages"]
+tags: [frew-warez, rust, community, documentation, error messages]
 guid: "https://blog.afoolishmanifesto.com/posts/rust"
 ---
 I've really enjoyed writing Rust, lately.  [I posted

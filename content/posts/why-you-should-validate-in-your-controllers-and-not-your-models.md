@@ -2,7 +2,7 @@
 aliases: ["/archives/828"]
 title: "Why you should validate in your controllers and not your models"
 date: "2009-06-18T04:29:28-05:00"
-tags: ["mvc", "perl"]
+tags: [mvc, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=828"
 ---
 Okay, I got some responses based on my [question](/archives/819) yesterday about

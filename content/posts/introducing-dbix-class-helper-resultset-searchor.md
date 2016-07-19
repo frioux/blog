@@ -2,7 +2,7 @@
 aliases: ["/archives/1714"]
 title: "Introducing DBIx::Class::Helper::ResultSet::SearchOr"
 date: "2012-06-01T14:24:50-05:00"
-tags: ["cpan", "dbix-class", "dbix-class-helpers", "perl"]
+tags: [frew-warez, announcement, cpan, dbix-class, dbix-class-helpers, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1714"
 ---
 Arguably the most important design decision that mst made when first writing DBIx::Class was the choice to make chainable resultsets. A fundamental part of that design is that when you chain off of a resultset you should always get a subset of what you started with. This is important because it's what makes searching from a user object or similarly using DBIx::Class::Schema::RestrictWithObject work in a safe manner.

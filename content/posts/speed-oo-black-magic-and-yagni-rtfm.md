@@ -2,7 +2,7 @@
 aliases: ["/archives/939"]
 title: "Speed, OO, Black Magic, and YAGNI + RTFM"
 date: "2009-07-16T02:17:42-05:00"
-tags: ["black-magic", "oo", "performance", "perl", "rtfm", "yagni"]
+tags: [mitsi, black-magic, object-oriented-programming, performance, perl, rtfm, yagni]
 guid: "http://blog.afoolishmanifesto.com/?p=939"
 ---
 At work we have a certain customer who has a database with something like 250 report tables. They are generated and maintained purely in code and if you ever touch one manually it's for a one-off script or something. Anyway, we recently started using [DBIx::Class](http://search.cpan.org/perldoc?DBIx::Class) at work and part of that meant accessing those report tables with DBIC.

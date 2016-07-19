@@ -2,7 +2,7 @@
 aliases: ["/archives/1557"]
 title: "Distributed Issue Tracking"
 date: "2011-07-07T04:00:38-05:00"
-tags: ["bugs", "bugs-everywhere", "git", "git-case", "git-issues", "issues", "ticgit"]
+tags: [frew-warez, bugs, bugs-everywhere, git, git-case, git-issues, issues, ticgit]
 guid: "http://blog.afoolishmanifesto.com/?p=1557"
 ---
 Ever since I heard about [SD (Simple Defects)](http://syncwith.us/sd/) I've been enamored with the idea of distributed issue tracking. Unfortunately SD is mostly unmaintained, undocumented, slow, and has lots of deps. I could probably get over the latter two, but the first two are deal breakers.

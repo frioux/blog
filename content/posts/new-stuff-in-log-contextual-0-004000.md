@@ -2,6 +2,7 @@
 aliases: ["/archives/1591"]
 title: "New Stuff in Log::Contextual 0.004000"
 date: "2011-08-07T06:59:10-05:00"
+tags: [frew-warez, log-contextual, cpan, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1591"
 ---
 I just released [Log::Contextual 0.004000](https://metacpan.org/module/FREW/Log-Contextual-0.004000/lib/Log/Contextual.pm) and it has a handful of great features.

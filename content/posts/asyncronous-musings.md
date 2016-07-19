@@ -1,7 +1,7 @@
 ---
 title: Asynchronous Musings
 date: 2015-01-22T19:19:21
-tags: ["async", "perl", "cpan", "io-async"]
+tags: [mitsi, "async", "perl", "cpan", "io-async"]
 guid: "https://blog.afoolishmanifesto.com/posts/asynchronous-musings"
 ---
 Recently at work I've been working on our first section of code that is purely

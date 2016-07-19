@@ -2,7 +2,7 @@
 aliases: ["/archives/847"]
 title: "YAPC Day 1"
 date: "2009-06-23T04:15:59-05:00"
-tags: ["perl", "yapc", "yapcna"]
+tags: [perl, yapc]
 guid: "http://blog.afoolishmanifesto.com/?p=847"
 ---
 Today was the first official day of YAPC. A lot happened! I'll just document what was interesting :-)

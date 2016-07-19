@@ -2,6 +2,7 @@
 aliases: ["/perl-tutorials/perl-2"]
 title: "Perl 2"
 date: "2009-03-12T04:11:50-05:00"
+tags: [perl]
 guid: "http://blog.afoolishmanifesto.com/?page_id=445"
 ---
 Station Teammates,

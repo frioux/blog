@@ -2,7 +2,7 @@
 aliases: ["/archives/570"]
 title: "Why CPAN is Awesome"
 date: "2009-04-23T03:58:54-05:00"
-tags: ["cpan", "perl", "sockets"]
+tags: [frew-warez, mitsi, perl-critic, webcritic, cpan, perl, sockets]
 guid: "http://blog.afoolishmanifesto.com/?p=570"
 ---
 Have you ever written a server? It's kinda fun! Yes, I'm a nerd. Anyway, I

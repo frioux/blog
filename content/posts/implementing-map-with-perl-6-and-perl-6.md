@@ -2,6 +2,7 @@
 aliases: ["/archives/482"]
 title: "Implementing map with Perl 6 and Perl 6"
 date: "2009-03-16T03:51:39-05:00"
+tags: [perl, perl-6, functional-programming]
 guid: "http://blog.afoolishmanifesto.com/?p=482"
 ---
 Hopefully everyone reading this blog knows the function map. Map _maps_ one array onto another with a simple function. For example, if I had a list of names at my old school and I wanted a list of emails I could do something like this:

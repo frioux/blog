@@ -2,7 +2,7 @@
 aliases: ["/archives/105"]
 title: "Vim Settings"
 date: "2009-01-30T16:16:27-06:00"
-tags: ["user-interface", "vim"]
+tags: [user-interface, vim]
 guid: "http://blog.afoolishmanifesto.com/?p=105"
 ---
 Today I am just going to talk about my favorite vim "stuff." A lot of this I

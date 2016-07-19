@@ -2,7 +2,7 @@
 aliases: ["/archives/1640"]
 title: "Weekly Status Report 3"
 date: "2011-08-22T23:44:04-05:00"
-tags: ["dbix-class-helpers", "logcontextual", "perl", "status-report", "weekly"]
+tags: [frew-warez, dbix-class-helpers, log-contextual, perl, status-report, weekly]
 guid: "http://blog.afoolishmanifesto.com/?p=1640"
 ---
 I don't feel great about this past week, but I was really busy with wedding

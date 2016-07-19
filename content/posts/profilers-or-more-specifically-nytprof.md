@@ -2,7 +2,7 @@
 aliases: ["/archives/635"]
 title: "Profilers or more specifically NYTProf"
 date: "2009-05-12T22:36:56-05:00"
-tags: ["nytprof", "perl", "profiler"]
+tags: [mitsi, nytprof, perl, profiler]
 guid: "http://blog.afoolishmanifesto.com/?p=635"
 ---
 At work one of our [customers](http://www.epmsonline.com/) is having us revamp one of the major sections of the site. We are moving in the "Web Application" direction; that is, very little HTML, and almost all Javascript. The section of the site that my coworker was working on recently does a lot of calculation. On the old HTML page a customer would log in, ask for a certain report, and I guess go get a cup of coffee. The report took something like five minutes to run; not impossibly long, but long enough that you don't want to leave it like that and turn the output into JSON.

@@ -1,7 +1,7 @@
 ---
 title: Pong for Pico-8
 date: 2015-12-23T06:55:43
-tags: [pong, pico-8, lua]
+tags: [frew-warez, pong, pico-8, lua]
 guid: "https://blog.afoolishmanifesto.com/posts/pong-for-pico-8"
 ---
 I originally wrote this for the [Pico-8

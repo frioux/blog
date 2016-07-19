@@ -2,6 +2,7 @@
 aliases: ["/archives/1601"]
 title: "New Stuff in Class::C3::Componentised 1.001000"
 date: "2011-08-10T06:59:21-05:00"
+tags: [frew-warez, cpan, perl, announcement]
 guid: "http://blog.afoolishmanifesto.com/?p=1601"
 ---
 I'm very excited to **finally** announce a feature that I've toyed with in [Class::C3::Componentised](https://metacpan.org/module/Class::C3::Componentised) for over a year now.

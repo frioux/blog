@@ -15,9 +15,7 @@ GetOptions (
    'formatter=s' => \$formatter,
 ) or die("Error in command line arguments\n");
 
-use YAML 'Load';
-
-
+use YAML::XS 'Load';
 
 my $dbh = DBI->connect('dbi:SQLite::memory:', {
       RaiseError => 1,
@@ -67,6 +65,6 @@ my $sth = $dbh->prepare($sql || die "pass some SQL yo\n");
 $sth->execute(@ARGV);
 
 for my $row ($sth->fetchall_arrayref({})->@*) {
-   my $code = $formatter || 'join "\t", map $_[0]{$_}, sort keys $_[0]->%*';
+   my $code = $formatter || 'join "\t", map $r{$_}, sort keys %r';
    say((sub { my %r = $_[0]->%*; eval $code })->($row))
 }

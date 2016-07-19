@@ -2,6 +2,7 @@
 aliases: ["/archives/1536"]
 title: "Chai Tea Mix"
 date: "2011-04-07T01:37:57-05:00"
+tags: [frew-warez, self, chai]
 guid: "http://blog.afoolishmanifesto.com/?p=1536"
 ---
 I've been using this for a couple years now, and I figure I'll [repost](http://www.christonium.com/culinaryreview/How_To_Make_Your_Own_Dry_Spicy_Chai_Mix) it so that it's easy to find (for me.)

@@ -2,7 +2,7 @@
 aliases: ["/archives/1219"]
 title: "And a Great Cheer Erupted from The Land!"
 date: "2009-11-25T05:25:34-06:00"
-tags: ["perl", "web-simple"]
+tags: [perl, web-simple]
 guid: "http://blog.afoolishmanifesto.com/?p=1219"
 ---
 Guys! [Web::Simple](http://search.cpan.org/perldoc?Web::Simple) got released today! I fully intend on porting my personal CGIApp projects to Web::Simple immediately after writing this post. It really allows for a lot more possibilities, and not just the super sexy dispatching that is documented.

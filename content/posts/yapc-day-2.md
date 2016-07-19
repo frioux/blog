@@ -2,7 +2,7 @@
 aliases: ["/archives/853"]
 title: "YAPC Day 2"
 date: "2009-06-23T23:50:49-05:00"
-tags: ["perl", "yapc", "yapcna"]
+tags: [perl, yapc]
 guid: "http://blog.afoolishmanifesto.com/?p=853"
 ---
 This is day 2 (my final day :-( ) of YAPC. I tried my best to keep reasonable notes but near the end of the day my brain started to slow down. Hope you dig it nonetheless!

@@ -2,6 +2,7 @@
 aliases: ["/archives/1196"]
 title: "Missing In Action"
 date: "2009-10-22T06:23:16-05:00"
+tags: [mitsi, perl, cpan, open-source, printing]
 guid: "http://blog.afoolishmanifesto.com/?p=1196"
 ---
 So I haven't posted for kindav a long time. I have a lot planned to write about, but first, the reason it's been so long and the solution to that problem.

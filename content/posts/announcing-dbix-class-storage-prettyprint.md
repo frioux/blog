@@ -2,6 +2,7 @@
 aliases: ["/archives/1424"]
 title: "Announcing DBIx::Class::Storage::PrettyPrint"
 date: "2010-09-07T02:17:50-05:00"
+tags: [frew-warez, dbix-class, cpan, perl, announcement]
 guid: "http://blog.afoolishmanifesto.com/?p=1424"
 ---
 Recently I read [a post by ovid](http://blogs.perl.org/users/ovid/2010/08/pretty-sql-output-on-test-failure.html) where he shows color coding SQL on test failures. I really wanted to steal his code for [DBIx::Class](http://search.cpan.org/perldoc?DBIx::Class)'s trace output. For MSSQL it would be especially helpful since our pagination involves two subqueries. ribasushi had pointed out in the past that all we need to do this (and do it correctly) was to refactor a bit of the test code and we'd have a proper parser and deparser.

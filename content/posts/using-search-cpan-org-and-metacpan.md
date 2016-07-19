@@ -2,7 +2,7 @@
 aliases: ["/archives/1692"]
 title: "Using search.cpan.org AND metacpan"
 date: "2012-05-16T00:22:00-05:00"
-tags: ["metacpan", "perl", "sco", "search-cpan-org"]
+tags: [frew-warez, metacpan, perl, search-cpan-org]
 guid: "http://blog.afoolishmanifesto.com/?p=1692"
 ---
 I appreciate the effort and openness of [metacpan](http://metacpan.org), but

@@ -1,7 +1,7 @@
 ---
 title: Migrating My Blog from Linode to CloudFront
 date: 2016-02-20T23:18:51
-tags: [linode, aws, s3, cloudfront]
+tags: [frew-warez, linode, aws, s3, cloudfront, blog, meta]
 guid: "https://blog.afoolishmanifesto.com/posts/migrating-my-blog-from-linode-to-cloudfront"
 ---
 

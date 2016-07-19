@@ -2,6 +2,7 @@
 aliases: ["/public-todo"]
 title: "Public Todo"
 date: "2009-07-24T03:16:45-05:00"
+tags: [frew-warez, perl]
 guid: "http://blog.afoolishmanifesto.com/?page_id=1004"
 ---
 These are the myriad things I need to do in my public, non-work programming

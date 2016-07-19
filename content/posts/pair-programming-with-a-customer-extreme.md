@@ -2,7 +2,7 @@
 aliases: ["/archives/838"]
 title: "Pair Programming with a Customer.  EXTREME."
 date: "2009-06-30T23:53:52-05:00"
-tags: ["agile", "programming", "work", "xp"]
+tags: [mitsi, agile, programming, work, xp]
 guid: "http://blog.afoolishmanifesto.com/?p=838"
 ---
 The week before YAPC was **terrible**.

@@ -1,7 +1,7 @@
 ---
 title: The Bad, The Good, and The Cloud
 date: 2015-09-07T22:20:56
-tags: ["7z", "7zr", "AWS", "CLI"]
+tags: [frew-warez, aws, cli]
 guid: "https://blog.afoolishmanifesto.com/posts/the-bad-the-good-and-the-cloud"
 ---
 

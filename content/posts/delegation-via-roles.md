@@ -2,7 +2,7 @@
 aliases: ["/archives/1315"]
 title: "Delegation via Roles"
 date: "2010-04-02T05:23:31-05:00"
-tags: ["delegation", "moose", "perl", "roles"]
+tags: [frew-warez, delegation, moose, perl, roles]
 guid: "http://blog.afoolishmanifesto.com/?p=1315"
 ---
 [DBIx::Class::DeploymentHandler](http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=dbsrgits/DBIx-Class-DeploymentHandler.git;a=summary) is nearly ready for prime time, so I'm going to discuss a pattern [mst](http://www.shadowcat.co.uk/blog/matt-s-trout/) described to me that I've found very helpful in developing this project.

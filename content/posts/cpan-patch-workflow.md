@@ -1,7 +1,7 @@
 ---
 title: CPAN Patch workflow
 date: 2015-07-30T17:58:16
-tags: ["cpan", "perl", "git", "github", "git-hub", "git-cpan"]
+tags: [ziprecruiter, frew-warez, cpan, perl, git, github, git-hub, git-cpan]
 guid: "https://blog.afoolishmanifesto.com/posts/cpan-patch-workflow"
 ---
 I just wanted to write up a quick note on my workflow for CPAN patches, because

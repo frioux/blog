@@ -2,7 +2,7 @@
 aliases: ["/archives/1561"]
 title: "My Ideal workflow tool"
 date: "2011-07-12T01:08:09-05:00"
-tags: ["git", "workflow"]
+tags: [frew-warez, git, workflow]
 guid: "http://blog.afoolishmanifesto.com/?p=1561"
 ---
 1. **super fetch**:

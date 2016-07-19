@@ -2,7 +2,7 @@
 aliases: ["/archives/706"]
 title: "Dallas.p6m: May 2009"
 date: "2009-05-15T05:41:35-05:00"
-tags: ["dallas", "p6m", "perl", "perl6"]
+tags: [dallas, perl, perl-6]
 guid: "http://blog.afoolishmanifesto.com/?p=706"
 ---
 We had the second Dallas.p6m on May 12, 2009. Along with me there were two of my coworkers, s1n, Graham Barr, and Patrick Michaud. We discussed a lot of things. One of which was the difference between **subs and methods** in Perl6. And the fact that you can't imply self. This should explain it:

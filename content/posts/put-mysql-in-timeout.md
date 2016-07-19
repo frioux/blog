@@ -1,7 +1,7 @@
 ---
 title: "Putting MySQL in Timeout"
 date: 2016-05-08T01:04:34
-tags: ["mysql", "perl"]
+tags: [ziprecruiter, mysql, perl]
 guid: "https://blog.afoolishmanifesto.com/posts/put-mysql-in-timeout"
 ---
 At [work](https://www.ziprecruiter.com) we are working hard to scale our service to serve more users and have

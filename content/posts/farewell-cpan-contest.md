@@ -1,7 +1,7 @@
 ---
 title: Farewell, CPAN Contest
 date: 2015-12-16T12:48:24
-tags: [cpan, perl]
+tags: [frew-warez, cpan, perl]
 guid: "https://blog.afoolishmanifesto.com/posts/farewell-cpan-contest"
 ---
 [In August I write about being tired](/posts/chains-of-gid/) of [The CPAN

@@ -2,14 +2,13 @@
 aliases: ["/archives/1202"]
 title: "Writing vs. Writing"
 date: "2009-10-29T04:12:21-05:00"
-tags: ["blog", "code", "cpan", "perl"]
+tags: [mitsi, blog, code, cpan, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1202"
 ---
 I enjoy updating this blog. Part of it is that I like writing, and part of it is
 that I kinda feel famous with all these great coders reading the words that I
 write. But I like programming better. That is why lately I've been posting less
-and [coding[
-[more](http://github.com/frioux).]()](http://search.cpan.org/~frew/)
+and [coding](http://github.com/frioux) [more](http://search.cpan.org/~frew/).
 
 In posting modules to CPAN I've learned a lot of different things. First off,
 testing is easy. But before you test you have to set up your test environment.

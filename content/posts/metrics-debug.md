@@ -2,7 +2,7 @@
 aliases: ["/archives/1075"]
 title: "Metrics + Debug!"
 date: "2009-08-19T04:34:40-05:00"
-tags: ["apache", "catalyst", "gzip", "javascript", "perl"]
+tags: [mitsi, apache, catalyst, gzip, javascript, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1075"
 ---
 The project I am working on at work is going to be deployed soon, so today I worked on some of those things that need to be taken care of before the deploy. One of those things was changing our gigantic list of javascript files into a single file with minimal hassle. I actually tried to implement it myself, but that was silly. A simple search on CPAN for [catalyst javascript](http://search.cpan.org/search?query=catalyst%20javascript&mode=all) yields two promising results.

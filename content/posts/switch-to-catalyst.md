@@ -2,7 +2,7 @@
 aliases: ["/archives/937"]
 title: "Switch to Catalyst!"
 date: "2009-07-17T22:10:21-05:00"
-tags: ["catalyst", "cgiapp", "cgiapplcation", "perl", "regex", "regexen", "regular-expressions", "vi", "vim"]
+tags: [mitsi, catalyst, cgi-application, perl, regular-expressions, vim]
 guid: "http://blog.afoolishmanifesto.com/?p=937"
 ---
 So this week, [as previously alluded to](/archives/939 I had used the initial

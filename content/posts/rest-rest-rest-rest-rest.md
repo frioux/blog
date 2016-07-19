@@ -2,7 +2,7 @@
 aliases: ["/archives/986"]
 title: "REST REST REST REST REST"
 date: "2009-07-24T03:07:32-05:00"
-tags: ["catalyst", "dispatching", "ext", "javascript", "perl", "rest"]
+tags: [mitsi, catalyst, dispatching, extjs, javascript, perl, rest]
 guid: "http://blog.afoolishmanifesto.com/?p=986"
 ---
 So some of you may have heard about RESTful interfaces. What I am going to describe here is my vague interpretation of REST through a web developers glasses, with respect to Catalyst and ExtJS. But first some background.

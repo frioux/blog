@@ -2,7 +2,7 @@
 aliases: ["/archives/1055"]
 title: "On Rewrites, or Why One Should Read as Little Code as Possible"
 date: "2009-08-07T01:25:34-05:00"
-tags: ["primary-key", "reverse-engineering", "rewriting", "sql", "unique-id"]
+tags: [mitsi, extjs, primary-key, reverse-engineering, rewriting, sql, unique-id]
 guid: "http://blog.afoolishmanifesto.com/?p=1055"
 ---
 The project I am working on right now is rewriting a large, mostly CRUD application. The current app (second generation) is all VB6 and Stored Procedures. We are making the app entirely web based with [DBIx::Class](http://search.cpan.org/perldoc?DBIx::Class) for the brunt of the backend and [ExtJS](http://extjs.com) for the UI. There are a [few](http://search.cpan.org/perldoc?Catalyst) [other](http://en.wikipedia.org/wiki/Representational_State_Transfer) technologies involved, but they should remain fairly light and unobtrusive.

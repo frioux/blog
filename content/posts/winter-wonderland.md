@@ -2,7 +2,7 @@
 aliases: ["/archives/67"]
 title: "Winter Wonderland"
 date: "2009-01-17T22:30:29-06:00"
-tags: ["egocentric", "travel"]
+tags: [ocean-springs, crested-butte, los-angeles, egocentric, travel]
 guid: "http://blog.afoolishmanifesto.com/archives/67"
 ---
 Ok, so this post is about my Christmas time of the year. The first major thing

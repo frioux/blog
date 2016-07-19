@@ -2,6 +2,7 @@
 aliases: ["/short-lists/game-short-list"]
 title: "Game Short List"
 date: "2009-09-20T19:53:46-05:00"
+tags: [short-list]
 guid: "http://blog.afoolishmanifesto.com/?page_id=1179"
 ---
 - Chrono Trigger

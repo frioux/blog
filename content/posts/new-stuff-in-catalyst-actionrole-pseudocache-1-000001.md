@@ -2,7 +2,7 @@
 aliases: ["/archives/1643"]
 title: "New Stuff in Catalyst::ActionRole::PseudoCache 1.000001"
 date: "2011-08-23T02:32:17-05:00"
-tags: ["catalystactionrolepseudocache", "catalystplugincache", "cpan", "perl"]
+tags: [mitsi, annoucenemnt, catalyst, cpan, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1643"
 ---
 I'm excited to announce a new version of [Catalyst::ActionRole::PseudoCache](https://metacpan.org/module/Catalyst::ActionRole::PseudoCache).

@@ -1,7 +1,7 @@
 ---
 title: "F# has Weird OO"
 date: "2014-03-17T18:11:25-05:00"
-tags: ["fsharp", "oo", "object-orientation"]
+tags: [mitsi, fsharp, object-oriented-programming]
 guid: "http://blog.afoolishmanifesto.com/posts/fsharp-has-weird-oo/"
 ---
 A little while back I was learning about F#.  For the most part F# is a cool

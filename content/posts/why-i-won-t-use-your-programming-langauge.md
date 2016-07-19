@@ -2,7 +2,7 @@
 aliases: ["/archives/1485"]
 title: "Why I Won't Use Your Programming Langauge"
 date: "2010-12-14T04:31:17-06:00"
-tags: ["cpan", "perl", "programming-languages"]
+tags: [frew-warez, cpan, perl, programming-languages]
 guid: "http://blog.afoolishmanifesto.com/?p=1485"
 ---
 I keep running into people at parties or whatnot who mock me for using Perl and

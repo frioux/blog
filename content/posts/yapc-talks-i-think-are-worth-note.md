@@ -2,7 +2,7 @@
 aliases: ["/archives/1358"]
 title: "YAPC Talks I Think Are Worth Note"
 date: "2010-06-23T17:47:56-05:00"
-tags: ["cpan", "perl", "yapc", "yapcna"]
+tags: [cpan, perl, yapc]
 guid: "http://blog.afoolishmanifesto.com/?p=1358"
 ---
 So I just got back from my second YAPC. **Again** I had to leave early, but not

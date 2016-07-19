@@ -2,7 +2,7 @@
 aliases: ["/archives/1428"]
 title: "Try Out Color Coded SQL"
 date: "2010-09-21T00:27:11-05:00"
-tags: ["cpan", "dbix-class", "perl"]
+tags: [frew-warez, cpan, dbix-class, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1428"
 ---
 Thanks to [arcanez](http://warpedreality.org/), my color coding SQL Logging has

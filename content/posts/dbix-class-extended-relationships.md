@@ -2,6 +2,7 @@
 aliases: ["/archives/1582"]
 title: "DBIx::Class Extended Relationships"
 date: "2011-08-05T06:59:50-05:00"
+tags: [mitsi, dbix-class, perl, cpan]
 guid: "http://blog.afoolishmanifesto.com/?p=1582"
 ---
 Since the dawn of time [DBIx::Class](https://metacpan.org/module/DBIx::Class) relationships were simply a set of columns related to each other via equality. For the most part this is good enough, but DBIx::Class aims at 100% power for all databases (unlike some other ORMs... :-) .)

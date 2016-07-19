@@ -2,7 +2,7 @@
 aliases: ["/archives/1746"]
 title: "Announcing Catalyst::Action::FromPSGI"
 date: "2012-06-25T15:30:50-05:00"
-tags: ["catalyst", "catalystactionfrompsgi", "cpan", "perl"]
+tags: [mitsi, announcement, catalyst, cpan, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1746"
 ---
 At YAPC this year I spoke with Stevan Little about his new module, Web::Machine. He mentioned that ultimately he wanted to figure out how to shim it into Catalyst. mst actually implemented something like that exactly a month ago, and I actually want to use it to make little redistributable apps that are the backend implementations of the gadgets for our dashboards at work. So I took Matt's code and made a module!

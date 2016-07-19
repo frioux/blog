@@ -2,7 +2,7 @@
 aliases: ["/archives/1480"]
 title: "Powerful benchmarking with Perl and ab"
 date: "2011-08-12T06:59:59-05:00"
-tags: ["ab", "benchmarking", "performance", "perl"]
+tags: [mitsi, ab, benchmarking, performance, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1480"
 ---
 One of my projects at [work](http://www.lynxguide.com) was to make an SMS (and voice actually) gateway. The gist is that instead of our customers each having an account with whatever text message company, they go through us. The benefit is that with a larger pool of users for the text messages users can have a lot more flexibility with how they use their messages. Most gateways sell you messages per month, and we sell yearly messages.

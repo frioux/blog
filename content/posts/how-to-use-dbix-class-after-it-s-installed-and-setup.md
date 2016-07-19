@@ -2,7 +2,7 @@
 aliases: ["/archives/65"]
 title: "How to use DBIx::Class after it's installed and setup"
 date: "2009-01-10T22:40:57-06:00"
-tags: ["dbix-class", "perl"]
+tags: [dbix-class, perl, mitsi]
 guid: "http://blog.afoolishmanifesto.com/archives/65"
 ---
 This is how I think a lot of code probably looks. Although it should be in methods and stuff, here is at the very least how to do just the basics:

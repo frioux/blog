@@ -2,6 +2,7 @@
 aliases: ["/archives/288"]
 title: "Least Favorite Features"
 date: "2009-02-23T04:59:09-06:00"
+tags: [perl, perl-6]
 guid: "http://blog.afoolishmanifesto.com/?p=288"
 ---
 brian d foy (author of [numerous](http://amazon.com/dp/0596527241/) [perl](http://amazon.com/dp/0596102062/) [books](http://amazon.com/dp/0596520107/)) asked this question on Stack Overflow: ["What are five things you hate about your favorite language?"](http://stackoverflow.com/questions/282329/what-are-five-things-you-hate-about-your-favorite-language)

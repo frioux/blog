@@ -2,7 +2,7 @@
 aliases: ["/archives/274"]
 title: "Paranoid Deletion in DBIx::Class"
 date: "2009-02-17T16:49:01-06:00"
-tags: ["dbix-class", "perl"]
+tags: [mitsi, dbix-class, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=274"
 ---
 In the most well designed databases that I've used we never really deleted anything from the database. We would just mark a field as deleted and then just make sure to filter out the deleted data when we searched and it was all groovy. You could easily readd the item and you never truly lost much data.

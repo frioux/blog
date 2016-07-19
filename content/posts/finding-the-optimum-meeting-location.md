@@ -2,6 +2,7 @@
 aliases: ["/archives/868"]
 title: "Finding the Optimum Meeting Location"
 date: "2009-06-30T02:01:16-05:00"
+tags: [frew-warez, perl, geocoding]
 guid: "http://blog.afoolishmanifesto.com/?p=868"
 ---
 So I just got back from a family reunion. My family is all about Modern::Reunion, or maybe Enlightened Reunion, or maybe Reunion foo + i. So with this reunion at the end a survey (done with Google Docs) was sent out. My mom asked me if I could somehow find the weighted middle of where everyone (42~ people) lives. So I was all: CENTROID.

@@ -2,7 +2,7 @@
 aliases: ["/archives/1704"]
 title: "Introducing JavaScript::Dependency::Manager"
 date: "2012-05-28T14:35:03-05:00"
-tags: ["cpan", "javascriptdependencymanager", "perl"]
+tags: [mitsi, announcement, cpan, javascript, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1704"
 ---
 Nearly a year ago my grandfather passed away. He had some form of dementia for a long time and I personally wasn't hit very hard by it, but as is the custom I went home to visit my family when it happened. On the drive down I listened to [Childhood's End](https://en.wikipedia.org/wiki/Childhood%27s_End) and [Rendezvous with Rama.](https://en.wikipedia.org/wiki/Rendezvous_with_Rama) At work I'd been tackling the problem of users with custom dashboards and possibly even the ability to have gadgets that we sell separately. The whole drive down I had trouble focusing on the audiobooks and instead was thinking about how to deal with this problem of loading the right JavaScript for the right users.

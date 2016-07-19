@@ -1,7 +1,7 @@
 ---
 title: You're Awesome YAPC!
 date: 2014-06-26T16:56:40
-tags: ["perl", "yapc"]
+tags: ["frew-warez", "perl", "yapc"]
 guid: "https://blog.afoolishmanifesto.com/posts/youre-awesome-yapc"
 ---
 I just got back from [this year's YAPC::NA](http://www.yapcna.org/yn2014/)

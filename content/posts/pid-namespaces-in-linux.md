@@ -1,7 +1,7 @@
 ---
 title: PID Namespaces in Linux
 date: 2015-11-25T20:32:03
-tags: ["linux", "namespaces", "cgroups"]
+tags: [ziprecruiter, linux, namespaces, cgroups]
 guid: "https://blog.afoolishmanifesto.com/posts/pid-namespaces-in-linux"
 ---
 One of the tools I wrote shortly after joining

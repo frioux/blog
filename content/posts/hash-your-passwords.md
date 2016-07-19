@@ -2,7 +2,7 @@
 aliases: ["/archives/1695"]
 title: "Hash your passwords!"
 date: "2012-09-03T19:37:51-05:00"
-tags: ["cpan", "dbix-class", "dbixclassencodedcolumn", "passwords", "perl"]
+tags: [mitsi, cpan, dbix-class, passwords, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1695"
 ---
 More than two years ago I blogged about how to [correctly store passwords](/archives/1286). [Recently a number of high profile websites have had their password storage compromised](http://arstechnica.com/security/2012/08/passwords-under-assault/). The storage method I blogged about **two years ago** is still hugely better than what LinkedIn (SHA1, no salt) and I think Gawker had. If you aren't already securely storing passwords, this post should get you going on a conversion.

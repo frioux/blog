@@ -1,7 +1,7 @@
 ---
 title: Haxxed
 date: 2015-05-02T20:54:09
-tags: ["hacked", "hack", "hacker", "botnet"]
+tags: [blog, meta]
 guid: "https://blog.afoolishmanifesto.com/posts/haxxed"
 ---
 This has been a pretty big week for me;  On Tuesday we listed our house to be

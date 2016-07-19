@@ -2,7 +2,7 @@
 aliases: ["/archives/1518"]
 title: "Git 1.7.5.1 from git on ubuntu"
 date: "2011-03-02T02:56:31-06:00"
-tags: ["git", "ubuntu"]
+tags: [git, ubuntu]
 guid: "http://blog.afoolishmanifesto.com/?p=1518"
 ---
 I really like git. It has an excellent suite of tools bundled with it from the start and it gets lots of updates and active development. Today I was looking at the latest git version (1.7.4) because I was installing it on a new machine and, as usual with new versions of things, I perused the [release notes](http://www.kernel.org/pub/software/scm/git/docs/RelNotes/1.7.4.txt). What really caught my eye was this:

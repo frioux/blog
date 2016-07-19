@@ -2,7 +2,7 @@
 aliases: ["/archives/1191"]
 title: "SCIENCE (aka benchmarking)"
 date: "2009-10-02T01:38:30-05:00"
-tags: ["benchmarking", "perl", "science"]
+tags: [mitsi, benchmarking, perl, science]
 guid: "http://blog.afoolishmanifesto.com/?p=1191"
 ---
 Recently we were doing something at work where we needed to get to a location deep in an HoH. We already had a solution that worked alright, but it was copy pasted in a couple places, it wasn't tested, and it wasn't documented. So I looked around on CPAN and found [Hash::Path](http://search.cpan.org/perldoc?Hash::Path). It did exactly what we wanted, but the code was recursive instead of iterative (like our solution.) Because we weren't going too deep I just installed it and figured I'd look at the actual differences later.

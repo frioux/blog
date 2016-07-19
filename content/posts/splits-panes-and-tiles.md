@@ -2,7 +2,7 @@
 aliases: ["/archives/101"]
 title: "Splits, panes, and tiles"
 date: "2009-02-05T23:30:48-06:00"
-tags: ["screen", "user-interface", "vim"]
+tags: [mitsi, screen, user-interface, vim]
 guid: "http://blog.afoolishmanifesto.com/?p=101"
 ---
 How do you manage numerous windows when you have a gigantic viewing space? Or what if you have a really tiny viewing space? At work I have two 22" monitors and maximization is just too ridiculous to consider and it is typically a huge waste of space.

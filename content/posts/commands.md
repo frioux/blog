@@ -2,7 +2,7 @@
 aliases: ["/archives/1318"]
 title: "commands!"
 date: "2010-04-05T19:21:17-05:00"
-tags: ["fun"]
+tags: [mitsi, fun]
 guid: "http://blog.afoolishmanifesto.com/?p=1318"
 ---
 [Yesterday](http://blogs.perl.org/users/ovid/2010/04/meme.html) Ovid posted this little snippet to get his top 10 used commands.

@@ -2,7 +2,7 @@
 aliases: ["/archives/1668"]
 title: "Creating a pseudo attribute with DBIx::Class"
 date: "2011-09-04T06:59:25-05:00"
-tags: ["dbix-class", "orm", "perl"]
+tags: [mitsi, dbix-class, orm, perl, cpan]
 guid: "http://blog.afoolishmanifesto.com/?p=1668"
 ---
 I'm surprised I haven't actually blogged this before. I had to do it recently for the first time in a long time and I figured I'd share the secret sauce.

@@ -2,7 +2,7 @@
 aliases: ["/archives/1459"]
 title: "Handy Backup Solution for Linux"
 date: "2010-11-27T01:04:53-06:00"
-tags: ["backup", "bup", "git", "linux", "lvm"]
+tags: [mitsi, backup, bup, git, linux, lvm]
 guid: "http://blog.afoolishmanifesto.com/?p=1459"
 ---
 At [work](http://mitsi.com/) I was recently given an external hard drive for backup purposes. Most of my coworkers are using some windows program to get the job done, but of course I can't use that since I am using Linux. I spoke with ribasushi, who knows all kinds of crazy weird things about administering a Linux machine, and he told me that the core to any good backup solution for Linux is [LVM](http://en.wikipedia.org/wiki/Logical_Volume_Manager_%28Linux%29). He uses it for no hassle MySQL backups too, so it's not limited to full system backups like I did.

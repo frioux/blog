@@ -2,7 +2,7 @@
 aliases: ["/archives/527"]
 title: "Ext Conference Day 2"
 date: "2009-04-16T04:10:09-05:00"
-tags: ["extjs", "javascript"]
+tags: [extjs, javascript, conference]
 guid: "http://blog.afoolishmanifesto.com/?p=527"
 ---
 Enjoy day 2:

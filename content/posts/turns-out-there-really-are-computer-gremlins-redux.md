@@ -2,6 +2,7 @@
 aliases: ["/archives/1118"]
 title: "\"Turns out there really are Computer Gremlins!\" redux"
 date: "2009-09-01T01:53:36-05:00"
+tags: [mitsi, catalyst, science, perl, win32]
 guid: "http://blog.afoolishmanifesto.com/?p=1118"
 ---
 So after some experimenting at work I found out what the culprit of my [previous

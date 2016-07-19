@@ -1,7 +1,7 @@
 ---
 title: "MRO's and you; how the distinction between C3 and DFS changed my life"
 date: 2015-04-14T10:44:36
-tags: ["c3", "dfs", "mro", "perl", "DBIx::Class::Helpers"]
+tags: [mitsi, mro, perl, dbix-class, dbix-class-helpers]
 guid: "https://blog.afoolishmanifesto.com/posts/mros-and-you-how-the-distinction-between-c3-and-dfs-changed-my-life"
 ---
 Recently [I fixed DBIx::Class::Helpers so that each helper would have a base

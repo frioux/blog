@@ -2,7 +2,7 @@
 aliases: ["/archives/1794"]
 title: "ssh tips"
 date: "2012-11-14T21:22:19-06:00"
-tags: ["ssh"]
+tags: [mitsi, ssh]
 guid: "http://blog.afoolishmanifesto.com/?p=1794"
 ---
 As a developer, I use ssh all the time. When connecting to the various servers and even other computers in my house, ssh is my go to. Most writable git servers use ssh. A newish Perl module by mst (Object::Remote) uses ssh for communication. There are a number of tricks you can use to make using ssh as hassle free as possible. I'll share these tips here.

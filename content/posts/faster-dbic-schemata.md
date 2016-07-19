@@ -1,7 +1,7 @@
 ---
 title: Faster DBIC Schemata
 date: 2015-03-27T22:21:12
-tags: ["DBIC", "Perl", "CPAN", "optimization"]
+tags: [dbix-class, perl, cpan, optimization, mitsi]
 guid: "https://blog.afoolishmanifesto.com/posts/faster-dbic-schemata"
 ---
 [Last week I did a talk for the Milwaukee Perl
@@ -45,6 +45,9 @@ make your schema load those auxiliary results on demand:
 
 Again, I don't have the code in front of me, but I'm pretty sure the above
 works.  Feel free to mention in the comments if there are better ways.
+
+(Note from the future, [I already blogged about this many years
+ago!](/posts/speed-oo-black-magic-and-yagni-rtfm/))
 
 ## Skip Column Generation
 

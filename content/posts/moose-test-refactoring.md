@@ -2,7 +2,7 @@
 aliases: ["/archives/1140"]
 title: "Moose Test Refactoring"
 date: "2009-09-07T21:06:58-05:00"
-tags: ["moose", "perl", "speed", "tests"]
+tags: [frew-warez, moose, cpan, perl, speed, testing]
 guid: "http://blog.afoolishmanifesto.com/?p=1140"
 ---
 I've taken care of a significant portion of the [refactoring that I'm doing](/archives/1124) to disable meta-tests for the Moose test suite. I've done all the tests up until the 100 series (which are examples.) The following is an example of how it's done:

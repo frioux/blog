@@ -2,7 +2,7 @@
 aliases: ["/archives/764"]
 title: "Script to Rename MP3's"
 date: "2009-05-31T22:37:34-05:00"
-tags: ["mp3", "music", "perl"]
+tags: [frew-warez, mp3, music, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=764"
 ---
 I recently got a new car stereo due to the other one being stolen. I am almost entirely happy with the model that I ended up purchasing, but one thing that it does, which is really obnoxious, is that it doesn't sort the files correctly unless the track number is early on in the file name. Even if all tracks are "FooBarBaz 01 - name.mp3" it seems to ignore the number unless it's the very beginning of the file name. Anyway, easy fix:

@@ -2,7 +2,7 @@
 aliases: ["/archives/1264"]
 title: "So Long IronMan....Sortof..."
 date: "2010-01-20T02:44:19-06:00"
-tags: ["ironman", "perl"]
+tags: [frew-warez, ironman, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1264"
 ---
 The [IronMan](http://ironman.enlightenedperl.org/) initiative is awesome! No one should misunderstand that. But I am getting WAY TOO MANY things in my feed reader. So here's my solution:

@@ -2,7 +2,7 @@
 aliases: ["/archives/521"]
 title: "Ext Conference, Day 1"
 date: "2009-04-15T00:46:27-05:00"
-tags: ["javascript-extjs"]
+tags: [javascript, extjs, conference]
 guid: "http://blog.afoolishmanifesto.com/?p=521"
 ---
 For the benefit of my memory, my coworkers, and the rest of the intarwub, I am posting my expanded notes on the Ext Conference 2009. They are supposed to put up slides and video, so hopefully blog posts won't be a major resource, but we'll see.

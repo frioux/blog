@@ -2,7 +2,7 @@
 aliases: ["/archives/1634"]
 title: "Using Cygwin instead of msysGit"
 date: "2011-08-22T03:18:29-05:00"
-tags: ["cywgin", "git", "msysgit", "screen", "windows", "zsh"]
+tags: [mitsi, cywgin, git, msysgit, screen, windows, zsh]
 guid: "http://blog.afoolishmanifesto.com/?p=1634"
 ---
 Our [main product](http://lynxguide.com/) at work is a Windows product. The

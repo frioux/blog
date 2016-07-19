@@ -2,6 +2,7 @@
 aliases: ["/archives/548"]
 title: "Post Conference Friday Toolchain"
 date: "2009-04-18T08:32:29-05:00"
+tags: [mitsi, extjs]
 guid: "http://blog.afoolishmanifesto.com/?p=548"
 ---
 Today at work I put to use a lot of the stuff that I learned at the conference this week. The first thing I did was install [JSLint Multi](http://code.google.com/p/jslint-multi-widget/). I already use Yahoo! Widgets for the weather and an analog clock, so it wasn't a big deal to install some widget.

@@ -2,6 +2,7 @@
 aliases: ["/archives/1396"]
 title: "New stuff in Devel::Dwarn"
 date: "2010-07-23T04:04:37-05:00"
+tags: [frew-warez, announcement, devel-dwarn, data-dumper-concise, cpan, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1396"
 ---
 Yesterday I released a new (major version of) [Devel::Dwarn](http://search.cpan.org/perldoc?Devel::Dwarn), or what is technically Data::Dumper::Concise. But those in the know call it Devel::Dwarn.

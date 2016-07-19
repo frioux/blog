@@ -2,7 +2,7 @@
 aliases: ["/archives/1331"]
 title: "How CPAN (and Open Source) works"
 date: "2010-05-20T00:57:47-05:00"
-tags: ["cpan", "perl"]
+tags: [frew-warez, cpan, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1331"
 ---
 I am writing this post to address a problem that I could see appearing in our community. If it offends you feel free to let me know. If you comment on my blog as a troll, I will delete your comments. Feel free to put them on your blog where they reflect on yourself :-)

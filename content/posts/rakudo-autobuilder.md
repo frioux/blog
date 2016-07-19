@@ -2,6 +2,7 @@
 aliases: ["/archives/267"]
 title: "Rakudo Autobuilder"
 date: "2009-02-16T05:02:57-06:00"
+tags: [perl, perl-6, rakudo]
 guid: "http://blog.afoolishmanifesto.com/?p=267"
 ---
 First off, if you did not already know, rakudo is the first implementation of perl6. There is no plan for an official Perl 6 implementation, so we have to give this implementation a name other than perl6.

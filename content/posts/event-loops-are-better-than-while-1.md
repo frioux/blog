@@ -2,7 +2,7 @@
 aliases: ["/archives/1525"]
 title: "Event Loops are better than while (1)"
 date: "2011-08-03T03:04:35-05:00"
-tags: ["cpan", "event-loops", "perl"]
+tags: [mitsi, cpan, event-loops, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1525"
 ---
 One of the projects that I worked on last year had a number, five I think, of background daemons. Basically the way we implemented this was by making a DoesRun role that looked something like the following:

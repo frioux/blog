@@ -1,7 +1,7 @@
 ---
 title: Configuration Station
 date: 2015-02-19T21:16:27
-tags: ["moo", "moose", "json", "perl", "config", "configuration"]
+tags: [mitsi, frew-warez, "moo", "moose", "perl", "configuration"]
 guid: "https://blog.afoolishmanifesto.com/posts/configuration-station"
 ---
 We've all dealt with and implemented configuration systems.  I've set up a few

@@ -2,7 +2,7 @@
 aliases: ["/archives/907"]
 title: "Form Validation Sucks."
 date: "2009-07-09T00:55:44-05:00"
-tags: ["formvalidation", "perl", "rant", "validation"]
+tags: [form-validation, perl, rant, validation]
 guid: "http://blog.afoolishmanifesto.com/?p=907"
 ---
 This is just a rant.

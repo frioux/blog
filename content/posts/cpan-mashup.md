@@ -2,7 +2,7 @@
 aliases: ["/archives/786"]
 title: "CPAN Mashup?"
 date: "2009-06-09T01:16:06-05:00"
-tags: ["cpan", "perl"]
+tags: [cpan, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=786"
 ---
 One of the common issues I hear about CPAN is that it's so sprawling that people do not know which modules to use and which not to use. Hopefully part of that issue will be solved by the [Enlightened Perl](http://www.enlightenedperl.org/index.html) Core, but that will only go so far. Recently there were a [couple](http://lastofthecarelessmen.blogspot.com/2009/06/lost-in-cpan.html) [posts](http://lastofthecarelessmen.blogspot.com/2009/06/guide-to-cpan-needed.html) regarding this issue. (Note: They are in reference to a post I made and they are from the same guy.) I even recently had a discussion regarding this with my boss recently because we needed some barcode generation code. _(We ended up using [Barcode::Code128](http://search.cpan.org/~wrw/Barcode-Code128-2.01/lib/Barcode/Code128.pm) but we spent a lot of time trying to get GD::Barcode to do what we wanted.)_ Furthermore I chatted with the EPCore guys regarding this and they all helped me think through a lot of these issues; I have a muddled mind :-)

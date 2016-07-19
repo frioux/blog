@@ -1,7 +1,7 @@
 ---
 title: How to Enable ptrace in Docker 1.10
 date: 2016-03-18T10:00:23
-tags: ['docker', 'ptrace', 'strace', 'seccomp']
+tags: [ziprecruiter, docker, ptrace, strace, seccomp]
 guid: "https://blog.afoolishmanifesto.com/posts/how-to-enable-ptrace-in-docker-1.10"
 ---
 This is just a quick blog post about something I got working this morning.

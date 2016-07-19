@@ -2,7 +2,7 @@
 aliases: ["/archives/418"]
 title: "Ghetto: Your Solution for Workarounds™"
 date: "2009-03-07T09:58:53-06:00"
-tags: ["perl", "perl6", "rakudo"]
+tags: [perl, perl-6, rakudo]
 guid: "http://blog.afoolishmanifesto.com/?p=418"
 ---
 I like to make playlists. But I also reorganize my music something like once or twice a year. Because of that my playlists get broken as they are really just lists of filenames. This past summer I wrote some code in ruby that would find files with the same basename but ignore the directory structure, and reconstruct playlists from that. It worked perfectly **except** every now and then I would get a live version or two. This works because I have an sqlite database of all of my music thanks to amaroK.

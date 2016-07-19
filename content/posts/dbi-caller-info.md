@@ -1,7 +1,7 @@
 ---
 title: DBI Caller Info
 date: 2016-06-08T23:26:52
-tags: ["dbi", "perl"]
+tags: [ziprecruiter, dbi, perl]
 guid: "https://blog.afoolishmanifesto.com/posts/dbi-caller-info"
 ---
 At [ZipRecruiter](https://www.ziprecruiter.com/) we have a system for appending

@@ -2,7 +2,7 @@
 aliases: ["/archives/844"]
 title: "YAPC::NA - Day -1: Moose"
 date: "2009-06-22T01:24:43-05:00"
-tags: ["moose", "perl", "yapc", "yapcna"]
+tags: [mitsi, moose, perl, yapc]
 guid: "http://blog.afoolishmanifesto.com/?p=844"
 ---
 Today was the first day (for me) of YAPC::NA. It was pretty cool! A coworker and

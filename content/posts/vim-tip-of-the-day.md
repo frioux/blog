@@ -2,7 +2,7 @@
 aliases: ["/archives/580"]
 title: "Vim Tip of the Day"
 date: "2009-04-23T15:12:47-05:00"
-tags: ["vim"]
+tags: [vim]
 guid: "http://blog.afoolishmanifesto.com/?p=580"
 ---
 Every now and then I want to run a given vim command on a bunch of lines. In the

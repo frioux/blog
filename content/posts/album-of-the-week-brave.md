@@ -2,7 +2,7 @@
 aliases: ["/archives/121"]
 title: "Album of the Week: Brave"
 date: "2009-03-12T02:46:24-05:00"
-tags: ["album-of-the-week", "music"]
+tags: [album-of-the-week, music]
 guid: "http://blog.afoolishmanifesto.com/?p=121"
 ---
 [Brave](http://www.amazon.com/gp/product/B000008I4Z?ie=UTF8&tag=afooman-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000008I4Z)![](http://www.assoc-amazon.com/e/ir?t=afooman-20&l=as2&o=1&a=B000008I4Z) by [Marillion](http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fentity%2FMarillion%2FB000APGYQO%3Fie%3DUTF8%26ref%255F%3Dntt%255Fmus%255Fdp%255Fpel&tag=afooman-20&linkCode=ur2&camp=1789&creative=390957)![](https://www.assoc-amazon.com/e/ir?t=afooman-20&l=ur2&o=1) is this weeks Album of the Week. Before I get into specifics I need to tell a story about how I got into Marillion...

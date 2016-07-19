@@ -1,7 +1,7 @@
 ---
 title: "AWS: Not just a place to run your VMs"
 date: 2015-05-23T08:13:33
-tags: ["aws", "ec2", "s3", "automation", "webscale"]
+tags: [mitsi, aws, ec2, s3, automation, webscale]
 guid: "https://blog.afoolishmanifesto.com/posts/aws-not-just-a-place-to-run-your-vms"
 ---
 [I'm on my way out](https://twitter.com/frioux/status/582931035261800449) at

@@ -2,7 +2,7 @@
 aliases: ["/archives/1627"]
 title: "Weekly Status Report 2"
 date: "2011-08-16T06:59:55-05:00"
-tags: ["classc3componentised", "dbixclasscandy", "perl", "status-report", "weekly"]
+tags: [frew-warez, dbix-class-candy, perl, status-report, weekly]
 guid: "http://blog.afoolishmanifesto.com/?p=1627"
 ---
 This week I:

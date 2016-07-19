@@ -2,7 +2,7 @@
 aliases: ["/archives/1530"]
 title: "DBIx::Class::Helper::Row::RelationshipDWIM: Awesome!"
 date: "2011-03-15T14:34:25-05:00"
-tags: ["cpan", "dbix-class", "dbix-class-helpers", "perl"]
+tags: [mitsi, cpan, dbix-class, dbix-class-helpers, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1530"
 ---
 Thanks to some idle chatting in the #dbix-class channel on irc.perl.org I came up with [DBIx::Class::Helper::Row::RelationshipDWIM](http://search.cpan.org/perldoc?DBIx::Class::Helper::Row::RelationshipDWIM). The gist of it is that you get to type

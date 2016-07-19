@@ -2,6 +2,7 @@
 aliases: ["/archives/1039"]
 title: "Initial Catalyst Impressions"
 date: "2009-08-05T04:16:41-05:00"
+tags: [mitsi, catalyst, cgi-application, rest]
 guid: "http://blog.afoolishmanifesto.com/?p=1039"
 ---
 I've been using Catalyst at home for nearly six weeks now and I guess two weeks at work. I feel that now is a good time for me to list some of my impressions.

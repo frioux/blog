@@ -1,7 +1,7 @@
 ---
 title: Announcing cgid
 date: 2016-02-08T08:42:34
-tags: [cgid, rust, ucspi, cgi, http]
+tags: [announcement, frew-warez, cgid, rust, ucspi, cgi, http]
 guid: "https://blog.afoolishmanifesto.com/posts/announcing-cgid"
 ---
 This post is an announcement of [`cgid`](https://github.com/frioux/cgid).

@@ -1,7 +1,7 @@
 ---
 title: Setting up Let's Encrypt and Piwik
 date: 2016-05-14T22:49:05
-tags: ["Let's Encrypt", "Piwik", "Apache"]
+tags: [frew-warez, lets-encrypt, apache, piwik]
 guid: "https://blog.afoolishmanifesto.com/posts/setting-up-lets-encrypt-and-piwik"
 ---
 Late last week I decided that I wanted to set up [Piwik](https://piwik.org/) on

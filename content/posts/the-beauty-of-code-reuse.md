@@ -2,7 +2,7 @@
 aliases: ["/archives/1069"]
 title: "The Beauty of Code Reuse"
 date: "2009-08-14T03:30:43-05:00"
-tags: ["catalyst", "cgiapp", "cgiapplication", "code-reuse", "extjs", "perl"]
+tags: [mitsi, catalyst, cgi-application, code-reuse, extjs, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1069"
 ---
 I'm probably preaching to the choir here, but it must be said: code reuse is

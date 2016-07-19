@@ -2,6 +2,7 @@
 aliases: ["/perl-tutorials/perl-1-and-a-little-bit-of-linux"]
 title: "Perl 1 (and a little bit of Linux)"
 date: "2009-03-05T04:17:05-06:00"
+tags: [perl]
 guid: "http://blog.afoolishmanifesto.com/?page_id=373"
 ---
 Hello friends!

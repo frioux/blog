@@ -2,7 +2,7 @@
 aliases: ["/archives/1008"]
 title: "Concert of the Month: cKy"
 date: "2009-07-28T02:50:06-05:00"
-tags: ["concert", "music"]
+tags: [life, concert, music]
 guid: "http://blog.afoolishmanifesto.com/?p=1008"
 ---
 I saw CKY this past Friday and it was a most excellent concert.

@@ -2,7 +2,7 @@
 aliases: ["/archives/1883"]
 title: "Perl Switches 101"
 date: "2013-08-16T02:16:21-05:00"
-tags: ["perl"]
+tags: [frew-warez, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1883"
 ---
 The backstory to this post is a little weird in that it involves [rjbs](http://rjbs.manxome.org/rubric) much more than usual. A couple weeks ago I was playing D&D with rjbs and Abigail, and before the game got started somehow we ended up talking about [Masterminds of Programming](http://www.amazon.com/gp/product/0596515170/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0596515170&linkCode=as2&tag=afooman-20)![](http://ir-na.amazon-adsystem.com/e/ir?t=afooman-20&l=as2&o=1&a=0596515170). The book is pretty good so far, you should totally read it! Anyway, the book has a chapter on [AWK](https://en.wikipedia.org/wiki/AWK) and for some reason I mentioned to rjbs that I need to buckle down and learn AWK. He told me instead that I should just use perl and it's many switches that save time when using it on the commandline. I have learned the few that he told me were critical and will document them here. Enjoy!

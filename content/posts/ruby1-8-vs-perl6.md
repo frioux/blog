@@ -2,7 +2,7 @@
 aliases: ["/archives/88"]
 title: "Ruby1.8 vs. Perl6"
 date: "2009-01-28T05:08:34-06:00"
-tags: ["perl", "perl6", "ruby"]
+tags: [perl, perl-6, ruby]
 guid: "http://blog.afoolishmanifesto.com/?p=88"
 ---
 First off let me say that I love ruby. Ruby more or less taught me functional programming, which I love. But I do think that perl6 (which you may think is vaporware) is better. I only post about features which I can use right now in rakudo. With that said we shall move onward.

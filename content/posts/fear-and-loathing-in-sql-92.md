@@ -1,7 +1,7 @@
 ---
 title: Fear and Loathing in SQL-92
 date: 2015-03-04T08:09:35
-tags: ["SQL Server", "sql-server", "sql", "sql-92", "standards", "Pg", "Postgres", "postgresql"]
+tags: [mitsi, sql-server, sql, standards, postgresql, war-stories]
 geography: "cupertino inn"
 guid: "https://blog.afoolishmanifesto.com/posts/fear-and-loathing-in-sql-92"
 ---

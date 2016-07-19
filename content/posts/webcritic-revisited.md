@@ -2,7 +2,7 @@
 aliases: ["/archives/1223"]
 title: "WebCritic Revisited"
 date: "2009-11-30T03:26:33-06:00"
-tags: ["jquery", "perl", "perlcritic", "web-simple"]
+tags: [frew-warez, jquery, perl, perl-critic, web-simple]
 guid: "http://blog.afoolishmanifesto.com/?p=1223"
 ---
 As I mentioned [in my last post](/archives/1219) I rewrote one of my personal

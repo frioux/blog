@@ -2,7 +2,7 @@
 aliases: ["/archives/642"]
 title: "Perl6 Excitement"
 date: "2009-05-08T00:27:15-05:00"
-tags: ["parrot", "perl", "perl6"]
+tags: [parrot, perl, perl-6]
 guid: "http://blog.afoolishmanifesto.com/?p=642"
 ---
 "I estimate that Rakudo starts up nearly 40% faster now than it did when I

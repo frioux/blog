@@ -2,7 +2,7 @@
 aliases: ["/archives/1477"]
 title: "Announcing Log::Sprintf and Log::Structured"
 date: "2010-12-08T05:13:21-06:00"
-tags: ["cpan", "logging", "logsprintf", "logstructured", "perl"]
+tags: [frew-warez, announcement, cpan, logging, log-sprintf, log-structured, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1477"
 ---
 I just released [Log::Sprintf](http://search.cpan.org/perldoc?Log::Sprintf) and [Log::Structured](http://search.cpan.org/perldoc?Log::Structured) to CPAN. They are both very simple modules, but they allow some powerful stuff.

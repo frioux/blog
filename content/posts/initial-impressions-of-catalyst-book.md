@@ -2,7 +2,7 @@
 aliases: ["/archives/977"]
 title: "Initial Impressions of Catalyst Book"
 date: "2009-07-23T01:14:21-05:00"
-tags: ["book", "catalyst", "cpan", "moose", "testing"]
+tags: [book, catalyst, cpan, moose, testing]
 guid: "http://blog.afoolishmanifesto.com/?p=977"
 ---
 I am just getting through chapter four of [the Catalyst book](http://www.amazon.com/Definitive-Guide-Catalyst-Maintainable-Applications/dp/1430223650?&camp=2486&linkCode=wey&tag=enligperlorga-21&creative=8882) and there are already a whole lot of things worth mentioning. My internet is currently at 50% packet loss because our wifi router is busted so this is pretty painful for me. So we'll keep it short.

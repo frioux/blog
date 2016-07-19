@@ -2,7 +2,7 @@
 aliases: ["/archives/336"]
 title: "OLOTD"
 date: "2009-02-27T05:02:06-06:00"
-tags: ["olotd", "zsh"]
+tags: [olotd, zsh]
 guid: "http://blog.afoolishmanifesto.com/archives/336"
 ---
     noglob zmv -W **/^*.flac **/*.flac

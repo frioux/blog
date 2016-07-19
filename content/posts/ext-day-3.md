@@ -2,7 +2,7 @@
 aliases: ["/archives/543"]
 title: "Ext Day 3"
 date: "2009-04-17T03:55:28-05:00"
-tags: ["extjs", "javascript"]
+tags: [extjs, javascript, conference]
 guid: "http://blog.afoolishmanifesto.com/?p=543"
 ---
 The end! Ok not quite. So this was the last day of the conference. It was shorter than the other days and most of us had to checkout anyway. Still exciting!

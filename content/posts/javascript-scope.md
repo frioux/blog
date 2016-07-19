@@ -2,7 +2,7 @@
 aliases: ["/archives/304"]
 title: "Javascript scope"
 date: "2009-02-26T18:39:08-06:00"
-tags: ["javascript-programming"]
+tags: [mitsi, extjs, javascript]
 guid: "http://blog.afoolishmanifesto.com/?p=304"
 ---
 One of my least favorite things about javascript is scope management. In most languages scope is quite clear; if you defined a variable previously **and** "higher up" in some kind of scope stack, you can access it. And furthermore, **this** always refers to the current object. That's not quite true for javascript, because javascript is different than (almost) any other programming language you have ever used. You don't like monkeypatching? Bummer. That's how objects are _created_ in javascript...more or less. But more on that later. Right now: **scope**.

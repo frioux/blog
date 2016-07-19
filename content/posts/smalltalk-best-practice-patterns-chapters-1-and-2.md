@@ -2,7 +2,7 @@
 aliases: ["/archives/1660"]
 title: "Smalltalk Best Practice Patterns, Chapters 1 and 2"
 date: "2011-08-30T23:29:23-05:00"
-tags: ["best-practices", "patterns", "programming", "smalltalk"]
+tags: [frew-warez, best-practice, patterns, programming, smalltalk]
 guid: "http://blog.afoolishmanifesto.com/?p=1660"
 ---
 For work I decided I'd start reading some technical books, taking notes, and then trying to reiterate what I've learned. Yesterday I read the Preface and Chapter 1 and today I read Chapter 2, but sadly it's all still introductory. I might as well discuss what I've read nonetheless.

@@ -2,7 +2,7 @@
 aliases: ["/archives/66"]
 title: "CGI::Application::Dispatch, optional paramters and optional runmodes"
 date: "2009-01-14T22:00:30-06:00"
-tags: ["cgiapp", "cgiapplication", "perl"]
+tags: [cgi-application, perl, mitsi]
 guid: "http://blog.afoolishmanifesto.com/archives/66"
 ---
 So I haven't totally figured everything out about CGI::Application::Dispatch, but I am learning a lot. First off, here are two things that I learned today.

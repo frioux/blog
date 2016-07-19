@@ -1,7 +1,7 @@
 ---
 title: Handy Rust Macros
 date: 2016-02-06T14:34:13
-tags: [rust, macro]
+tags: [frew-warez, rust, macro]
 guid: "https://blog.afoolishmanifesto.com/posts/handy-rust-macros"
 ---
 I've been writing some Rust lately and have been surprised at the dearth of

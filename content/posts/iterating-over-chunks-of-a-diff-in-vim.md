@@ -1,7 +1,7 @@
 ---
 title: Iterating over Chunks of a Diff in Vim
 date: 2016-05-25T22:41:14
-tags: ["vim", "diff", "git"]
+tags: [ziprecruiter, vim, git]
 guid: "https://blog.afoolishmanifesto.com/posts/iterating-of-chunks-of-a-diff-in-vim"
 ---
 Every now and then at work I'll make broad, sweeping changes in the codebase.

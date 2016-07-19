@@ -2,7 +2,7 @@
 aliases: ["/archives/1509"]
 title: "Catalyst Git Conversion"
 date: "2011-02-12T08:53:03-06:00"
-tags: ["catalyst", "cpan", "git"]
+tags: [frew-warez, catalyst, cpan, git]
 guid: "http://blog.afoolishmanifesto.com/?p=1509"
 ---
 Hello All!

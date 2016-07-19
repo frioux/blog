@@ -2,7 +2,7 @@
 aliases: ["/archives/1574"]
 title: "Getting More Done"
 date: "2011-08-02T02:01:51-05:00"
-tags: ["cpan", "perl", "planning"]
+tags: [frew-warez, cpan, perl, planning]
 guid: "http://blog.afoolishmanifesto.com/?p=1574"
 ---
 Today I purchased [59 Seconds](http://www.amazon.com/59-Seconds-Change-Minute-Vintage/dp/0307474860), recommended by Jeff Atwood. I struggle with procrastination as much as anyone else so I'm willing to spend 10 bucks to try to get more done. The author recommends four things to attain a given goal:

@@ -1,7 +1,7 @@
 ---
 title: Announcing DBIx::Class::Candy::ResultSet
 date: 2015-04-14T12:26:27
-tags: ["DBIx::Class", "DBIx::Class::Candy", "DBIx::Class::Helpers", "perl", "cpan"]
+tags: [mitsi, dbix-class, dbix-class-candy, dbix-class-helpers, perl, cpan]
 guid: "https://blog.afoolishmanifesto.com/posts/announcing-dbix-class-candy-resultset"
 ---
 Hello all!

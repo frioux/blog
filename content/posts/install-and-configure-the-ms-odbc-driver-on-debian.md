@@ -2,7 +2,7 @@
 aliases: ["/archives/1855"]
 title: "Install and Configure the MS ODBC Driver on Debian"
 date: "2013-07-05T03:27:40-05:00"
-tags: ["dbdodbc", "mssql", "odbc", "perl", "sql-server", "sqlnci"]
+tags: [mitsi, dbd-odbc, perl, sql-server]
 guid: "http://blog.afoolishmanifesto.com/?p=1855"
 ---
 This was originally written by my coworker [Wes

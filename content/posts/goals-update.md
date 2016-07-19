@@ -2,7 +2,7 @@
 aliases: ["/archives/1252"]
 title: "Goals Update"
 date: "2010-01-11T06:07:24-06:00"
-tags: ["goals", "life"]
+tags: [goals, life]
 guid: "http://blog.afoolishmanifesto.com/?p=1252"
 ---
 This week I...

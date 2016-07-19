@@ -2,7 +2,7 @@
 aliases: ["/archives/1758"]
 title: "Announcing DBIx::Class::MaterializedPath"
 date: "2012-09-10T19:55:21-05:00"
-tags: ["cpan", "dbix-class", "dbixclassmaterializedpath", "perl"]
+tags: [announcement, frew-warez, cpan, dbix-class, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1758"
 ---
 Have you ever wanted to store trees in your database? How about store them and avoid melting your database server at retrieval time? Did you want to use materialized path and were sad when there were no quality modules to do it with DBIx:Class?

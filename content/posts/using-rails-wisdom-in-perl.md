@@ -2,7 +2,7 @@
 aliases: ["/archives/64"]
 title: "Using \"Rails\" wisdom in Perl"
 date: "2009-01-10T20:36:33-06:00"
-tags: ["perl", "rails", "ruby"]
+tags: [perl, rails, ruby, mitsi]
 guid: "http://blog.afoolishmanifesto.com/archives/64"
 ---
 Ok so that may be a sensational title, but really the point is this: Rails

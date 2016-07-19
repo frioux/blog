@@ -2,7 +2,7 @@
 aliases: ["/archives/1893"]
 title: "Leveling Up"
 date: "2013-10-05T15:33:34-05:00"
-tags: ["acm", "aphyr", "cap", "crdt", "iptables", "jepsen", "lxc"]
+tags: [frew-warez, acm, aphyr, cap, crdt, iptables, jepsen, lxc]
 guid: "http://blog.afoolishmanifesto.com/?p=1893"
 ---
 This is a blog post about some of the stuff that I've learned over the past few months. It's hard to find causes for things in real life, but I can say at the very least that in this situation the catalyst for my learning was Aphyr's [Jepsen](http://aphyr.com/tags/jepsen) series. If you have not yet read it, you really should. The gist is that distributed databases often promise (or sound like they promise) more than is possible, and many times don't even execute what they could do.

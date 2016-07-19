@@ -1,7 +1,7 @@
 ---
 title: "Python: Taking the Good with the Bad"
 date: 2016-04-21T14:15:04
-tags: [python, perl, generators, postmodernism, prescriptivism]
+tags: [frew-warez, python, perl, generators, postmodernism, prescriptivism]
 guid: "https://blog.afoolishmanifesto.com/posts/python-a-critique"
 ---
 For the past few months I've been working on a side project using Python.  I'll

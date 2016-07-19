@@ -2,7 +2,7 @@
 aliases: ["/archives/68"]
 title: "Why it's OK that perl doesn't really have irb (ipl?)"
 date: "2009-01-17T08:57:07-06:00"
-tags: ["irb", "perl"]
+tags: [irb, perl]
 guid: "http://blog.afoolishmanifesto.com/archives/68"
 ---
 Ok, so irb is totally great for testing out some syntax and general sanity

@@ -2,6 +2,7 @@
 aliases: ["/short-lists/movie-short-list"]
 title: "Movie Short List"
 date: "2009-09-20T19:53:13-05:00"
+tags: [short-list]
 guid: "http://blog.afoolishmanifesto.com/?page_id=1175"
 ---
 - High Fidelity

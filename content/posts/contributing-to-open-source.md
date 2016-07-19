@@ -2,7 +2,7 @@
 aliases: ["/archives/751"]
 title: "Contributing to Open Source"
 date: "2009-06-11T02:40:42-05:00"
-tags: ["dbix-class", "open-source", "perl", "perl6"]
+tags: [mitsi, dbix-class, open-source, perl, perl-6]
 guid: "http://blog.afoolishmanifesto.com/?p=751"
 ---
 I've used Open Source for a little over ten years now. I've been sufficiently indoctrinated that Open Source (Free Software) is both morally and technically the right choice. That's not what this post is about. If you disagree with those premises, that's fine. The idea here is that I use all kinds of Free Software all the time. I use Vim for a text editor. I use zsh as a shell. Firefox is my browser. This blog runs on Wordpress. The webserver we use at work is Apache. And the of course all of our code depends on Perl and numerous libraries.

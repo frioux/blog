@@ -2,7 +2,7 @@
 aliases: ["/archives/1142"]
 title: "Biking To Work"
 date: "2009-09-04T04:38:05-05:00"
-tags: ["bike", "excercise", "life"]
+tags: [bike, excercise, life]
 guid: "http://blog.afoolishmanifesto.com/?p=1142"
 ---
 I've waited nearly a work week to make sure I don't post this prematurely, but it's been four days now and I'm pretty sure I can say that from now on, in the regular case I'll be riding my bike to work. There are certainly safety issues, since I live on the outskirts of Dallas, but I've done a lot [research](http://commutebybike.com/) to make safe choices. I haven't done everything he says on that site, but mostly that's because I don't want to ride on streets instead of sidewalks on big roads.

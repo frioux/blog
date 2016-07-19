@@ -2,7 +2,7 @@
 aliases: ["/archives/1238"]
 title: "Processing is sweet!"
 date: "2009-12-30T18:48:42-06:00"
-tags: ["book", "game", "java", "processing", "reading", "video-games"]
+tags: [book, game, java, processing, reading, video-games]
 guid: "http://blog.afoolishmanifesto.com/?p=1238"
 ---
 I got [The Processing Book](http://www.amazon.com/gp/product/0262182629?ie=UTF8&tag=afooman-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0262182629)![](http://www.assoc-amazon.com/e/ir?t=afooman-20&l=as2&o=1&a=0262182629) for Christmas and I finished it this morning.

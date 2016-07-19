@@ -1,7 +1,7 @@
 ---
 title: Rage Inducing Bugs
 date: 2016-05-10T21:52:07
-tags: ["bugs", "vim", "ubuntu", "linux", "gtk3", "firefox", "computer-h8"]
+tags: [bugs, vim, ubuntu, linux, gtk3, firefox, computer-h8]
 guid: "https://blog.afoolishmanifesto.com/posts/rage-inducing-bugs"
 ---
 I have run into a *lot* of bugs lately.  Maybe it's actually a normal amount,

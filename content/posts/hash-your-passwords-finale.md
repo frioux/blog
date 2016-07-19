@@ -2,7 +2,7 @@
 aliases: ["/archives/1910"]
 title: "Hash Your Passwords! Finale"
 date: "2013-11-09T21:55:50-06:00"
-tags: ["authenpassphrase", "password-hashing", "password-storage", "perl"]
+tags: [passwords, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1910"
 ---
 A little over a year ago [I posted](/archives/1695) what I hoped would be my last article about hashing passwords in Perl. [One of the commentors mentioned a library](/archives/1695#comment-2876), though, which in my mind makes things so much easier that it makes the topic worth revisiting.

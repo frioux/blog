@@ -2,7 +2,7 @@
 aliases: ["/archives/1658"]
 title: "Weekly Status Report 4"
 date: "2011-08-29T23:31:15-05:00"
-tags: ["status-report"]
+tags: [frew-warez, status-report]
 guid: "http://blog.afoolishmanifesto.com/?p=1658"
 ---
 This week I finished the following three git conversions:

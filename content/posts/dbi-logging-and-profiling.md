@@ -1,7 +1,7 @@
 ---
 title: DBI Logging and Profiling
 date: 2016-03-24T09:04:25
-tags: ["perl", "dbi", "dbix-class"]
+tags: [ziprecruiter, perl, dbi, dbix-class]
 guid: "https://blog.afoolishmanifesto.com/posts/dbi-logging-and-profiling"
 ---
 If you use Perl and connect to traditional relational databases, you use

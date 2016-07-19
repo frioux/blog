@@ -2,7 +2,7 @@
 aliases: ["/archives/1682"]
 title: "Perl Event Loop"
 date: "2012-03-04T17:09:16-06:00"
-tags: ["anyevent", "event-loops", "perl", "poe"]
+tags: [mitsi, anyevent, event-loops, perl, poe, cpan]
 guid: "http://blog.afoolishmanifesto.com/?p=1682"
 ---
 I have some extremely basic code using [AnyEvent](https://metacpan.org/module/AnyEvent) but I recently found out that I was doing it wrong. That is, the **entire reason** I am using an event loop is to catch errors, log them, and keep going. That's one of the great benefits that [Catalyst](https://metacpan.org/module/Catalyst) gives me; I override one thing and I get universal error logging. The problem is that AnyEvent [specifically does not handle this use case](https://metacpan.org/module/AnyEvent::FAQ#My-callback-dies-and...).

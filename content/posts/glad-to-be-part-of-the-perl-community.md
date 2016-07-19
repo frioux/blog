@@ -2,7 +2,7 @@
 aliases: ["/archives/609"]
 title: "Glad to be part of the Perl Community"
 date: "2009-05-06T04:30:54-05:00"
-tags: ["culture", "perl", "ruby"]
+tags: [culture, perl, ruby, community]
 guid: "http://blog.afoolishmanifesto.com/?p=609"
 ---
 I've mentioned this in at least one [previous post](/archives/190) before, but it bears repeating.

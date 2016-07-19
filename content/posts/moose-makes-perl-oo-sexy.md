@@ -2,7 +2,7 @@
 aliases: ["/archives/602"]
 title: "Moose makes Perl OO Sexy!"
 date: "2009-05-01T04:46:53-05:00"
-tags: ["moose", "perl"]
+tags: [frew-warez, mitsi, moose, perl, webcritic, perl-critic]
 guid: "http://blog.afoolishmanifesto.com/?p=602"
 ---
 We should have all heard of Moose by now as a great way to do OO with Perl. While I was working on WebCritic I decided that it would be a good idea to hook my OO stuff up Moose style. I figure that even if I were to just write code and then disappear I might as well write 2009 code instead of 1999 code so that if it ever gets copied it will bless the copier instead of curse them.

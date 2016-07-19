@@ -2,7 +2,7 @@
 aliases: ["/archives/71"]
 title: "Why Object Oriented Programming Rocks (today)"
 date: "2009-01-21T22:19:38-06:00"
-tags: ["extjs", "javascript", "object-oriented-programming"]
+tags: [extjs, javascript, object-oriented-programming]
 guid: "http://blog.afoolishmanifesto.com/archives/71"
 ---
 I am in the beginning of writing a web application with

@@ -1,7 +1,7 @@
 ---
 title: Weirdest Interview So Far
 date: 2016-03-06T16:38:25
-tags: ["interview", "embezzlement", "storytime"]
+tags: [self, egocentric, interview, embezzlement, storytime]
 guid: "https://blog.afoolishmanifesto.com/posts/weirdest-interview-so-far"
 ---
 This is a pretty good story and I want you all to hear it.  When I was

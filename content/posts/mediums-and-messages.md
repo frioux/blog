@@ -2,6 +2,7 @@
 aliases: ["/archives/1052"]
 title: "Mediums and Messages"
 date: "2009-08-06T01:35:48-05:00"
+tags: [mitsi, perl, dbix-class, catalyst, extjs, cpan]
 guid: "http://blog.afoolishmanifesto.com/?p=1052"
 ---
 When you want to get help on the internet, it's not just what you say and how you say it; it's also **where** you say it. I use three different communication mediums on a day-to-day basis to get help with the various toolkits I use and only a couple of them overlap in medium. There are inherent benefits and drawbacks to each medium, but generally you don't have a choice in which medium to use for a given project.

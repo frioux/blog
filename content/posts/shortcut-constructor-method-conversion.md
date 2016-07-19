@@ -2,7 +2,7 @@
 aliases: ["/archives/1672"]
 title: "Shortcut Constructor Method & Conversion"
 date: "2011-09-07T17:31:41-05:00"
-tags: ["best-practice", "patterns", "smalltalk"]
+tags: [frew-warez, best-practice, patterns, smalltalk]
 guid: "http://blog.afoolishmanifesto.com/?p=1672"
 ---
 I left my book and notes at work yesterday, hence the late post.

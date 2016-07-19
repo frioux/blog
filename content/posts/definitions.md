@@ -2,7 +2,7 @@
 aliases: ["/archives/75"]
 title: "Definitions"
 date: "2009-01-24T07:57:45-06:00"
-tags: ["egocentric", "recursive-acronym"]
+tags: [self, egocentric, recursive-acronym]
 guid: "http://blog.afoolishmanifesto.com/?p=75"
 ---
 This is what I did in high school:

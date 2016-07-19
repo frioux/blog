@@ -1,7 +1,7 @@
 ---
 title: "Investigation: Why Can't Perl Read From TMPDIR?"
 date: 2016-06-30T00:33:10
-tags: ["investigation", "perl", "ld.so", "linker", "TMPDIR"]
+tags: [ziprecruiter, investigation, perl, ld.so, linker, TMPDIR]
 guid: 636c24f2-8466-4739-8b99-e856d33097ea
 ---
 On Wednesday afternoon my esteemed colleague [Mark Jason

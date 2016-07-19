@@ -2,7 +2,7 @@
 aliases: ["/archives/1344"]
 title: "Syncing with Multiple Git Repos"
 date: "2010-05-23T06:55:36-05:00"
-tags: ["community", "git", "github", "perl"]
+tags: [frew-warez, community, git, github, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1344"
 ---
 This is almost entirely so that I remember how to do this. A big thanks for

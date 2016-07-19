@@ -2,7 +2,7 @@
 aliases: ["/archives/1430"]
 title: "zsh for the win"
 date: "2010-10-04T03:56:24-05:00"
-tags: ["zsh"]
+tags: [zsh]
 guid: "http://blog.afoolishmanifesto.com/?p=1430"
 ---
 In the past I've only [touched on](/archives/336) the fact that I am a z shell

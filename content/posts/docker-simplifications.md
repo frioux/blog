@@ -1,7 +1,7 @@
 ---
 title: "Docker Simplifications: Bugtowne City"
 date: 2015-04-03T07:26:06
-tags: ["docker", "bugs"]
+tags: [frew-warez, docker, bugs]
 guid: "https://blog.afoolishmanifesto.com/posts/docker-simplifications-bugtowne-city"
 ---
 I have a [fairly complex docker

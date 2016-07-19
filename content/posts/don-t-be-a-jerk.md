@@ -2,7 +2,7 @@
 aliases: ["/archives/895"]
 title: "Don't be a jerk"
 date: "2009-07-07T01:46:56-05:00"
-tags: ["cpan", "perl"]
+tags: [cpan, perl, community]
 guid: "http://blog.afoolishmanifesto.com/?p=895"
 ---
 So there's a certain meme that's been pretty popular in the perl community lately. I won't mention it because I think it's really been discussed too much. The problem I have is that really hurtful things have been said on both sides of the discussion and it's really too bad.

@@ -2,7 +2,7 @@
 aliases: ["/archives/1031"]
 title: "Why should I use an ORM?"
 date: "2009-08-27T02:37:39-05:00"
-tags: ["object-relational-mapper", "orm"]
+tags: [mitsi, object-relational-mapper, orm]
 guid: "http://blog.afoolishmanifesto.com/?p=1031"
 ---
 At work I tend to play an...Evangelical role? I tend to experiment with various

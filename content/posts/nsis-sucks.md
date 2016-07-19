@@ -1,11 +1,13 @@
 ---
 title: NSIS Sucks
 date: 2014-10-02T07:55:12
-tags: ["NSIS", "Nullsoft Installer", "Windows Installers", "Installers"]
+tags: [mitsi, "windows-installers", "windows"]
 guid: "https://blog.afoolishmanifesto.com/posts/nsis-sucks"
 ---
 This is the first article of a series on [Windows
-Installers](/tags/windows-installers).
+Installers](/tags/windows-installers).  (Note from the future: I have happily
+been able to abandon Windows professionally, so there will almost surely be no
+more of these.)
 
 I wrote an installer for work using [Nullsoft Installer
 System](http://nsis.sourceforge.net/Main_Page) (aka NSIS) about

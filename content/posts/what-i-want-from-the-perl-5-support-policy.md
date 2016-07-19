@@ -2,7 +2,7 @@
 aliases: ["/archives/707"]
 title: "What I want from the Perl 5 support policy"
 date: "2009-05-14T04:33:40-05:00"
-tags: ["perl", "support-policy"]
+tags: [mitsi, perl, support-policy]
 guid: "http://blog.afoolishmanifesto.com/?p=707"
 ---
 This is in response to chromatic's post [Writing Perl 5's Support

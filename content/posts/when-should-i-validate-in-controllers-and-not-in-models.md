@@ -2,7 +2,7 @@
 aliases: ["/archives/819"]
 title: "When should I validate in controllers and not in models?"
 date: "2009-06-17T00:55:53-05:00"
-tags: ["dbix-class", "mvc", "perl"]
+tags: [dbix-class, mvc, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=819"
 ---
 I've been told numerous times by people that I believe are smarter than me that

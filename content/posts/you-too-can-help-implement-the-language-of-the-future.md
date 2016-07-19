@@ -2,7 +2,7 @@
 aliases: ["/archives/78"]
 title: "You too can help implement the language of the future!"
 date: "2009-01-24T19:16:17-06:00"
-tags: ["perl6"]
+tags: [perl, perl-6]
 guid: "http://blog.afoolishmanifesto.com/?p=78"
 ---
 I just committed my first change to the perl6 spectest suite. It's exciting

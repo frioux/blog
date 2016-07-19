@@ -2,7 +2,7 @@
 aliases: ["/archives/1648"]
 title: "Refactoring Dispatch Tables into Objects"
 date: "2011-08-25T06:59:57-05:00"
-tags: ["dispatch-tables", "objects", "perl"]
+tags: [mitsi, dispatch-tables, objects, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1648"
 ---
 One of the cool ways of doing things in Perl is to use a dispatch table. The most obvious dispatch table is a hash of subroutines:

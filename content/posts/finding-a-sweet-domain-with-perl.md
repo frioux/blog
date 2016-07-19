@@ -2,6 +2,7 @@
 aliases: ["/archives/1086"]
 title: "Finding a sweet domain with perl"
 date: "2009-08-20T03:52:20-05:00"
+tags: [frew-warez, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1086"
 ---
 So yesterday I spent a few hours trying to find a cool domain for the project I am working on in my free time. (By the way, raptorprey.com is open.) After looking at lots of various options, I decided that it would be really cool to get a domain of a latin work with the .US TLD. Too bad I don't know latin right?

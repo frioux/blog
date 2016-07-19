@@ -2,7 +2,7 @@
 aliases: ["/archives/359"]
 title: "Reverse Polish Notation Calculator in Perl6++"
 date: "2009-03-03T15:17:31-06:00"
-tags: ["perl6"]
+tags: [perl, perl-6]
 guid: "http://blog.afoolishmanifesto.com/?p=359"
 ---
 Apparently Patrick Michaud, pumpking of rakudo, read my

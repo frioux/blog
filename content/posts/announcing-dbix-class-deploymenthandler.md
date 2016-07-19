@@ -2,7 +2,7 @@
 aliases: ["/archives/1352"]
 title: "Announcing DBIx::Class::DeploymentHandler"
 date: "2010-06-11T03:33:54-05:00"
-tags: ["cpan", "dbix-class", "dbixclassdeploymenthandler", "perl"]
+tags: [frew-warez, announcement, cpan, dbix-class, dbix-class-deploymenthandler, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1352"
 ---
 Do you remember when you first realized that you were not the only person with a perspective in the world? I do. I was 5ish and I remember looking into the car to the left of me and seeing another person looking at me from their respective car. I remember thinking, "This is not what it is like from their point of view." I distinctly remember reevaluating things all day that day. I am sure that I was still just as selfish and childish as I was before that moment, but it certainly changed my point of view.

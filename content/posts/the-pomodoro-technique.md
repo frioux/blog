@@ -2,7 +2,7 @@
 aliases: ["/archives/1821"]
 title: "The Pomodoro Technique"
 date: "2013-01-25T00:45:37-06:00"
-tags: ["life", "super-powers"]
+tags: [mitsi, life, super-powers]
 guid: "http://blog.afoolishmanifesto.com/?p=1821"
 ---
 A couple of weeks ago I was frustrated at my own lack of productivity. I decided

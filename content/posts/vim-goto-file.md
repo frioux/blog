@@ -1,7 +1,7 @@
 ---
 title: "Vim: Goto File"
 date: 2016-06-21T00:23:40
-tags: ["vim"]
+tags: [vim]
 guid: "https://blog.afoolishmanifesto.com/posts/vim-goto-file"
 ---
 Vim has an awesome feature that I think is not shown off enough.  It's pretty

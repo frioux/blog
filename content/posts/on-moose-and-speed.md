@@ -2,7 +2,7 @@
 aliases: ["/archives/1124"]
 title: "On Moose and Speed"
 date: "2009-09-02T02:02:17-05:00"
-tags: ["moose", "object-orientation", "object-oriented", "oo", "perl"]
+tags: [frew-warez, moose, object-oriented-programming, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1124"
 ---
 Today the question was asked: "[To Moose or Not to Moose?](http://perlhacks.com/2009/09/moose-or-no-moose.php)" The article is fairly well written, but it seems to me that the comments are not exactly educated. Here is the main one this is in response to:

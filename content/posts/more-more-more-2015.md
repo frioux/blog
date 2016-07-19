@@ -1,7 +1,7 @@
 ---
 title: "MORE MORE MORE: 2015 Edition"
 date: 2015-01-17T12:07:20
-tags: ["new year", "programming", "life"]
+tags: [mitsi, "new-year", "programming", "life"]
 guid: "https://blog.afoolishmanifesto.com/posts/more-more-more-2015-edition"
 ---
 This is a three part post, but it's supposed to be short, so lets get to it!

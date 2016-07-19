@@ -2,7 +2,7 @@
 aliases: ["/archives/118"]
 title: "Album of the Week"
 date: "2009-02-02T19:59:39-06:00"
-tags: ["album-of-the-week", "music"]
+tags: [album-of-the-week, music]
 guid: "http://blog.afoolishmanifesto.com/?p=118"
 ---
 A [good friend](http://curtis.hawthorne.name) told me that instead of making huge lists of albums I should instead make a post a week for an album. What a great idea! I begin this today.

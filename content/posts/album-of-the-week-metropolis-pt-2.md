@@ -2,7 +2,7 @@
 aliases: ["/archives/124"]
 title: "Album of the Week: Metropolis Pt. 2"
 date: "2009-02-10T22:36:13-06:00"
-tags: ["music"]
+tags: [music, album-of-the-week]
 guid: "http://blog.afoolishmanifesto.com/?p=124"
 ---
 [Metropolis Part 2](http://amazon.com/dp/B000021XS0/), by Dream Theater, is this weeks AOTW. This is one of those rare albums that must be listened to entirely, in order, and gaplessly. I am sure lots of you music people do this anyway. I know that I do for sure. But the thing is that these songs mostly have seamless transitions along with an important, plotish order.
