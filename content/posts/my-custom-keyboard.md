@@ -1,7 +1,7 @@
 ---
 title: My Custom Keyboard
 date: 2016-06-04T00:38:35
-tags: [frew-warez, keyboard, keycaps, ergodox]
+tags: [frew-warez, keyboard, keycaps, ergodox, hardware]
 guid: "https://blog.afoolishmanifesto.com/posts/my-custom-keyboard"
 ---
 A few years ago [I made my own keyboard](/posts/i-made-my-own-keyboard/),
