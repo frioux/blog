@@ -1,7 +1,7 @@
 ---
 title: Humane Interfaces
 date: 2016-04-09T00:36:55
-tags: [frew-warez, humane, cli]
+tags: [frew-warez, humane, cli, toolsmith, ziprecruiter]
 guid: "https://blog.afoolishmanifesto.com/posts/humane-interfaces"
 ---
 In this post I just want to briefly discuss and demonstrate a humane user

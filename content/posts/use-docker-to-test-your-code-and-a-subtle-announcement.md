@@ -2,7 +2,7 @@
 aliases: ["/archives/1921"]
 title: "Use Docker to test your code! (and a subtle announcement)"
 date: "2014-02-22T22:34:51-06:00"
-tags: [frew-warez, dbix-class-helpers, docker]
+tags: [frew-warez, dbix-class-helpers, docker, toolsmith]
 guid: "http://blog.afoolishmanifesto.com/?p=1921"
 ---
 Lately I've been working on code to [unify disparate SQL into a small set of
