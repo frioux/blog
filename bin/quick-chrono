@@ -1,0 +1,6 @@
+#!/bin/dash
+
+exec bin/q --sql 'SELECT filename, title, date FROM articles ORDER BY date DESC' \
+      --format 'my ($d) = split /T/, $r{date}; "$r{filename}:1:$d $r{title}"'
+
+# vim: ft=sh
