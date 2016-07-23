@@ -7,6 +7,10 @@ guid: "http://blog.afoolishmanifesto.com/?p=1536"
 ---
 I've been using this for a couple years now, and I figure I'll [repost](http://www.christonium.com/culinaryreview/How_To_Make_Your_Own_Dry_Spicy_Chai_Mix) it so that it's easy to find (for me.)
 
+
+
+| Ingredient               | Amount       |
+|--------------------------|--------------|
 | Sugar, White Granulated  | 1 Cup        |
 | Instant Non Fat Dry Milk | 1 Cup        |
 | Non Dairy Creamer        | 1/2 Cup      |
@@ -21,6 +25,8 @@ I've been using this for a couple years now, and I figure I'll [repost](http://w
 
 And for convenience, here is the recipe x 4, which is how much I like to make:
 
+| Ingredient               | Amount       |
+|--------------------------|--------------|
 | Sugar, White Granulated  | 4 Cup        |
 | Instant Non Fat Dry Milk | 4 Cup        |
 | Non Dairy Creamer        | 2 Cup        |
