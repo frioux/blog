@@ -1,7 +1,7 @@
 ---
 title: A Gentle TLS Intro for Perlers
 date: 2014-07-17T09:35:52
-tags: [mitsi, perl, tls, ssl, async]
+tags: [mitsi, perl, tls, ssl, async, io-async]
 guid: "https://blog.afoolishmanifesto.com/posts/a-gentle-tls-intro-for-perlers"
 ---
 At work we've recently been audited for security by one of our customers and one
