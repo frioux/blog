@@ -172,8 +172,8 @@ import (
 )
 
 func main() {
-  _, net1, _ := net.ParseCIDR("10.0.0.0/24")
-  _, net2, _ := net.ParseCIDR("172.16.0.0/20")
+  _, net1, _ := net.ParseCIDR("10.0.0.0/8")
+  _, net2, _ := net.ParseCIDR("172.16.0.0/12")
   _, net3, _ := net.ParseCIDR("192.168.0.0/16")
   _, net4, _ := net.ParseCIDR("127.0.0.0/8")
   _, net5, _ := net.ParseCIDR("169.254.0.0/16")
