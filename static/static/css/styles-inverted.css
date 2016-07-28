@@ -48,6 +48,11 @@ pre {
     border-radius: 12px;
 }
 
+code {
+    background-color: #eee;
+    color: #111;
+}
+
 a {
     color: blue;
 }

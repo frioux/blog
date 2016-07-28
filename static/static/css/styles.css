@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #333;
     color: white;
     padding-top: 70px;
     letter-spacing: 0.3px;
@@ -38,7 +38,7 @@ h1, h2 {
 }
 
 pre {
-    background-color: #222;
+    background-color: #121212;
     color: #e6e6e6;
     font-family: 'Source Code Pro', sans-serif;
     font-size: 17px;
@@ -46,6 +46,11 @@ pre {
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px;
+}
+
+code {
+    background-color: #121212;
+    color: #e6e6e6;
 }
 
 a {
