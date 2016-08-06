@@ -223,7 +223,7 @@ func main() {
 ```
 
 The above is very similar to the IO::Async version.  Basically we set a global
-timeout on the client, and the in the code that connects to a socket, vet the
+timeout on the client, and then in the code that connects to a socket, vet the
 socket before continuing.
 
 ### Python
