@@ -65,6 +65,10 @@ a:hover {
     margin-bottom: 2em;
 }
 
+#main.container p a {
+    text-decoration: underline;
+}
+
 nav.navbar {
     border-top: 4px solid rgb(70, 70, 70);
     background: none repeat scroll 0% 0% rgb(30, 30, 30);
