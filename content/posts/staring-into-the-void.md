@@ -1,7 +1,7 @@
 ---
 title: Staring into the Void
 date: 2016-06-16T00:06:39
-tags: [frew-warez, programming, productivity, perl, email]
+tags: [frew-warez, programming, productivity, perl, email, angst]
 guid: "https://blog.afoolishmanifesto.com/posts/staring-into-the-void"
 aliases: ["/posts/starting-into-the-void/"]
 ---
