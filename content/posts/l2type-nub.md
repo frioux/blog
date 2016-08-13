@@ -2,7 +2,7 @@
 aliases: ["/archives/1842"]
 title: "l2type nub"
 date: "2013-05-28T23:26:09-05:00"
-tags: [frew-warez, hardware]
+tags: [frew-warez, hardware, health]
 guid: "http://blog.afoolishmanifesto.com/?p=1842"
 ---
 Today I found out I have **tennis elbow** from the stupid way I type. I'm writing this blog so you'll all not develop my stupid bad habit. Basically I configured [awesomewm](http://awesome.naquadah.org/) to use the alt key as the modifier instead of the windows key, because I learned to use the alt key in [xmonad](http://xmonad.org/)...
