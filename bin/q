@@ -8,6 +8,7 @@ use experimental 'postderef';
 use DBI;
 use File::Find::Rule;
 use Getopt::Long;
+use Try::Tiny;
 my $sql;
 my $formatter;
 GetOptions (
@@ -50,7 +51,11 @@ for my $file (File::Find::Rule->file->name('*.md')->in('content')) {
     $yaml .= $_ if $cnt < 2
   }
   my $data = Load($yaml);
-  $data->{tags} ||= [];
+  try {
+    $data->{tags} ||= [];
+  } catch {
+    die "error processing $file: $_\n"
+  };
 
   $dbh->do(<<'SQL', undef, $data->{guid}, $data->{title}, $data->{date}, $file);
       INSERT INTO articles (guid, title, date, filename) VALUES (?, ?, ?, ?)
