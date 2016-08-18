@@ -1,7 +1,7 @@
 ---
 title: Development with Docker
 date: 2016-07-18T07:40:11
-tags: [docker, perl]
+tags: [docker, perl, axel]
 guid: 60A9D0D4-4942-11E6-9F4E-4F8755BD8D92
 ---
 I have not seen a lot of great examples of how to use Docker as a developer.

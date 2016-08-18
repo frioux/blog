@@ -1,7 +1,7 @@
 ---
 title: Open Source Infrastructure and DBIx::Class Diagnostics Improvements
 date: 2016-08-01T07:40:11
-tags: [perl, guest, dbix-class, dbix-class-helpers, open-source, catalyst, moo, moose, cpan]
+tags: [perl, guest, dbix-class, dbix-class-helpers, open-source, catalyst, moo, moose, cpan, axel]
 guid: 553F8870-54EA-11E6-B585-CD882DB049C7
 ---
 Many people know that [Peter Rabbitson has been wrapping up his time with

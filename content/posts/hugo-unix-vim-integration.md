@@ -1,7 +1,7 @@
 ---
 title: "A visit to the Workshop: Hugo/Unix/Vim integration"
 date: 2016-07-20T07:27:35
-tags: [meta, blog, hugo, vim, toolsmith]
+tags: [meta, blog, hugo, vim, toolsmith, axel]
 guid: C5BCED12-4CF3-11E6-B118-E2B4C9E553EB
 ---
 I write a lot of little tools and take pride in thinking of myself as a

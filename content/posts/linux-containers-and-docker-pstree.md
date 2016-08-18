@@ -1,7 +1,7 @@
 ---
 title: Linux Containers and Docker pstree
 date: 2016-08-12T07:30:21
-tags: [docker, pstree, perl, linux, toolsmith, angst, computer-h8]
+tags: [docker, pstree, perl, linux, toolsmith, angst, computer-h8, axel]
 guid: 299F9190-5E47-11E6-A2DB-FE7FA7D0809E
 ---
 Once in a while I find myself wanting to see the state of a container from a
