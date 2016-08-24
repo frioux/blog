@@ -2,7 +2,7 @@
 aliases: ["/archives/1923"]
 title: "Game Review: The Swapper"
 date: "2014-03-02T02:52:11-06:00"
-tags: [frew-wares, game-review, the-swapper]
+tags: [frew-warez, game-review, the-swapper]
 guid: "http://blog.afoolishmanifesto.com/?p=1923"
 ---
 A friend [recently mentioned an idea](https://twitter.com/rjbs/status/436256223126888448) of a club where you play the games you get in the humble bundle and then talk about it afterwards. Kinda a solution to the whole problem where you get a bunch of games from steam sales, humble indie bundles, or just plain excess but then never play them. I decided to do it with some friends at work who already play games anyway. The goal isn't to write an essay, but merely write a brief review, especially if the game sucked. You have to play it for at least an hour though. Here's my first post.
