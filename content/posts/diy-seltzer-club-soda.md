@@ -274,6 +274,12 @@ typical programming topics, you can check out the [drinks
 tag](/tags/drinks/) and even subscribe to [an rss feed just for that
 tag](/tags/drinks/index.xml) if that's your jam.
 
+## Special Thanks
+
+My friend [C4 of Awesome Brewers, Great Job!](http://awesomebrewers.com/) was
+the one who gave me the initial bill of materials for this, and deserves a lot
+of credit for this happening.  Thanks C4!  Thee4!
+
 ## See Also
 
 * [Jeffrey Morgenthaler's How to Build Your Own Carbonation
