@@ -26,8 +26,8 @@ There are a few reasons.  One is cost.  I'll get into that more later, but at
 some point, building your own rig is going to be cheaper than buying.  The
 bigger reason for me is that it is easier to make soda than to buy it.  I live
 in Santa Monica and walk to the grocery store, so adding heavy or large bottles
-to my personal grocery cart is a drag.  Also it's always to make a thing instead
-of buying it.
+to my personal grocery cart is a drag.  Also it's always fun to make a thing
+instead of buying it.
 
 ## Build it
 
