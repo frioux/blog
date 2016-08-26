@@ -1,7 +1,7 @@
 ---
 title: DIY Seltzer, Club Soda, Soda, etc
 date: 2016-08-23T15:45:06
-tags: [hardware, frew-warez, drinks] 
+tags: [hardware, frew-warez, drinks, axel]
 guid: 3CBDE64A-6983-11E6-BB6F-047330B1F0BD
 ---
 While I've been on paternity leave I have increased the amount of club soda that

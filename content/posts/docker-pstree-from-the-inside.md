@@ -1,7 +1,7 @@
 ---
 title: "Docker pstree: From The Inside"
 date: 2016-08-15T07:30:17
-tags: [frew-warez, toolsmith, docker, linux, strace, pstree]
+tags: [frew-warez, toolsmith, docker, linux, strace, pstree, axel]
 guid: CE4A040A-619E-11E6-8BA9-E9EDF5F5D69D
 ---
 [I recently posted about my `docker-pstree`
