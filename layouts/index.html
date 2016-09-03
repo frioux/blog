@@ -19,7 +19,8 @@
                 <div>
                    {{ range .Paginator.Pages }}
                       <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-                      {{ .Content }}
+                      {{ .Summary }}
+                      <br /><br />
                       Posted {{ .Date.Format "Mon, Jan 2, 2006" }}
                       {{if ne .Lastmod .Date }}Updated {{ .Lastmod.Format "Mon, Jan 2, 2006" }} {{end}}
                    {{ end }}
