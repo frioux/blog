@@ -40,3 +40,11 @@ Speaking of commiting, how do you commit? Normally your workflow should be the w
 git svn rebase actually checks out the new changes from svn and puts them in your repository before the changes you've already committed. If there are conflicts you'll have to deal with those of course, but otherwise it will just pull in the changes and then use dcommit to submit new changes. You should not have any uncheckedin changes when you do this (it will complain if you do) because dcommit actually does a different kind of rebase after checking in changes. It changes your commits to include the svn id so that the git commits match up with the svn commits.
 
 In general that's all there is to it. At some point I'd like to do a post about how I use git rebase fairly often in my workflow, but this I think is a lot more important. Oh and [here](http://mislav.uniqpath.com/2010/07/git-tips/) are some cool new git features I learned today. Enjoy :-)
+
+---
+
+If you're interested in learning more about Git, I cannot recommend
+<a  href="https://www.amazon.com/gp/product/1484200772/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1484200772&linkCode=as2&tag=afoolishmanif-20&linkId=73f85964b6ab98ea870583701b7e77aa">Pro Git</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1484200772" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+enough.  It's an excellent book that will explain how to use Git day-to-day, how
+to do more unusual things like set up Git hosting, and underlying data
+structures that will make the model that is Git make more sense.

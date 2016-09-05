@@ -38,3 +38,11 @@ This is implemented in bash, so it immediately jumped out at me as something tha
 So my current dilemma is this: should I start afresh with a Perl app, possibly modelling after or even making it compatible with some of these other apps (be or ticgit) or should I pick up where bart left off with git-case? Before you jump to the former, realize that I don't want to use any CPAN modules because I want this to be super simple to use anywhere one uses git; that is, all I should dep on is 5.8 and Git.pm (which is mostly useless.)
 
 Currently I'm leaning towards git-case, maybe with a name change as I probably want to make some backwards incompatible changes. Any ideas? Hopes? Dreams?
+
+---
+
+If you're interested in learning more about Git, I cannot recommend
+<a  href="https://www.amazon.com/gp/product/1484200772/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1484200772&linkCode=as2&tag=afoolishmanif-20&linkId=73f85964b6ab98ea870583701b7e77aa">Pro Git</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1484200772" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+enough.  It's an excellent book that will explain how to use Git day-to-day, how
+to do more unusual things like set up Git hosting, and underlying data
+structures that will make the model that is Git make more sense.

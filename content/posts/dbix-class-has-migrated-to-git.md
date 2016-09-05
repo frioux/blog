@@ -32,3 +32,11 @@ We toyed with the idea of setting up git such that everyone would just use githu
 A note about merges, don't merge master into your branch. It makes for yucky history. Instead, rebase your branch onto master. Currently the thought is that **anything** except for master can be rebased. Of course if you and another dev are working in the branch you might want to keep that to a minimum, but at the very least you should be rebasing to squash silly commits before you push, and then when you do the final merge into master you should rebase first, so that history remains sane. Of course, the best time to rebase to fix silly history is before you push, and the best time to rebase to make it so that you are fastforwarding master is right before the final merge, so try to only do that then.
 
 At some point I plan on writing a DBIx::Class::Manual::Contributing in the spirit of [Moose::Manual::Contributing](http://search.cpan.org/perldoc?Moose::Manual::Contributing), but ours will be significantly more lax. In the meantime, just swing by #dbix-class, get your commitbit, and help out!
+
+---
+
+If you're interested in learning more about Git, I cannot recommend
+<a  href="https://www.amazon.com/gp/product/1484200772/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1484200772&linkCode=as2&tag=afoolishmanif-20&linkId=73f85964b6ab98ea870583701b7e77aa">Pro Git</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1484200772" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+enough.  It's an excellent book that will explain how to use Git day-to-day, how
+to do more unusual things like set up Git hosting, and underlying data
+structures that will make the model that is Git make more sense.
