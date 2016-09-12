@@ -30,7 +30,7 @@ The fundamental system call for creating namespaces is `unshare(2)`.  With that
 in mind I searched CPAN and found
 [Linux::Unshare](https://metacpan.org/pod/Linux::Unshare), which gives a
 completely reasonable interface to the `unshare` system call.  Unfortunately it
-fails it's tests, and even if you skip them it fails in action the same way.  In
+fails its tests, and even if you skip them it fails in action the same way.  In
 case anyone is Googling, here's the error:
 
 ```
