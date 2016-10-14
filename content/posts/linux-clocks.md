@@ -1,13 +1,14 @@
 ---
 title: Linux Clocks
 date: 2016-10-13T16:45:38
+lastmod: 2016-10-14T07:10:38
 tags: [ linux, ziprecruiter, perl ]
 guid: E6D786E2-8C3B-11E6-980F-E48C40D14727
 ---
 At [ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) we have an
 awesome access log that includes information about each request, like a measure
 of the response time, the increase in rss, and lots of other details.  Before I
-joined we had a measure of how much CPU was used, but it was a little course.
+joined we had a measure of how much CPU was used, but it was a little coarse.
 Read about how I increased the granularity here!
 
 <!--more-->
@@ -113,3 +114,7 @@ much finer grained details and really, is as much information as we need.
 
 This was a fun little issue to track down, especially the diversion into C.  I
 look forward to verifying issues at such a low level in the future.
+
+Addendum: I use precision and accuracy interchangeably above.  Technically all I
+mean is higher resolution values.  It is beyond the scope of this article to
+discuss accuracy and precision.
