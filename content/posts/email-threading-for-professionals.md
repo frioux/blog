@@ -53,7 +53,7 @@ together.
 
 This implies that some software can simply set a stable subject and assume that
 users will get properly threaded email.  I had not noticed this till recently
-because I simply filtered all of the email sent by FobBugz to trash.  I have
+because I simply filtered all of the email sent by FogBugz to trash.  I have
 lately gotten better at handling my fulminating inbox and decided to make my life
 harder and turn on the firehose of issues.
 
@@ -64,7 +64,7 @@ threading, but finally ended up with: use the gmail API to both find unthreaded
 messages, find their full threads, and reupload them with the correct headers
 set.  I would guess the total time spent for this took me about 4 to 8 hours.
 The complete code is long enough that I don't think it makes sense to share in a
-blog post in it's entirely [so I'll just link to
+blog post in it's entirety [so I'll just link to
 it](https://github.com/frioux/dotfiles/blob/5d5794831fa5d98e7a4d0f001ef129adf13a84ef/bin/email-fix-in-reply-to).
 
 As a side note: the other way to do this would have been to use IMAP directly.
