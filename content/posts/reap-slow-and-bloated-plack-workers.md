@@ -115,6 +115,9 @@ while (1) {
   for my $pid (keys %$stats) {
     my %status = %{decode_json($stats->{$pid})};
 
+    # UPDATE 2NOV2016: Do not reap idle workers
+    next unless $status{status} eq 'A';
+
     # undefined time will be become zero, age will be huge, should get killed
     my $age = time - $status{time};
 
