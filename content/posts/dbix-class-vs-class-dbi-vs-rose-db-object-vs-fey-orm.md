@@ -69,7 +69,7 @@ Here's a basic Rose::DB::Object search. It returns an arrayref, which isn't opti
 
 From my perusing of the docs it seems that Rose basically has all of the perl data-structure based searches that one would hope for in an ORM that abstracts away most SQL.
 
-# [DBIx::Class](http://search.cpan.org/~ribasushi/DBIx-Class-0.08107/lib/DBIx/Class.pm)
+# [DBIx::Class](https://metacpan.org/pod/release/RIBASUSHI/DBIx-Class-0.08107/lib/DBIx/Class.pm)
 
 62 releases in almost four years. Most recent being days old. One "author," 69 credited. It is very much made for the convenience of the programmer. The .09 series will be Moose-based. [See slides](http://www.shadowcat.co.uk/catalyst/talks/-npw-2009/future-of-dbix-class.xul) for proof.
 
@@ -119,7 +119,7 @@ And most importantly, this is a single SQL query, not four.
 
 I also need to mention that the DBIx::Class people have really helped me help them, which is not just a good feeling, I use the features I've added in production code. I can say for certain that working on their codebase has made me a better OO programmer.
 
-# [Fey::ORM](http://search.cpan.org/~drolsky/Fey-ORM-0.24/lib/Fey/ORM.pm)
+# [Fey::ORM](https://metacpan.org/pod/release/DROLSKY/Fey-ORM-0.24/lib/Fey/ORM.pm)
 
 22 releases in just over a year. One author. This is the newest of the four ORM's reviewed here. Cut it some slack if it doesn't have all the features that the other ones have.
 

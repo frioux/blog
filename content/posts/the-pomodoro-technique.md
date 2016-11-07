@@ -62,7 +62,7 @@ etc.
 
 Another thing I love about this is that it is timeboxed **effort** not timeboxed
 results. The [Get It
-Done](http://www.brepettis.com/blog/2009/3/3/the-cult-of-done-manifesto.html)
+Done](http://web.archive.org/web/20090304164319/http://www.brepettis.com/blog/2009/3/3/the-cult-of-done-manifesto.html)
 community is all well and good, but I would not want any of them making the
 software running on an airplane. With timeboxed effort you either produce
 quality results, or realize that what you are doing is taking longer than it

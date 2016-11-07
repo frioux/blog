@@ -7,7 +7,7 @@ guid: "http://blog.afoolishmanifesto.com/?p=1695"
 ---
 More than two years ago I blogged about how to [correctly store passwords](/archives/1286). [Recently a number of high profile websites have had their password storage compromised](http://arstechnica.com/security/2012/08/passwords-under-assault/). The storage method I blogged about **two years ago** is still hugely better than what LinkedIn (SHA1, no salt) and I think Gawker had. If you aren't already securely storing passwords, this post should get you going on a conversion.
 
-First off, here's a [DBICDH](http://search.cpan.org/~frew/DBIx-Class-DeploymentHandler-0.002201/lib/DBIx/Class/DeploymentHandler.pm)/[DBICM](http://search.cpan.org/~jjnapiork/DBIx-Class-Migration-0.026/lib/DBIx/Class/Migration.pm) compatible conversion script
+First off, here's a [DBICDH](https://metacpan.org/pod/release/FREW/DBIx-Class-DeploymentHandler-0.002201/lib/DBIx/Class/DeploymentHandler.pm)/[DBICM](http://search.cpan.org/~jjnapiork/DBIx-Class-Migration-0.026/lib/DBIx/Class/Migration.pm) compatible conversion script
 
     #!/usr/bin/env perl
 

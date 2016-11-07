@@ -7,7 +7,7 @@ guid: "http://blog.afoolishmanifesto.com/?p=1758"
 ---
 Have you ever wanted to store trees in your database? How about store them and avoid melting your database server at retrieval time? Did you want to use materialized path and were sad when there were no quality modules to do it with DBIx:Class?
 
-# [DBIx::Class::MaterializedPath](http://search.cpan.org/~frew/DBIx-Class-MaterializedPath-0.001000/lib/DBIx/Class/MaterializedPath.pm)
+# [DBIx::Class::MaterializedPath](https://metacpan.org/pod/release/FREW/DBIx-Class-MaterializedPath-0.001000/lib/DBIx/Class/MaterializedPath.pm)
 
 I recently had a need for storing tree-ish data in a table and [I got it working with extended relationships and a helper or two](https://github.com/frioux/drinkup/commit/8705745a7b5ca72e86f44637aef9249d4ddfc86f). On the airplane on the way to and from YAPC I got the code factored into it's own module and then a few weeks later I got docs done.
 

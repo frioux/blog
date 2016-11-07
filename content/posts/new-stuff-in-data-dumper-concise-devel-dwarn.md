@@ -5,9 +5,13 @@ date: "2011-01-21T01:15:52-06:00"
 tags: [frew-warez, cpan, data-dumper-concise, devel-dwarn, perl]
 guid: "http://blog.afoolishmanifesto.com/?p=1497"
 ---
-I just released a new [Data::Dumper::Concise](http://search.cpan.org/~frew/Data-Dumper-Concise-2.020/lib/Data/Dumper/Concise.pm). There are new features!
+I just released a new
+[Data::Dumper::Concise](https://metacpan.org/pod/release/FREW/Data-Dumper-Concise-2.020/lib/Data/Dumper/Concise.pm).
+There are new features!
 
-In [Devel::Dwarn](http://search.cpan.org/~frew/Data-Dumper-Concise-2.020/lib/Devel/Dwarn.pm) we have two new features:
+In
+[Devel::Dwarn](https://metacpan.org/pod/release/FREW/Data-Dumper-Concise-2.020/lib/Devel/Dwarn.pm)
+we have two new features:
 
 ## Ddie
 
