@@ -61,7 +61,7 @@ check that it has a constant stir mode (often called "knead" or "dough") that
 goes for at least 15 minutes.  Mine does a five minute stir then rests for a full minute, which
 is pretty problematic, so I end up turning it off and on every five minutes.
 
-I use <a target="_blank" href="https://www.amazon.com/gp/product/B0053U2B8G/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0053U2B8G&linkCode=as2&tag=afoolishmanif-20&linkId=c1741c786600967d8e31c50a7cdb08a2">this breadgun</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B0053U2B8G" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+I use <a target="_blank" href="https://www.amazon.com/gp/product/B0053U2B8G/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0053U2B8G&linkCode=as2&tag=afoolishmanif-20&linkId=c1741c786600967d8e31c50a7cdb08a2">this heatgun</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B0053U2B8G" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 and as far as I know it's perfect.  Simple to use and works.  Basically I put it
 on high power (two lines, about 1000°F) and hold it about an inch from the beans
 until first crack starts (typically about eight to ten minutes.)  During the
