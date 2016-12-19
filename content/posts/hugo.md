@@ -53,7 +53,7 @@ a huge list of links.  Additionally, if I wanted to generate a google sitemap or
 two different feeds (RSS and Atom?) this feature is a must.
 
 I mentioned this on the list but got
-[warnocked](https://en.wikipedia.org/wiki/Warnock%27s_Dilemma).  Not a huge
+[warnocked](https://en.wikipedia.org/wiki/Warnock%27s_dilemma).  Not a huge
 deal, I can live without that kind of thing probably indefinately.
 
 ## Whence Comments?
