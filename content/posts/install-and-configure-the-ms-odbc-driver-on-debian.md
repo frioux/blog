@@ -5,6 +5,14 @@ date: "2013-07-05T03:27:40-05:00"
 tags: [mitsi, dbd-odbc, perl, sql-server]
 guid: "http://blog.afoolishmanifesto.com/?p=1855"
 ---
+
+---
+
+**This page is only here for historical interest; [the updated guide is
+here](/posts/mssql-odbc-client-and-server-on-ubuntu/).**
+
+---
+
 This was originally written by my coworker [Wes
 Malone](https://github.com/wesq3) and adpated to Ubuntu by my other coworker
 [Geoff Darling](https://metacpan.org/author/MAESTRO). Basically it should get
