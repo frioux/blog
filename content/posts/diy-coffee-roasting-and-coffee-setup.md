@@ -49,11 +49,11 @@ I do know one person who enjoys it.  Unless you have amazingly good ventilation
 in your kitchen, you should probably roast outside.  I had to buy
 <a target="_blank" href="https://www.amazon.com/gp/product/B001EA408I/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001EA408I&linkCode=as2&tag=afoolishmanif-20&linkId=1657740671e377e58eddfa8e0fb94e12">a pretty long extension cord</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B001EA408I" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
 
-In case you've never done it before, first crack sounds like muted (and far
-less violent) pop-corn.  When the bread maker is stirring the beans there is a
-bit of clicking which I initially thought was first crack.  I suspect it sounds
-similar to the sound of stirring marbles.  I would recommend waiting till the
-end of first crack till you are confident enough to experiment.
+In case you've never done it before, first crack sounds like the crackling of
+sticks in a fire.  When the bread maker is stirring the beans there is a bit of
+clicking which I initially thought was first crack.  I suspect it sounds similar
+to the sound of stirring marbles.  I would recommend waiting till the end of
+first crack till you are confident enough to experiment.
 
 I got <a target="_blank" href="https://www.amazon.com/gp/product/B003GXM0EM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B003GXM0EM&linkCode=as2&tag=afoolishmanif-20&linkId=98d7f1b4441e0991f75e639003ab2530">this breadmaker</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B003GXM0EM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> but it's kindav a hassle and I may replace it with
 <a target="_blank" href="https://www.amazon.com/gp/product/B00067REBU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00067REBU&linkCode=as2&tag=afoolishmanif-20&linkId=f6b57ae3ca364ce3092c444d4c6eef28">this one</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B00067REBU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.  If you can, just get a bread maker at your local thrift store,
