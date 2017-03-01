@@ -15,7 +15,7 @@ just how I (and my interview partner) administer it.
 
 ### Coding
 
-The first technical question we as is almost
+The first technical question we ask is almost
 [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz#Programming_interviews) level
 of simplicity, but it adds a tiny bit extra (some object-orientation, some
 testing,) and what I like best: you use a real laptop.  There are a couple major
