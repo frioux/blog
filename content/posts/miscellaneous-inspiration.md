@@ -1,7 +1,7 @@
 ---
 title: Miscellaneous Inspiration
 date: 2017-03-03T09:08:23
-tags: [ linux, python, games ]
+tags: [ linux, python, games, inspired ]
 guid: CFD40774-0029-11E7-92B3-E22185F70C31
 ---
 I thought it would be cool to share a list of things that are inspiring to me.
