@@ -1,6 +1,7 @@
 ---
 title: Converting a Slow Shell Script to golang
 date: 2017-03-27T07:28:28
+lastmod: 2017-03-27T10:32:28
 tags: [ golang, shell, async, ziprecruiter ]
 guid: 7DDFFDAC-1275-11E7-BC72-B70990A9169D
 ---
@@ -267,6 +268,10 @@ First off, it uses `dig(1)` to look up the `PTR` record for the `unknown` case.
 Go has support for DNS queries but it didn't look like `PTR` queries were
 exposed out of the box.  It's fine to use `dig(1)` but it means that it has some
 possibly surprising dependecies.
+
+**Update**: I migrated the code away from using `dig(1)` with a quick hint from
+Aaron Hopkins.  The term Go uses for looking up a `PTR` record is `LookupAddr`.
+Cool.
 
 Second, when we find ELBs based on IP we have to get all of the IP addresses for
 all of our ELBs.  Currently that means doing a lot of IP lookups.  This should
