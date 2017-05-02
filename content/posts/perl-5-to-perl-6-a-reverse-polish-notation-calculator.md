@@ -7,6 +7,8 @@ guid: "http://blog.afoolishmanifesto.com/?p=341"
 ---
 I did this because of the excellent [Higher-Order Perl](http://amazon.com/dp/1558607013/).
 
+<!--more-->
+
 Here is the Perl 5 code:
 
     #!/usr/bin/perl

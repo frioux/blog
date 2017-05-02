@@ -7,6 +7,8 @@ guid: "http://blog.afoolishmanifesto.com/?p=693"
 ---
 It's Friday, so a long post is **not** in order. With that in mind, a simple refactor for your pattern matching skulls and skills:
 
+<!--more-->
+
 before:
 
 ```

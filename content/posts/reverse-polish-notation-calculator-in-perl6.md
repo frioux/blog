@@ -10,6 +10,8 @@ Apparently Patrick Michaud, pumpking of rakudo, read my
 and he came up with an [even better
 solition](https://web.archive.org/web/20100113121021/http://use.perl.org/~pmichaud/journal/38580)!
 
+<!--more-->
+
 I'd read his post if I were you, but here was the code he got it down to (after adding the R meta op :-) ):
 
         my %op_dispatch_table = {

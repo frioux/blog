@@ -7,6 +7,8 @@ guid: "http://blog.afoolishmanifesto.com/?p=633"
 ---
 This is mostly stuff I've gathered from [this talk](http://www.shadowcat.co.uk/catalyst/talks/postgresql-WEST-2008/-files/perl5s-alive.xul) and updated slightly.
 
+<!--more-->
+
 First off, have you ever tried to teach a programmer perl? I have. Note this:
 
     sub foo {

@@ -7,6 +7,8 @@ guid: "http://blog.afoolishmanifesto.com/?p=452"
 ---
 I was hoping to work on the setting for Rakudo some today, but it just wasn't happening due to my own inferiorities. I decided instead to try to read some of the setting code so that I can be less inferior in the future. I hope you enjoy learning some Perl 6!
 
+<!--more-->
+
 First we'll start with a simple one: Str.lcfirst.
 
 ```

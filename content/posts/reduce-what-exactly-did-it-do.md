@@ -7,6 +7,8 @@ guid: "http://blog.afoolishmanifesto.com/?p=413"
 ---
 Did you do a reduce and get confused about how it got the final answer? Do you just want to see the computer write out it's work? Check it:
 
+<!--more-->
+
     (1,2,3).reduce({ $^a / $^b })
     RESULT«0.166666666666667»
 

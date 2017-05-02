@@ -48,6 +48,31 @@ for =$*IN -> $track,$artist,$album,$sep {
 
 But the more important part, is the Ghetto module. Currently rakudo does not have any way to get the output of a command, but it can read from files, so we can fake it:
 
+```
+module Ghetto;
+
+sub run($cmd) {
+   # create a random filename to store output in
+   my $tmp = ".tmp-{(1..100).pick}-ghetto";
+
+   # use the real run command, :: means root namespace
+   ::run("$cmd > '$tmp'");
+
+   # open the file
+   my $data_file = open($tmp, :r);
+   
+   # put the data from the file into a variable
+   my $val;
+   for =$data_file { $val ~= "$_\n"; }
+
+   # delete the file
+   unlink($tmp);
+
+   #gimme my data!
+   return $val;
+}
+```
+
 Obviously this is slow, bad in that it could possibly overwrite files, etc. It's ghetto. But the idea is that later when we actually **can** do something like this without a ghetto solution it won't be hard to fix your code.
 
 I also thought it was fun to do a pipe-based solution. The way I had it set up before was something like this:

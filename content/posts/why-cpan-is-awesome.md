@@ -5,9 +5,12 @@ date: "2009-04-23T03:58:54-05:00"
 tags: [frew-warez, mitsi, perl-critic, webcritic, cpan, perl, sockets]
 guid: "http://blog.afoolishmanifesto.com/?p=570"
 ---
-Have you ever written a server? It's kinda fun! Yes, I'm a nerd. Anyway, I
-learned the easy way and the hard way to make a server in Perl yesterday. Here's
-the easy way:
+Have you ever written a server? It's kinda fun!
+
+<!--more-->
+
+Yes, I'm a nerd. Anyway, I learned the easy way and the hard way to make a
+server in Perl yesterday. Here's the easy way:
 
     #!/usr/bin/perl
 
