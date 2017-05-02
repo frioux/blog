@@ -1,4 +1,7 @@
 title: "fREW Schmidt's Foolish Manifesto"
+author:
+  name: "Arthur Axel fREW Schmidt"
+  twitter: frioux
 indexes:
   tag: 'tags'
 baseurl: 'https://blog.afoolishmanifesto.com'
