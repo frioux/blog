@@ -19,7 +19,7 @@ get it, even if it's nothing like real life games.  It takes away the
 superficial hurdles and lets you just build a game.  Anyway, without further
 ado, my article:
 
-{{< highlight lua >}}
+``` lua
 -- pong
 --   <3 frew
 
@@ -260,7 +260,7 @@ function _draw()
   print(l.score, l.x + 5, 5)
   print(r.score, r.x - 5, 5)
 end
-{{< / highlight >}}
+```
 
 Here is the actual catridge; the code is embedded in the image:
 
