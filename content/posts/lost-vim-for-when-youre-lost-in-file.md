@@ -65,7 +65,7 @@ character, or underscore, or `$`.  The main failure is when working in a
 language where functions definitions are indented; Java, C#, and some JavaScript
 tend to look this way.
 
-The new verion is not just hugely more efficient (before it was copying files,
+The new version is not just hugely more efficient (before it was copying files,
 running programs, doing parsing, etc) but it also works with unwritten files and
 is pure vim with literally no requirements other than vim.
 
