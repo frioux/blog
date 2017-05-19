@@ -56,3 +56,9 @@ function! CompleteTags(findstart, base)
     return systemlist('bin/tags ' . a:base . '%')
   endif
 endfun
+
+augroup hugo
+   autocmd!
+
+   au FileType markdown execute 'setlocal omnifunc=CompleteTags'
+augroup END
