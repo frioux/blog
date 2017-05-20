@@ -33,11 +33,7 @@ function! TLaggedWord()
 endfunction
 command! TLaggedWord call TLaggedWord()
 
-function! Chrono()
-  let l:cmd = 'args `bin/q --sql SELECT\ filename\ FROM\ articles\ ORDER\ BY\ date\ desc`'
-  exe l:cmd
-endfunction
-command! Chrono call Chrono()
+command! Chrono Denite blog_chrono
 
 function! CompleteTags(findstart, base)
   if a:findstart
