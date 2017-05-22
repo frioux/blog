@@ -2,12 +2,16 @@
 title: Advanced Vim Sessions
 date: 2017-02-10T07:53:31
 tags: [ vim, session, toolsmith ]
+updated: 2017-05-24T07:10:50
 guid: 7D4A65F2-EF44-11E6-B52A-EB0584F70C31
 ---
 I have blogged before about [vim sessions](/posts/vim-session-workflow/) and how
 useful they are.  This post is about a pattern I discovered (though I'm likely
 not the first to discover it) at work when frustrated that certain settings were
 not stored in the session.
+
+**Note (2017-05-24) :** this post has a critical error, see [the updated
+version instead](/posts/vim-advanced-sessions-corrected/).
 
 <!--more-->
 
