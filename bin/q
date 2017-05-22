@@ -50,11 +50,12 @@ for my $file (File::Find::Rule->file->name('*.md')->in('content')) {
     $cnt ++ if $_ eq "---\n";
     $yaml .= $_ if $cnt < 2
   }
-  my $data = Load($yaml);
+  my $data;
   try {
+    $data = Load($yaml);
     $data->{tags} ||= [];
   } catch {
-    die "error processing $file: $_\n"
+    warn "error processing $file: $_\n"
   };
 
   $dbh->do(<<'SQL', undef, $data->{guid}, $data->{title}, $data->{date}, $file);
