@@ -33,7 +33,7 @@ function! TLaggedWord()
 endfunction
 command! TLaggedWord call TLaggedWord()
 
-command! Chrono Denite blog_chrono
+command! Chrono cexpr system('bin/quick-chrono')
 
 function! CompleteTags(findstart, base)
   if a:findstart
