@@ -33,7 +33,7 @@ function! TLaggedWord()
 endfunction
 command! TLaggedWord call TLaggedWord()
 
-command! Chrono cexpr system('bin/quick-chrono')
+command! Chrono cgetexpr system('bin/quick-chrono') | cwindow
 
 function! CompleteTags(findstart, base)
   if a:findstart
@@ -57,4 +57,5 @@ augroup hugo
    autocmd!
 
    au FileType markdown execute 'setlocal omnifunc=CompleteTags'
+   au BufReadPost quickfix setlocal nowrap
 augroup END
