@@ -158,8 +158,7 @@ would be easier, less of a hassle, and if your ice maker is like mine: better
 tasting.
 
   1. Once you have the water ready, connect the bottle to the gas line assembly
-     as explained in the [last step
-     above](#assemble-the-carbonator:ccba600c70c7f677c13e1f8637f3c2b5).
+     as explained in the [last step above](#assemble-the-carbonator).
   2. Unscrew the tank knob a few turns.
   3. Open the regulator valve so that it's in the on position (parallel with the
      tube.)  
