@@ -2,12 +2,17 @@
 title: Vim File Lists
 date: 2017-05-22T08:04:06
 tags: [ vim, toolsmith, blog, meta ]
+updated: 2017-05-26T06:55:41
 guid: 1284B5BC-3CB3-11E7-8DA0-FFE9DF66A8BE
 ---
 I have recently been working on honing a lot of my tools, and a coworker, Andrew
 Ruder, mentioned using Denite.nvim for selecting more than simple directories.
 I decided to investigate using it instead of builtin file selection mechanisms.
 I was surprised at the result.
+
+**Note:** while this post is still worth looking at for comparing how you can
+define various lists for vim, the performance issues turned out to be unrelated.
+[See my new post for more details](/posts/vim-slow-buffers/).
 
 <!--more-->
 
