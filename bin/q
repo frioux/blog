@@ -16,7 +16,7 @@ GetOptions (
    'formatter=s' => \$formatter,
 ) or die("Error in command line arguments\n");
 
-use YAML::XS 'Load';
+use YAML::Syck 'Load';
 
 my $dbh = DBI->connect('dbi:SQLite::memory:', {
       RaiseError => 1,
