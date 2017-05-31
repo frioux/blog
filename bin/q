@@ -3,8 +3,6 @@
 use 5.22.0;
 use warnings;
 
-use experimental 'postderef';
-
 use DBI;
 use Getopt::Long;
 my $sql;
@@ -84,7 +82,7 @@ LINES:
   }
 
   $sth_a->execute($data->{guid}, $data->{title}, $data->{date}, $file);
-  $sth_a_t->execute($data->{guid}, $_) for $data->{tags}->@*;
+  $sth_a_t->execute($data->{guid}, $_) for @{$data->{tags}};
 }
 
 $dbh->commit;
@@ -92,7 +90,7 @@ $dbh->commit;
 my $sth = $dbh->prepare($sql || die "pass some SQL yo\n");
 $sth->execute(@ARGV);
 
-for my $row ($sth->fetchall_arrayref({})->@*) {
+for my $row (@{$sth->fetchall_arrayref({})}) {
    my $code = $formatter || 'join "\t", map $r{$_}, sort keys %r';
-   say((sub { my %r = $_[0]->%*; eval $code })->($row))
+   say((sub { my %r = %{$_[0]}; eval $code })->($row))
 }
