@@ -42,6 +42,14 @@ $dbh->do(<<'SQL');
    JOIN article_tag at ON a.guid = at.guid
 SQL
 
+my $sth_a = $dbh->prepare(<<'SQL');
+      INSERT INTO articles (guid, title, date, filename) VALUES (?, ?, ?, ?)
+SQL
+
+my $sth_a_t = $dbh->prepare(<<'SQL');
+      INSERT INTO article_tag (guid, tag) VALUES (?, ?)
+SQL
+
 for my $file (File::Find::Rule->file->name('*.md')->in('content')) {
   open my $fh, '<', $file;
   my $cnt = 0;
@@ -58,13 +66,8 @@ for my $file (File::Find::Rule->file->name('*.md')->in('content')) {
     warn "error processing $file: $_\n"
   };
 
-  $dbh->do(<<'SQL', undef, $data->{guid}, $data->{title}, $data->{date}, $file);
-      INSERT INTO articles (guid, title, date, filename) VALUES (?, ?, ?, ?)
-SQL
-
-  $dbh->do(<<'SQL', undef, $data->{guid}, $_) for $data->{tags}->@*;
-      INSERT INTO article_tag (guid, tag) VALUES (?, ?)
-SQL
+  $sth_a->execute($data->{guid}, $data->{title}, $data->{date}, $file);
+  $sth_a_t->execute($data->{guid}, $_) for $data->{tags}->@*;
 }
 
 my $sth = $dbh->prepare($sql || die "pass some SQL yo\n");
