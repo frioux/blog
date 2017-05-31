@@ -55,9 +55,13 @@ for my $file (File::Find::Rule->file->name('*.md')->in('content')) {
     or die "could not open $file: $!";
   my $cnt = 0;
   my $yaml = "";
+
+LINES:
   while (<$fh>) {
     $cnt ++ if $_ eq "---\n";
-    $yaml .= $_ if $cnt < 2
+
+    last LINES if $cnt > 1;
+    $yaml .= $_;
   }
   close $fh
     or die "could not close $file: $!";
