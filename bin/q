@@ -6,7 +6,6 @@ use warnings;
 use experimental 'postderef';
 
 use DBI;
-use File::Find::Rule;
 use Getopt::Long;
 my $sql;
 my $formatter;
@@ -49,7 +48,7 @@ my $sth_a_t = $dbh->prepare(<<'SQL');
       INSERT INTO article_tag (guid, tag) VALUES (?, ?)
 SQL
 
-for my $file (File::Find::Rule->file->name('*.md')->in('content')) {
+for my $file (glob('content/pages/*.md'), glob('content/posts/*.md')) {
   open my $fh, '<', $file
     or die "could not open $file: $!";
   my $cnt = 0;
