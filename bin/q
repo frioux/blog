@@ -8,7 +8,6 @@ use experimental 'postderef';
 use DBI;
 use File::Find::Rule;
 use Getopt::Long;
-use Try::Tiny;
 my $sql;
 my $formatter;
 GetOptions (
@@ -67,12 +66,17 @@ LINES:
     or die "could not close $file: $!";
 
   my $data;
-  try {
+  local $@;
+  my $success = eval {
     $data = Load($yaml);
     $data->{tags} ||= [];
-  } catch {
-    warn "error processing $file: $_\n"
+    1;
   };
+
+  unless ($success) {
+    warn "error processing $file: $_\n";
+    next LINES
+  }
 
   $sth_a->execute($data->{guid}, $data->{title}, $data->{date}, $file);
   $sth_a_t->execute($data->{guid}, $_) for $data->{tags}->@*;
