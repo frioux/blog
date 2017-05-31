@@ -2,7 +2,7 @@
 
 use 5.22.0;
 use warnings;
-use autodie;
+
 use experimental 'postderef';
 
 use DBI;
@@ -51,13 +51,17 @@ my $sth_a_t = $dbh->prepare(<<'SQL');
 SQL
 
 for my $file (File::Find::Rule->file->name('*.md')->in('content')) {
-  open my $fh, '<', $file;
+  open my $fh, '<', $file
+    or die "could not open $file: $!";
   my $cnt = 0;
   my $yaml = "";
   while (<$fh>) {
     $cnt ++ if $_ eq "---\n";
     $yaml .= $_ if $cnt < 2
   }
+  close $fh
+    or die "could not close $file: $!";
+
   my $data;
   try {
     $data = Load($yaml);
