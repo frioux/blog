@@ -22,6 +22,23 @@ command! TLaggedWord call TLaggedWord()
 
 command! Chrono cgetexpr system('bin/quick-chrono') | cwindow
 
+function! Link(domain, copy)
+  let domain = a:domain
+  if domain == ""
+    let domain = 'https://blog.afoolishmanifesto.com'
+  endif
+  let path = substitute(@%,   '\v^content/', domain . '/', '')
+  let path = substitute(path, '\v\.md$', '/', '')
+  if a:copy
+    let @+ = path
+  else
+    echom path
+  endif
+endfunction
+command! -bang -nargs=? Link      call Link(<q-args>,                <bang>0)
+command! -bang -nargs=? LinkShort call Link('http://frew.co',        <bang>0)
+command! -bang -nargs=? LinkLocal call Link('http://127.0.0.1:1313', <bang>0)
+
 function! CompleteTags(findstart, base)
   if a:findstart
     " locate the start of the word
