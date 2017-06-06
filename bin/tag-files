@@ -1,5 +1,8 @@
 #!/bin/dash
 
-exec bin/q --sql "SELECT filename FROM _ WHERE tag = ?" -- "$1"
+exec bin/q \
+  --sql 'SELECT filename, title, date FROM _  WHERE tag = ? ORDER BY date DESC' \
+  --format 'my ($d) = split /T/, $r{date}; "$r{filename}:1:$d $r{title}"' \
+  -- "$1"
 
 # vim: ft=sh

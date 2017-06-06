@@ -3,33 +3,20 @@ if exists('g:loaded_hugo') || &cp || v:version < 700
 endif
 let g:loaded_hugo = 1
 
-function! Tagged(tag)
-  exe 'args `bin/tag-files ' . a:tag . '`'
-endfunction
-command! -nargs=1 Tagged call Tagged('<args>')
-
-function! TLagged(tag)
-  exe 'argl `bin/tag-files ' . a:tag . '`'
-endfunction
-command! -nargs=1 TLagged call TLagged('<args>')
+command! -nargs=1 Tagged  cgetexpr system('bin/tag-files <args>') | cwindow
+command! -nargs=1 TLagged lgetexpr system('bin/tag-files <args>') | cwindow
 
 function! TaggedWord()
-  set iskeyword+=45
-  let l:tmp = @m
-  normal "myiw
-  set iskeyword-=45
-  call Tagged(@m)
-  let @m = l:tmp
+  setlocal iskeyword+=45
+  execute 'Tagged ' . expand('<cword>')
+  setlocal iskeyword-=45
 endfunction
 command! TaggedWord call TaggedWord()
 
 function! TLaggedWord()
-  set iskeyword+=45
-  let l:tmp = @m
-  normal "myiw
-  set iskeyword-=45
-  call TLagged(@m)
-  let @m = l:tmp
+  setlocal iskeyword+=45
+  execute 'TLagged ' . expand('<cword>')
+  setlocal iskeyword-=45
 endfunction
 command! TLaggedWord call TLaggedWord()
 
