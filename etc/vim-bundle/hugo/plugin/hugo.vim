@@ -45,4 +45,11 @@ augroup hugo
 
    au FileType markdown execute 'setlocal omnifunc=CompleteTags'
    au BufReadPost quickfix setlocal nowrap
+
+   au BufReadPost quickfix
+     \ if w:quickfix_title =~ "^:cgetexpr system('bin/" |
+       \ setl modifiable |
+       \ silent exe ':%s/\v^([^|]+\|){2}\s*//g' |
+       \ setl nomodifiable |
+     \ endif
 augroup END
