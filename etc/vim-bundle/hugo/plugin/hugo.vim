@@ -53,3 +53,5 @@ augroup hugo
        \ setl nomodifiable |
      \ endif
 augroup END
+
+nnoremap g<C-]> :TaggedWord<CR>
