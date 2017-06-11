@@ -24,7 +24,7 @@ framework](https://github.com/frioux/HTML-WikiConverter-Markdown/tree/ikiwiki)
 after doing some preprocessing of the above.
 
 I was about ready to pull the trigger about a week ago (March 7, 2014) but I was
-frustrated that rebuilding my blog of about 300 posts took between thirdy
+frustrated that rebuilding my blog of about 300 posts took between thirty
 seconds and a full minute, depending on settings.  I went to bed that night a
 little frustrated, but as I was reading I had the idea of a Go based static site
 generator, which could be fast, modern, easily distributable, etc.  Before
