@@ -14,7 +14,7 @@ here](/posts/mssql-odbc-client-and-server-on-ubuntu/).**
 ---
 
 This was originally written by my coworker [Wes
-Malone](https://github.com/wesq3) and adpated to Ubuntu by my other coworker
+Malone](https://github.com/wesq3) and adapted to Ubuntu by my other coworker
 [Geoff Darling](https://metacpan.org/author/MAESTRO). Basically it should get
 you up and running with Microsoft's official ODBC driver in Debian based
 Linuxes. Enjoy!
