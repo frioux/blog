@@ -67,5 +67,5 @@ Dominus](http://www.plover.com/).
 [4]: https://gohugo.io/
 [5]: https://github.com/frioux/hugo.dkr
 [6]: https://github.com/frioux/s3cmd.dkr
-[license]: https://github.com/frioux/blog/..
+[license]: https://github.com/frioux/blog/blob/master/LICENSE.md
 [make]: http://pubs.opengroup.org/onlinepubs/9699919799/utilities/make.html
