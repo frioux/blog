@@ -14,9 +14,9 @@ and I think improving almost everything I care to on the blog.
 
 [As I've mentioned][2] [before][3] I have been using [Hugo][4] for (wow!) over
 three years now.  One of the things I'm especially proud of is my blogs tooling
-and self-containedness.  The only thing you need, theoretically, to publish my
-blog is a working hugo binary (or [docker wrapper][5]), an s3cmd binary (or
-[docker wrapper][6]) and [make][make].
+and self-containedness.  All you need, theoretically, to publish my blog is a
+working hugo binary (or [docker wrapper][5]), an s3cmd binary (or [docker
+wrapper][6]) and [make][make].
 
 The tools that I have blogged about before are Perl, SQL, and some basic shell.
 Previously I have always leaned on the original post to share the tool, but that
