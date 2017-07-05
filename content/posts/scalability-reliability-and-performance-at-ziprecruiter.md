@@ -47,9 +47,8 @@ maybe GSG is clear, it is *not* clear how it can apply to smaller applications.
 
 I think I should have explained that a reaper could be made to work even in a
 single server situation and indeed in that situation may even be more critical.
-I did in fact explain this to some friends who I used to work with when they
-were I was asking if they thought my talk went well; but that idea should come
-with the talk.
+I did in fact explain this to some friends when we discussed how my talk went,
+but that idea should come with the talk.
 
 The other nuance that I didn't explain, which only barely belongs in the talk,
 is that while reaping and timeouts sound scary, ultimately you are foolish not
