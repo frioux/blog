@@ -64,7 +64,7 @@ of these commands available can be extremely convenient.  The difference that
 exec, and get out of the way.
 
 In addition to supporting the standard shell features, both `s6` (as [an
-addon][s6-networking] and `nosh` have [UCSPI][ucspi] support and many other
+addon][s6-networking]) and `nosh` have [UCSPI][ucspi] support and many other
 networking tools.
 
 One notable tool that comes from the author of `s6` (Laurent Bercot) is
