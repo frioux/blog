@@ -75,7 +75,7 @@ advertise that your program is ready after your program writes a single line to
 a given file descriptor; by default stdout.
 
 The following is an `execlineb` run script I used to use (before moving my code
-to Heroku) that uses `s6` and it's UCSPI additions:
+to Heroku) that uses `s6` and its UCSPI additions:
 
 ```
 #!/bin/execlineb

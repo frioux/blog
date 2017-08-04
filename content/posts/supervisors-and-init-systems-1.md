@@ -60,9 +60,9 @@ doesn't really matter as there are a boatload of alternatives.  But I think that
 already we can see something of note about supervisors, or at least those who
 make them: the people who build them are strange and interesting people.
 
-The first striking oddity about `daemontools` is it's lack of a real license.
+The first striking oddity about `daemontools` is its lack of a real license.
 That's fine, it is well within djb's rights to do so, but it's not the end.
-Second, there is no public source control.  This may be more of a marker of it's
+Second, there is no public source control.  This may be more of a marker of its
 age than anything else, but I'm not convinced. Third, instead of the typical
 "extract, `./configure`, `make`" installation method, `daemontools` completely
 skips the typical `./configure` running (and indeed generation via autoconf or
@@ -89,7 +89,7 @@ discussed here which I have never used.
 
 ### `runit`
 
-[`runit`][runit] could almost get it's own category, as it adds two important
+[`runit`][runit] could almost get its own category, as it adds two important
 features.  First is a logger process, which each service may have.  When I used
 `runit` I used it like this:
 
