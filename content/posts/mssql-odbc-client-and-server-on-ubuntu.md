@@ -52,6 +52,10 @@ so it's probably a good thing.
 
 ## Setting up the client libraries
 
+**All but the final client step (to install Perl libraries) can be likely
+taken care of by following the up-to-date instructions [from
+Microsoft][official]**
+
 The following was tested on Ubuntu 16.04.  Some things would surely need to be
 tweaked for a different version.
 
@@ -214,3 +218,5 @@ I'm glad that this is so much less weird than before.  [The previous
 version](/posts/install-and-configure-the-ms-odbc-driver-on-debian/)
 of this document had some pretty sketchy hacks.  This should be much more
 reliable.
+
+[official]: https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server
