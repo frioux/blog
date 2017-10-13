@@ -1,3 +1,0 @@
-[submodule "etc/vim-bundle/ultisnips"]
-	path = etc/vim-bundle/ultisnips
-	url = git://github.com/SirVer/ultisnips

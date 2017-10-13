@@ -1,0 +1,17 @@
+{
+   "content/posts/*.md": {
+      "type": "post",
+      "template": [
+         "TPLTPLTPL",
+         "---",
+         "title: ",
+         "date: ~~CURDATE~~",
+         "tags: ",
+         "guid: ~~GUID~~",
+         "---",
+         "",
+         "",
+         "<!--more-->"
+      ]
+   }
+}
