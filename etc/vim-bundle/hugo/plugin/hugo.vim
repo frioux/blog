@@ -54,7 +54,7 @@ function! CompleteTags(findstart, base)
 endfun
 
 function! ExpandTemplate()
-   %s/\~\~CURDATE\~\~/\=systemlist("date +%FT%T%z")[0]/ge
+   %s/\~\~CURDATE\~\~/\=systemlist("date +%FT%T")[0]/ge
    %s/\~\~GUID\~\~/\=systemlist("uuidgen")[0]/ge
 endfunction
 
