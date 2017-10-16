@@ -5,7 +5,7 @@
          "---",
          "title: ",
          "date: ~~CURDATE~~",
-         "tags: ",
+         "tags: [  ]",
          "guid: ~~GUID~~",
          "---",
          "",
