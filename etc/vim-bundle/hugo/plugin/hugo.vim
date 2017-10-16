@@ -54,11 +54,8 @@ function! CompleteTags(findstart, base)
 endfun
 
 function! ExpandTemplate()
-   if getline(1) == 'TPLTPLTPL'
-      :%s/\~\~CURDATE\~\~/\=systemlist("date +%FT%T%z")[0]/ge
-      :%s/\~\~GUID\~\~/\=systemlist("perl -MData::GUID=guid_string -E'say guid_string()'")[0]/ge
-      1g/TPLTPLTPL/d
-   endif
+   %s/\~\~CURDATE\~\~/\=systemlist("date +%FT%T%z")[0]/ge
+   %s/\~\~GUID\~\~/\=systemlist("uuidgen")[0]/ge
 endfunction
 
 augroup hugo
@@ -73,7 +70,7 @@ augroup hugo
        \ silent exe ':%s/\v^([^|]+\|){2}\s*//g' |
        \ setl nomodifiable |
      \ endif
-   au BufReadPost * call ExpandTemplate()
+   au User ProjectionistApplyTemplate call ExpandTemplate()
 augroup END
 
 nnoremap g<C-]> :TaggedWord<CR>
