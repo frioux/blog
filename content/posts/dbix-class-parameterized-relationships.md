@@ -4,6 +4,9 @@ date: "2014-07-22T08:07:12"
 tags: [frew-warez, "cpan", "perl", "dbix-class"]
 guid: "https://blog.afoolishmanifesto.com/posts/dbix-class-parameterized-relationships"
 ---
+**UPDATE (2017-10-17):** The hack in this post no longer works; please check out
+[DBIx::Class::ParameterizedJoinHack][pjc] for something more likely correct.
+
 Probably once a week in the DBIx::Class channel someone asks if there is a way
 to pass arguments to a relationship.  There is an answer but it isn't pretty or
 for the faint of heart, so I finally have decided that I should write up a post
@@ -133,3 +136,4 @@ following two queries are obviously different:
 
 Thanks mortiz and Greg for pointing this out!
 
+[pjc]: https://metacpan.org/pod/DBIx::Class::ParameterizedJoinHack
