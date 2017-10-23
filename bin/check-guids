@@ -1,0 +1,17 @@
+#!/bin/sh
+
+duplicates="$(bin/q --sql \
+ 'SELECT filename
+    FROM articles
+   WHERE guid IN (
+      SELECT guid
+        FROM articles
+    GROUP BY guid
+      HAVING COUNT(*) > 1
+   )' --formatter='" * $r{filename}"'
+)"
+
+if [ -n "$duplicates" ]; then
+   echo "Duplicate GUIDs found!\n$duplicates"
+   exit 1
+fi

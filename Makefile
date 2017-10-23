@@ -9,7 +9,7 @@ clean:
 	rm public/* -rf
 
 build: clean
-	hugo
+	bin/check-guids && hugo
 
 push: build
 	git push
