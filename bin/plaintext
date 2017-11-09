@@ -1,0 +1,44 @@
+#!/usr/bin/env perl
+
+use 5.20.1;
+use warnings;
+
+package MarkdownToText;
+
+use Moo;
+
+extends 'Markdent::Handler::HTMLStream::Fragment';
+
+# disabled events
+sub code_block {}
+sub preformatted {}
+
+# disable html stuf
+sub _stream_start_tag {}
+sub _stream_end_tag {}
+
+# disable encoding of html entities
+sub _stream_text { shift->_output->print(shift) }
+
+package main;
+
+use autodie;
+use Markdent::Parser;
+
+die "usage: $0 \$mdwn [\$md2 \$md3 ...]\n"
+   unless @ARGV;
+
+while (my $markdown = do { local $/; <<>> }) {
+  $markdown =~ s/---\n.*?---\n//s;
+
+  my $out = '';
+  open my $fh, '>', \$out;
+  my $parser = Markdent::Parser->new(
+    dialects => 'GitHub',
+    handler  => MarkdownToText->new( output => $fh ),
+  );
+
+  $parser->parse( markdown => $markdown );
+
+  print $out;
+}
