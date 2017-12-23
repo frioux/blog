@@ -3,6 +3,8 @@
 use 5.22.0;
 use warnings;
 
+use experimental 'postderef';
+
 use DBI;
 use Getopt::Long;
 my $sql;
@@ -12,7 +14,10 @@ GetOptions (
    'formatter=s' => \$formatter,
 ) or die("Error in command line arguments\n");
 
-use YAML::Syck 'Load';
+use YAML::Syck 'Load', 'LoadFile';
+
+my $config = LoadFile('./config.yaml');
+my @facets = sort(($config->{'q'}{'post-facets'}||[])->@*);
 
 my $dbh = DBI->connect('dbi:SQLite::memory:', {
       RaiseError => 1,
@@ -20,12 +25,15 @@ my $dbh = DBI->connect('dbi:SQLite::memory:', {
 
 $dbh->begin_work;
 
-$dbh->do(<<'SQL');
+my $facets_sql = @facets
+   ? join ",\n", '', @facets
+   : '';
+$dbh->do(<<"SQL");
    CREATE TABLE articles (
       title,
       date,
       guid,
-      filename
+      filename $facets_sql
    )
 SQL
 
@@ -33,9 +41,10 @@ $dbh->do(<<'SQL');
    CREATE TABLE article_tag ( guid, tag )
 SQL
 
-$dbh->do(<<'SQL');
-   CREATE VIEW _ ( guid, title, date, filename, tag ) AS
+$dbh->do(<<"SQL");
+   CREATE VIEW _ ( guid, title, date, filename, tag $facets_sql ) AS
    SELECT a.guid, title, date, filename, tag
+      $facets_sql
    FROM articles a
    JOIN article_tag at ON a.guid = at.guid
 SQL
@@ -44,14 +53,19 @@ $dbh->commit;
 
 $dbh->begin_work;
 
-my $sth_a = $dbh->prepare(<<'SQL');
-      INSERT INTO articles (guid, title, date, filename) VALUES (?, ?, ?, ?)
+my $qs = join ', ', map '?', qw(guid title date filename), @facets;
+my $sth_a = $dbh->prepare(<<"SQL");
+      INSERT INTO articles (
+         guid, title, date, filename
+      $facets_sql
+      ) VALUES ($qs)
 SQL
 
 my $sth_a_t = $dbh->prepare(<<'SQL');
       INSERT INTO article_tag (guid, tag) VALUES (?, ?)
 SQL
 
+FILES:
 for my $file (glob('content/pages/*.md'), glob('content/posts/*.md')) {
   open my $fh, '<', $file
     or die "could not open $file: $!";
@@ -81,7 +95,10 @@ LINES:
     next FILES
   }
 
-  $sth_a->execute($data->{guid}, $data->{title}, $data->{date}, $file);
+  $sth_a->execute(
+     $data->{guid}, $data->{title}, $data->{date}, $file,
+     map $data->{$_}, @facets
+  );
   $sth_a_t->execute($data->{guid}, $_) for @{$data->{tags}};
 }
 
