@@ -77,8 +77,8 @@ LINES:
   };
 
   unless ($success) {
-    warn "error processing $file: $_\n";
-    next LINES
+    warn "error processing $file: $@\n";
+    next FILES
   }
 
   $sth_a->execute($data->{guid}, $data->{title}, $data->{date}, $file);
