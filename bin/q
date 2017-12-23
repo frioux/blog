@@ -91,6 +91,11 @@ my $sth = $dbh->prepare($sql || die "pass some SQL yo\n");
 $sth->execute(@ARGV);
 
 for my $row (@{$sth->fetchall_arrayref({})}) {
-   my $code = $formatter || 'join "\t", map $r{$_}, sort keys %r';
-   say((sub { my %r = %{$_[0]}; eval $code })->($row))
+   my $code = $formatter
+      || 'join "\t", map $r{$_}, sort keys %r';
+   say((sub {
+      no warnings 'uninitialized';
+      my %r = %{$_[0]};
+      eval $code
+   })->($row))
 }
