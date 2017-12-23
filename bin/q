@@ -1,4 +1,4 @@
-#!/home/frew/.plenv/versions/5.26.1/bin/perl
+#!/home/frew/bin/perl
 
 use 5.22.0;
 use warnings;
