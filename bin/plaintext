@@ -9,6 +9,11 @@ use Moo;
 
 extends 'Markdent::Handler::HTMLStream::Fragment';
 
+our $printing = 1;
+
+sub start_code { $printing = 0 }
+sub end_code   { $printing = 1 }
+
 # disabled events
 sub code_block {}
 sub preformatted {}
@@ -18,7 +23,7 @@ sub _stream_start_tag {}
 sub _stream_end_tag {}
 
 # disable encoding of html entities
-sub _stream_text { shift->_output->print(shift) }
+sub _stream_text { shift->_output->print(shift) if $printing }
 
 package main;
 
