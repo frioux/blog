@@ -12,46 +12,50 @@ think there's a difference. If there is, let me know).
 
 Here's the syntax:
 
-sub\_ex.pl
+`sub_ex.pl`
 
-    #!/usr/bin/perl
-    use warnings;
-    use diagnostics;
-    use strict;
+```
+#!/usr/bin/perl
+use warnings;
+use diagnostics;
+use strict;
 
-    sub frew {
-      print "hello world!\n";
-    }
+sub frew {
+  print "hello world!\n";
+}
 
-    frew;
+frew;
+```
 
 Obviously not very useful, nor is it a very good sub name. Oh well, you get what
 you pay for, right?
 
-Ok, one thing you will probably notice immediately is that in perl you don't
+OK, one thing you will probably notice immediately is that in perl you don't
 have parameter definitions like in almost every other language you have ever
 used. How do you get at your params?! Chill man, it's really not that bad. Let's
 try again, k?
 
-sub\_param\_the\_man.pl
+`sub_param_the_man.pl`
 
-    #!/usr/bin/perl
-    use warnings;
-    use strict;
-    use diagnostics;
+```
+#!/usr/bin/perl
+use warnings;
+use strict;
+use diagnostics;
 
-    sub greet_the_man {
-     my $name = $_[0];
-     print "Will the real $name please stand up?\n";
-    }
+sub greet_the_man {
+ my $name = $_[0];
+ print "Will the real $name please stand up?\n";
+}
 
-    greet_the_man("slim shady");
+greet_the_man("slim shady");
+```
 
 I want to point out a few things here. First off, eminem is terrible. I am not a
 fan. But it would be nice if he would stand up.
 
-So the $\_[0] thing there, do you notice what that is? It's an element in an
-array. That is, the array is @\_. This is where parameters get stored. @\_ is a
+So the `$_[0]` thing there, do you notice what that is? It's an element in an
+array. That is, the array is `@_`. This is where parameters get stored. `@_` is a
 pretty gnarly guy in general. So gnarly in fact, that everyone loves him! I'll
 get into why everyone loves him in a bit. But in the meantime...
 
@@ -59,15 +63,15 @@ You will probably never ever see code that looks like that in real life. It just
 isn't done. Remember how arrays are like, multiple things and stuff? Well, in
 perl you can use arrays just like stacks. That is, you can add stuff on, and
 take stuff off, and all that cool stuff. There is a command that will take stuff
-off of the front of an array called "shift". So the first line in that sub could
+off of the front of an array called `shift`. So the first line in that sub could
 be written like this:
 
      my $name = shift(@_);
 
 Again, you will never see that in code either. "Why!?" you scream with your
-small mouselike voices! BECAUSE EVERYONE LOVES @\_!!! But of course you still
-don't understand. The reason that everyone loves @\_ is because when a function
-is called without arguments, @\_ is given to it. So finally, it would more
+small mouse-like voices! BECAUSE EVERYONE LOVES `@_`!!! But of course you still
+don't understand. The reason that everyone loves `@_` is because when a function
+is called without arguments, `@_` is given to it. So finally, it would more
 realistically get written like this:
 
      my $name = shift;
@@ -83,12 +87,12 @@ would do good to learn it.
 
 Just calling sort on an array will sort it asciibetically (I hate that term).
 You can change the order of sorting by passing perl a block, which is like a
-bitesized piece of code (note: not byte. That's just terrible.) So, you wanna
+bite-sized piece of code (note: not byte. That's just terrible.) So, you wanna
 sort it alphabetically like a real American? Check this out bro!
 
      sort { uc($a) cmp uc($b) } @stuff;
 
-What that does is uppercase everything in $a and $b and CoMPare them as strings.
+What that does is uppercase everything in `$a` and `$b` and compare them as strings.
 Wanna reverse it? EASY!
 
      sort { uc($b) cmp uc($a) } @stuff;
@@ -99,59 +103,63 @@ But numbers?
 
 This whole concept is actually really gnarly. As a mere bunny, like you fellas,
 I thought it was silly. But now that blocks are my buds, I think this is great!
-(for more details see perldoc -f sort.)
+(for more details see `perldoc -f sort`.)
 
-Ok, so another little bonus thing that I have hardly ever seen used in perl. You
+OK, so another little bonus thing that I have hardly ever seen used in perl. You
 actually CAN force perl to have parameters like in c. They aren't as structured
 since perl isn't but it can't hurt. (Note: we don't do this in perl, but it
 might be a good idea to look into it?)
 
 There is this thing called a reference. A reference is like,
-"0x00hahbcha001953"! Which is a place in the RAM. Anyway, the reason that these
+`0x00hahbcha001953`! Which is a place in the RAM. Anyway, the reason that these
 kind of things exist is for efficiency. You don't wanna have a 100 element array
 and pass the values. Think of the waste! So we pass a reference instead. So
 like, I have this reference...
 
-dumb\_ref\_example.pl
+`dumb_ref_example.pl`
 
-    #!/usr/bin/perl
+```
+#!/usr/bin/perl
 
-    use warnings;
-    use strict;
-    use diagnostics;
+use warnings;
+use strict;
+use diagnostics;
 
-    # Scalar
-    my $name = "frew";
+# Scalar
+my $name = "frew";
 
-    # Scalar Ref.
-    my $name_name = \$name;
+# Scalar Ref.
+my $name_name = \$name;
 
-    print '$name: '.$name."\n";
-    print '$name_name: '.$name_name."\n";
-    print '$$name_name: '.$$name_name."\n";
+print '$name: '.$name."\n";
+print '$name_name: '.$name_name."\n";
+print '$$name_name: '.$$name_name."\n";
+```
 
-Ok, here are some other misc. things that are good to know.
+OK, here are some other misc. things that are good to know.
 
-join will put a bunch of things together with stuff inbetween. Example:
+join will put a bunch of things together with stuff in-between. Example:
 
-join\_for\_life.pl
+`join_for_life.pl`
 
-    #!/usr/bin/perl
+```
+#!/usr/bin/perl
 
-    use warnings;
-    use strict;
-    use diagnostics;
+use warnings;
+use strict;
+use diagnostics;
 
-    # I am a math major too.
-    my @friends = ('1', '2', '3', '4', '5', '6',);
-    my $factorial = join '*', @friends;
-    print "$factorial\n";
+# I am a math major too.
+my @friends = ('1', '2', '3', '4', '5', '6',);
+my $factorial = join '*', @friends;
+print "$factorial\n";
+```
 
 We mostly use that to generate some SQL. Not that hard.
 
 die is a good one to know. You could do this:
 
-i\_could\_just\_die.pl
+`i_could_just_die.pl`
 
 ```
 #!/usr/bin/perl
@@ -168,7 +176,7 @@ print "You're dumb $enemy.\n";
 basically die is an error message. It's throwing an exception. Fjord tell's me
 that perl's exception handling is not exactly exceptional.... Get it?
 
-map is something that we use. It basically says, "Ok, what's up?" for each item
+map is something that we use. It basically says, "OK, what's up?" for each item
 in a list, and then makes a new list based on what is up. Want proof? How is
 this thug!
 
@@ -193,13 +201,13 @@ mapped.pl
      print "$_ is old enough.\n" if ($_);
     }
 
-Basically what this does is returns an array of ages that are greather than 21
+Basically what this does is returns an array of ages that are greater than 21
 and leaves them undefined if they are less. That's another use of a block there!
 
 A typical use of a map is to define a hash. The perldoc -f map has a pretty good
 example of that.
 
-Ok, I assume you have all heard of the tertiary operator. I am a pretty big fan
+OK, I assume you have all heard of the tertiary operator. I am a pretty big fan
 of it. It's great for little tiny tests.
 
 plural.pl
@@ -221,7 +229,7 @@ plural.pl
 
 REGULAR EXPRESSIONS!!!!
 
-Ok, a little tiny bit of background. Regular expressions are usually just called
+OK, a little tiny bit of background. Regular expressions are usually just called
 regex, and often the plural is regexen. They are used often in scripting
 languages and generally available everywhere in Unix. A true regular expression
 (which perl does not have) is an extremely minimal language class. I won't
@@ -264,7 +272,7 @@ born\_to\_regexen.pl
 
     say $name;
 
-Ok, so there are a few things to take note here. The =~ is basically the regex
+OK, so there are a few things to take note here. The =~ is basically the regex
 operator. I'll show more examples later. A mnemonic from Dr. Fjord: it always
 goes $x =~ regex because regexen are magic, just like the ~. I used to mix those
 up when I was a small turtle.
@@ -276,8 +284,8 @@ are dealing with directories in unix you will use colons like I did above.
 Sometimes I make a game out of it and try to use the weirdest characters as
 possible to separate.
 
-Note re Magic: if you just have s/stuff/morestuff/ it will use the $\_. ie $\_
-=~ s/frew/you/ === s/frew/you.
+Note re Magic: if you just have `s/stuff/morestuff/` it will use the `$_`. ie 
+`$_ =~ s/frew/you/` === `s/frew/you/`.
 
 So you guys are all like, regex? More like, regsucks! I won't fault you. You
 just don't know better yet! Let's try out a more formidable example.
@@ -336,12 +344,12 @@ if-else's based on a single value, try given and when!
        }
     }
 
-This uses the smart match, ~~ instead of =~. That means that if you didn't use a
+This uses the smart match, `~~` instead of `=~`. That means that if you didn't use a
 regex above it would use == instead of =~. Very cool! It matches based on $\_,
 and given sets $\_.
 
-A more perly way to do that would be m/fROO+H/. + means 1 or more. So OO\* ===
-O+
+A more perly way to do that would be `m/fROO+H/`. `+` means 1 or more. So `OO*` ===
+`O+`
 
 Well I have a problem with the above code. It doesn't match fREW or fRIOUX!
 
@@ -368,7 +376,7 @@ round\_two.pl
        }
     }
 
-Ok, lets dissect that. The fR obviously matches fR. The parenthesis are special,
+OK, lets dissect that. The fR obviously matches fR. The parenthesis are special,
 and do a few things. The first thing they do is let us have alternatives, like
 above. | means or for a regular expression. You can remember that because often
 or === ||. Although the precedence varies I think.
@@ -400,7 +408,7 @@ round\_awesome.pl
 The difference is pretty small, so I'll point it out. The ^ means match at the
 beginning of the string, and the $ means match at the end.
 
-Ok, so those are the basics of regular expression. Wanna learn the really cool
+OK, so those are the basics of regular expression. Wanna learn the really cool
 stuff? Lets!
 
 Once I wrote an AIMBot that would deliver messages to people when they got
@@ -436,20 +444,20 @@ while (<stdin>) {
 ```
 
 Play with that. It is pretty cool right? A couple things. First off, that weird
-[a-zA-Z\_] is a character class. Basically what it does is match any lowercase,
+`[a-zA-Z\_]` is a character class. Basically what it does is match any lowercase,
 uppercase, or underscore character. You could do:
-[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\_], but the - does what
+`[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\_]`, but the - does what
 you would guess. Character classes basically allow you to match any of a certain
-type of characters. [aeiouAEIOU] could be a vowel character class. Now, there is
-a simpler, more perly way to do what I did above. In perl, \\w is the same as
-[a-zA-Z\_]. It means word character. Similarly, . is one of those shortcuts. It
+type of characters. `[aeiouAEIOU]` could be a vowel character class. Now, there is
+a simpler, more perly way to do what I did above. In perl, `\w` is the same as
+`[a-zA-Z_]`. It means word character. Similarly, . is one of those shortcuts. It
 means match (almost) ANY character. I am pretty sure that it will not match
 newlines, unless you do something funny.
 
 Now the really cool part. The groups [ these: () ] automatically store what they
 matched into numbered variables. Hence why we have $1 and $2. Be careful with
 stuff like (()()). I think the big one is $1 and the inner ones are $2 and $3.
-Either way it's weired. Also note: $0 is the entire match, but that's not very
+Either way it's weird. Also note: $0 is the entire match, but that's not very
 useful normally. A couple other gnarly features:
 
 \\1 through \\9 refer to previous matches. So you could do: /(.+)\\1/ and it
