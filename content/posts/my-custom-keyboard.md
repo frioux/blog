@@ -65,12 +65,12 @@ the option of either buying blank keycaps in a separate but concurrent drop, or
 somehow scrounging up my own keycaps somewhere else.  After a tiny bit of
 research I decided to get the blank keycaps.
 
-### Zodiak
+### Zodiac
 
 I had the idea for this part of my keyboard after having the keyboard for just a
 week.  I'd been reading [Homestuck](http://www.mspaintadventures.com/?s=6) which
 inspired me to use [the
-Zodiak](https://en.wikipedia.org/wiki/Zodiac#Twelve_signs) for the function keys
+Zodiac](https://en.wikipedia.org/wiki/Zodiac#Twelve_signs) for the function keys
 (F1 through F12.)
 
 After having the idea I emailed [Signature Plastics](http://keycapsdirect.com/),
@@ -99,7 +99,7 @@ So to be absolutely clear, if I were to get a set all by myself the price would
 exceed a thousand dollars, for twelve keys.  I decided to start the process of
 setting up a group buy.  I'm sad to say that I can't find the forum where I
 initiated that.  I thought it was [GeekHack](https://geekhack.org/) but there's
-no post from me before I had the Zodiak keys.
+no post from me before I had the Zodiac keys.
 
 Anyway just a couple of days after I posted on the forum I got this email from
 Signature Plastics:

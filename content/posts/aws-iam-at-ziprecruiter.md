@@ -297,7 +297,7 @@ point is: instead of trying to be perfect, or not allowing people to make
 mistakes at all, just make failure not a big problem.
 
 With that alternate view in mind, as a company that is worth a lot of money,
-ZipRecrutier must address existential threats.  Locking down keys like this is
+ZipRecruiter must address existential threats.  Locking down keys like this is
 important and worth doing, but it is also important to decide what else we
 should prevent against.  Just like we can have S3 versioning, we can also have
 streaming backups of everything to a second AWS account that very few people
