@@ -195,3 +195,18 @@ this step can be skipped.
 into the howto. Additionally [mje](http://www.martin-evans.me.uk) recommended
 setting `--enable-stats=no` for speed, especially since with the gui disabled
 they aren't used anyway.
+
+---
+
+I don't know of any books that are directly relevant to ODBC on Linux, but I can
+recommend a couple of database books.
+
+<a target="_blank" href="https://www.amazon.com/gp/product/0321884493/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0321884493&linkCode=as2&tag=afoolishmanif-20&linkId=9264185c3d13c7c67e237a963060f488">Database Design for Mere Mortals</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=0321884493" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+is an excellent book for getting started on good RDBMS design.  I read an
+older edition (the 3rd edition wasn't out at the time) but I cannot imagine it
+changed much, other than newer data types that are relevant these days.
+
+If you need something more basic, check out
+<a target="_blank" href="https://www.amazon.com/gp/product/0672336073/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0672336073&linkCode=as2&tag=afoolishmanif-20&linkId=b1c9ef8b26a8eb1cc86ed4ba8ae42237">SQL in 10 Minutes</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=0672336073" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
+I started with this book and it was a lot of fun for me at the time, though that
+was more than a decade ago at this point.
