@@ -276,6 +276,24 @@ So if I were to advise someone on how to learn to code async Perl I'd say start
 with AnyEvent, but if someone were to write something for *work* I'd recommend
 IO::Async or POE if you're willing to put in the work.
 
+---
+
+I don't know of any books to suggest that are fully on topic, but here are a
+couple you might be interested in anyway.  One of the most fascinating and
+approachable hard tech books I've ever read is
+<a target="_blank" href="https://www.amazon.com/gp/product/1558607013/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1558607013&linkCode=as2&tag=afoolishmanif-20&linkId=34bb4d6db235d3fea06697134dd203c3">Higher-Order Perl</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1558607013" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
+If you want to up your perl game, or bend your mind, or both, read this book.
+The hard copy is beautiful, but the PDF version is free these days.
+
+If you have somehow gotten this far in this article and just now realized that
+you don't actually know Perl at all, or maybe you've been stuck in Perl 5.005
+and would like to learn how to code in a more modern fashion, maybe check out
+<a target="_blank" href="https://www.amazon.com/gp/product/1680500880/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1680500880&linkCode=as2&tag=afoolishmanif-20&linkId=b94d729d29e65b0bd778b25a79818394">Modern Perl</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1680500880" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
+Modern Perl is a little too dogmatic for my tastes, but it's more likely to be
+a helpful start than one of the older O'Reilly books at this point.
+
+---
+
 ## POE Appendix
 
     #!/usr/bin/env perl

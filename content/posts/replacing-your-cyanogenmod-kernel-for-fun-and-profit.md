@@ -186,6 +186,19 @@ Hope you enjoyed it!
 **Note:** I intend to update the bibliography over time as I find more resources
 that help me with ftrace, so consider checking back.
 
+---
+
+The one resource I'd link to that's related to this topic is
+<a target="_blank" href="https://www.amazon.com/gp/product/0133390098/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0133390098&linkCode=as2&tag=afoolishmanif-20&linkId=d648399595072169d0e5d6a9a6ca2714">Brendan Gregg's Systems Performance</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=0133390098" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
+At the very least that book will teach you to understand what you are looking
+for when using advanced tools like `perf` or `ftrace.`
+
+<a target="_blank" href="https://www.amazon.com/gp/product/1593272200/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593272200&linkCode=as2&tag=afoolishmanif-20&linkId=e1601503132e1716cfea9d83e328804b">The Linux Programming Interface</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1593272200" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+could also be relevant, for the relatively advanced stuff that `perf` and
+`ftrace` can allow you to do or track.
+
+---
+
 ## Bibliography
 
 [Julia Evans' Post](http://jvns.ca/blog/2014/05/13/profiling-with-perf/) which
