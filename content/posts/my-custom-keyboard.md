@@ -12,7 +12,7 @@ finally decided to write about it.
 
 # ErgoDox
 
-[The ErgoDox](http://ergodox.org/) is sortav an open-source cross between the
+[The ErgoDox](https://www.ergodox.io/) is sortav an open-source cross between the
 [Kinesis Advantage](https://www.kinesis-ergo.com/shop/advantage-for-pc-mac/) and
 the [Kinesis Freestyle](https://www.kinesis-ergo.com/shop/freestyle2-blue-mac/).
 It's two effectively independent halves that have a similar layout to the
