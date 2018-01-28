@@ -71,3 +71,17 @@ and thus have not really gotten attention from anyone too negative.
 
 I hope that I can bring myself to post more often like the good old days of
 2009, with the blog being so incredibly easy to post to.  Enjoy!
+
+---
+
+I'm not sure what would be the best thing to read along with a post like this.
+I am torn between two topics: technical, and writing.
+
+For writing, you could pick a worse starting point than
+<a target="_blank" href="https://www.amazon.com/gp/product/020530902X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=020530902X&linkCode=as2&tag=afoolishmanif-20&linkId=f3dbecdebeb198b706162472450ccca6">The Elements of Style</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=020530902X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
+Like other things, it's a bit dogmatic for my taste, but when you first start
+you might as well start with an accepted "good style."
+
+As for the technical aspect, I dearly love
+<a target="_blank" href="https://www.amazon.com/gp/product/013937681X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=013937681X&linkCode=as2&tag=afoolishmanif-20&linkId=d34a9f851e5ceaa53197ffa6cb4b35a6">The UNIX Programming Environment</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=013937681X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
+If nothing else it may inspire you to build tools around your blog like I have.
