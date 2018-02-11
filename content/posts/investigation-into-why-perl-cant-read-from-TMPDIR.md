@@ -1,4 +1,5 @@
 ---
+aliases: ["/posts/investigation-into-why-perl-cant-read-from-TMPDIR"]
 title: "Investigation: Why Can't Perl Read From TMPDIR?"
 date: 2016-06-30T00:33:10
 tags: [ziprecruiter, investigation, perl, ld.so, linker, TMPDIR]
