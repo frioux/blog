@@ -46,11 +46,15 @@ pre {
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px;
+    tab-size: 3;
+    -moz-tab-size: 3;
 }
 
 code {
     background-color: #eee;
     color: #111;
+    tab-size: 3;
+    -moz-tab-size: 3;
 }
 
 a {
