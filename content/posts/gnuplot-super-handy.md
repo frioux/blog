@@ -56,7 +56,7 @@ set title "Backlog"
 set key below
 set grid
 
-# Not sure what 1:2 means; assume it's a ratio of X to Y?
+# 1:2 is how to map the columns in the data to the graph
 plot "./short.csv" using 1:2 title "megs"
 ```
 
