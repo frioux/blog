@@ -60,7 +60,7 @@ the prior output, which requires careful scrolling, or better yet, sorting.
 Here's another improvement:
 
 ```
-$ du -aks | sort -n
+$ du -akx | sort -n
 ```
 
 Now the output will be as follows:
@@ -91,7 +91,7 @@ we are further only ever sorting by base ten numbers, so it's totally overkill.
 You can speed the sort up hugely like this:
 
 ```
-$ du -aks | LC_ALL=C sort -n
+$ du -akx | LC_ALL=C sort -n
 ```
 
 Same output, but possibly much faster.
@@ -103,7 +103,7 @@ avoid spilling these files to the same partition that is full.  The easy
 solution here is to do something like:
 
 ```
-$ du -aks | LC_ALL=C TMPDIR=/mnt/tmp sort -n
+$ du -akx | LC_ALL=C TMPDIR=/mnt/tmp sort -n
 ```
 
 This assumes you have a `/mnt/tmp` though.  At
