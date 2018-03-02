@@ -101,19 +101,10 @@ important:
 apt-get install unixodbc-dev-utf16
 ```
 
-This wall of shell will install the Perl DBD::ODBC driver:
+This will install the Perl DBD::ODBC driver:
 
 ```
-cd /root && \
-wget https://cpan.metacpan.org/authors/id/M/MJ/MJEVANS/DBD-ODBC-1.56.tar.gz && \
-tar xf DBD-ODBC-1.56.tar.gz && \
-cd /root/DBD-ODBC-1.56      && \
-perl Makefile.PL -u         && \
-cpanm --installdeps .       && \
-make                        && \
-make test                   && \
-make install                && \
-rm -rf /root/DBD-ODBC-1.56.tar.gz /root/DBD-ODBC-1.56
+DBD_ODBC_UNICODE=1 cpanm DBD::ODBC
 ```
 
 Finally, if you are in a Docker container, you'll need to generate a locale or
