@@ -1,8 +1,6 @@
-#!/bin/dash
+#!/bin/sh
 
 exec bin/q \
    --sql 'SELECT tag FROM _ WHERE tag LIKE ? GROUP BY tag ORDER BY COUNT(*) DESC, tag' \
    --formatter 'sprintf "%s", $r{tag}' \
    "$1%"
-
-# vim: ft=sh
