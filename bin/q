@@ -1,4 +1,4 @@
-#!/home/frew/bin/perl
+#!/usr/bin/perl
 
 use 5.22.0;
 use warnings;
