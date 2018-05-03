@@ -353,7 +353,7 @@ import (
 func main() {
 	fd, err := strconv.Atoi(os.Getenv("TSAROUTFD"))
 	if err != nil {
-		fmt.Printf("Coudln't parse TSAROUTFD: %s\n", err)
+		fmt.Printf("Couldn't parse TSAROUTFD: %s\n", err)
 		os.Exit(3)
 	}
 	outPipe := os.NewFile(uintptr(fd), "outPipe")
