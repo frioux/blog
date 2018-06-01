@@ -20,21 +20,7 @@ function applyTheme(style, label) {
     document.getElementById( "toggleTheme" ).innerText = label;
 }
 
-function createLinks() {
-    $('h1,h2,h3,h4,h5,h6').each(function() {
-            if ($(this).context.id)
-                $(this).prepend(
-                    '<a href="#' + $(this).context.id + '">' +
-                        '🔗 ' +
-                    '</a>'
-                )
-    })
-}
-
 window.onload = function() {
     if (localStorage.getItem('b+w'))
         applyTheme('styles-inverted', '🎃')
-
-    if (/\/posts\//.test(window.location))
-        createLinks()
 };

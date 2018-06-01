@@ -1,6 +1,8 @@
 {{ template "chrome/header.html" . }}
           <h1>{{ .Title }}</h1>
-          {{ .Content }}
+          {{- with .Content -}}
+          {{ . | replaceRE "(<h[2-9] id=\"([^\"]+)\">)(.+</h[2-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor"> 🔗 </a> ${3}` | safeHTML }}
+          {{- end -}}
           Posted {{ .Date.Format "Mon, Jan 2, 2006" }}<br />
           {{if ne .Lastmod .Date }}Updated {{ .Lastmod.Format "Mon, Jan 2, 2006" }} {{end}}
 
