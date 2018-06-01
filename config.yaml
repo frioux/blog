@@ -5,6 +5,5 @@ author:
 indexes:
   tag: 'tags'
 baseurl: 'https://blog.afoolishmanifesto.com'
-canonifyurls: false
 paginate: 50
 PygmentsCodeFences: true
