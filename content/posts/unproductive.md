@@ -6,7 +6,8 @@ guid: 35689003-1493-45d7-9cf0-0cbfcfb0671b
 ---
 
 I've always wanted to carefully measure my activity on the computer and recently
-built a tool called `unproductive` to make it happen.
+[built a tool called `unproductive`](https://github.com/frioux/unproductive) to
+make it happen.
 
 <!--more-->
 
