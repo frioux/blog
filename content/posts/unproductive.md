@@ -54,7 +54,7 @@ working from home I might do:
 
 ```bash
 $ filter --vpn --ssid Station --time 7d < ~/activity-log.txt
-````
+```
 
 ## `retitle`
 
