@@ -166,7 +166,7 @@ Unlike YAPC, Gophercon puts all Lightning Talks on one day (Community Day.)  I
 think the idea is that you can leave a day early if you want to skip these.  I
 personally prefer that they be more spread out, but I get it.
 
-### Lazy JSON Parsing
+### Lazy JSON Parsing [[slides](https://talks.godoc.org/github.com/packrat386/lightning_talk/talk_v1.slide)]
 
 JSON parsing in Go is super common and a huge stumbling block to new users.
 [Aidan Coyle](https://github.com/packrat386) discussed the frustrating issue
@@ -185,9 +185,6 @@ where you have to parse JSON like this:
 Note that the fields in the `Users` array vary.  The magic sauce for this
 situation is
 [json.RawMessage (see related example)](https://golang.org/pkg/encoding/json/#RawMessage).
-
-[(I think these are the slides, but I have no idea how to view
-them.)](https://github.com/packrat386/lightning_talk)
 
 ### Modular Audio Synthesis with Shaden
 
