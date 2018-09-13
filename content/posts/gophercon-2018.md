@@ -55,7 +55,8 @@ to add relevant links.
 
 ## Tue
 
-### The Scheduler Saga [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-the-scheduler-saga), [slides](https://speakerdeck.com/kavya719/the-scheduler-saga)]
+### The Scheduler Saga [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-the-scheduler-saga), [slides](https://speakerdeck.com/kavya719/the-scheduler-saga), [video](https://www.youtube.com/watch?v=NjMGHrM2cc0&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=9)]
+
 
 This was a great intro talk where [Kavya Joshi](https://twitter.com/kavya719)
 discussed how the Go Scheduler, which is what allows go to run many goroutines
@@ -63,7 +64,7 @@ without the same amount of threads, basically.  She had various simplified
 implementations and added extra details and refinements until she built up to
 the actual scheduler.  A great start to the conference, and an accurate keynote.
 
-### An Over-Engineering Disaster with Macaroons [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-an-over-engineering-disaster-with-macaroons), [slides](https://speakerdeck.com/tessr/an-over-engineering-disaster-with-macaroons)]
+### An Over-Engineering Disaster with Macaroons [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-an-over-engineering-disaster-with-macaroons), [slides](https://speakerdeck.com/tessr/an-over-engineering-disaster-with-macaroons), [video](https://www.youtube.com/watch?v=Lh32-NdYo6Y&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=7)]
 
 This was maybe my favorite talk of the whole conference.  [Tess
 Rinearson](http://www.tessrinearson.com/) went over how Chain used
@@ -72,7 +73,7 @@ Rinearson](http://www.tessrinearson.com/) went over how Chain used
 the limits of a technology, especially when it involves taking on surprising or
 frustrating tradeoffs.
 
-### Asynchronous Networking Patterns [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-asynchronous-networking-patterns), [slides](https://speakerdeck.com/filosottile/asynchronous-networking-at-gophercon-2018)]
+### Asynchronous Networking Patterns [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-asynchronous-networking-patterns), [slides](https://speakerdeck.com/filosottile/asynchronous-networking-at-gophercon-2018), [video](https://www.youtube.com/watch?v=aJy2ip9FpFs&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=12)]
 
 In this talk [Filippo Valsorda](https://blog.filippo.io/) went over the basics
 of implementing a server in Go.  In the talk he showed some serious pitfalls
@@ -83,7 +84,7 @@ pitfalls are worth listing:
  2. Make sure you Close your connections.
  3. Set timeouts before reading any data.
 
-### Allocator Wrestling [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-allocator-wrestling), [slides](https://speakerdeck.com/emfree/allocator-wrestling)]
+### Allocator Wrestling [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-allocator-wrestling), [slides](https://speakerdeck.com/emfree/allocator-wrestling), [video](https://www.youtube.com/watch?v=M0HER1G5BRw&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=6)]
 
 In this talk [Eben Freeman](https://emfree.me/) discussed how the Go allocator
 works.  I have read [a few](https://sourceware.org/glibc/wiki/MallocInternals)
@@ -111,13 +112,13 @@ works.
 The following were talks I couldn't make and intend to watch the videos for when
 they are published.
 
- * Rethinking Classical Concurrency Patterns [[slides](https://drive.google.com/file/d/1nPdvhB0PutEJzdCq5ms6UI58dp50fcAN/view)]
- * How Do You Structure Your Go Apps?  [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-how-do-you-structure-your-go-apps), [slides](https://github.com/katzien/talks/blob/master/how-do-you-structure-your-go-apps/gophercondenver-2018-08-28/slides.pdf), [eg](https://github.com/katzien/go-structure-examples)]
- * gRPC, State Machines, and... Testing?  [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-grpc-state-machines-and-testing), [slides](https://github.com/amy/Codes/blob/master/gRPC-StateMachines-Testing/gRPC%2C%20State%20Machines%2C%20and%20Testing.pdf), [etc](https://github.com/amy/Codes/tree/master/gRPC-StateMachines-Testing)]
+ * Rethinking Classical Concurrency Patterns [[slides](https://drive.google.com/file/d/1nPdvhB0PutEJzdCq5ms6UI58dp50fcAN/view), [video](https://www.youtube.com/watch?v=cp3omkhSLRc&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=20)]
+ * How Do You Structure Your Go Apps?  [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-how-do-you-structure-your-go-apps), [slides](https://github.com/katzien/talks/blob/master/how-do-you-structure-your-go-apps/gophercondenver-2018-08-28/slides.pdf), [eg](https://github.com/katzien/go-structure-examples), [video](https://www.youtube.com/watch?v=oL6JBUk6tj0&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=26)]
+ * gRPC, State Machines, and... Testing?  [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-grpc-state-machines-and-testing), [slides](https://github.com/amy/Codes/blob/master/gRPC-StateMachines-Testing/gRPC%2C%20State%20Machines%2C%20and%20Testing.pdf), [etc](https://github.com/amy/Codes/tree/master/gRPC-StateMachines-Testing), [video](https://www.youtube.com/watch?v=i7bdGl-olkE&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=15)]
 
 ## Wed
 
-### Writing Accessible Go [[liveblog](https://about.sourcegraph.com/go/gophecon-2018-writing-accessible-go), [slides/transcript](https://docs.google.com/document/d/1AsktP9tHph4a714YPoVtWOJ0QCb6eckh-2VtHpYSC6s/edit)]
+### Writing Accessible Go [[liveblog](https://about.sourcegraph.com/go/gophecon-2018-writing-accessible-go), [slides/transcript](https://docs.google.com/document/d/1AsktP9tHph4a714YPoVtWOJ0QCb6eckh-2VtHpYSC6s/edit), [video](https://www.youtube.com/watch?v=sKJkloZcAAs&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=19)]
 
 In this fascinating and somewhat painful talk [Julia
 Ferraioli](http://www.juliaferraioli.com/) discussed what it is like to be a
@@ -129,7 +130,7 @@ their head.  Or more concretely, consider getting paged at 2am, even focussing
 your eyes can be difficult, so code that doesn't require intense effort to read
 is great.
 
-### Go in Debian [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-go-in-debian), [slides](https://docs.google.com/presentation/d/1W0xjmh85A8DoGvQa2-MrLayyEec7ivArCus1YvruHiI/edit#slide=id.p)]
+### Go in Debian [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-go-in-debian), [slides](https://docs.google.com/presentation/d/1W0xjmh85A8DoGvQa2-MrLayyEec7ivArCus1YvruHiI/edit#slide=id.p), [video](https://www.youtube.com/watch?v=xQNWrFw2bQw&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=22)]
 
 [Michael Stapelberg](https://michael.stapelberg.de/) went over four major
 topics:
@@ -146,7 +147,7 @@ I'm interested in these:
  * [pault.ag/go/debian](https://pault.ag/go/debian), [pault.ag/go/archive](https://pault.ag/go/archive): Libraries for working with Debian packages and archives.
  * [pk4](https://github.com/Debian/pk4): A tool for downloading the source of a Debian package.
 
-### C L Eye-Catching User Interfaces [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-c-l-eye-catching-user-interfaces), [slides](https://pedantic-bell-26ad02.netlify.com/#/)]
+### C L Eye-Catching User Interfaces [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-c-l-eye-catching-user-interfaces), [slides](https://pedantic-bell-26ad02.netlify.com/#/), [video](https://www.youtube.com/watch?v=3d15R-Nx57c&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=28)]
 
 [James Bowes](https://repl.ca/) showed what is involved in writing nice
 (interactive) commandline interfaces.  He explained a ton of TTY stuff, much of
@@ -157,8 +158,8 @@ here to have more information dense console tools.
 
 ### Missed
 
- * Micro-optimizing Go Code [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-micro-optimizing-go-code), [slides](https://speakerdeck.com/gtank/micro-optimizing-go-code)]
- * Implementing a Network Protocol in Go [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-implementing-a-network-protocol-in-go), [slides](https://github.com/mdlayher/talks/blob/master/gophercon2018/implementing-a-network-protocol-in-go.pdf)]
+ * Micro-optimizing Go Code [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-micro-optimizing-go-code), [slides](https://speakerdeck.com/gtank/micro-optimizing-go-code), [video](https://www.youtube.com/watch?v=keydVd-Zn80&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=24)]
+ * Implementing a Network Protocol in Go [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-implementing-a-network-protocol-in-go), [slides](https://github.com/mdlayher/talks/blob/master/gophercon2018/implementing-a-network-protocol-in-go.pdf), [video](https://www.youtube.com/watch?v=pUaFW98V1Sc&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=11)]
 
 ## Thu (Lightning Talks)
 
