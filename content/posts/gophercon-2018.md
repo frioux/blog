@@ -112,7 +112,7 @@ works.
 The following were talks I couldn't make and intend to watch the videos for when
 they are published.
 
- * Rethinking Classical Concurrency Patterns [[slides](https://drive.google.com/file/d/1nPdvhB0PutEJzdCq5ms6UI58dp50fcAN/view), [video](https://www.youtube.com/watch?v=cp3omkhSLRc&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=20)]
+ * Rethinking Classical Concurrency Patterns [[slides](https://drive.google.com/file/d/1nPdvhB0PutEJzdCq5ms6UI58dp50fcAN/view), [video](https://www.youtube.com/watch?v=5zXAHh5tJqQ&index=23&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM)]
  * How Do You Structure Your Go Apps?  [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-how-do-you-structure-your-go-apps), [slides](https://github.com/katzien/talks/blob/master/how-do-you-structure-your-go-apps/gophercondenver-2018-08-28/slides.pdf), [eg](https://github.com/katzien/go-structure-examples), [video](https://www.youtube.com/watch?v=oL6JBUk6tj0&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=26)]
  * gRPC, State Machines, and... Testing?  [[liveblog](https://about.sourcegraph.com/go/gophercon-2018-grpc-state-machines-and-testing), [slides](https://github.com/amy/Codes/blob/master/gRPC-StateMachines-Testing/gRPC%2C%20State%20Machines%2C%20and%20Testing.pdf), [etc](https://github.com/amy/Codes/tree/master/gRPC-StateMachines-Testing), [video](https://www.youtube.com/watch?v=i7bdGl-olkE&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s&index=15)]
 
