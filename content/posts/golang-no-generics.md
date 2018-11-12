@@ -19,7 +19,7 @@ Go has interfaces, which are sort of like Java interfaces, except that your code
 automatically matches them, as opposed to opting into them.  There's a thing
 where you define an empty interface (`interface{}`) which means every type
 satisfies the interface and thus can be used in place of those types.  Here is
-an examples:
+an example:
 
 ```golang
 var foo interface{}
