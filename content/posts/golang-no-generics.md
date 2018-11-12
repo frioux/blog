@@ -66,7 +66,7 @@ Anyway, all of this is just to say that you need to be especially careful with
 
 As a side note I am not looking forward to Go getting generics.  Much of what
 keeps the language simple today is the fact that people just cannot build
-super-abstract code without interfaces.  I suspect that once we get interfaces
+super-abstract code without interfaces.  I suspect that once we get real generics
 Go code on the internet will stop being the simplicity focussed code it is today
 and instead become abstraction behemoths.  I hope I'm wrong.
 
