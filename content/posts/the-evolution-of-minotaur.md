@@ -57,7 +57,7 @@ actual code.
 Because it needs to run on laptops or inside of containers (that might have
 very minimal runtimes) requiring Perl and an event framework seemed the wrong
 way to go about it.  Furthermore The Minotaur has only worked on Linux for ages due
-to the direct use if Inotify, which would keep it from working on either OSX or
+to the direct use of Inotify, which would keep it from working on either OSX or
 Windows.
 
 So I decided I'd try my hand at reimplementing The Minotaur in Go, but
