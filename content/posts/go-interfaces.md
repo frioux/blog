@@ -117,7 +117,7 @@ like a nearly worthless helper function when you first come across it.  If you
 read the source you would find that it's not as basic as you initially may have
 expected.  `io.Copy`'s full signature is
 `io.Copy(dst io.Writer, src io.Reader) (written int64, err error)`; it copies
-the data from `dst` to `src`, basically.  `io.Reader` must have a `Read` method
+the data from `src` to `dst`, basically.  `io.Reader` must have a `Read` method
 and `io.Writer` must have a `Write` method.
 
 The implementation has two clever optional features though: if `src` has a
