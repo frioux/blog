@@ -1,7 +1,7 @@
 ---
 title: graphviz describing multi-stage docker builds
 date: 2019-02-11T07:27:10
-tags: [ tool, graphviz, docker, ziprecruiter ]
+tags: [ tool, graphviz, docker, ziprecruiter, perl ]
 guid: f35be163-f9b1-475b-b4c5-abc0d149bc6f
 ---
 I recently decided I should learn to use Graphviz more, as a great tool for
