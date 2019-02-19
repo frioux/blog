@@ -13,7 +13,7 @@ my $auth_key = $ENV{CF_AUTH_KEY}
 my $auth_email = $ENV{CF_AUTH_EMAIL}
    or die "set CF_AUTH_EMAIL (https://api.cloudflare.com/#getting-started-requests)\n";
 
-my $zone_id = 'd6d1cfb000b74456e87c0e2ca8a955a5';
+my $zone_id = '07b12080f7b57c1869b98fbceb028569';
 
 my $ua = HTTP::Tiny->new(
    agent => "foolish-cacheclear",
