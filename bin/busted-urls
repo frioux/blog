@@ -45,7 +45,7 @@ sub purge {
 
    warn "purging @$urls\n";
    my $resp = $ua->request(
-      POST => "https://api.cloudflare.com/client/v4/zones/$zone_id/puge_cache", {
+      POST => "https://api.cloudflare.com/client/v4/zones/$zone_id/purge_cache", {
          content => encode_json({ files => $urls}),
       },
    );
