@@ -11,8 +11,8 @@ clean:
 	rm public/* -rf
 
 build: clean
-	bin/check-guids && hugo
+	bin/check-guids && hugo --quiet
 
 push: build
-	git push
+	git push --quiet
 	cd public && s3cmd sync --delete-removed --disable-multipart --no-preserve /pwd/ s3://blog.afoolishmanifesto.com | tee $(log) && set-redirects && . ~/.cf-token && busted-urls $(log) && rm $(log)
