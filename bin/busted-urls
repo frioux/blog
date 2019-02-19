@@ -38,8 +38,6 @@ while (<>) {
 
 purge(\@a) if @a;
 
-unlink shift;
-
 sub purge {
    my ($urls) = @_;
 
