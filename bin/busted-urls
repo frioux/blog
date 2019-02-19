@@ -31,26 +31,26 @@ while (<>) {
    s(/index\.html$)(/);
    push @a, "https://$_";
    if (@a == 30) {
-      purge($ua, \@a)
+      purge(\@a);
       @a = ();
    }
 }
 
-purge($ua, \@a) if @a;
+purge(\@a) if @a;
 
-unlink shift
+unlink shift;
 
 sub purge {
-   my ($ua, $urls) = @_;
+   my ($urls) = @_;
 
    warn "purging @$urls\n";
    my $resp = $ua->request(
       POST => "https://api.cloudflare.com/client/v4/zones/$zone_id/puge_cache", {
-         content => encode_json({ files => $urls});
+         content => encode_json({ files => $urls}),
       },
    );
    unless ($resp->{success}) {
-      warn "$resp->{status} $resp->{reaspn}\n"
-      exit 1
+      warn "$resp->{status} $resp->{reaspn}\n";
+      exit 1;
    }
 }
