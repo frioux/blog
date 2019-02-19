@@ -10,6 +10,8 @@ graduating from college I interviewed with three companies.  Two of them
 Collins](http://www.rockwellcollins.com/)) offered me jobs.  The other one,
 Empire Systems Inc., did not.
 
+<!--more-->
+
 So Empire Systems Inc. was founded by a couple LeTourneau (my alma mater) alumni.
 I didn't know the two of them myself, but we did overlap, by a year or two.
 Anyway so back to the interviews.
