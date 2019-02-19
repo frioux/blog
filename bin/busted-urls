@@ -50,7 +50,8 @@ sub purge {
       },
    );
    unless ($resp->{success}) {
-      warn "$resp->{status} $resp->{reaspn}\n";
+      warn "$resp->{status} $resp->{reason}\n";
+      print "$resp->{content}\n";
       exit 1;
    }
 }
