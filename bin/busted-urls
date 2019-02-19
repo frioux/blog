@@ -1,0 +1,56 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+no warnings 'uninitialized';
+
+use JSON::PP;
+use HTTP::Tiny;
+
+my $auth_key = $ENV{CF_AUTH_KEY}
+   or die "set CF_AUTH_KEY (https://api.cloudflare.com/#getting-started-requests)\n";
+
+my $auth_email = $ENV{CF_AUTH_EMAIL}
+   or die "set CF_AUTH_EMAIL (https://api.cloudflare.com/#getting-started-requests)\n";
+
+my $zone_id = 'd6d1cfb000b74456e87c0e2ca8a955a5';
+
+my $ua = HTTP::Tiny->new(
+   agent => "foolish-cacheclear",
+   default_headers => {
+      'X-Auth-Key' => $auth_key,
+      'X-Auth-Email' => $auth_email,
+      'Content-Type' => 'application/json',
+   },
+);
+
+my @a;
+while (<>) {
+   next unless m(s3://(\S+));
+   $_ = $1;
+   s(/index\.html$)(/);
+   push @a, "https://$_";
+   if (@a == 30) {
+      purge($ua, \@a)
+      @a = ();
+   }
+}
+
+purge($ua, \@a) if @a;
+
+unlink shift
+
+sub purge {
+   my ($ua, $urls) = @_;
+
+   warn "purging @$urls\n";
+   my $resp = $ua->request(
+      POST => "https://api.cloudflare.com/client/v4/zones/$zone_id/puge_cache", {
+         content => encode_json({ files => $urls});
+      },
+   );
+   unless ($resp->{success}) {
+      warn "$resp->{status} $resp->{reaspn}\n"
+      exit 1
+   }
+}
