@@ -1,6 +1,8 @@
 .PHONY: clean build push watch-server
 export PATH := $(shell pwd)/bin:$(PATH)
 
+log = ../s3cmd.log
+
 watch-server:
 	hugo server --bind=0.0.0.0 --watch
 
@@ -13,4 +15,4 @@ build: clean
 
 push: build
 	git push
-	cd public && s3cmd sync --delete-removed --disable-multipart --no-preserve /pwd/ s3://blog.afoolishmanifesto.com | tee ../s3cmd.log && set-redirects && . ~/.cf-token && busted-urls ../s3cmd.log && rm ../s3cd.log
+	cd public && s3cmd sync --delete-removed --disable-multipart --no-preserve /pwd/ s3://blog.afoolishmanifesto.com | tee $(log) && set-redirects && . ~/.cf-token && busted-urls $(log) && rm $(log)
