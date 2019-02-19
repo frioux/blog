@@ -4,6 +4,9 @@ date: 2016-02-20T23:18:51
 tags: [frew-warez, linode, aws, s3, cloudfront, blog, meta]
 guid: "https://blog.afoolishmanifesto.com/posts/migrating-my-blog-from-linode-to-cloudfront"
 ---
+I am now hosting my blog on a serverless platform!
+
+<!--more-->
 
 ## Motivations
 
