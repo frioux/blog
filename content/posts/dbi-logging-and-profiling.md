@@ -4,6 +4,10 @@ date: 2016-03-24T09:04:25
 tags: [ziprecruiter, perl, dbi, dbix-class]
 guid: "https://blog.afoolishmanifesto.com/posts/dbi-logging-and-profiling"
 ---
+I built some code to profile DBI usage.
+
+<!--more-->
+
 If you use Perl and connect to traditional relational databases, you use
 [DBI](https://metacpan.org/pod/DBI).  Most of the Perl shops I know of nowadays
 use [DBIx::Class](https://metacpan.org/pod/DBIx::Class) to interact with a
