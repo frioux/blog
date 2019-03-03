@@ -6,6 +6,13 @@
           Posted {{ .Date.Format "Mon, Jan 2, 2006" }}<br />
           {{if ne .Lastmod .Date }}Updated {{ .Lastmod.Format "Mon, Jan 2, 2006" }} {{end}}
 
+          <hr>
+
+          <p>If you're interested in being notified when new posts are published,
+          <a
+             href="mailto:blog@afoolishmanifesto.com?subject=Subscribe&body=I%20really%20enjoyed%20{{ .Title }}">you can subscribe here</a>; you'll get an email once a
+          week at the most.</p>
+
           <div id="disqus_thread"></div>
           <div id="disqus_loader" style="text-align: center">
             <button style="width:100%" onclick="load_disqus()">Load Comments</button>

@@ -7,13 +7,18 @@ no warnings 'uninitialized';
 
 use JSON::PP;
 use POSIX 'strftime';
+use Email::Stuffer;
 
 my $last_week = strftime("%F", localtime time - 7*24*60*60);
 
 my @json = `q --format 'require JSON::PP; JSON::PP::encode_json(\\%r)' --sql 'SELECT title, filename FROM articles WHERE date > ?' $last_week`;
 
-my @data = map { decode_json($_) } @json;
+exit if !@json;
 
+my @data = map decode_json($_), @json;
+
+my $body = "";
+my $html_body = "<ul>\n";
 my $i = 0;
 for my $d (@data) {
    $i++;
@@ -21,8 +26,39 @@ for my $d (@data) {
    my $url = $d->{filename};
    $url =~ s(^content)(https://blog.afoolishmanifesto.com);
    $url =~ s(\.md$)(/);
-   print " * $d->{title} [$url]\n";
+   $body .= " * $d->{title} [$url]\n";
+   $html_body .= qq(<li><a href="$url">$d->{title}</a></li>\n);
 }
 
-# load subs of email per line in dropbox
-# send
+$body .= <<'BODY';
+-- 
+fREW Schmidt's blog robot
+https://blog.afoolishmanifesto.com
+
+If you want to unsubscribe just reply to this email with "unsubscribe"
+BODY
+
+$html_body .= <<'HTML_BODY';
+-- <br>
+<a href="https://blog.afoolishmanifesto.com">fREW Schmidt's blog robot</a><br>
+<br>
+If you want to unsubscribe just reply to this email with "unsubscribe"
+HTML_BODY
+
+my @subs = map {chomp; $_} do {
+   open my $fh, "<", "$ENV{HOME}/Dropbox/.blog-subscribers"
+      or die "couldn't load subscribers: $!\n";
+   <$fh>
+};
+
+for my $sub (@subs) {
+   warn "Sending to $sub\n";
+
+   Email::Stuffer->from('blog@afoolishmanifesto.com')
+      ->header("X-Doom" => "fREWmbot")
+      ->subject("Posts by fREW Since $last_week")
+      ->to('testing@frew.co')
+      ->text_body($body)
+      ->html_body($html_body)
+      ->send;
+}
