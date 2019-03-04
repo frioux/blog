@@ -61,7 +61,7 @@ for my $sub (@subs) {
    Email::Stuffer->from('blog@afoolishmanifesto.com')
       ->header("X-Doom" => "fREWmbot")
       ->subject("Posts by fREW Since $last_week")
-      ->to('testing@frew.co')
+      ->to($sub)
       ->text_body($body)
       ->html_body($html_body)
       ->send;
