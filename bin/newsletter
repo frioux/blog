@@ -17,8 +17,10 @@ exit if !@json;
 
 my @data = map decode_json($_), @json;
 
-my $body = "";
-my $html_body = "<ul>\n";
+my $prefix = shift;
+
+my $body = "$prefix";
+my $html_body = "<p>$prefix</p><ul>\n";
 my $i = 0;
 for my $d (@data) {
    $i++;
