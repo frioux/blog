@@ -47,6 +47,8 @@ $html_body .= <<'HTML_BODY';
 If you want to unsubscribe just reply to this email with "unsubscribe"
 HTML_BODY
 
+print $body;
+
 my @subs = map {chomp; $_} do {
    open my $fh, "<", "$ENV{HOME}/Dropbox/.blog-subscribers"
       or die "couldn't load subscribers: $!\n";
