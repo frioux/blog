@@ -41,6 +41,7 @@ If you want to unsubscribe just reply to this email with "unsubscribe"
 BODY
 
 $html_body .= <<'HTML_BODY';
+</ul>
 -- <br>
 <a href="https://blog.afoolishmanifesto.com">fREW Schmidt's blog robot</a><br>
 <br>
