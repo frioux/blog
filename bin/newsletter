@@ -9,7 +9,7 @@ use JSON::PP;
 use POSIX 'strftime';
 use Email::Stuffer;
 
-my $last_week = strftime("%F", localtime time - 7*24*60*60);
+my $last_week = shift || strftime("%F", localtime time - 7*24*60*60);
 
 my @json = `q --format 'require JSON::PP; JSON::PP::encode_json(\\%r)' --sql 'SELECT title, filename FROM articles WHERE date > ?' $last_week`;
 
@@ -58,6 +58,8 @@ my @subs = map {chomp; $_} do {
 
 for my $sub (@subs) {
    warn "Sending to $sub\n";
+
+   next if $ENV{NOACTION};
 
    Email::Stuffer->from('blog@afoolishmanifesto.com')
       ->header("X-Doom" => "fREWmbot")
