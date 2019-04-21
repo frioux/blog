@@ -13,14 +13,14 @@ and thought my findings might help other people.
 I've wanted to stop using Slack while at home for a while.  Sadly it's in the
 "things to check" time-suck life-steal loop (email, work email, slack, discord,
 twitter, facebook, start again.)  I figured the best way to resolve this would
-be to find one of those things parents put on their kids phones to monitor usage
+be to find one of those things parents put on their kids' phones to monitor usage
 etc, but put it on my phone.
 
 After trying a few of those things I landed on
 [Boomerang](https://useboomerang.com/), which has the ability to set an allowed
 schedule (as opposed to simply maximum duration) within a week.  I installed it
 and it works perfectly, though I was hoping for some kind of slightly annoying
-overide and this can't be disabled very easily.  That's ok though, if I need to
+override and this can't be disabled very easily.  That's ok though, if I need to
 talk on Slack I can use my laptop.
 
 I'm interested in using it to limit Twitter usage too, maybe, though I don't
@@ -34,9 +34,9 @@ issue.
 
 Another (a C level exec at the company) expressed that he'd been working really
 hard to reduce usage of his phone, sounding like it was bordering on addiction
-(which really, it is for all of us.)  He talked about how similar the tactics
+(which really, it is for all of us).  He talked about how similar the tactics
 are for apps on phones to the tactics game makers use to addict players.  I've
-read before that these app makers use the same tactics at casinos who try to
+read before that these app makers use the same tactics as casinos who try to
 keep people gambling.
 
 In any case this is a serious issue that I think many feel powerless to solve
@@ -46,10 +46,10 @@ against their main directives to solve it well so the features will forever be
 insufficient to be much help.
 
 I can say that for me at least Boomerang will help break the habit.  We'll see
-if I keep it after the free trial is over, but the other app limiting abilities
+if I keep it after the free trial is over, but the other app-limiting abilities
 are attractive to me.  Frustratingly the tool is mainly built for parents and
 thus requires more tracking than I would rather to even enable schedules of
-apps.  I made a feature requeset but don't have high hopes that it will get
+apps.  I made a feature request but don't have high hopes that it will get
 implemented.
 
 To be clear, I don't actually think that any of this stuff (email, twitter,
