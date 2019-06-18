@@ -36,6 +36,21 @@ input](https://github.com/frioux/amygdala/commit/a18080061a01eed5c4d64061d5f5749
 I added [a very basic accesslog to the leatherman's `srv`
 tool](https://github.com/frioux/leatherman/commit/6c318ce9d56a1a6b9bcccbf9c5ac3313a7f0504b).
 
+I built a little vim command that would let me cycle through my quickfix, rather
+than hittin a wall at the end:
+
+```vim
+command! Ccycle call Ccycle()
+
+function Ccycle()
+   if getqflist({ 'idx': 1 }).idx == len(getqflist())
+      exe 'cfirst'
+   else
+      exe 'cnext'
+   endif
+endfunction
+```
+
 And this is all on top of setting up an s3 hosted website so my father-in-law
 wouldn't have to deal with scummy web hosts who keep ghosting his company.
 
