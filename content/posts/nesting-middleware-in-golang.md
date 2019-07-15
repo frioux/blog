@@ -8,7 +8,7 @@ I recently, finally, figured out how to properly nest middleware in Go.
 
 <!--more-->
 
-Maybe this is news to everyone else, but I couldn't quite figure out how to
+Maybe this isn't news to everyone else, but I couldn't quite figure out how to
 apply middleware to more than a single handler in Go.  Well over the weekend it
 magically clicked.
 
