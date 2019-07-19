@@ -5,11 +5,23 @@ use warnings;
 
 no warnings 'uninitialized';
 
+use Getopt::Long::Descriptive;
 use JSON::PP;
 use POSIX 'strftime';
 use Email::Stuffer;
 
-my $last_week = shift || strftime("%F", localtime time - 7*24*60*60);
+my ($opt, $usage) = describe_options(
+  'newsletter %o',
+  [ 'start-date=s', "Date to start query from", { default => strftime("%F", localtime time - 7*24*60*60) } ],
+  [ 'body-prefix=s',   "Brief message to include as a prefix to the body" ],
+  [ 'force',   "Actually run, rather than the default dry-run" ],
+  [],
+  [ 'help|h',       "print usage message and exit", { shortcircuit => 1 } ],
+  { show_defaults => 1 },
+);
+
+my $last_week = $opt->start_date;
+print($usage->text), exit if $opt->help;
 
 my @json = `q --format 'require JSON::PP; JSON::PP::encode_json(\\%r)' --sql 'SELECT title, filename FROM articles WHERE date > ?' $last_week`;
 
@@ -17,7 +29,7 @@ exit if !@json;
 
 my @data = map decode_json($_), @json;
 
-my $prefix = shift;
+my $prefix = $opt->body_prefix;
 
 my $body = "$prefix";
 my $html_body = "<p>$prefix</p><ul>\n";
@@ -59,7 +71,10 @@ my @subs = map {chomp; $_} do {
 for my $sub (@subs) {
    warn "Sending to $sub\n";
 
-   next if $ENV{NOACTION};
+   unless ($opt->force) {
+      warn "# Skipping when not forced\n";
+      next;
+   }
 
    Email::Stuffer->from('blog@afoolishmanifesto.com')
       ->header("X-Doom" => "fREWmbot")
