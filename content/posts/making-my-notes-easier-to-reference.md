@@ -77,7 +77,7 @@ machine-learning  manual            meta              misc-tech
 management        markdown          misc
 ```
 
-I have to be honest that I cargo culted this from some of my own autpcompletion
+I have to be honest that I cargo culted this from some of my own autocompletion
 code that I wrote years ago.  I understand most of it, but the `_arguments` bit
 is not at all obvious to me.
 
