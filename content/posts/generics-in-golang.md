@@ -21,7 +21,7 @@ generics in Go: I am confident that generics in almost any form will
 dramatically change the characteristics of Go in the wild.  I think that given
 the ability to use a form of abstraction people are more likely to use it than
 not, if only because adding the use of an abstraction is easier than removing
-it.  It's almost like the computer form of entropy: thinks get complicated.  I
+it.  It's almost like the computer form of entropy: things get complicated.  I
 am resigned to the fact that generics will end up in Go and am a little excited
 to use them.  On the other hand I am sure that I'll be reading code that's even
 harder to understand than before thanks to them.  I'd love to be wrong though!
