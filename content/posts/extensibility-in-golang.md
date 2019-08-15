@@ -4,7 +4,7 @@ date: 2019-08-14T19:11:39
 tags: [ golang ]
 guid: d0da5559-e2c9-424e-9435-21dd7e634c47
 ---
-Recently I've come across some code that allows extesibility in some ways
+Recently I've come across some code that allows extensibility in some ways
 that are limiting.
 
 <!--more-->
