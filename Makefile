@@ -11,6 +11,7 @@ clean:
 	rm public/* -rf
 
 build: clean
+	test -z "$(shell git grep -F ']()' '*.md')"
 	bin/check-guids && hugo --quiet
 
 push: build
