@@ -9,7 +9,7 @@ You all know not to put your passwords into the database in plaintext. [Catalyst
 
 First off, you might want to check out the [wikipedia article](http://en.wikipedia.org/wiki/Cryptographic_hash_function) about cryptographic hash functions. The gist of it though is this: a password stored in plain text is obviously compromised if the passwords file gets into the hands of evildoers. You can "hash" the passwords and they are now harder for the attackers to transform into plain-text. If your password is good it is nearly impossible, but basically what can happen is that the attacker uses the algorithm to generate hashes for every word in the dictionary or whatever and now they basically can crack all the basic passwords.
 
-You can take it a step further and "salt" your passwords ([wikipedia salt article]().) A simple way of doing that is just to concatenate some string onto the end of all of your passwords. This will make dictionary attempts useless unless they know your salt. Typically when using a salt the salt is kept secret.
+You can take it a step further and ["salt" your passwords](https://en.wikipedia.org/wiki/Salt_(cryptography)). A simple way of doing that is just to concatenate some string onto the end of all of your passwords. This will make dictionary attempts useless unless they know your salt. Typically when using a salt the salt is kept secret.
 
 And then you can have a unique salt per password. Imagine a scheme where the salt is $username$id. It would require the attackers to basically generate a dictionary per user!
 

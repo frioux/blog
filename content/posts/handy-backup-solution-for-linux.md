@@ -80,7 +80,7 @@ Now here's the crazy part:
 
 # bup
 
-[bup](https://github.com/apenwarr/bup) is a program to make backups. It uses the git format but not the git porcelain, so it is even more performant. I won't go into all the awesome things about bup. If you want to read about those, [click the link](https://github.com/apenwarr/bup). Before you use bup you need to install it; the [instructions are here]().
+[bup](https://github.com/apenwarr/bup) is a program to make backups. It uses the git format but not the git porcelain, so it is even more performant. I won't go into all the awesome things about bup. If you want to read about those, [click the link](https://github.com/apenwarr/bup). Before you use bup you need to install it; the [instructions are here](https://github.com/apenwarr/bup/blob/master/README.md#getting-started).
 
 The first thing you need to do is create a partition for your backup to reside on; you don't want to back up root to itself. Also, the default bup location is ~/.bup, which I think is silly. We'll take care of both of those things here:
 

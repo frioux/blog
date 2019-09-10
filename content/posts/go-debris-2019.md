@@ -89,9 +89,11 @@ univesally appealing as the rest.
 
 The remaining three talks are lightning talks, so are only seven minutes long.
 
-[Paul Jolly - gopls + vim = govim](https://www.youtube.com/watch?v=DiBZetR733Y&list=PL2ntRZ1ySWBedT1MDWF4xAD39vAad0DBT&index=9&t=0s)
-is about the in progress Go [LSP]() and a codeveloped vim plugin (which I use
-and generally works really well.)
+[Paul Jolly - gopls + vim =
+govim](https://www.youtube.com/watch?v=DiBZetR733Y&list=PL2ntRZ1ySWBedT1MDWF4xAD39vAad0DBT&index=9&t=0s)
+is about the in progress Go
+[LSP](https://microsoft.github.io/language-server-protocol/) and a codeveloped
+vim plugin (which I use and generally works really well.)
 
 [Kevin Gillette - Forking Stdlib JSON](https://www.youtube.com/watch?v=AssQY0c_fEo&list=PL2ntRZ1ySWBedT1MDWF4xAD39vAad0DBT&index=10&t=0s)
 goes through doing some patches atop `encoding/json` to simplify json encoding.

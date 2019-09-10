@@ -10,13 +10,14 @@ I automated a big chunck of that.  Here's how.
 
 <!--more-->
 
-When sweetmarias stops selling a coffee they tend to stop hosting any
-content about that coffee.  I don't think that this is intentional, but in
-any case it means any stats or recorded info they have tends to disappear
-pretty soon after you order the coffee.  I resolved this for my personal
-needs by building a tool ([called `sm-list`](), written in Go) that will
-extract *all* the current coffees and their relevant information as JSON.
-Currently, I use it like this:
+When sweetmarias stops selling a coffee they tend to stop hosting any content
+about that coffee.  I don't think that this is intentional, but in any case it
+means any stats or recorded info they have tends to disappear pretty soon after
+you order the coffee.  I resolved this for my personal needs by building a tool
+([called
+`sm-list`](https://github.com/frioux/leatherman/blob/0f5a93271693a8ea0cb36c3bfba64734edaa2a3d/internal/tool/smlist/smList.go),
+written in Go) that will extract *all* the current coffees and their relevant
+information as JSON.  Currently, I use it like this:
 
 ```bash
 sm-list > all.json

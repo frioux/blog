@@ -31,5 +31,6 @@ So now, instead of running my tests with "prove -lr t", I can do
 Awesome!
 
 At some point I'll do the same thing for [DBIx::Introspector](/archives/1847),
-[DBIx::Class](), and maybe others. I'd like to make a more generic tool but I'm
-struggling with how to do that. Ideas are welcome!
+[DBIx::Class](https://metacpan.org/pod/distribution/DBIx-Class/lib/DBIx/Class.pod),
+and maybe others. I'd like to make a more generic tool but I'm struggling with
+how to do that. Ideas are welcome!
