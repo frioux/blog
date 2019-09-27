@@ -4,6 +4,8 @@ date: 2015-11-17T19:55:28
 tags: [frew-warez, ziprecruiter, perl, linux, pulseaudio, toolsmith]
 guid: "https://blog.afoolishmanifesto.com/posts/how-i-integrated-my-blink-1--with-pulseaudio"
 ---
+(Could also be phrased: "what does frew's red light mean?")
+
 At work I wear some noise cancelling ear buds.  I do this because just twenty
 feet behind me there is a one hundred person sales team who sometimes claps,
 ring gongs, and is just generally loud.  I also like to work to music and it
