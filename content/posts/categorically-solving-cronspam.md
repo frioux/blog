@@ -130,6 +130,8 @@ contexts: one being a MapReduce alike frontend and the other being a single
 file, transient database.  SQL is really useful!  Here are the books I learned
 with, many moons ago:
 
+(The following includes affiliate links.)
+
 <a target="_blank" href="https://www.amazon.com/gp/product/0321884493/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0321884493&linkCode=as2&tag=afoolishmanif-20&linkId=9264185c3d13c7c67e237a963060f488">Database Design for Mere Mortals</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=0321884493" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 is an excellent book for getting started on good RDBMS design.  I read an
 older edition (the 3rd edition wasn't out at the time) but I cannot imagine it

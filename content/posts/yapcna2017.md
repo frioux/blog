@@ -111,6 +111,8 @@ I've mentioned in the past that [I enjoy good coffee][coffee] and that [I even
 have a travel setup][travel].  As a quick refresher, if you want good coffee at
 a conference you can get:
 
+(The following includes affiliate links.)
+
  * <a target="_blank" href="https://www.amazon.com/gp/product/B004YIBVZM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B004YIBVZM&linkCode=as2&tag=afoolishmanif-20&linkId=84ee2fe0e42c1d561709230110c97d6f">This Zassenhaus Grinder</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B004YIBVZM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
  * <a target="_blank" href="https://www.amazon.com/gp/product/B0047BIWSK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0047BIWSK&linkCode=as2&tag=afoolishmanif-20&linkId=cf9d9dbf2d439a8bd7cef342923f96da">An Aeropress</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B0047BIWSK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
  * <a target="_blank" href="https://www.amazon.com/gp/product/B00004XSC4/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00004XSC4&linkCode=as2&tag=afoolishmanif-20&linkId=cf82eafce51f3e65725f76d355e7fb44">A Cheap Thermometer</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B00004XSC4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

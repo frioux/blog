@@ -313,6 +313,8 @@ either through experience or from long discussions with Aaron Hopkins.  Since I
 cannot recommend literature that can build upon this post, I'll just recommend
 other stuff:
 
+(The following includes affiliate links.)
+
 I am reading <a target="_blank"
 href="https://www.amazon.com/gp/product/0812515285/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0812515285&linkCode=as2&tag=afoolishmanif-20&linkId=a4a0fd62f7aac2153d71785d3b4846f7">A
 Fire Upon The Deep</a><img

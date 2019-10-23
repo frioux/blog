@@ -5,6 +5,8 @@ date: "2009-05-08T01:41:06-05:00"
 tags: [album-of-the-week, music]
 guid: "http://blog.afoolishmanifesto.com/?p=155"
 ---
+(The following includes affiliate links.)
+
 I have had quite the love affair with prog-rock. One of the bands that led to
 this affair was The Flower Kings. I think the third album of theirs that I got
 was

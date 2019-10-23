@@ -154,6 +154,8 @@ classes.
 
 ---
 
+(The following includes affiliate links.)
+
 If you want to learn more, I have heard good things about
 <a target="_blank" href="https://www.amazon.com/gp/product/0262035618/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0262035618&linkCode=as2&tag=afoolishmanif-20&linkId=32b4ad10682973b74d32d58c0e4a58df">Deep Learning</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=0262035618" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
 I actually originally intended to read that instead of taking this class, but

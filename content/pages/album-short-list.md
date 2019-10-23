@@ -5,6 +5,8 @@ date: "2009-09-20T19:52:54-05:00"
 tags: [short-list]
 guid: "http://blog.afoolishmanifesto.com/?page_id=1171"
 ---
+(The following includes affiliate links.)
+
 - <a href="https://www.amazon.com/gp/product/B001FBPS3C/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001FBPS3C&linkCode=as2&tag=afoolishmanif-20&linkId=35ed26f2dc31865880bdf911f7e08b7e">Ladyhawke</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B001FBPS3C" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />by Ladyhawke, [Review](/archives/883)
 - <a href="https://www.amazon.com/gp/product/B0014IH1N6/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0014IH1N6&linkCode=as2&tag=afoolishmanif-20&linkId=bcd11fa7e43c8fe356e79f566c9f5589">Anywhere I Lay My Head</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B0014IH1N6" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />by Scarlett Johansson, [Review](/archives/564)
 - <a href="https://www.amazon.com/gp/product/B001CVCBBW/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001CVCBBW&linkCode=as2&tag=afoolishmanif-20&linkId=2799ca7a36c4d29402378e4072337797">Furr</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B001CVCBBW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> by Blitzen Trapper, [Review](/archives/491)

@@ -22,4 +22,6 @@ station.
 
 [Station.](https://www.youtube.com/watch?v=HIg_QFB9Vrw)
 
+(The following includes affiliate links.)
+
 <a target="_blank" href="https://www.amazon.com/gp/product/B003U2QHB6/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B003U2QHB6&linkCode=as2&tag=afoolishmanif-20&linkId=c2b7a3f15c848195995e81deb5a2dcd8">(You can get the movie here.)</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B003U2QHB6" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

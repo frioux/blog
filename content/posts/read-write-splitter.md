@@ -130,6 +130,8 @@ though I would have started there if I had figured out how.
 
 ---
 
+(The following includes affiliate links.)
+
 Given that this article is mostly about Perl based software, and targetted
 towards fairly advanced users, I will again take the opportunity to recommend
 <a target="_blank" href="https://www.amazon.com/gp/product/1558607013/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1558607013&linkCode=as2&tag=afoolishmanif-20&linkId=c971a4c360c54765d3b159901fe0a6bf">Higher-Order Perl.</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1558607013" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

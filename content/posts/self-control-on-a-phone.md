@@ -59,6 +59,8 @@ children underfoot, afterall.
 
 ---
 
+(The following includes affiliate links.)
+
 Given that this topic is barely technical, I think linking to less technical
 material is appropriate.  First off, as a parent I've really appreciated
 <a target="_blank" href="https://www.amazon.com/gp/product/1451663889/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1451663889&linkCode=as2&tag=afoolishmanif-20&linkId=da1b04942e926be07bf0806906731f1a">How to Talk So Kids Will Listen &amp; Listen So Kids Will Talk</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1451663889" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.

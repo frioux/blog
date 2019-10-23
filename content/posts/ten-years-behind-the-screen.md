@@ -34,6 +34,8 @@ articles before and long before this point.)
 
 ---
 
+(The following includes affiliate links.)
+
 While maybe only barely related, the fundamental tools that implement this blog
 are written in Go, Perl, and as mentioned before, highly composeable commandline
 tools.  With those in mind I would recommend reading <a

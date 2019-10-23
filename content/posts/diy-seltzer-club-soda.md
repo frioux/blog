@@ -35,6 +35,8 @@ First off, here is a bill of materials:
 
 ### Bill of Materials
 
+(The following includes affiliate links.)
+
 | Item         | Cost |
 |--------------|------|
 | <a href="https://www.amazon.com/gp/product/B00HQQ3WWE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00HQQ3WWE&linkCode=as2&tag=afoolishmanif-20&linkId=037571c81ae251837a4c144184d7c465">CO₂ Tank - 5lb</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B00HQQ3WWE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />| $58 |

@@ -8,6 +8,8 @@ Today I did my second Learning Day; the subject was DIY Games.
 
 <!--more-->
 
+(The following includes affiliate links.)
+
 My intention for today's Learning Day was to read the first 100 pages of
 <a target="_blank" href="https://www.amazon.com/gp/product/1545484759/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1545484759&linkCode=as2&tag=afoolishmanif-20&linkId=f7b6516e5b0d6a9e192112ea456fda97">Making 8-bit Arcade Games in C</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1545484759" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
 I was too worn out by 1pm (thanks to two small

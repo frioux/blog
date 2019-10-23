@@ -278,6 +278,8 @@ IO::Async or POE if you're willing to put in the work.
 
 ---
 
+(The following includes affiliate links.)
+
 I don't know of any books to suggest that are fully on topic, but here are a
 couple you might be interested in anyway.  One of the most fascinating and
 approachable hard tech books I've ever read is

@@ -61,6 +61,8 @@ to trigger spuriously but also give you more time to react.
 The alert discussed in this post could be expressed such that any time a service
 exits non-zero you get an alert.  That would be the worst.
 
+(The following includes affiliate links.)
+
 <a target="_blank" href="https://www.amazon.com/gp/product/149192912X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=149192912X&linkCode=as2&tag=afoolishmanif-20&linkId=e8bc077013e5126a20036a3d20144e7d">The SRE Book</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=149192912X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 discusses some of this, though it dedicates an absurd amount of time to an
 internal monitoring tool that is, as far as I understand it, going away.

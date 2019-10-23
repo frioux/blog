@@ -150,6 +150,8 @@ I don't know of any resources you could purchase to learn more about this tech
 and I wouldn't know if it was any good anyway.  Instead I'll just link to some
 media that I'm enjoying right now.
 
+(The following includes affiliate links.)
+
 I just started the eigth book in
 <a target="_blank" href="https://www.amazon.com/gp/product/B00HL0MA3W/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00HL0MA3W&linkCode=as2&tag=afoolishmanif-20&linkId=4adf7257ad865045c586e019e34aa593">The Malazan Series</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B00HL0MA3W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 and as usual I'm enjoying it a lot.

@@ -5,6 +5,8 @@ date: "2009-07-02T03:20:16-05:00"
 tags: [album-of-the-week, music]
 guid: "http://blog.afoolishmanifesto.com/?p=883"
 ---
+(The following includes affiliate links.)
+
 Sorry I've neglected the Album of the Week. It's really hard to write about
 music. I think I am going to make my requirements for AOTW postage less strict.
 

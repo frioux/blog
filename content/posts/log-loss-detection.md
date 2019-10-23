@@ -191,6 +191,8 @@ place) and figure out what's going wrong.
 
 ---
 
+(The following includes affiliate links.)
+
 The first book I'd suggest to dig deeper on this topic would be
 <a target="_blank" href="https://www.amazon.com/gp/product/B01DCPXKZ6/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01DCPXKZ6&linkCode=as2&tag=afoolishmanif-20&linkId=726913b220882e92501a012766cf81a6">The SRE Book</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B01DCPXKZ6" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
 It can be a bit "Googly" in that it goes into far too much detail in some

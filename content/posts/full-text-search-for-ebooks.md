@@ -122,6 +122,8 @@ fine to just rebuild the whole index each time.
 
 ---
 
+(The following includes affiliate links.)
+
 There are a lot of books out there about SQLite; a couple that I am interested
 in are
 <a target="_blank" href="https://www.amazon.com/gp/product/1980293074/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1980293074&linkCode=as2&tag=afoolishmanif-20&linkId=3de2f331a522b0b89750dcc1bbc3aaea">SQLite Forensics</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1980293074" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

@@ -85,6 +85,8 @@ only to gate my deployments on CI/CD, but that's pretty easy.
 
 ---
 
+(The following includes affiliate links.)
+
 <a target="_blank" href="https://www.amazon.com/gp/product/013937681X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=013937681X&linkCode=as2&tag=afoolishmanif-20&linkId=01cde3ac7bf536c84bfff0cc1078bc56">The UNIX Programming Environment</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=013937681X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 is one of the most inspiring software engineering books I've ever read.  I
 suggest reading it if you use UNIX either at home (Linux, OSX, WSL) or at work.

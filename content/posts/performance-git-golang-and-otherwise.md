@@ -61,6 +61,8 @@ typically works wonders.
 
 ---
 
+(The following includes affiliate links.)
+
 Very, very vaguely related to this is
 BCC; I don't think there is a book about BCC
 (yet.)  I think the closest thing would be Brendan Gregg's <a target="_blank"

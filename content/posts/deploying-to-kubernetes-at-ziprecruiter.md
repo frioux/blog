@@ -125,6 +125,8 @@ Kubernetes at ZR:
 
 ---
 
+(The following includes affiliate links.)
+
 If you enjoyed this post you might appreciate
 <a target="_blank" href="https://www.amazon.com/gp/product/149192912X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=149192912X&linkCode=as2&tag=afoolishmanif-20&linkId=5157ec4156e15e73699ef549e1c56bad">The SRE Book</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=149192912X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 and likely also

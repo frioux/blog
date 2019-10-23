@@ -103,6 +103,8 @@ theoretically support other init systems with the same script.
 
 ---
 
+(The following includes affiliate links.)
+
 The main book I'd recommend checking out that elaborates on this kind of thing
 is
 <a target="_blank" href="https://www.amazon.com/gp/product/149192912X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=149192912X&linkCode=as2&tag=afoolishmanif-20&linkId=e26b8192ed5ec7a43771355194c2ec3c">The SRE Book</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=149192912X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.

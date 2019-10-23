@@ -91,6 +91,8 @@ I have clearly not used gnuplot for long, but I am enamored and intend to learn
 more.  Here are a couple books I will get by and by, which have good reviews and
 are relevant:
 
+(The following includes affiliate links.)
+
  * <a target="_blank" href="https://www.amazon.com/gp/product/1633430189/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1633430189&linkCode=as2&tag=afoolishmanif-20&linkId=765f36ce0c3c7f36423b9e937ee937ff">Gnuplot in Action</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1633430189" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
  * <a target="_blank" href="https://www.amazon.com/gp/product/9881443644/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=9881443644&linkCode=as2&tag=afoolishmanif-20&linkId=8ac6e54df863cb66eaeeaaa1e5263c45">Gnuplot 5.0 Reference Manual</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=9881443644" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 

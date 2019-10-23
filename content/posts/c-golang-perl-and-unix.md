@@ -181,6 +181,8 @@ about Perl][hp].
 
 ### The Right Tool for the Job
 
+(The following includes affiliate links.)
+
 Languages are built with use-cases in mind.  Whether you like Perl or not, it is
 fairly clear that it is optimizied more for one-liner commandline scripts than
 almost anything else, except `sed(1)` and `awk(1)`.  I remember reading in

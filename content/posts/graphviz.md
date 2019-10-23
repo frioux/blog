@@ -80,6 +80,8 @@ image ready to do basic Go compilation.
 
 ---
 
+(The following includes affiliate links.)
+
 If you ever build any kind of visualization, do yourself a favor and read
 <a target="_blank" href="https://www.amazon.com/gp/product/0961392142/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0961392142&linkCode=as2&tag=afoolishmanif-20&linkId=706fb3325d5cd8df33c3e3852006b5df">The Visual Display of Quantitative Information</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=0961392142" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
 It's enjoyable, accessible, and beautiful.  I read it a little over ten years

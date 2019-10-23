@@ -243,6 +243,8 @@ writing C or C++.
 
 ---
 
+(The following includes affiliate links.)
+
 If you don't already know how to use gnuplot, you might benefit from
 <a target="_blank" href="https://www.amazon.com/gp/product/1633430189/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1633430189&linkCode=as2&tag=afoolishmanif-20&linkId=b130595553eee19794fcc127da039126">Gnuplot in Action</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1633430189" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
 The tool can be hard to get into and a proper introduction can go a long way.

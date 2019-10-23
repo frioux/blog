@@ -184,6 +184,8 @@ another three years!
 
 ---
 
+(The following includes affiliate links.)
+
 Have you read <a target="_blank" href="https://www.amazon.com/gp/product/020161622X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=020161622X&linkCode=as2&tag=afoolishmanif-20&linkId=cd3192557c0d9cefe2e7cd4e8a0af0ba">The Pragmatic Programmer</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=020161622X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />?
 It's one of the few tech books I've read all the way through and refer back to
 once in a blue moon.  I strongly suggest checking it out, especially if you are

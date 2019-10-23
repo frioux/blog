@@ -45,6 +45,8 @@ but that would have meant getting on IRC, figuring out how to ask, etc etc.
 
 ---
 
+(The following includes affiliate links.)
+
 If you want to try your hand at configuring or using AwesomeWM, you could get
 <a target="_blank" href="https://www.amazon.com/gp/product/8590379868/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=8590379868&linkCode=as2&tag=afoolishmanif-20&linkId=5f6949f1db3442a9e5563e419ffca939">Programming in Lua</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=8590379868" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />,
 which is sortav the de facto reference.

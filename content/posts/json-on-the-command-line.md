@@ -163,6 +163,8 @@ time.
 
 ---
 
+(The following includes affiliate links.)
+
 If you'd like to learn more about this kind of tool,
 <a target="_blank" href="https://www.amazon.com/gp/product/1593273894/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593273894&linkCode=as2&tag=afoolishmanif-20&linkId=f63ee71fb68dc4e6522523d6fbedb2c9">The Linux Command Line</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1593273894" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 would be a good start.  Chapter 20 specifically covers this kind of tool, though

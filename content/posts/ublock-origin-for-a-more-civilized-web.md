@@ -78,6 +78,8 @@ here](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax).
 
 ---
 
+(The following includes affiliate links.)
+
 I don't really know what you could read to learn more about the above.
 <a target="_blank" href="https://www.amazon.com/gp/product/1449393195/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1449393195&linkCode=as2&tag=afoolishmanif-20&linkId=a2a48387aa5187d947d0d50dd307451d">Maybe a CSS Book?</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1449393195" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 

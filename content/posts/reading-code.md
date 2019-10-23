@@ -85,6 +85,8 @@ If you read this blog you probably either are interested in, or write, Perl or
 Go.  If you aren't already well-versed in reading code, I would suggest
 practicing!
 
+(The following includes affiliate links.)
+
 If you are new to Go, I would first read a primer on the language like 
 <a target="_blank" href="https://www.amazon.com/gp/product/0134190440/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134190440&linkCode=as2&tag=afoolishmanif-20&linkId=44bc682044ff1b8a290c3c35c788e3e5">The Go Programming Language</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=0134190440" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 or maybe 

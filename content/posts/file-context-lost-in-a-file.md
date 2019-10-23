@@ -103,6 +103,8 @@ maybe I could get the context more directly, and deciding I couldn't.
 
 ---
 
+(The following includes affiliate links.)
+
 As with the last post about writing tools, I want to mention <a
 target="_blank"
 href="https://www.amazon.com/gp/product/013937681X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=013937681X&linkCode=as2&tag=afoolishmanif-20&linkId=cecea11ea25b6635dd78601d2ec1abef">The

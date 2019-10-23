@@ -112,6 +112,8 @@ If you're interested in roasting your own coffee [I wrote up how I do
 it](/posts/diy-coffee-roasting-and-coffee-setup/).  That description is a little
 out of date, but it gives you enough detail to get started yourself.
 
+(The following includes affiliate links.)
+
 Also, `sm-list` is written in Go; if you want to learn more about programming
 Go, you should check out
 <a target="_blank" href="https://www.amazon.com/gp/product/0134190440/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134190440&linkCode=as2&tag=afoolishmanif-20&linkId=0ceebdc9e91a228f81975a9618abc040">The Go Programming Language</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=0134190440" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.

@@ -288,6 +288,8 @@ was a fun exercise and I will likely use the results on a daily basis.
 
 ---
 
+(The following includes affiliate links.)
+
 If you would like to learn Go, the one really good book I've seen is <a
 target="_blank"
 href="https://www.amazon.com/gp/product/0134190440/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134190440&linkCode=as2&tag=afoolishmanif-20&linkId=055ce6d2540535a65870ad6b00673623">The

@@ -4,6 +4,8 @@ date: 2017-07-10T07:17:46
 tags: [ life, meta, ziprecruiter, super-powers ]
 guid: 933D4D12-6469-11E7-98B8-D41828D191E6
 ---
+(The following includes affiliate links.)
+
 A year ago, when I was on paternity leave, I decided that I needed to be better
 at time management.  I think that my inspiration was simply the recommendation
 of the book, <a target="_blank"

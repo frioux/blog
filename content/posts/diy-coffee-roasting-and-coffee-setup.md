@@ -43,6 +43,8 @@ gun, electricty, etc will determine how quickly the beans brown.  I have never
 been able to get to the end of the first crack in less than ten to twelve
 minutes, even though the Sweet Maria's folks seem to be able to pull that off.
 
+(The following includes affiliate links.)
+
 Roasting coffee is pretty smelly and smokey.  It's surprising, because it
 doesn't smell like coffee!  I actually dislike the smell of roasting coffee, but
 I do know one person who enjoys it.  Unless you have amazingly good ventilation

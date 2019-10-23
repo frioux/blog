@@ -49,6 +49,8 @@ Class](/posts/reflections-on-ngs-machine-learning/) and then didn't do anything
 else.  I'm ok with that for now but admit that I'm not exactly a machine
 learning lord.
 
+(The following includes affiliate links.)
+
 Next I wanted to improve on my SRE knowledge.  This is almost literally my job
 title, so while I am motivated to improve, I also already do a lot of the basic
 tenets of "SRE" so it's incremental improvements.  The main thing I did was

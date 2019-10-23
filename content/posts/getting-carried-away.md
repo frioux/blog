@@ -73,6 +73,8 @@ something as simple as this should give you pause.
 
 ---
 
+(The following includes affiliate links.)
+
 I don't know how to teach you to take a step back and look at the big picture,
 but I can recommend a book I have found helpful for general organization.
 <a target="_blank" href="https://www.amazon.com/gp/product/0143126563/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0143126563&linkCode=as2&tag=afoolishmanif-20&linkId=40e2932c2a6e6c3cf3c78a8fcdd4dcc0">Getting Things Done</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=0143126563" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

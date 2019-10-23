@@ -86,6 +86,8 @@ of them immediately.)  The main risk right now is that all work emails end up in
 
 ---
 
+(The following includes affiliate links.)
+
 If you're at all interested in the system I use for my notes, it's based on
 <a target="_blank" href="https://www.amazon.com/gp/product/0143126563/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0143126563&linkCode=as2&tag=afoolishmanif-20&linkId=37ab814736ab4a3ead2bff3dc5bb7b56">Getting Things Done</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=0143126563" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />,
 and I've found it pretty helpful.

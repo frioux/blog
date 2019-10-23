@@ -135,6 +135,8 @@ I've considered making my dotfiles be driven by some other framework like
 places where having a simple, reliable installer is completely sufficient and often
 superior.
 
+(The following includes affiliate links.)
+
 If you enjoyed this and would like to learn more, check out <a target="_blank"
 href="https://www.amazon.com/gp/product/1590593766/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1590593766&linkCode=as2&tag=afoolishmanif-20&linkId=2bd3ad2595009095eb903ec70228a570">From
 Bash to Z Shell: Conquering the Command Line</a><img

@@ -148,6 +148,8 @@ cheating the devil or something.
 
 ---
 
+(The following includes affiliate links.)
+
 If you want to learn more about Kubernetes, you might want to check out Kelsey
 Hightower's book <a target="_blank" href="https://www.amazon.com/gp/product/1491935677/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1491935677&linkCode=as2&tag=afoolishmanif-20&linkId=8200085d2c6bbeaa6c5a765b01e62136">Kubernetes: Up and Running</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1491935677" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
 He knows what's up.

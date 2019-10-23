@@ -135,6 +135,8 @@ foolproof way to win is to just not play, given the option.
 
 ---
 
+(The following includes affiliate links.)
+
 <a target="_blank" href="https://www.amazon.com/gp/product/020161622X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=020161622X&linkCode=as2&tag=afoolishmanif-20&linkId=dc76fdfd2668e223cab2a5d319283bd5">The Pragmatic Programmer</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=020161622X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 is a book that has this kind of philosophy in it.  I've mentioned this book
 before.  I can't stress enough that, for people who are early in their

@@ -141,6 +141,8 @@ I am going to take a step back from recommending related books, because I have
 to wrack my brain for relevant works.  Instead, I'm just going to recommend some
 good books that may or may not be relevant.  These ones are not relevant:
 
+(The following includes affiliate links.)
+
 Are you interested in how people lived their lives in the past, but don't want
 to read a book that's specifically about history?  You should read
 <a target="_blank" href="https://www.amazon.com/gp/product/0385040253/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0385040253&linkCode=as2&tag=afoolishmanif-20&linkId=ccd28030f89b5864dc8e0a90bb786bb1">The Ashley Book of Knots</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=0385040253" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.

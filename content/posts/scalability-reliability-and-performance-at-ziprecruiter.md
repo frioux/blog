@@ -125,6 +125,8 @@ of the ideas above, I still think it went really well.
 
 ---
 
+(The following includes affiliate links.)
+
 If you want to be a better big systems engineer (like the stuff above) I
 recommend the <a target="_blank"
 href="https://www.amazon.com/gp/product/149192912X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=149192912X&linkCode=as2&tag=afoolishmanif-20&linkId=4b86e6727c75c8f819664e07f5fdf970">Site

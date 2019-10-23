@@ -83,6 +83,8 @@ is not at all obvious to me.
 
 ---
 
+(The following includes affiliate links.)
+
 If you're interested in diving deeper than is probably wise in writing shell
 scripts, you should check out
 <a target="_blank" href="https://www.amazon.com/gp/product/1590593766/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1590593766&linkCode=as2&tag=afoolishmanif-20&linkId=6fa6aef84b017be180f16a769c947a10">From Bash to Z Shell</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1590593766" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.

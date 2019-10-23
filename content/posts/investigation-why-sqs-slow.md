@@ -214,6 +214,8 @@ UserAgent can encounter is just too much of a burden.
 
 ---
 
+(The following includes affiliate links.)
+
 I don't have a lot of great recommendations for further research here.  A lot of
 my ideas depended on having a good logging and statistics setup, which is worth
 entire series of posts.  I do think that <a target="_blank"

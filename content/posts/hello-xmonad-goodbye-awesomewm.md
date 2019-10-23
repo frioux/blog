@@ -202,6 +202,8 @@ I hope that the TaffyBar widget example above is helpful for others; it was not
 trivial for me to figure out even with help from multiple avenues.  To the next
 five years!
 
+(The following includes affiliate links.)
+
 If you actually want to learn Haskell,
 <a target="_blank" href="https://www.amazon.com/gp/product/1593272839/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593272839&linkCode=as2&tag=afoolishmanif-20&linkId=5ba3da3bda897a143241f3a847bb58db">Learn You a Haskell for Great Good!</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1593272839" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 is pretty good.  I read some a few years ago and enjoyed it.

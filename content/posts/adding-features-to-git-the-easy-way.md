@@ -67,6 +67,8 @@ run.
 
 ---
 
+(The following includes affiliate links.)
+
 If you'd like to learn more about git I highly recommend <a target="_blank"
 href="https://www.amazon.com/gp/product/1484200772/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1484200772&linkCode=as2&tag=afoolishmanif-20&linkId=185ee1604974476f63e03163172de0c2">Pro
 Git</a><img

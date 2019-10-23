@@ -5,6 +5,8 @@ date: "2009-03-12T02:46:24-05:00"
 tags: [album-of-the-week, music]
 guid: "http://blog.afoolishmanifesto.com/?p=121"
 ---
+(The following includes affiliate links.)
+
 <a  href="https://www.amazon.com/gp/product/B000008I4Z/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000008I4Z&linkCode=as2&tag=afoolishmanif-20&linkId=dc3839d0ce2fdbd3ffa310c4aaf32b4e">Brave</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=B000008I4Z" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> by Marillion is this weeks Album of the Week. Before I get into specifics I need to tell a story about how I got into Marillion...
 
 I found out I loved prog music because of Transatlantic. Marillion's Pete

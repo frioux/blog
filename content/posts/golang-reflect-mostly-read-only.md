@@ -54,6 +54,8 @@ your running process.
 
 ---
 
+(The following includes affiliate links.)
+
 If you are interested in learning Go, this is my recommendation:
 
 If you don't already know Go, you should definitely check out

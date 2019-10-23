@@ -267,6 +267,8 @@ pretty complex already.
 
 ---
 
+(The following includes affiliate links.)
+
 If you want to learn more about programming Go, I strongly recommend
 <a target="_blank" href="https://www.amazon.com/gp/product/0134190440/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134190440&linkCode=as2&tag=afoolishmanif-20&linkId=739b841afc9f8421681b07a2948bc991">The Go Programming Language</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=0134190440" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
 Not only will you learn Go and much of the standard library, you will also learn

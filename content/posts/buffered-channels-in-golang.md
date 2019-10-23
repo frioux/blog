@@ -4,6 +4,8 @@ date: 2018-05-14T06:56:13
 tags: [ golang, fibonacci ]
 guid: 879a43f1-4a58-4e11-8eaf-f1ea7e648d90
 ---
+(The following includes affiliate links.)
+
 A few weeks ago when I was reading <a target="_blank"
 href="https://www.amazon.com/gp/product/0134190440/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134190440&linkCode=as2&tag=afoolishmanif-20&linkId=7a70d548d8d1ab0e0baf86848938c69a">The
 Go Programming Language</a><img

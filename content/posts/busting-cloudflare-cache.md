@@ -159,6 +159,8 @@ as is.
 
 ---
 
+(The following includes affiliate links.)
+
 Perl is definitely not fashionable these days.  On the other hand fashion has
 nothing to do with quality or fitness for purpose.  Functional programming is
 much more popular these days than when I first learned to program.  If you want

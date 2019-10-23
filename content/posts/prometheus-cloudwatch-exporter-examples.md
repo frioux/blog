@@ -110,6 +110,8 @@ reading correctly) should be the same, but it is, at least for us, pretty slow.
 
 ---
 
+(The following includes affiliate links.)
+
 If you want to learn more about prometheus, you might check out
 <a target="_blank" href="https://www.amazon.com/gp/product/1492034142/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1492034142&linkCode=as2&tag=afoolishmanif-20&linkId=278532d1c97806594ebd0c4fcfa13ac0">Prometheus: Up &amp; Running</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1492034142" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
 

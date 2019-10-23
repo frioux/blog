@@ -391,6 +391,8 @@ has access to my `ssh-agent`.
 
 ---
 
+(The following includes affiliate links.)
+
 This post is already too long, but I absolutely have to mention <a
 target="_blank"
 href="https://www.amazon.com/gp/product/013937681X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=013937681X&linkCode=as2&tag=afoolishmanif-20&linkId=cecea11ea25b6635dd78601d2ec1abef">The
