@@ -10,7 +10,8 @@ I'm attempting to migrate some code that uses `reflect` to instead use
 
 <!--more-->
 
-I'm attempting to migrate [the `easyjson` tool]() from being `reflect` based to
+I'm attempting to migrate [the `easyjson`
+tool](https://github.com/mailru/easyjson) from being `reflect` based to
 being `go/types` based.  The main reason is so that it won't take so long on our
 repo when we do `go generate`.  Here are some random takeaways from this
 project, so far.
