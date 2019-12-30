@@ -4,7 +4,7 @@ export PATH := $(shell pwd)/bin:$(PATH)
 log = ../s3cmd.log
 
 watch-server:
-	hugo server --bind=0.0.0.0 --watch
+	hugo-0.49 server --bind=0.0.0.0 --watch
 
 clean:
 	test -z "$(shell git status --porcelain)" || ( echo 'uncommited changes!'; exit 1)
@@ -12,7 +12,7 @@ clean:
 
 build: clean
 	test -z "$(shell git grep -F ']()' '*.md')"
-	bin/check-guids && hugo --quiet
+	bin/check-guids && hugo-0.49 --quiet
 
 push: build
 	git push --quiet
