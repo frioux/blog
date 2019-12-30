@@ -61,7 +61,7 @@ package main
 import "fmt"
 
 func main() {
-	printJunk("frew", 1, []float{1.0, 3.5})
+	printJunk("frew", 1, []float32{1.0, 3.5})
 }
 
 func printJunk(debris ...interface{}) {
