@@ -227,7 +227,7 @@ width="1" height="1" border="0" alt="" style="border:none !important; margin:0px
 
 [furlre]: https://github.com/tokuhirom/Furl/issues/98
 [curlre]: https://github.com/curl/curl/blob/4ebe24dfea0c9f93cbfaee66b52a0670e66124d8/lib/transfer.c#L1852
-[benchmark]: http://www.martin-evans.me.uk/node/169#results
+[benchmark]: https://web.archive.org/web/20190319220350/http://www.martin-evans.me.uk:80/node/169
 [furlsel]: https://metacpan.org/source/TOKUHIROM/Furl-3.11/lib/Furl/HTTP.pm#L864-882
 [setopt]: https://curl.haxx.se/libcurl/c/curl_easy_setopt.html
 [zr]: https://www.ziprecruiter.com/hiring/technology
