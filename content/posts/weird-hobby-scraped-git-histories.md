@@ -115,7 +115,7 @@ for my $key (keys %on_disk) {
 None of this stuff is amazing, but put together I can:
 
  * notice the addition of new coffees
- * discover the actual any coffees were added
+ * surface the actual date coffees were added
  * and even refer to their photos with my own weird custom interface
 
 I'm sure I'll talk about that interface some time too...
