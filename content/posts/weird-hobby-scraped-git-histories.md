@@ -120,6 +120,8 @@ None of this stuff is amazing, but put together I can:
 
 I'm sure I'll talk about that interface some time too...
 
+Thanks to John SJ Anderson for reviewing this post.
+
 ---
 
 (The following includes affiliate links.)
