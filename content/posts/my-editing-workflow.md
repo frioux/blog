@@ -163,7 +163,11 @@ they should be written in a style that is not weird or surprising.  When are
 thin wrappers actually appropriate?  I don't know.  I am coming around to the
 idea that interfaces should generally have lots of functionality.
 
+Thanks to Matthew Horsfall for reviewing this post.
+
 ---
+
+(The following includes affiliate links.)
 
 I recently read <a target="_blank" href="https://www.amazon.com/gp/product/1732102201/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1732102201&linkCode=as2&tag=afoolishmanif-20&linkId=25f61ccbee6f99d0038e283dd551a943">A Philosophy of Software Design</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1732102201" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
 I really enjoyed it and will likely have a whole blog post about it, but in short
