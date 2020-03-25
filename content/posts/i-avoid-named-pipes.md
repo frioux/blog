@@ -110,7 +110,7 @@ If you run the above and play with killing the client, you'll see it works
 again.  But there's another, more subtle problem.  Try running this:
 
 ```bash
-$ perl -e'while (1) { print "outer loop\n"; while (<STDIN>) { print "$_' } }' < /tmp/my-named-pipe
+$ perl -e'while (1) { print "outer loop\n"; while (<STDIN>) { print $_ } }' < /tmp/my-named-pipe
 ```
 
 When I wrote the above, I expected it to print `outer loop`, then block on
