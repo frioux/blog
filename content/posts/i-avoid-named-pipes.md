@@ -103,7 +103,7 @@ come back to that:
 
 
 ```bash
-$ perl -e'while (1) { while (<STDIN>) { print "$_' } }' < /tmp/my-named-pipe
+$ perl -e'while (1) { while (<STDIN>) { print $_ } }' < /tmp/my-named-pipe
 ```
 
 If you run the above and play with killing the client, you'll see it works
