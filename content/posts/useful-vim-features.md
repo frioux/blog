@@ -57,6 +57,50 @@ One last little handy tip: vim maintains the last ten quickfix lists, so if you
 accidentally blow away your quickfix, you can get back to the previous one with
 [the `:colder` command]().
 
+# Game, Set, Match
+
+Vim is full of obscure commands, and one that can be useful is `:match`.  One
+thing I (Rob) use it for is highlighting end-of-line whitespace:
+
+```vim
+" Define a highlight group for things that annoy me
+highlight Annoyance ctermbg=236
+" I hate end of line whitespace...highlight it
+match Annoyance /\s\+$/
+```
+
+...and another is for highlighting lines that are too long:
+
+```vim
+autocmd FileType c 2match Annoyance /\%>78v./
+autocmd FileType perl 2match Annoyance /\%>78v./
+```
+
+Another way I've used `:match` in the past is to highlight similar - but
+distinct - variables.  For example, last year I was working on a problem for
+[Advent of Code](https://adventofcode.com/) that was doing "fun" stuff in a 3D
+space, so I had variables like `posX`, `posY`, `posZ`.  To help myself keep them
+separate, I defined some match rules to color them differently:
+
+```vim
+highlight XCoord ctermbg=4 ctermfg=15 " white on blue
+highlight YCoord ctermbg=2 ctermfg=0  " black on green
+highlight ZCoord ctermbg=1 ctermfg=15 " white on red
+
+match XCoord /\<\i*X\>/
+2match YCoord /\<\i*Y\>/
+3match ZCoord /\<\i*Z\>/
+```
+
+This ends up looking like this:
+
+![example of using match to distinguish variables](/static/img/vim-match-coords.png "Example of using match to distinguish variables")
+
+I know that in certain circles, syntax highlighting isn't very popular, but I
+find that color really helps my brain process large chunks of text (whether
+that's just how my brain works or it's how it has changed after years of using
+syntax highlighting, I'm unsure).
+
 ---
 
 This article was a collaboration between [Neil Bowers](), [Rob Hoelz](https://hoelz.ro),
