@@ -59,5 +59,5 @@ accidentally blow away your quickfix, you can get back to the previous one with
 
 ---
 
-This article was a collaboration between [Neil Bowers](), [Rob Hoelz](),
+This article was a collaboration between [Neil Bowers](), [Rob Hoelz](https://hoelz.ro),
 ([you??]()), and myself (Santa Monica) as part of 2020 Hacktoberfest.
