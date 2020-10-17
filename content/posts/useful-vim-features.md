@@ -76,6 +76,12 @@ autocmd FileType c 2match Annoyance /\%>78v./    " Match characters beyond colum
 autocmd FileType perl 2match Annoyance /\%>78v./
 ```
 
+You can see these two in action here - I changed the highlight color to cyan to make it more apparent what's going on:
+
+![example of using match to highlight end-of-line whitespace](/static/img/vim-match-eol.png "Example of using match to highlight end-of-line whitespace")
+
+![example of using match to highlight long lines](/static/img/vim-match-long-lines.png "Example of using match to highlight long lines")
+
 Another way I've used `:match` in the past is to highlight similar - but
 distinct - variables.  For example, last year I was working on a problem for
 [Advent of Code](https://adventofcode.com/) that was doing "fun" stuff in a 3D
