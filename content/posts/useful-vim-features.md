@@ -64,7 +64,7 @@ thing I (Rob) use it for is highlighting end-of-line whitespace:
 
 ```vim
 " Define a highlight group for things that annoy me
-highlight Annoyance ctermbg=236
+highlight Annoyance ctermbg=236 " a dark grey
 " I hate end of line whitespace...highlight it
 match Annoyance /\s\+$/
 ```
@@ -72,7 +72,7 @@ match Annoyance /\s\+$/
 ...and another is for highlighting lines that are too long:
 
 ```vim
-autocmd FileType c 2match Annoyance /\%>78v./
+autocmd FileType c 2match Annoyance /\%>78v./    " Match characters beyond column 78
 autocmd FileType perl 2match Annoyance /\%>78v./
 ```
 
