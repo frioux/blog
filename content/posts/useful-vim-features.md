@@ -17,15 +17,22 @@ list](http://vimdoc.sourceforge.net/htmldoc/quickfix.html#location-list)) is a
 built in vim feature that allows defining lists of locations (filename, line
 number, and column) along with some extra text.
 
+You can iterate through the locations with [the `:cnext` command]() and [the
+`:cprev` command]().  You can show a window of the locations with the `:copen`
+command; in the window, simple pressing `<Enter>` on one of the lines will open
+the file in one of your existing windows.
+
 You can use [the `:make`
 command](http://vimdoc.sourceforge.net/htmldoc/quickfix.html#:make) to run a
 compiler and populate the quickfix with various locations of your inevitable
 mistakes.  There are approximately ten thousand little settings that allow you
-to customize this behavior.  For example, you can set [the `&makeef` option]()
-to control where the error file goes, which can be useful for slow
-compilations.  A handy feature my friend Meredith showed me was that you can
-define [a BufReadPost autocommand]() to make your quickfix more attractive.  In
-some of mine I use this to hide all but the comment:
+to customize this behavior.  For example, you can set [the `makeef`
+option](http://vimdoc.sourceforge.net/htmldoc/options.html#'makeef') to control
+where the error file goes, which can be useful for slow compilations.  A handy
+feature my friend Meredith showed me was that you can define [a BufReadPost
+autocommand](http://vimdoc.sourceforge.net/htmldoc/autocmd.html#BufReadPost) to
+make your quickfix more attractive.  In some of mine I use this to hide all but
+the comment:
 
 ```vim
 augroup hugo
@@ -42,12 +49,32 @@ augroup hugo
 augroup END
 ```
 
+This produces a quickfix like this (for this blog:)
+
+```
+  1 2020-10-10 Useful Vim Features
+  2 2020-09-21 Logorrhea
+  3 2020-05-13 Mixer Post Mortem
+  4 2020-05-08 Improve Git Diffs for Structured Data
+  5 2020-05-05 Go Subtest Tips
+  6 2020-04-27 Adding Autoreload to srv
+  7 2020-04-07 context Deadlines in Go
+  8 2020-03-24 I Avoid Named Pipes
+  9 2020-02-27 Zine: Software for Managing Notes
+ 10 2020-02-14 Testing Perl Clients and Go Servers
+[Quickfix List] :cgetexpr system('bin/quick-chrono') | cwindow
+```
+
 Sometimes you want to wire functionality into the quickfix but don't want to
 have to go through all of the effort of defining a new make program, a new
-error format, etc.  I find [the `:cgetexpr` command]() useful for this.  As
+error format, etc.  I find [the `:cgetexpr`
+command](http://vimdoc.sourceforge.net/htmldoc/quickfix.html#:cgetexpr) useful
+for this.  As
 an example, sometimes I want to be able to iterate over all of the hunks in a
-diff.  I have [a perl script]() that formats diffs in the default quickfix
-format, and I defined a command to parse it into the quickfix:
+diff.  I have [a perl
+script](http://vimdoc.sourceforge.net/htmldoc/quickfix.html#:cgetexpr) that
+formats diffs in the default quickfix format, and I defined a command to parse
+it into the quickfix:
 
 ```vim
 command! Gdiffs cexpr system('git diff | diff-hunk-list')
@@ -55,7 +82,8 @@ command! Gdiffs cexpr system('git diff | diff-hunk-list')
 
 One last little handy tip: vim maintains the last ten quickfix lists, so if you
 accidentally blow away your quickfix, you can get back to the previous one with
-[the `:colder` command]().
+[the `:colder`
+command
 
 # Game, Set, Match
 
