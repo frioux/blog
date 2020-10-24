@@ -85,6 +85,76 @@ accidentally blow away your quickfix, you can get back to the previous one with
 [the `:colder`
 command
 
+## Reviewing, refining, and reusing your command history (Neil)
+
+If you're used to working with regular expressions,
+then you may find yourself doing hairy searches in vim.
+In the past, if I knew I was going to reuse a search,
+or perhaps do variants of it, then I might save it in a file.
+
+But it turns out that vim saves your search history.
+To see it, enter **`q/`** when in command mode,
+and your window will split, with the new buffer containing your search history,
+one search per line.
+You can move around and edit this in the usual way,
+but if you hit return,
+vim will close the window and run the search that was under the cursor.
+
+Similarly, **`q:`** will show you your ex command history.
+
+These histories are persistent,
+and if you want to remember the last 100 commands,
+just put the following in your .vimrc:
+
+    set history=100
+
+If you just want to scroll up through your search history,
+hit **`/`** to start the search, and then cursor up repeatedly.
+if you start a search with **`/sub`** and then cursor up,
+it will only show searches that start with that pattern.
+
+## Inside and Around (Neil)
+
+Many commands in vim take the form &lt;command&gt;&lt;motion&gt;.
+So **`dw`** deletes from the character under the cursor
+to the start of the next word,
+and **`>}`** indents from the current line to the end of the paragraph.
+
+Previously,
+if I were in the middle of a paragraph that I wanted to indent,
+I'd first use **`{`** to go to the start of the paragraph,
+and then use **`>}`** to indent the paragraph.
+Mentally that was two commands: a movement, and an indent.
+
+In this situation (somewhere in the middle of a paragraph),
+I now use **`ap`** for the motion, which selects the paragraph
+around the cursor.
+So to indent the current paragraph, I use **`>ap`**.
+
+This is the same number of key presses,
+but it's a single action instead of two,
+and directly maps from my intention to the action.
+
+Another place to use this approach is when your cursor
+is somewhere between a pair of delimeters.
+For example, you're in the middle of a double quoted string,
+and what to change the whole string:
+
+> ![example quoted string](https://i.imgur.com/V4ZEyQ7.png)
+
+You might press **b** multiple times to get to the start of the string,
+or maybe **T"** to move back to the character after the **"**,
+and then **ct"** to change up to the matching double quote.
+
+But much more efficiently, you can type **ci"**,
+which will remove everything between the matching double quotes,
+and put you into insert mode.
+And if you want to change from double to single quotes,
+then **ca"** will change the string *and* the delimiters.
+
+Other useful things are **cit** to change between a pair of HTML/XML tags,
+**ci(** to change inside parens.
+=======
 # Game, Set, Match
 
 Vim is full of obscure commands, and one that can be useful is `:match`.  One
