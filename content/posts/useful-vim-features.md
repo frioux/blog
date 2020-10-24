@@ -4,9 +4,11 @@ date: 2020-10-10T08:45:51
 tags: [ "vim" ]
 guid: dd45eae1-6b2b-4e5d-9786-a2958b7abf97
 ---
-
+Some friends and I collaborated on some interesting features in vim.
 
 <!--more-->
+
+## QuickFix (fREW)
 
 One of the most powerful general features in vim is the quickfix.  [I have
 written about it before](/posts/my-editing-workflow/) but it bears revisiting
@@ -154,8 +156,8 @@ then **ca"** will change the string *and* the delimiters.
 
 Other useful things are **cit** to change between a pair of HTML/XML tags,
 **ci(** to change inside parens.
-=======
-# Game, Set, Match
+
+## Game, Set, Match (Rob)
 
 Vim is full of obscure commands, and one that can be useful is `:match`.  One
 thing I (Rob) use it for is highlighting end-of-line whitespace:
@@ -205,7 +207,7 @@ find that color really helps my brain process large chunks of text (whether
 that's just how my brain works or it's how it has changed after years of using
 syntax highlighting, I'm unsure).
 
-# Insert Mode Completions
+## Insert Mode Completions (Rob)
 
 Did you know that Vim has its own completion system that you can invoke from
 Insert mode?  I don't know how many people know about this functionality, but
@@ -215,7 +217,7 @@ You enter into completion mode via `Ctrl-x`, and from there you enter Ctrl plus
 another key to select which mode of completion you want.  There are quite a few
 modes - here are the ones I find myself using most often:
 
-## `Ctrl-X Ctrl-N`: Keywords in `complete`
+### `Ctrl-X Ctrl-N`: Keywords in `complete`
 
 This has two convenient shortcut in the forms of `Ctrl-N` and `Ctrl-P`, which
 select the next and previous found keywords, respectively.  "Found" here is
@@ -227,12 +229,12 @@ I use this most often to complete variable or function names that I've typed
 already, but are long enough to be annoying to type, or contain certain
 character combinations that I find difficult to type.
 
-## `Ctrl-X Ctrl-F`: Filename completion
+### `Ctrl-X Ctrl-F`: Filename completion
 
 I use this one _all_ the time!  If you're typing a path to a file, you can
 generate completions for that path while you're typing it.
 
-## `Ctrl-X Ctrl-K`: Dictionary completion
+### `Ctrl-X Ctrl-K`: Dictionary completion
 
 I use this one occasionally when writing prose - it does exactly what it says!
 It's handy for completing long words like "respectively" - my only complaint
@@ -242,7 +244,7 @@ frequency in the current context.  The "too many results" problem could
 probably be rectified by using a different dictionary for completions, but the
 ordering problem would probably require a plugin of some sort.
 
-## `Ctrl-X Ctrl-L`: Whole line completion
+### `Ctrl-X Ctrl-L`: Whole line completion
 
 I admit - when I first read about this mode, I thought to myself "who would
 ever use that?" - and now I find myself using it way more than I thought I
@@ -253,7 +255,7 @@ currently on your screen - let's say you want to copy a line 17 lines above the
 cursor.  You _could_ do `<escape> 17k yy 17j p`, or `:-17t .`, but I've found
 it's quick and easy to type a short prefix and then use `Ctrl-X Ctrl-L`.
 
-## `Ctrl-X Ctrl-O`: Omni-completion
+### `Ctrl-X Ctrl-O`: Omni-completion
 
 I saved the most flexible one for last - omni-completion!  Omni-completion is
 Vim's term for one of its forms of user-customizable completion - you'll most
@@ -271,5 +273,10 @@ others listed there give you ideas for improving your Vim workflow!
 
 ---
 
-This article was a collaboration between [Neil Bowers](), [Rob Hoelz](https://hoelz.ro),
-([you??]()), and myself (Santa Monica) as part of 2020 Hacktoberfest.
+This article was a collaboration between [Neil
+Bowers](http://neilb.org/index.html) in Marlow, [Rob Hoelz](https://hoelz.ro)
+in Waukesha, and myself in Santa Monica as part of 2020 Hacktoberfest.
+Originally at least Rob and I had planned on submitting various pull requests
+to projects we care about, but after [the rules
+changed](https://hacktoberfest.digitalocean.com/hacktoberfest-update) Neil
+suggested this as a better path forward.  Hope you enjoyed it!
