@@ -19,19 +19,22 @@ list](http://vimdoc.sourceforge.net/htmldoc/quickfix.html#location-list)) is a
 built in vim feature that allows defining lists of locations (filename, line
 number, and column) along with some extra text.
 
-You can iterate through the locations with [the `:cnext` command]() and [the
-`:cprev` command]().  You can show a window of the locations with the `:copen`
-command; in the window, simple pressing `<Enter>` on one of the lines will open
-the file in one of your existing windows.
+You can iterate through the locations with [the `:cnext`
+command](http://vimdoc.sourceforge.net/htmldoc/quickfix.html#:cnext) and [the
+`:cprev` command](http://vimdoc.sourceforge.net/htmldoc/quickfix.html#:cprev).
+You can show a window of the locations with [the `:copen`
+command](http://vimdoc.sourceforge.net/htmldoc/quickfix.html#:copen); in the
+window, simple pressing `<Enter>` on one of the lines will open the file in one
+of your existing windows.
 
 You can use [the `:make`
 command](http://vimdoc.sourceforge.net/htmldoc/quickfix.html#:make) to run a
 compiler and populate the quickfix with various locations of your inevitable
 mistakes.  There are approximately ten thousand little settings that allow you
-to customize this behavior.  For example, you can set [the `makeef`
-option](http://vimdoc.sourceforge.net/htmldoc/options.html#'makeef') to control
-where the error file goes, which can be useful for slow compilations.  A handy
-feature my friend Meredith showed me was that you can define [a BufReadPost
+to customize this behavior.  For example, you can set the `makeef` option to
+control where the error file goes, which can be useful for slow compilations.
+A handy feature my friend Meredith showed me was that you can define [a
+BufReadPost
 autocommand](http://vimdoc.sourceforge.net/htmldoc/autocmd.html#BufReadPost) to
 make your quickfix more attractive.  In some of mine I use this to hide all but
 the comment:
@@ -115,6 +118,9 @@ hit **`/`** to start the search, and then cursor up repeatedly.
 if you start a search with **`/sub`** and then cursor up,
 it will only show searches that start with that pattern.
 
+*Editor: you can also use Control-f from the command or search prompt to jump
+into these saved histories.*
+
 ## Inside and Around (Neil)
 
 Many commands in vim take the form &lt;command&gt;&lt;motion&gt;.
@@ -142,7 +148,7 @@ is somewhere between a pair of delimeters.
 For example, you're in the middle of a double quoted string,
 and what to change the whole string:
 
-> ![example quoted string](https://i.imgur.com/V4ZEyQ7.png)
+![example quoted string](/static/img/vim-inner.png)
 
 You might press **b** multiple times to get to the start of the string,
 or maybe **T"** to move back to the character after the **"**,
@@ -264,6 +270,9 @@ you're writing Go and you're using one of the Go support plugins, or if you're
 using a plugin that hooks into the Language Server Protocol, using `Ctrl-X
 Ctrl-O` will tell Vim to ask for completions for things like "what variables
 are currently in scope?" or "what methods are present on this variable?".
+
+*Editor: I wrote a little bit about [defining your own omni-completion
+here](/posts/hugo-unix-vim-integration/#tag-completion).*
 
 ## Other modes
 
