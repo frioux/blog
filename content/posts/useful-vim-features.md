@@ -1,10 +1,11 @@
 ---
 title: Useful Vim Features
-date: 2020-10-10T08:45:51
+date: 2020-10-26T08:45:51
 tags: [ "vim" ]
 guid: dd45eae1-6b2b-4e5d-9786-a2958b7abf97
 ---
-Some friends and I collaborated on some interesting features in vim.
+Some friends and I collaborated on this post about some interesting features in
+vim.
 
 <!--more-->
 
