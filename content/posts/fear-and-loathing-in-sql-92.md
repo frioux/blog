@@ -60,7 +60,7 @@ order in which things sort; it has to do with what language your users speak
 etc.  The default collation in SQL Server is case insensitive, so at the very
 least in the code above the `$s` and the `$d->{Phone}` should be casefolded with
 `fc`, a perl builtin which correctly casefolds a string (note that lowercasing
-and uppercasing are *not* sufficient if you support non-English langauage
+and uppercasing are *not* sufficient if you support non-English language
 strings.)
 
 But that's not all!  In SQL-92 there is the following directive:
