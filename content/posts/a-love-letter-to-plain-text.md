@@ -53,7 +53,7 @@ actually fast enough that it feels realtime and I use it in an autocompleter
 For RSS feeds each post needs a unique id.  By default the id is the url of the
 post.  Often you'll notice that people will switch from http to https and their
 RSS feed will list all posts ever as if they are new.  For this reason I always
-explicitely list an id.  I used to have it match the post url but that led to
+explicitly list an id.  I used to have it match the post url but that led to
 problems when they didn't match.  RSS actually assumes that the id is the url
 unless you specify otherwise (with `isPermaLink="false"` in the id field.)
 
@@ -333,7 +333,7 @@ whopping 2,353 unique words.  Joy.
 I hope that this inspires others.  These are all tools that *could* be written
 against a traditional blog engine, but would likely be slower and less flexible.
 On top of the above handmade features, there are all kinds of reasons to use a
-plaintext format: trivial version control, less dependance on the state of
+plaintext format: trivial version control, less dependence on the state of
 a pet server, trivial backups, relatively simple migrations, and more.
 
 ---

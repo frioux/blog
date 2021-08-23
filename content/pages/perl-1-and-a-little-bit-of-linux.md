@@ -19,7 +19,7 @@ that by hand do you? Didn't think so.
 So first off: I will assume you are using Linux. If you are using windows, you
 will have to open a command box and run the scripts like this: perl script.pl.
 
-The cannonical way to run a perl program in Linux is to have the first line
+The canonical way to run a perl program in Linux is to have the first line
 start with #! This is how almost all scripting languages in Linux work. So for
 perl, you do:
 
