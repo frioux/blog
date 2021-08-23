@@ -1,0 +1,18 @@
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: sudo apt-get update --quiet && sudo apt-get install --quiet awscli s3cmd libdbd-sqlite3-perl libyaml-syck-perl
+      - run: curl -Ss -L https://github.com/gohugoio/hugo/releases/download/v0.49/hugo_0.49_Linux-64bit.tar.gz > /tmp/x.tgz
+      - run: cd /tmp && tar xvf /tmp/x.tgz && mv hugo hugo-0.49
+      - run: cp etc/s3cmd.ini ~/.s3cfg
+      - run: cat /home/runner/.s3cfg
+      - run: PATH=$PATH:/tmp && cd /home/runner/work/blog/blog && make push
+        env:
+           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+           CF_AUTH_KEY: ${{ secrets.CF_AUTH_KEY }}
+           CF_AUTH_EMAIL: ${{ secrets.CF_AUTH_EMAIL }}

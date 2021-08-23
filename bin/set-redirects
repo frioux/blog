@@ -1,4 +1,4 @@
-#!/bin/dash
+#!/bin/sh
 
 redirect() aws s3api copy-object                \
    --copy-source blog.afoolishmanifesto.com/$1  \
@@ -8,3 +8,5 @@ redirect() aws s3api copy-object                \
 
 redirect feed/index.html /index.xml
 redirect feed/atom/index.html /index.xml
+
+exit 0

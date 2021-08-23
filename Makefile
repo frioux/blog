@@ -16,4 +16,4 @@ build: clean
 
 push: build
 	git push --quiet
-	cd public && s3cmd sync --delete-removed --disable-multipart --no-preserve /pwd/ s3://blog.afoolishmanifesto.com | tee $(log) && set-redirects && . ~/.cf-token && busted-urls $(log) && rm $(log)
+	s3cmd sync --region us-west-2 --delete-removed --disable-multipart --no-preserve public/ s3://blog.afoolishmanifesto.com | tee $(log) && set-redirects && busted-urls $(log) && rm -f $(log)
