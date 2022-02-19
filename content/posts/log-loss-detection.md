@@ -10,7 +10,7 @@ Perl, you should read this post.
 <!--more-->
 
 I've been working on a logging overhaul at
-[ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) for more than six
+[ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) for more than six
 months.  I intend to post a retrospective soon, but there are still some
 unknowns that mean I don't actually know that we're there yet.
 

@@ -175,7 +175,7 @@ could put this out of mind and dive into the next project clear headed.
 I found this all very rewarding.  It was especially pleasant because it was the
 one outstanding work task I had on my plate while traveling to visit family and
 I was able to get it done on the plane.
-[ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) would have been
+[ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) would have been
 fine if I had not done it, but it allowed me to fully relax while at home.
 
 ---

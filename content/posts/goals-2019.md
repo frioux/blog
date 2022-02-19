@@ -59,7 +59,7 @@ finish the original
 and started on the new
 <a target="_blank" href="https://www.amazon.com/gp/product/1492029505/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1492029505&linkCode=as2&tag=afoolishmanif-20&linkId=6bffef7cd3415a04b96103bb20694737">SRE Workbook</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=afoolishmanif-20&l=am2&o=1&a=1492029505" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
 I intend to finish the Workbook and then after that focus on the concrete stuff
-[at work.](https://www.ziprecruiter.com/hiring/technology)
+[at work.](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology)
 
 It's happened countless times that I feel nervous or guilty about not doing
 something at work because I feel pressured for time, only for leadership to then

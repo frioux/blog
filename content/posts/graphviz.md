@@ -26,7 +26,7 @@ case though; ultimately you can express any DAG by having a `FROM` (your base
 image) and various `COPY` statements (pulling binaries from other stages.)
 
 I was explaining this to an engineer [at
-work](https://www.ziprecruiter.com/hiring/technology) and how we have built
+work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) and how we have built
 something of a monster with our base image, in part because we have foundational
 tooling written in Go that we want in our base image, but we want to also have a
 Go compiler image that is... on top of our base image.  I don't want to include

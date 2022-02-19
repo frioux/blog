@@ -9,7 +9,7 @@ Here's how I did it.
 
 <!--more-->
 
-At [work](https://www.ziprecruiter.com/hiring/technology) we have this cool
+At [work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) we have this cool
 thing that we are working on that exposes a local server that acts like the AWS
 IAM metadata server.  It not only makes our laptops more like production, but it
 also makes authenticating to Amazon simpler and more secure.  I hope to write

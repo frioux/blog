@@ -24,7 +24,7 @@ important since text editors save files in multiple stages to prevent data loss.
 I used this tool for a little under a year before moving on to ZipRecruiter.
 
 About a year after I started at
-[ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) I replaced the
+[ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) I replaced the
 built in Plack autorestart with The Minotaur.  Part of the reason for doing this
 is that Plack preloads a bunch of Perl modules, so when it reloads the
 application it doesn't reload those, since they are already in memory.  One

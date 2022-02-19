@@ -4,7 +4,7 @@ date: 2018-12-18T07:20:15
 tags: [ kubernetes, perl, golang ]
 guid: 0d291e43-0f72-4922-8790-275a114c951e
 ---
-At [ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) my team is
+At [ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) my team is
 hard at work making Kubernetes our production platform.  This is an incredible
 effort and I can only take the credit for very small parts of it.  The issue
 that I was tasked with most recently was to verify and transform Kubernetes

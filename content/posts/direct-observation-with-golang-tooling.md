@@ -9,7 +9,7 @@ compiler.
 
 <!--more-->
 
-[At work](https://www.ziprecruiter.com/hiring/technology) I'm building a tool
+[At work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) I'm building a tool
 that will generate nginx config to act as a dispatcher for all of our various
 software that the external world interacts with.  A bunch of this work has been
 done, with other goals, in

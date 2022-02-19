@@ -104,7 +104,7 @@ incredibly useful and yet they have no conception of loops or state.
 
 ## Machine Learning and Work
 
-At [work](https://www.ziprecruiter.com/hiring/technology) we have quite a bit of
+At [work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) we have quite a bit of
 machine learning throughout our product.  A little over halfway through this
 class I had some conversations with members of one of the teams that uses
 machine learning, and I attended a deep dive into how that team does work.

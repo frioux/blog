@@ -5,7 +5,7 @@ tags: [ golang, unix ]
 guid: 74744030-cc52-449c-b6ba-5427da79e4aa
 ---
 
-At [work](https://www.ziprecruiter.com/hiring/technology) I'm building a little
+At [work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) I'm building a little
 tool to write data from [AWS Secrets
 Manager](https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html)
 to a directory on disk.  I wrote a little package to write the secrets

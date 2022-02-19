@@ -4,7 +4,7 @@ date: 2017-06-12T08:50:18
 tags: [ toolsmith, ziprecruiter, perl, aws ]
 guid: 496575D0-4EB5-11E7-B5B5-863F19CC4E35
 ---
-At [ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) we write "a
+At [ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) we write "a
 lot" of logs, so actually looking at the logs can be a lot of work.  Amazon
 Athena provides a nice solution, and recently an API was (finally) provided to
 allow us to use it in our code.  I wrote some code recently to leverage the API.

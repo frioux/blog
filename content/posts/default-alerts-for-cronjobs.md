@@ -5,7 +5,7 @@ tags: [ zr, frew-warez, monitoring ]
 guid: f3784b5f-da8e-4b30-9fe2-1f124375a894
 ---
 Today I whipped up an initial default set of cronjobs for all of our teams at
-[ZipRecruiter](https://www.ziprecruiter.com/hiring/technology).  It was almost
+[ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology).  It was almost
 trivial and will get most teams started on at least not-terrible alerting.
 Neat.
 

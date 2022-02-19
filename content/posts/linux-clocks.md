@@ -5,7 +5,7 @@ lastmod: 2016-10-14T07:10:38
 tags: [ linux, ziprecruiter, perl ]
 guid: E6D786E2-8C3B-11E6-980F-E48C40D14727
 ---
-At [ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) we have an
+At [ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) we have an
 awesome access log that includes information about each request, like a measure
 of the response time, the increase in rss, and lots of other details.  Before I
 joined we had a measure of how much CPU was used, but it was a little coarse.

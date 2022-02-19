@@ -45,7 +45,7 @@ func randBoundary(rnd *rand.Rand) string {
 ```
 
 Here's a super useful trick to log AWS API calls I ran across while reading some
-code at [ZipRecruiter](https://www.ziprecruiter.com/hiring/technology):
+code at [ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology):
 
 ```golang
 	sess, err := session.NewSession(cfg)

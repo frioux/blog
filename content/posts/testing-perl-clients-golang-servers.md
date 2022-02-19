@@ -4,7 +4,7 @@ date: 2020-02-14T08:51:49
 tags: [ perl, golang, testing ]
 guid: 21c9d379-8ce3-4673-954a-fbdc7de56a80
 ---
-[At work](https://www.ziprecruiter.com/hiring/technology) I recently built what
+[At work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) I recently built what
 would normally be forced to be an integration test in a unit test.  It's
 awesome.
 

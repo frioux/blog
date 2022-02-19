@@ -9,7 +9,7 @@ easily.
 
 <!--more-->
 
-At [ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) we don't use a
+At [ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) we don't use a
 whole lot of lambda, in general.  We have lots of reliable, easy to use
 infrastructure for things like logging, secrets, etc, and all of that would have
 to either be reimplemented or just be totally different in Lambda.  Be that as

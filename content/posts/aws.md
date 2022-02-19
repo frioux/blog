@@ -21,7 +21,7 @@ it's certainly not ten thousand.
 
 For a long time we've considered testing on AWS, but for whatever reason I never
 seriously looked into it.  Since my [new
-employer](https://www.ziprecruiter.com/hiring/technology) does indeed use AWS I
+employer](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) does indeed use AWS I
 was more motivated than before to learn how it to use it; so finally I have both
 motivation and time to figure this thing out!
 

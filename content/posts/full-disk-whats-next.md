@@ -107,7 +107,7 @@ $ du -akx | LC_ALL=C TMPDIR=/mnt/tmp sort -n
 ```
 
 This assumes you have a `/mnt/tmp` though.  At
-[ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) we tend to have a
+[ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) we tend to have a
 handful of options for where the files could be spilled.  I automated the
 selection as follows:
 

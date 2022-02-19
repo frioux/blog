@@ -9,7 +9,7 @@ Monday.
 
 <!--more-->
 
-At [work](https://www.ziprecruiter.com/hiring/technology) we have a logging
+At [work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) we have a logging
 tool, originally written by Ripta Pasay, that reads from both output streams
 (stdout and stderr) of a process and writes them to disk.  It ensures that the
 total amount written doesn't go over a certain amount, handles rotation, and

@@ -20,7 +20,7 @@ The hack broke Friday of last week.  I looked into a couple options to fix it
 but was annoyed to have to fix something after only eight weeks.
 
 On the other hand [Rob Hoelz](https://hoelz.ro/) joined my team [at
-ZR](https://www.ziprecruiter.com/hiring/technology) in February; he's an
+ZR](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) in February; he's an
 AwesomeWM user and reassured me that the stability issues I complained about
 before had been mostly resolved.  Armed with both that and the ability to ask
 him (and Meredith, who also knows Lua pretty well) I decided I'd try to migrate

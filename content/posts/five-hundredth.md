@@ -24,7 +24,7 @@ comprising the life of this blog:
  * [I got engaged](/posts/screen-scrape-for-love-with-web-scraper/) and married.
  * I replaced wordpress with [Hugo](/posts/hugo/).
  * My first son was born.
- * [I got a job](/posts/index-hints-in-mysql-with-dbix-class/) at [ZipRecruiter](https://www.ziprecruiter.com/hiring/technology).
+ * [I got a job](/posts/index-hints-in-mysql-with-dbix-class/) at [ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology).
  * My second son was born.
  * I migrated this blog [from Linode to S3+CloudFlare](/posts/migrating-blog-to-cloudfront/).
  * [I published the source of the blog](/posts/ten-years-behind-the-screen/).

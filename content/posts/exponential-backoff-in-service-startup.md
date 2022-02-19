@@ -8,7 +8,7 @@ I recently added exponential backoff to service startup.  Read how here.
 
 <!--more-->
 
-At [work](https://www.ziprecruiter.com/hiring/technology) we have discovered
+At [work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) we have discovered
 time and again that services can end up restarting over and over.  The typical
 solution to this is to set a limit on restart count, but sometimes that just
 adds pointless toil.  Imagine that a database is down for an hour; the web app

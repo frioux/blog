@@ -16,7 +16,7 @@ conferences are a very mixed bag and I want to control what I can.
 
 I had a tough time planning out my first Learning Day, so I fell back on doing
 something easy and planning a Learning Day on Go, which I use most days [at
-work](https://www.ziprecruiter.com/hiring/technology).  The following was what I
+work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology).  The following was what I
 watched (in the order I watched them:)
 
  * [SQLite and Go](https://www.youtube.com/watch?v=RqubKSF3wig): Inspiring;

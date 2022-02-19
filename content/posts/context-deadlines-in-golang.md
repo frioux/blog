@@ -9,7 +9,7 @@ I recently learned more about contexts in Go.
 <!--more-->
 
 The project I'm spending my time on [at
-work](https://www.ziprecruiter.com/hiring/technology) is mostly a glorified
+work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) is mostly a glorified
 proxy; I have learned a lot about contexts and thought I'd share some of it.
 
 A quick note before we get into this post: channels are a central concept in

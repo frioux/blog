@@ -5,7 +5,7 @@ tags: [ golang, shell ]
 guid: 4f497811-9dbb-4235-90d5-bdeb1be9bf95
 ---
 Last week was the
-[ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) holiday party.
+[ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) holiday party.
 As usual they had a photobooth (two in fact!)  Catherine and I took three
 sets of pictures but I didn't get an email for one of the three.  Read on
 to find out how I got them.

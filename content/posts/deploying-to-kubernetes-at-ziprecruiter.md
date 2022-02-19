@@ -4,7 +4,7 @@ date: 2019-01-30T07:36:37
 tags: [ ziprecruiter, kubernetes, cicd ]
 guid: fcc31a7f-2696-45a8-8585-bbbf9ce521d6
 ---
-At [ZR](https://www.ziprecruiter.com/hiring/technology) we are working hard to
+At [ZR](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) we are working hard to
 get stuff migrated to Kubernetes, and a big part of that is our cicd pipeline.
 We have that stable enough that I can explain the major parts.
 

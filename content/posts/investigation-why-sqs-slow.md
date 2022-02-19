@@ -230,7 +230,7 @@ width="1" height="1" border="0" alt="" style="border:none !important; margin:0px
 [benchmark]: https://web.archive.org/web/20190319220350/http://www.martin-evans.me.uk:80/node/169
 [furlsel]: https://metacpan.org/source/TOKUHIROM/Furl-3.11/lib/Furl/HTTP.pm#L864-882
 [setopt]: https://curl.haxx.se/libcurl/c/curl_easy_setopt.html
-[zr]: https://www.ziprecruiter.com/hiring/technology
+[zr]: https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology
 [sqs]: https://aws.amazon.com/sqs/
 [reaper]: /posts/reap-slow-and-bloated-plack-workers/
 [iam]: /posts/aws-iam-at-ziprecruiter/

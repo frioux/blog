@@ -4,7 +4,7 @@ date: 2019-06-25T19:47:13
 tags: [ cron, zr, frew-warez ]
 guid: 0b1c3c05-0e53-42d8-a640-8a75272c1423
 ---
-At [work](https://www.ziprecruiter.com/hiring/technology) we've been working
+At [work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) we've been working
 on monitoring our cronjobs better; armed with some of the knowledge of how
 to do this I have made some incredibly unreliable cronjobs much more reliable.
 

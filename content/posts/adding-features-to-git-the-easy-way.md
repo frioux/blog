@@ -51,7 +51,7 @@ small chunks from various files and then accidentally do `git commit -am derp`.
 This protects me from that mistake.
 
 The latter is awesome because at
-[ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) our repository
+[ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) our repository
 has huge swaths of stuff that tends to show up in grep results often but is
 never, ever what I'm looking for.  A good example is a file with a huge list of
 stemmed words in English.   So I simply added that file to

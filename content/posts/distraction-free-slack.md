@@ -9,7 +9,7 @@ distractions...
 
 <!--more-->
 
-We use Slack [at work](https://www.ziprecruiter.com/hiring/technology); it's
+We use Slack [at work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology); it's
 definitely useful for collaboration, but it tends to feel like an attention
 monopolizer, rather than a force multiplier, much of the time.  [I've written
 about this before](/posts/tyranny-of-easy-things/#slack); I suggest reading at

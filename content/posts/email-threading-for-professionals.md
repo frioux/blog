@@ -12,7 +12,7 @@ As [mentioned before](/posts/fast-cli-tools-and-gmail) I am a mutt user.  Mutt,
 being not-Gmail, acts differently than what people have come to expect in 2016,
 though normally I can ignore other people's expectations and move on.  But I
 finally had to act in this case: email from the issue tracker we use at
-[ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) was not threading
+[ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) was not threading
 properly.
 
 <!--more-->

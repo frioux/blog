@@ -148,7 +148,7 @@ general.  For help on distributed systems you may need to go further, but this
 would be a great first step.
 
 [talk]: /posts/scalability-reliability-and-performance-at-ziprecruiter/
-[zr]: https://www.ziprecruiter.com/hiring/technology
+[zr]: https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology
 [dbic]: https://metacpan.org/pod/distribution/DBIx-Class/lib/DBIx/Class.pod
 [cat]: https://metacpan.org/pod/Catalyst
 [dbi]: https://metacpan.org/pod/DBI

@@ -4,7 +4,7 @@ date: 2019-04-10T19:00:16
 tags: [ prometheus, ziprecruiter ]
 guid: 52ca6e00-8297-4d02-8baa-087ab72a8251
 ---
-At [ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) we are working
+At [ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) we are working
 towards migrating to a Prometheus as a more modern monitoring solution.  I have
 found it pretty pleasant, so far.
 

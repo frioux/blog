@@ -9,7 +9,7 @@ I wrote a little linter for Go.  Here's why and how.
 <!--more-->
 
 These days I primarily write Go [at
-work](https://www.ziprecruiter.com/hiring/technology) (if you've been reading
+work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) (if you've been reading
 this blog and hadn't noticed... How?)  Go is a statically typed language with
 some other nice benefits.  For those new to go, you can copy paste nearly all
 of the examples from this post to [The Go Playground](https://play.golang.org/)

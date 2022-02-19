@@ -22,7 +22,7 @@ Slack is a huge time and productivity sink.  It's great for when you need to
 have some kind of remote meeting thing, but a constant water-cooler + ad hoc
 meeting is not good.  [At my previous job](http://lynxguide.com/) I could just
 close the door to my office and get stuff done.  Not so [at
-ZR](https://www.ziprecruiter.com/hiring/technology), where I neither have a door
+ZR](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology), where I neither have a door
 nor would that be sufficient, due to the constant activity on Slack.
 
 The first thing I want to point out about this is that Slack (like all human

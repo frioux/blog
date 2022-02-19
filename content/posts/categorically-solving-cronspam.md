@@ -5,7 +5,7 @@ tags: [ ziprecruiter, perl, aws ]
 guid: 557c28bc-2725-47c3-8371-9494c9c4d745
 ---
 For a little over a year at
-[ZipRecruiter](https://www.ziprecruiter.com/hiring/technology) we have had some tooling that
+[ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) we have had some tooling that
 "fixes" a non-trivial amount of cronspam.  Read on to see what I mean and how.
 
 <!--more-->
