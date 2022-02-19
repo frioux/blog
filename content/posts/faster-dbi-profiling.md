@@ -6,7 +6,7 @@ guid: "https://blog.afoolishmanifesto.com/posts/faster-dbi-profiling"
 ---
 Nearly two months ago [I blogged about how to do profiling with
 DBI](/posts/dbi-logging-and-profiling), which of course was about the same time
-we did this [at work](https://www.ziprecruiter.com/).
+we did this [at work](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology).
 
 <!--more-->
 

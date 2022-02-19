@@ -4,7 +4,7 @@ date: 2016-05-20T19:08:32
 tags: [ziprecruiter, open-source, conference, oscon]
 guid: "https://blog.afoolishmanifesto.com/posts/oscon-2016"
 ---
-[ZipRecruiter, where I work,](https://www.ziprecruiter.com/) generously pays for
+[ZipRecruiter, where I work,](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) generously pays for
 each engineer to go at least one conference a year.  I have gone to
 [YAPC](http://www.yapcna.org/)
 every year since 2009 and would not skip it, except my wife is pregnant with our

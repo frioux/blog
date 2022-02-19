@@ -5,7 +5,7 @@ tags: [ziprecruiter, aws, perl, automation, bot]
 guid: "https://blog.afoolishmanifesto.com/posts/aws_retirement_notification_bot"
 ---
 If you use AWS a lot you will be familiar with the "AWS Retirement Notification"
-emails.  At [ZipRecruiter](https://www.ziprecruiter.com/), when we send our many
+emails.  At [ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology), when we send our many
 emails, we spin up tens of servers in the middle of the night.  There was a
 period for a week or two where I'd wake up to one or two notifications each
 morning.  Thankfully those servers are totally ephemeral.  By the time anyone

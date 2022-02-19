@@ -14,11 +14,11 @@ Answers are here.
 So the short answer is no; I am generally not using The Pomodoro Technique
 anymore.  I do use it every now and then, but certainly not as much as I did
 before (probably 80% of my day or more.)  At
-[ZipRecruiter](https://www.ziprecruiter.com/) I have used it *maybe* five times
-in the year I've been here.  The problem, in my mind, is that the entire idea is
-predicated on having a todo list.  We do have an issue tracker at ZR and I can
-pull from that and often do, but for better or worse, a lot of what I do at ZR
-is reactionary.
+[ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology)
+I have used it *maybe* five times in the year I've been here.  The problem, in
+my mind, is that the entire idea is predicated on having a todo list.  We do
+have an issue tracker at ZR and I can pull from that and often do, but for
+better or worse, a lot of what I do at ZR is reactionary.
 
 I think this is because the team I am on (Core Infrastructure) by it's very
 nature is on the hook when it comes to many emergency type situations.  And

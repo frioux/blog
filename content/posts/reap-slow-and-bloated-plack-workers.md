@@ -5,7 +5,7 @@ tags: [ziprecruiter, perl, psgi, plack, smaps, shared-memory, private-memory]
 guid: "https://blog.afoolishmanifesto.com/posts/plack-reaper"
 ---
 As [mentioned before](/posts/put-mysql-in-timeout/) at
-[ZipRecruiter](https://www.ziprecruiter.com/) we are trying to scale our system.
+[ZipRecruiter](https://web.archive.org/web/20190330183125/https://www.ziprecruiter.com/hiring/technology) we are trying to scale our system.
 Here are a couple ways we are trying to ensure we maintain good performance:
 
  1. Add timeouts to everything
