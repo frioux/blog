@@ -1,5 +1,5 @@
 ---
-title: Reliable Cross Compiling Go using Zig
+title: Reliably Cross Compiling Go using Zig
 date: 2022-03-13T16:08:00
 tags: [ "golang", "zig", "frew-warez" ]
 guid: e51fd024-1f5f-4064-91d8-b8d5c423704b
