@@ -12,12 +12,6 @@ setting that up for Scala, read on.
 
 <!--more-->
 
-This article is a bit of a mess.  When I started it I had less planned but
-after writing each section I ended up learning some additional major details.
-I learned so much that it's hard to organize into a clear document; it may have
-been better to split this up into three or four separate posts, but I just
-don't want to.  I hope you find it helpful.
-
 ## TL;DR
 
  * [install coursier](https://get-coursier.io/docs/cli-installation)
