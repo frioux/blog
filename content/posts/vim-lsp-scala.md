@@ -192,7 +192,7 @@ which is a little silly, but such is life.  Maybe worse, it seems like the
 ALE errors if you don't set `project_root` so setting that option with this
 plugin is basically a waste.
 
-After the above I set up the autocompletion and goto defintion like this:
+After the above I set up the autocompletion and goto definition like this:
 
 ```viml
 set omnifunc=ale#completion#OmniFunc

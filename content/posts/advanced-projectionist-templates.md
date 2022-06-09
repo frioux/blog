@@ -10,7 +10,7 @@ lighter weight and a more user friendly (for me) interface.
 
 <!--more-->
 
-[When I bloged about my vim plugins][plugins] I mentioned that I use `UltiSnips`
+[When I blogged about my vim plugins][plugins] I mentioned that I use `UltiSnips`
 solely for writing new blog posts.  It always felt weird to use this incredibly
 powerful snippit tool to generate the boilerplate for a single file by typing
 `fmatter<tab>` every time.
