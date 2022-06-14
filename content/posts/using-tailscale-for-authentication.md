@@ -75,7 +75,7 @@ shortlinks.  On top of that I store the Tailscale identity material in that
 storage, which means fresh deploys of the app continue to have a stable IP
 address and MagicDNS name.
 
-I used followed [the official Tailscale instructions for integrating with
+I followed [the official Tailscale instructions for integrating with
 Fly.io](https://tailscale.com/kb/1132/flydotio/) and seasoned to taste.  Here's
 my Dockerfile:
 
