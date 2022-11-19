@@ -14,7 +14,7 @@ I've written about AwesomeWM [a few](/posts/awesomewm/)
 It's an X11 window manager mostly written in Lua and exclusively configured with
 Lua.
 
-If you've used a window manager before you are probably familiiar with the idea
+If you've used a window manager before you are probably familiar with the idea
 of "virtual desktops."  The idea there is that you have a handful of windows on
 the desktop, and when you switch to a different virtual desktop, you can have a
 totally different set of windows shown.  You can then switch back to the first
