@@ -8,5 +8,6 @@ redirect() aws s3api copy-object                \
 
 redirect feed/index.html /index.xml
 redirect feed/atom/index.html /index.xml
+redirect .well-known/webfinger https://mastodon.social/.well-known/webfinger?resource=acct:frew@mastodon.social
 
 exit 0
