@@ -126,6 +126,7 @@ nav.navbar {
 
 
 .highlight {
+    border-radius: 12px;
     background-color: #fdfdfb !important;
 }
 
