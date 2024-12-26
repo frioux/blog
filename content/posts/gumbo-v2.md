@@ -40,6 +40,12 @@ version was by far the best yet.  See the original version for the pedigree.
  * 1 cup fresh shrimp (I got Argentinian shrimp because I couldn't find small salad shrimp.)
  * 1 cup fresh crab (I used dungeness.)
 
+### Don't Forget!
+
+ * Rice
+ * Saltines
+ * Hot Sauce
+
 ## First you make a roux.
 
 Preheat oven to 350°F. Melt butter in cast iron skillet, whisk flour and butter
