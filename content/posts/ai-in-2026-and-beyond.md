@@ -1,8 +1,8 @@
 ---
 title: AI in 2026 and Beyond
-date: 2026-04-04T23:25:20
+date: 2026-04-03T23:25:20
 tags: [ "ai" ]
-guid: F47AEE9D-7D83-4350-8215-47B13A947BFD
+guid: f47aee9d-7d83-4350-8215-47b13a947bfd
 ---
 No one needs another AI think piece. I'm writing this for myself. I wish I’d
 started writing about AI in 2023. This is a cataclysmic shift in the world and
