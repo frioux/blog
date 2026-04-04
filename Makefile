@@ -28,7 +28,7 @@ init:
 
 clean:
 	test -z "$(shell git status --porcelain)" || ( echo 'uncommited changes!'; exit 1)
-	rm public/* -rf
+	rm -rf public/*
 
 build: clean
 	test -z "$(shell git grep -F ']()' '*.md')"
