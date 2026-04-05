@@ -29,15 +29,30 @@ func init() {
 	}
 }
 
-const base = "https://blog.afoolishmanifesto.com"
+const base = "https://blog.afoolishmanifesto.com/"
 
-// indexURLs are purged when bust_indexes is detected in the s3cmd output.
-var indexURLs = []string{
-	base + "/",
-	base + "/index.xml",
-	base + "/posts/",
-	base + "/posts/index.xml",
-	base + "/tags/",
+func loadBustIndexes(path string) []string {
+	f, err := os.Open(path)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "couldn't open %s: %s\n", path, err)
+		return nil
+	}
+	defer f.Close()
+
+	var urls []string
+	s := bufio.NewScanner(f)
+	for s.Scan() {
+		line := strings.TrimSpace(s.Text())
+		if line == "" {
+			continue
+		}
+		url := base + line
+		if strings.HasSuffix(url, "/index.html") {
+			url = strings.TrimSuffix(url, "index.html")
+		}
+		urls = append(urls, url)
+	}
+	return urls
 }
 
 func main() {
@@ -52,7 +67,7 @@ func main() {
 		url := f[1]
 
 		if strings.HasSuffix(url, "/bust_indexes") {
-			a = append(a, indexURLs...)
+			a = append(a, loadBustIndexes("public/bust_indexes")...)
 			if len(a) >= 30 {
 				purge(a)
 				a = a[:0]
