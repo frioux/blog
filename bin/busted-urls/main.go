@@ -29,30 +29,27 @@ func init() {
 	}
 }
 
-const base = "https://blog.afoolishmanifesto.com/"
+const base = "https://blog.afoolishmanifesto.com"
 
-func loadBustIndexes(path string) []string {
-	f, err := os.Open(path)
-	if err != nil {
-		fmt.Fprintf(os.Stderr, "couldn't open %s: %s\n", path, err)
-		return nil
-	}
-	defer f.Close()
-
-	var urls []string
-	s := bufio.NewScanner(f)
-	for s.Scan() {
-		line := strings.TrimSpace(s.Text())
-		if line == "" {
-			continue
-		}
-		url := base + line
-		if strings.HasSuffix(url, "/index.html") {
-			url = strings.TrimSuffix(url, "index.html")
-		}
-		urls = append(urls, url)
-	}
-	return urls
+// indexURLs are purged when bust_indexes is detected in the s3cmd output.
+var indexURLs = []string{
+	base + "/",
+	base + "/index.xml",
+	base + "/page/2/",
+	base + "/page/3/",
+	base + "/page/4/",
+	base + "/page/5/",
+	base + "/page/6/",
+	base + "/page/7/",
+	base + "/page/8/",
+	base + "/page/9/",
+	base + "/page/10/",
+	base + "/page/11/",
+	base + "/posts/",
+	base + "/posts/index.xml",
+	base + "/sitemap.xml",
+	base + "/tags/",
+	base + "/tags/index.xml",
 }
 
 func main() {
@@ -67,7 +64,7 @@ func main() {
 		url := f[1]
 
 		if strings.HasSuffix(url, "/bust_indexes") {
-			a = append(a, loadBustIndexes("public/bust_indexes")...)
+			a = append(a, indexURLs...)
 			if len(a) >= 30 {
 				purge(a)
 				a = a[:0]
