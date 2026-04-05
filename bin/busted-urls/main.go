@@ -31,8 +31,8 @@ func init() {
 
 const base = "https://blog.afoolishmanifesto.com"
 
-// Pages that aggregate posts and should always be purged on deploy.
-var alwaysPurge = []string{
+// indexURLs are purged when bust_indexes is detected in the s3cmd output.
+var indexURLs = []string{
 	base + "/",
 	base + "/index.xml",
 	base + "/posts/",
@@ -42,15 +42,7 @@ var alwaysPurge = []string{
 
 func main() {
 	pat := regexp.MustCompile(`'s3://(\S+)'`)
-	seen := make(map[string]bool, 64)
 	a := make([]string, 0, 30)
-
-	// Seed with aggregate pages that should always be busted.
-	for _, u := range alwaysPurge {
-		seen[u] = true
-		a = append(a, u)
-	}
-
 	r := bufio.NewScanner(os.Stdin)
 	for r.Scan() {
 		f := pat.FindStringSubmatch(r.Text())
@@ -58,16 +50,21 @@ func main() {
 			continue
 		}
 		url := f[1]
+
+		if strings.HasSuffix(url, "/bust_indexes") {
+			a = append(a, indexURLs...)
+			if len(a) >= 30 {
+				purge(a)
+				a = a[:0]
+			}
+			continue
+		}
+
 		if strings.HasSuffix(url, "/index.html") {
 			url = strings.TrimSuffix(url, "index.html")
 		}
 
-		full := "https://" + url
-		if seen[full] {
-			continue
-		}
-		seen[full] = true
-		a = append(a, full)
+		a = append(a, "https://"+url)
 
 		if len(a) == 30 {
 			purge(a)
