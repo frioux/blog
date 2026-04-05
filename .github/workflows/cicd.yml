@@ -1,8 +1,11 @@
-on: [push]
+on:
+  push:
+  schedule:
+    - cron: '0 0 1 1,4,7,10 *'
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - run: sudo apt-get update --quiet && sudo apt-get install --quiet --yes libdbd-sqlite3-perl libyaml-syck-perl golang-go
@@ -12,10 +15,10 @@ jobs:
   deploy:
     if: github.ref == 'refs/heads/main'
     needs: build
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt-get update --quiet && sudo apt-get install --quiet --yes awscli s3cmd libdbd-sqlite3-perl libyaml-syck-perl golang-go
+      - run: sudo apt-get update --quiet && sudo apt-get install --quiet --yes s3cmd libdbd-sqlite3-perl libyaml-syck-perl golang-go
       - run: make init
       - run: cp etc/s3cmd.ini ~/.s3cfg
       - run: make push
