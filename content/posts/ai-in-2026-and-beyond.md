@@ -104,7 +104,7 @@ forward.
 Just a couple more stories, these are not mine but coworkers did this earlier
 this year.
 
-One was suffering with a decades old Java codebase, regularly bumping into
+One was suffering with a decade old Java codebase, regularly bumping into
 problems, and theorized that an LLM could rewrite the whole thing in Go and
 give us a clean slate.  He did that, had the Go version run in parallel with
 the legacy version.  Whenever results differed, he had the AI figure out why,
@@ -181,7 +181,7 @@ same amount of tokens is about 10x this, so up to $2k/mo.  Companies won't bat
 an eye at paying this price, but I think free models and a free harness will
 allow pretty good LLM usage at the cost of your own electric bill.  My hunch is
 that someone makes an acceptable harness for Qwen 2.5 or similar before EOY and
-it's good enough for students and weirdos (I saw this as a recovering weirdo.)
+it's good enough for students and weirdos (I say this as a recovering weirdo.)
 
 ---
 
