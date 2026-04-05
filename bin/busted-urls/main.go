@@ -29,9 +29,28 @@ func init() {
 	}
 }
 
+const base = "https://blog.afoolishmanifesto.com"
+
+// Pages that aggregate posts and should always be purged on deploy.
+var alwaysPurge = []string{
+	base + "/",
+	base + "/index.xml",
+	base + "/posts/",
+	base + "/posts/index.xml",
+	base + "/tags/",
+}
+
 func main() {
 	pat := regexp.MustCompile(`'s3://(\S+)'`)
+	seen := make(map[string]bool, 64)
 	a := make([]string, 0, 30)
+
+	// Seed with aggregate pages that should always be busted.
+	for _, u := range alwaysPurge {
+		seen[u] = true
+		a = append(a, u)
+	}
+
 	r := bufio.NewScanner(os.Stdin)
 	for r.Scan() {
 		f := pat.FindStringSubmatch(r.Text())
@@ -43,7 +62,12 @@ func main() {
 			url = strings.TrimSuffix(url, "index.html")
 		}
 
-		a = append(a, "https://" + url)
+		full := "https://" + url
+		if seen[full] {
+			continue
+		}
+		seen[full] = true
+		a = append(a, full)
 
 		if len(a) == 30 {
 			purge(a)
