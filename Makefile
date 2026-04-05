@@ -36,4 +36,4 @@ build: clean
 
 push: build
 	git push --quiet
-	s3cmd sync --region us-west-2 --delete-removed --disable-multipart --no-preserve public/ s3://blog.afoolishmanifesto.com | tee $(log) && set-redirects && go run ./bin/busted-urls < $(log) && rm -f $(log)
+	s3cmd sync --region us-west-2 --delete-removed --disable-multipart --no-preserve --exclude 'posts/investigation-into-why-perl-cant-read-from-TMPDIR/*' public/ s3://blog.afoolishmanifesto.com | tee $(log) && set-redirects && go run ./bin/busted-urls < $(log) && rm -f $(log)

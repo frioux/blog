@@ -12,4 +12,13 @@ redirect feed/index.html /index.xml
 redirect feed/atom/index.html /index.xml
 redirect .well-known/webfinger https://mastodon.social/.well-known/webfinger?resource=acct:frew@mastodon.social
 
+# Hugo lowercases URL paths, so create an S3 redirect from the original
+# mixed-case URL to the canonical lowercase one.
+aws s3api put-object \
+   --bucket blog.afoolishmanifesto.com \
+   --key posts/investigation-into-why-perl-cant-read-from-TMPDIR/index.html \
+   --website-redirect-location /posts/investigation-into-why-perl-cant-read-from-tmpdir/ \
+   --content-type text/html \
+   --body /dev/null
+
 exit 0
