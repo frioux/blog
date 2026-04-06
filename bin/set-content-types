@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set_content_type() {
+   aws s3api copy-object                \
+      --copy-source blog.afoolishmanifesto.com/$1  \
+      --bucket blog.afoolishmanifesto.com --key $1 \
+      --content-type "$2"                          \
+      --metadata-directive REPLACE
+}
+
+set_content_type static/css/bootstrap-replacement.css text/css
+set_content_type static/css/styles.css text/css
+
+exit 0
