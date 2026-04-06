@@ -1,0 +1,189 @@
+/* Minimal replacement for Bootstrap 3 - only the classes actually used */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Navbar */
+.navbar {
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.navbar-inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+.navbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-brand {
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px;
+  text-decoration: none;
+  color: #9d9d9d;
+}
+.navbar-brand:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-inverse .navbar-brand {
+  color: #9d9d9d;
+}
+.navbar-inverse .navbar-brand:hover {
+  color: #fff;
+}
+
+/* Navbar links */
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.navbar-nav > li > a {
+  padding: 15px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #fff;
+}
+
+/* Navbar collapse (desktop: visible, mobile: toggleable) */
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-right {
+  margin-left: auto;
+}
+
+/* Navbar toggle button (mobile) */
+.navbar-toggle {
+  display: none;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 9px 10px;
+  margin: 8px 15px 8px 0;
+  cursor: pointer;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #888;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  justify-content: center;
+}
+.pagination > li > a,
+.pagination > li > span {
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.428571429;
+  color: #428bca;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+  border-radius: 4px 0 0 4px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: 0 4px 4px 0;
+}
+.pagination > li > a:hover {
+  background-color: #eee;
+}
+.pagination > .active > a,
+.pagination > .active > span {
+  background-color: #428bca;
+  border-color: #428bca;
+  color: #fff;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > a {
+  color: #999;
+  pointer-events: none;
+}
+
+/* Utility */
+.pull-right {
+  float: right;
+}
+
+/* Mobile responsive */
+@media (max-width: 767px) {
+  .navbar-header {
+    width: 100%;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .navbar-collapse.open {
+    display: flex;
+  }
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  .navbar-nav > li > a {
+    padding: 10px 15px;
+  }
+  .navbar-right {
+    margin-left: 0;
+  }
+}
