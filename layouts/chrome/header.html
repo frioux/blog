@@ -8,9 +8,10 @@
     <meta name="twitter:title" content="{{ . | truncate 70 }}" />
 {{- end }}
 {{- with .Description | default .Params.subtitle | default .Summary }}
-    <meta name="description" content="{{ . }}">
-    <meta property="og:description" content="{{ . }}">
-    <meta name="twitter:description" content="{{ . | truncate 200 }}">
+    {{- $desc := . | replaceRE "\\s+" " " | safeHTML }}
+    <meta name="description" content="{{ $desc }}">
+    <meta property="og:description" content="{{ $desc }}">
+    <meta name="twitter:description" content="{{ $desc | truncate 200 }}">
 {{- end }}
     <meta name="author" content="{{ .Site.Author.name }}"/>
     <meta name="twitter:card" content="summary" />
