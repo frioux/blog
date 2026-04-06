@@ -13,9 +13,6 @@
     <meta name="twitter:description" content="{{ . | truncate 200 }}">
 {{- end }}
     <meta name="author" content="{{ .Site.Author.name }}"/>
-{{- with .Site.Params.favicon }}
-    <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
-{{- end -}}
     <meta name="twitter:card" content="summary" />
 {{- with .Site.Author.twitter }}
     <meta name="twitter:site" content="@{{ . }}" />
