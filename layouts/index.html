@@ -14,8 +14,6 @@
     {{ template "chrome/menu.html" . }}
 
     <div class="container" id="main">
-       <div class="row">
-          <div class="col-md-12">
              <section id="main">
                 <div>
                    {{ range .Paginator.Pages }}
@@ -27,8 +25,6 @@
                    {{ end }}
                 </div>
              </section>
-          </div>
-       </div>
 
        {{ template "_internal/pagination.html" . }}
     </div>
