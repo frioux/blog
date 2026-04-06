@@ -1,21 +1,19 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Toggle navigation">
   <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+    <label for="nav-toggle" class="navbar-toggle">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
-    </button>
+    </label>
     <a class="navbar-brand" href="/">{{ .Site.Title }}</a>
   </div>
 
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav">
-    </ul>
+  <div class="navbar-collapse">
     <ul class="nav navbar-nav navbar-right">
       <li><a class="sigil" href="https://github.com/frioux"><img alt="github profile" width=23 height=23 src="/static/img/GitHub-Mark-Light-120px-plus.png" \></a></li>
       <li><a class="sigil" href="https://twitter.com/frioux"><img alt="twitter profile" width=23 height=23 src="/static/img/Twitter social icons - circle - white.svg" \></a></li>
     </ul>
-  </div><!-- /.navbar-collapse -->
+  </div>
 </nav>

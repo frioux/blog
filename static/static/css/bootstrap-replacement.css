@@ -160,7 +160,11 @@
   float: right;
 }
 
-/* Mobile responsive */
+/* Pure CSS mobile toggle */
+.nav-toggle-checkbox {
+  display: none;
+}
+
 @media (max-width: 767px) {
   .navbar-header {
     width: 100%;
@@ -173,7 +177,7 @@
     flex-direction: column;
     width: 100%;
   }
-  .navbar-collapse.open {
+  .nav-toggle-checkbox:checked ~ .navbar-collapse {
     display: flex;
   }
   .navbar-nav {
