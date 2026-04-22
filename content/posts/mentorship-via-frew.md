@@ -8,7 +8,7 @@ _This document is to give people a taste of how my mentorship style works.  It
 is part of a broader workshop that some of the Sr Staff and above folks are
 running at ZipRecruiter to help equip other engineers to be better mentors.
 This is meant to give people ideas, help them come up with questions, and start
-conversations.
+conversations._
 
 <!--more-->
 
